@@ -266,7 +266,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -338,7 +341,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -459,7 +465,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -551,7 +560,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -691,7 +703,10 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -742,11 +757,104 @@
         "owner": "internal-data-bridge"
       }
     },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ad96374871c0f01b60a38a49b6be8569",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "f1bb948b3bad570736c9dd391cbabaa3",
+      "version": "16af115228101209dbff1a46512fd347",
       "pluginOptions": {
         "plugins": []
       },
@@ -826,7 +934,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bdf5c7d1fb230015836550cc977774bd",
+        "contentDigest": "9282c3033ab32ce186db0f18bd34abd8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -856,7 +964,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -941,12 +1052,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-28T00:48:34.917Z",
+      "buildTime": "2019-01-28T02:03:08.461Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d9ac543269be34588d3a0e6d87c168ac",
+        "contentDigest": "a92def0afedb85e2dff1d3b93b7be539",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -956,7 +1067,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1d1b78b3d873664accb220b8cee864fe",
+        "contentDigest": "9e7c1ad601ee1203d7854a84dc952d96",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -968,7 +1079,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T00:48:37.524Z",
+      "accessTime": "2019-01-28T02:03:10.897Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -986,11 +1097,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1548636517523.5781,
+      "atimeMs": 1548640990896.7961,
       "mtimeMs": 1548636347403.957,
       "ctimeMs": 1548636347403.957,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-01-28T00:48:37.524Z",
+      "atime": "2019-01-28T02:03:10.897Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1015,7 +1126,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T00:46:57.198Z",
+      "accessTime": "2019-01-28T00:52:31.158Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1033,11 +1144,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1548636417197.7573,
+      "atimeMs": 1548636751157.8984,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-01-28T00:46:57.198Z",
+      "atime": "2019-01-28T00:52:31.158Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1072,7 +1183,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T00:46:51.994Z",
+      "accessTime": "2019-01-28T00:52:31.158Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1090,11 +1201,11 @@
       "blksize": 4096,
       "ino": 8602527119,
       "blocks": 328,
-      "atimeMs": 1548636411994.3362,
+      "atimeMs": 1548636751157.8599,
       "mtimeMs": 1548636347403.8032,
       "ctimeMs": 1548636347403.8032,
       "birthtimeMs": 1548636347402.9634,
-      "atime": "2019-01-28T00:46:51.994Z",
+      "atime": "2019-01-28T00:52:31.158Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1192,13 +1303,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "24d889c947900f582fcfef6e8fa31086"
+    "PLUGINS_HASH": "88b78d0f33d6c4641116ab13a1134a4a"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d": [
         "sq--src-components-image-js"
