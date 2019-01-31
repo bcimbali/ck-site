@@ -535,6 +535,83 @@
         "owner": "internal-data-bridge"
       }
     },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">=2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "53c47eaffca3a3285afca81e4f08f5e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "84d6154d-4241-556c-a679-cc8339cac100": {
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
@@ -854,7 +931,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "16af115228101209dbff1a46512fd347",
+      "version": "4732c8cd7a3f39aaac55c7090267dce7",
       "pluginOptions": {
         "plugins": []
       },
@@ -872,6 +949,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
           {
             "name": "gatsby",
             "version": "^2.0.76"
@@ -897,6 +978,10 @@
             "version": "^2.0.14"
           },
           {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
+          },
+          {
             "name": "gatsby-source-filesystem",
             "version": "^2.0.8"
           },
@@ -919,6 +1004,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
           }
         ],
         "devDependencies": [
@@ -934,7 +1023,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9282c3033ab32ce186db0f18bd34abd8",
+        "contentDigest": "c3aa58bd9215b917481010718d79cf9c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1044,20 +1133,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter",
-        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        "author": "@gatsbyjs"
+        "title": "Christine Kanownik",
+        "description": "Digital + Content Marketing"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-28T02:03:08.461Z",
+      "buildTime": "2019-01-31T15:24:10.588Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a92def0afedb85e2dff1d3b93b7be539",
+        "contentDigest": "627f081f167f4af8fe17fb43ba6a9c72",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1067,7 +1153,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9e7c1ad601ee1203d7854a84dc952d96",
+        "contentDigest": "4c2302398a4d5b3d1f7ad59a4eb558b8",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1079,7 +1165,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T02:03:10.897Z",
+      "accessTime": "2019-01-31T15:24:12.983Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1097,11 +1183,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1548640990896.7961,
+      "atimeMs": 1548948252983.4695,
       "mtimeMs": 1548636347403.957,
       "ctimeMs": 1548636347403.957,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-01-28T02:03:10.897Z",
+      "atime": "2019-01-31T15:24:12.983Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1126,7 +1212,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T00:52:31.158Z",
+      "accessTime": "2019-01-31T15:13:59.969Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1144,11 +1230,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1548636751157.8984,
+      "atimeMs": 1548947639969.4211,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-01-28T00:52:31.158Z",
+      "atime": "2019-01-31T15:13:59.969Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1159,63 +1245,6 @@
       "parent": "941d6726-7490-5573-85db-e714efdba0ed",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d": {
-      "id": "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d",
-      "children": [
-        "18952b2b-8635-51ef-a0b7-8687d2cd5c58"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-28T00:52:31.158Z",
-      "changeTime": "2019-01-28T00:45:47.404Z",
-      "birthTime": "2019-01-28T00:45:47.403Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8602527119,
-      "blocks": 328,
-      "atimeMs": 1548636751157.8599,
-      "mtimeMs": 1548636347403.8032,
-      "ctimeMs": 1548636347403.8032,
-      "birthtimeMs": 1548636347402.9634,
-      "atime": "2019-01-28T00:52:31.158Z",
-      "mtime": "2019-01-28T00:45:47.404Z",
-      "ctime": "2019-01-28T00:45:47.404Z",
-      "birthtime": "2019-01-28T00:45:47.403Z"
-    },
-    "18952b2b-8635-51ef-a0b7-8687d2cd5c58": {
-      "id": "18952b2b-8635-51ef-a0b7-8687d2cd5c58",
-      "children": [],
-      "parent": "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1260,26 +1289,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5fec5323055101bd67eeaf0857994089",
-        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1299,11 +1308,31 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "200e8361b5906f17e643e827f67fa01a",
+        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "88b78d0f33d6c4641116ab13a1134a4a"
+    "PLUGINS_HASH": "71531a1deb60da38a90ee8c299c16506"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1311,12 +1340,8 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d": [
-        "sq--src-components-image-js"
-      ],
-      "18952b2b-8635-51ef-a0b7-8687d2cd5c58": [
-        "sq--src-components-image-js"
-      ]
+      "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d": [],
+      "18952b2b-8635-51ef-a0b7-8687d2cd5c58": []
     },
     "connections": {}
   },
@@ -1328,7 +1353,8 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971
+    "sq--src-components-image-js": 2011440971,
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {
@@ -1343,20 +1369,12 @@
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
     },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/page-2.js": {
+    "/Users/BrettCimbalik/code/ck-site/src/pages/about.js": {
       "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/page-2.js"
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js"
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-seo-js": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 1025518380
-    },
     "sq--src-components-image-js": {
       "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
@@ -1372,6 +1390,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
     }
   }
 }
