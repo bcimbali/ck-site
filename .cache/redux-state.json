@@ -931,7 +931,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4732c8cd7a3f39aaac55c7090267dce7",
+      "version": "2533f4b42572760ff6a674664871f925",
       "pluginOptions": {
         "plugins": []
       },
@@ -1023,7 +1023,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c3aa58bd9215b917481010718d79cf9c",
+        "contentDigest": "e74371639f320a42ab9f816d1cfeea3a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1138,12 +1138,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-01-31T15:24:10.588Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-31T16:02:55.946Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "627f081f167f4af8fe17fb43ba6a9c72",
+        "contentDigest": "aaa3a1823872a02bb246ef56dbfdcd40",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1153,7 +1155,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4c2302398a4d5b3d1f7ad59a4eb558b8",
+        "contentDigest": "3df425a5d7ee9815f3b7510c9fb86322",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1162,11 +1164,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-31T15:24:12.983Z",
-      "changeTime": "2019-01-28T00:45:47.404Z",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-31T15:45:05.665Z",
+      "accessTime": "2019-01-31T16:02:58.265Z",
+      "changeTime": "2019-01-31T15:45:05.665Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1176,20 +1178,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1548948252983.4695,
-      "mtimeMs": 1548636347403.957,
-      "ctimeMs": 1548636347403.957,
+      "atimeMs": 1548950578265.0146,
+      "mtimeMs": 1548949505665.2354,
+      "ctimeMs": 1548949505665.2354,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-01-31T15:24:12.983Z",
-      "mtime": "2019-01-28T00:45:47.404Z",
-      "ctime": "2019-01-28T00:45:47.404Z",
+      "atime": "2019-01-31T16:02:58.265Z",
+      "mtime": "2019-01-31T15:45:05.665Z",
+      "ctime": "2019-01-31T15:45:05.665Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
@@ -1212,7 +1214,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-31T15:13:59.969Z",
+      "accessTime": "2019-01-31T15:24:14.798Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1230,11 +1232,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1548947639969.4211,
+      "atimeMs": 1548948254798.3433,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-01-31T15:13:59.969Z",
+      "atime": "2019-01-31T15:24:14.798Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1265,6 +1267,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "4309b525ffae6302475a371fa2a809e7",
+        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "200e8361b5906f17e643e827f67fa01a",
         "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
         "owner": "internal-data-bridge"
       }
@@ -1308,46 +1330,24 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "SitePage /about/": {
-      "jsonName": "about-f34",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "200e8361b5906f17e643e827f67fa01a",
-        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-        "owner": "internal-data-bridge"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "71531a1deb60da38a90ee8c299c16506"
+    "PLUGINS_HASH": "902d000005f3141c1ff83eb4e1161f3d"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
-      ],
-      "e54bcd8e-ea80-54bb-ba6b-f3ac5918b11d": [],
-      "18952b2b-8635-51ef-a0b7-8687d2cd5c58": []
+      ]
     },
     "connections": {}
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-seo-js": 1025518380,
+    "sq--src-components-seo-js": 1315885718,
     "sq--src-components-layout-js": 755544856,
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -1365,24 +1365,16 @@
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/404.js"
     },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
-    },
     "/Users/BrettCimbalik/code/ck-site/src/pages/about.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js"
+    },
+    "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
@@ -1391,13 +1383,21 @@
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
     },
+    "sq--src-components-image-js": {
+      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
       "id": "sq--src-components-seo-js",
       "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 1025518380
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
+      "hash": 1315885718
     }
   }
 }

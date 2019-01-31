@@ -1,10 +1,11 @@
 import './reset.css';
 
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header'
-import PropTypes from 'prop-types'
-import React from 'react'
+import Footer from './footer';
+import Header from './header';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -29,10 +30,8 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
-            © {new Date().getFullYear()}
-          </footer>
         </div>
+        <Footer />
       </>
     )}
   />
