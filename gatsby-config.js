@@ -2,6 +2,28 @@ module.exports = {
   siteMetadata: {
     title: `Christine Kanownik`,
     description: `Digital + Content Marketing`,
+    menuLinks: [
+      {
+        name: 'About',
+        link: '/about'
+      },
+      {
+        name: 'Contact',
+        link: '/contact'
+      },
+      {
+        name: 'Resume',
+        link: '/resume'
+      },
+      {
+        name: 'Portfolio',
+        link: '/portfolio'
+      },
+      {
+        name: 'Videos',
+        link: '/videos'
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
