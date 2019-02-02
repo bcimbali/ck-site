@@ -20,8 +20,28 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portfolio-js",
+        "jsonName": "portfolio-964",
+        "path": "/portfolio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-resume-js",
+        "jsonName": "resume-e4f",
+        "path": "/resume/"
+    },
+    {
+        "componentChunkName": "component---src-pages-videos-js",
+        "jsonName": "videos-c1d",
+        "path": "/videos/"
     }
 ]

@@ -3,11 +3,11 @@ import { Link } from 'gatsby'
 import React from 'react'
 import SEO from '../components/seo'
 
-const About = () => (
+const Videos = () => (
   <Layout>
-    <SEO title="About" />
-    <h1>About</h1>
+    <SEO title="Videos" />
+    <h1>Videos</h1>
   </Layout>
 )
 
-export default About
+export default Videos

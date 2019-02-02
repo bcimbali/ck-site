@@ -8,6 +8,12 @@ import Helmet from "react-helmet";
 import PropTypes from 'prop-types';
 import React from 'react';
 import favicon from '../images/favicon.ico';
+import styled from 'styled-components';
+
+const MainDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -36,9 +42,9 @@ const Layout = ({ children }) => (
           ]}
         />
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <MainDiv>
           {children}
-        </div>
+        </MainDiv>
         <Footer />
       </>
     )}
