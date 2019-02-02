@@ -1086,6 +1086,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-icons",
+            "version": "^3.3.0"
+          },
+          {
             "name": "styled-components",
             "version": "^4.1.3"
           }
@@ -1242,12 +1246,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-02T17:26:04.708Z",
+      "buildTime": "2019-02-02T17:43:13.646Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "24ec36135e2a64f826076e13dbc48197",
+        "contentDigest": "1043b0e5a75bedf0c3d35aebbd346bab",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1257,7 +1261,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d6c80078f594cd21effd993fe9591766",
+        "contentDigest": "3bbdde5a8bc3a499d7f54bc886ef1ff5",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1269,7 +1273,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-02T16:38:09.756Z",
-      "accessTime": "2019-02-02T17:26:07.095Z",
+      "accessTime": "2019-02-02T17:43:16.449Z",
       "changeTime": "2019-02-02T16:38:09.756Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1287,11 +1291,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549128367095.159,
+      "atimeMs": 1549129396448.861,
       "mtimeMs": 1549125489755.8472,
       "ctimeMs": 1549125489755.8472,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-02T17:26:07.095Z",
+      "atime": "2019-02-02T17:43:16.449Z",
       "mtime": "2019-02-02T16:38:09.756Z",
       "ctime": "2019-02-02T16:38:09.756Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1314,7 +1318,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-02T17:12:41.099Z",
+      "accessTime": "2019-02-02T17:28:57.614Z",
       "changeTime": "2019-02-02T16:38:09.828Z",
       "birthTime": "2019-02-02T16:37:52.567Z",
       "root": "/",
@@ -1332,11 +1336,11 @@
       "blksize": 4096,
       "ino": 8603085283,
       "blocks": 8,
-      "atimeMs": 1549127561099.4058,
+      "atimeMs": 1549128537614.3853,
       "mtimeMs": 1549125472577.4873,
       "ctimeMs": 1549125489828.3196,
       "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-02T17:12:41.099Z",
+      "atime": "2019-02-02T17:28:57.614Z",
       "mtime": "2019-02-02T16:37:52.577Z",
       "ctime": "2019-02-02T16:38:09.828Z",
       "birthtime": "2019-02-02T16:37:52.567Z"
@@ -1361,7 +1365,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-02T17:12:40.171Z",
+      "accessTime": "2019-02-02T17:28:56.766Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1379,11 +1383,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549127560170.6204,
+      "atimeMs": 1549128536766.1614,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-02T17:12:40.171Z",
+      "atime": "2019-02-02T17:28:56.766Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1561,13 +1565,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "60783d6db1d910433a199aa29a103735"
+    "PLUGINS_HASH": "db7091a5a84b743c01af8296e283a6f7"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ]
     },
     "connections": {}
