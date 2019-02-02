@@ -10,8 +10,15 @@ import React from 'react';
 import favicon from '../images/favicon.ico';
 import styled from 'styled-components';
 
-const MainDiv = styled.div`
+const LayoutWrapper = styled.div`
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+`;
+
+const MainContent = styled.div`
+  display: flex;
+  flex: 1;
   justify-content: center;
 `;
 
@@ -31,7 +38,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <LayoutWrapper>
         <Helmet 
           title={data.site.siteMetadata.title}
           meta={[
@@ -42,11 +49,11 @@ const Layout = ({ children }) => (
           ]}
         />
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-        <MainDiv>
+        <MainContent>
           {children}
-        </MainDiv>
+        </MainContent>
         <Footer />
-      </>
+      </LayoutWrapper>
     )}
   />
 )

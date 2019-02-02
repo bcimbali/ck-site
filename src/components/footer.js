@@ -7,6 +7,7 @@ const FooterWrapper = styled.footer`
   color: #FFFFFF;
   display: flex;
   justify-content: center;
+  padding: 1.45rem 1.0875rem;
 `;
 
 const Footer = ({ siteTitle }) => (
