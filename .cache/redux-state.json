@@ -1162,12 +1162,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-01T03:15:00.325Z",
+      "buildTime": "2019-02-02T16:47:49.005Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "57f55dc82bbac7cafd69ec488a31f175",
+        "contentDigest": "0bfc2c20ded247bc24a42dee56a5369d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1177,7 +1177,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c4cb488ebd5712884a32c39ffd05958e",
+        "contentDigest": "4db1ae9056a2a17919df0023f138fd12",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1186,11 +1186,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-01-31T15:45:05.665Z",
-      "accessTime": "2019-02-01T03:15:03.425Z",
-      "changeTime": "2019-01-31T15:45:05.665Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-02-02T16:38:09.756Z",
+      "accessTime": "2019-02-02T16:47:51.427Z",
+      "changeTime": "2019-02-02T16:38:09.756Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1200,20 +1200,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1548990903425.4102,
-      "mtimeMs": 1548949505665.2354,
-      "ctimeMs": 1548949505665.2354,
+      "atimeMs": 1549126071427.1814,
+      "mtimeMs": 1549125489755.8472,
+      "ctimeMs": 1549125489755.8472,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-01T03:15:03.425Z",
-      "mtime": "2019-01-31T15:45:05.665Z",
-      "ctime": "2019-01-31T15:45:05.665Z",
+      "atime": "2019-02-02T16:47:51.427Z",
+      "mtime": "2019-02-02T16:38:09.756Z",
+      "ctime": "2019-02-02T16:38:09.756Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
@@ -1272,6 +1272,51 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
+      "id": "9fc83080-2b83-5a62-9dce-99387b10fcd2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b290c88e6acbe397fde5579c86308ad",
+        "type": "File",
+        "mediaType": "image/vnd.microsoft.icon",
+        "description": "File \"src/images/favicon.ico\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.ico",
+      "relativePath": "favicon.ico",
+      "extension": "ico",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-02-02T16:37:52.577Z",
+      "accessTime": "2019-02-02T16:37:52.567Z",
+      "changeTime": "2019-02-02T16:38:09.828Z",
+      "birthTime": "2019-02-02T16:37:52.567Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603085283,
+      "blocks": 8,
+      "atimeMs": 1549125472567.3447,
+      "mtimeMs": 1549125472577.4873,
+      "ctimeMs": 1549125489828.3196,
+      "birthtimeMs": 1549125472567.3447,
+      "atime": "2019-02-02T16:37:52.567Z",
+      "mtime": "2019-02-02T16:37:52.577Z",
+      "ctime": "2019-02-02T16:38:09.828Z",
+      "birthtime": "2019-02-02T16:37:52.567Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1362,8 +1407,8 @@
     "nodes": {
       "Site": [
         "/",
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ]
     },
     "connections": {}
