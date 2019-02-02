@@ -13,7 +13,6 @@ const HeaderWrapper = styled.div`
 `;
 
 const NameToHome = styled.div`
-  /* margin: 0 auto; */
   a {
     color: white;
     text-decoration: none;

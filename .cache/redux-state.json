@@ -819,9 +819,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+    "c2b13c1f-7b9e-58a2-8c54-de41661001c9": {
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-manifest",
-      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "id": "c2b13c1f-7b9e-58a2-8c54-de41661001c9",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.12",
       "pluginOptions": {
@@ -832,7 +832,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/favicon.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -905,7 +905,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "968be5f9b80642d080b5b845bb77d31e",
+        "contentDigest": "52bd69f985dba4fda8ca4d8376bee389",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1007,7 +1007,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "60374599ba92b711cd116a9fa0558f2a",
+      "version": "e44b06aaf5478e096451e3982579a9f3",
       "pluginOptions": {
         "plugins": []
       },
@@ -1107,7 +1107,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5b2938323f9058e0aea8f64b3bee5ece",
+        "contentDigest": "a3e0a314b09c9c1c38c70eab0f3b07c9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1246,12 +1246,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-02T18:04:29.489Z",
+      "buildTime": "2019-02-02T18:24:17.197Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "96e5d556fa105b780a91ea225c5b1b2a",
+        "contentDigest": "5e592efdcc4dbbe0bbf1a06e6bcdf5d2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1261,7 +1261,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "598805258d4e265bc22709f250f96529",
+        "contentDigest": "afee50fd193c8318a14689271aa0511b",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1270,11 +1270,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-02-02T16:38:09.756Z",
-      "accessTime": "2019-02-02T18:04:31.892Z",
-      "changeTime": "2019-02-02T16:38:09.756Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-02-02T18:23:50.033Z",
+      "accessTime": "2019-02-02T18:24:19.575Z",
+      "changeTime": "2019-02-02T18:23:50.033Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1284,20 +1284,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549130671892.2192,
-      "mtimeMs": 1549125489755.8472,
-      "ctimeMs": 1549125489755.8472,
+      "atimeMs": 1549131859575.2825,
+      "mtimeMs": 1549131830032.5867,
+      "ctimeMs": 1549131830032.5867,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-02T18:04:31.892Z",
-      "mtime": "2019-02-02T16:38:09.756Z",
-      "ctime": "2019-02-02T16:38:09.756Z",
+      "atime": "2019-02-02T18:24:19.575Z",
+      "mtime": "2019-02-02T18:23:50.033Z",
+      "ctime": "2019-02-02T18:23:50.033Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
@@ -1318,7 +1318,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-02T17:28:57.614Z",
+      "accessTime": "2019-02-02T18:23:45.559Z",
       "changeTime": "2019-02-02T16:38:09.828Z",
       "birthTime": "2019-02-02T16:37:52.567Z",
       "root": "/",
@@ -1336,14 +1336,61 @@
       "blksize": 4096,
       "ino": 8603085283,
       "blocks": 8,
-      "atimeMs": 1549128537614.3853,
+      "atimeMs": 1549131825558.798,
       "mtimeMs": 1549125472577.4873,
       "ctimeMs": 1549125489828.3196,
       "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-02T17:28:57.614Z",
+      "atime": "2019-02-02T18:23:45.559Z",
       "mtime": "2019-02-02T16:37:52.577Z",
       "ctime": "2019-02-02T16:38:09.828Z",
       "birthtime": "2019-02-02T16:37:52.567Z"
+    },
+    "dbd10f3c-0011-55b5-ab23-50f23f77bec4": {
+      "id": "dbd10f3c-0011-55b5-ab23-50f23f77bec4",
+      "children": [
+        "5396f530-0333-5b1a-b030-0e894521c965"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a58d56c07890042a3ee5550364410d0e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 120,
+      "prettySize": "120 B",
+      "modifiedTime": "2019-02-02T18:23:45.482Z",
+      "accessTime": "2019-02-02T18:23:56.142Z",
+      "changeTime": "2019-02-02T18:23:53.878Z",
+      "birthTime": "2019-02-02T18:23:45.482Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603097964,
+      "blocks": 8,
+      "atimeMs": 1549131836142.465,
+      "mtimeMs": 1549131825481.9692,
+      "ctimeMs": 1549131833878.3313,
+      "birthtimeMs": 1549131825481.712,
+      "atime": "2019-02-02T18:23:56.142Z",
+      "mtime": "2019-02-02T18:23:45.482Z",
+      "ctime": "2019-02-02T18:23:53.878Z",
+      "birthtime": "2019-02-02T18:23:45.482Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
       "id": "941d6726-7490-5573-85db-e714efdba0ed",
@@ -1365,7 +1412,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-02T17:28:56.766Z",
+      "accessTime": "2019-02-02T18:22:36.422Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1383,14 +1430,24 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549128536766.1614,
+      "atimeMs": 1549131756421.702,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-02T17:28:56.766Z",
+      "atime": "2019-02-02T18:22:36.422Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
+    },
+    "5396f530-0333-5b1a-b030-0e894521c965": {
+      "id": "5396f530-0333-5b1a-b030-0e894521c965",
+      "children": [],
+      "parent": "dbd10f3c-0011-55b5-ab23-50f23f77bec4",
+      "internal": {
+        "contentDigest": "a58d56c07890042a3ee5550364410d0e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a": {
       "id": "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a",
@@ -1565,7 +1622,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "db7091a5a84b743c01af8296e283a6f7"
+    "PLUGINS_HASH": "1f17f389e35930656f696b16d05a6aef"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1580,16 +1637,15 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-seo-js": 1315885718,
     "sq--src-components-layout-js": 3436215879,
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-image-js": 2011440971,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
-    "videos-c1d": "612/path---videos-c-1-d-bf2-NZuapzHg3X9TaN1iIixfv1W23E"
+    "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E",
+    "videos-c1d": "612/path---videos-c-1-d-bf2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {
@@ -1626,14 +1682,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
@@ -1641,6 +1689,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
       "hash": 3436215879
+    },
+    "sq--src-components-image-js": {
+      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
