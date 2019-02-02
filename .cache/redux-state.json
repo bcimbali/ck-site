@@ -743,6 +743,82 @@
         "owner": "internal-data-bridge"
       }
     },
+    "30c2ee44-281e-57a5-9827-f99b7dfc63d7": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-web-font-loader",
+      "id": "30c2ee44-281e-57a5-9827-f99b7dfc63d7",
+      "name": "gatsby-plugin-web-font-loader",
+      "version": "1.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "google": {
+          "families": [
+            "IBM Plex Mono",
+            "monospace"
+          ]
+        }
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-web-font-loader",
+      "packageJson": {
+        "name": "gatsby-plugin-web-font-loader",
+        "description": "A Gatsby plugin to asynchronously load webfonts using [Web Font Loader](https://github.com/typekit/webfontloader). Can load fonts from [Google Fonts](http://www.google.com/fonts/), [Typekit](http://www.typekit.com/),  [Fonts.com](http://www.fonts.com/), and [Fontdeck](http://fontdeck.com/), as well as self-hosted web fonts.",
+        "version": "1.0.4",
+        "main": "gatsby-browser.js",
+        "keywords": [
+          "gatsby-plugin",
+          "gatsby",
+          "plugin",
+          "web",
+          "font",
+          "loader",
+          "google",
+          "typekit",
+          "webfont",
+          "webfontloader",
+          "fonts.com",
+          "fontdeck"
+        ],
+        "author": {
+          "name": "Kennedy Rose",
+          "email": "krose@escaladesports.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "webfontloader",
+            "version": "^1.6.28"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "esca-scripts",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "opn-cli",
+            "version": "^3.1.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8889a3409d1f04054a441d3f8384626d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "112c12f8-b222-509b-abe0-dfe93a905df9": {
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-manifest",
       "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
@@ -931,7 +1007,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "1c6448621a8ae28901f78e361283f260",
+      "version": "60374599ba92b711cd116a9fa0558f2a",
       "pluginOptions": {
         "plugins": []
       },
@@ -982,6 +1058,10 @@
             "version": "^3.0.4"
           },
           {
+            "name": "gatsby-plugin-web-font-loader",
+            "version": "^1.0.4"
+          },
+          {
             "name": "gatsby-source-filesystem",
             "version": "^2.0.8"
           },
@@ -1023,7 +1103,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6b5ca594032e2a8ffad2d2192637e9c4",
+        "contentDigest": "5b2938323f9058e0aea8f64b3bee5ece",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1162,12 +1242,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-02T17:05:33.215Z",
+      "buildTime": "2019-02-02T17:26:04.708Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "eb14bb5842a423ee613ba9df0d3e3c5c",
+        "contentDigest": "24ec36135e2a64f826076e13dbc48197",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1177,7 +1257,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9967b4e84dba0d9be49ba9c0b240c1fa",
+        "contentDigest": "d6c80078f594cd21effd993fe9591766",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1189,7 +1269,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-02T16:38:09.756Z",
-      "accessTime": "2019-02-02T17:05:35.560Z",
+      "accessTime": "2019-02-02T17:26:07.095Z",
       "changeTime": "2019-02-02T16:38:09.756Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1207,14 +1287,59 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549127135559.6936,
+      "atimeMs": 1549128367095.159,
       "mtimeMs": 1549125489755.8472,
       "ctimeMs": 1549125489755.8472,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-02T17:05:35.560Z",
+      "atime": "2019-02-02T17:26:07.095Z",
       "mtime": "2019-02-02T16:38:09.756Z",
       "ctime": "2019-02-02T16:38:09.756Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
+    },
+    "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
+      "id": "9fc83080-2b83-5a62-9dce-99387b10fcd2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b290c88e6acbe397fde5579c86308ad",
+        "type": "File",
+        "mediaType": "image/vnd.microsoft.icon",
+        "description": "File \"src/images/favicon.ico\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.ico",
+      "relativePath": "favicon.ico",
+      "extension": "ico",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-02-02T16:37:52.577Z",
+      "accessTime": "2019-02-02T17:12:41.099Z",
+      "changeTime": "2019-02-02T16:38:09.828Z",
+      "birthTime": "2019-02-02T16:37:52.567Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603085283,
+      "blocks": 8,
+      "atimeMs": 1549127561099.4058,
+      "mtimeMs": 1549125472577.4873,
+      "ctimeMs": 1549125489828.3196,
+      "birthtimeMs": 1549125472567.3447,
+      "atime": "2019-02-02T17:12:41.099Z",
+      "mtime": "2019-02-02T16:37:52.577Z",
+      "ctime": "2019-02-02T16:38:09.828Z",
+      "birthtime": "2019-02-02T16:37:52.567Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
       "id": "941d6726-7490-5573-85db-e714efdba0ed",
@@ -1236,7 +1361,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-01-31T16:10:53.925Z",
+      "accessTime": "2019-02-02T17:12:40.171Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1254,11 +1379,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1548951053924.7559,
+      "atimeMs": 1549127560170.6204,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-01-31T16:10:53.925Z",
+      "atime": "2019-02-02T17:12:40.171Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1272,51 +1397,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
-      "id": "9fc83080-2b83-5a62-9dce-99387b10fcd2",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2b290c88e6acbe397fde5579c86308ad",
-        "type": "File",
-        "mediaType": "image/vnd.microsoft.icon",
-        "description": "File \"src/images/favicon.ico\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.ico",
-      "relativePath": "favicon.ico",
-      "extension": "ico",
-      "size": 318,
-      "prettySize": "318 B",
-      "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-02T16:37:52.567Z",
-      "changeTime": "2019-02-02T16:38:09.828Z",
-      "birthTime": "2019-02-02T16:37:52.567Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "favicon.ico",
-      "ext": ".ico",
-      "name": "favicon",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603085283,
-      "blocks": 8,
-      "atimeMs": 1549125472567.3447,
-      "mtimeMs": 1549125472577.4873,
-      "ctimeMs": 1549125489828.3196,
-      "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-02T16:37:52.567Z",
-      "mtime": "2019-02-02T16:37:52.577Z",
-      "ctime": "2019-02-02T16:38:09.828Z",
-      "birthtime": "2019-02-02T16:37:52.567Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1481,12 +1561,11 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6a925cc9acbcfbe999a5448b147d5f3a"
+    "PLUGINS_HASH": "60783d6db1d910433a199aa29a103735"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/",
         "sq--src-components-seo-js",
         "sq--src-components-layout-js"
       ]
@@ -1521,21 +1600,21 @@
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js"
     },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
-    },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js"
-    },
     "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js"
     },
+    "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
+    },
     "/Users/BrettCimbalik/code/ck-site/src/pages/portfolio.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/portfolio.js"
+    },
+    "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js"
     },
     "/Users/BrettCimbalik/code/ck-site/src/pages/videos.js": {
       "query": "",
@@ -1551,14 +1630,6 @@
       "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
-    "sq--src-components-seo-js": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
-      "hash": 1315885718
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
@@ -1566,6 +1637,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
       "hash": 3436215879
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
+      "hash": 1315885718
     }
   }
 }

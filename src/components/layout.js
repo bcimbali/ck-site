@@ -11,8 +11,10 @@ import favicon from '../images/favicon.ico';
 import styled from 'styled-components';
 
 const LayoutWrapper = styled.div`
+  background: #B1B0E5;
   display: flex;
   flex-direction: column;
+  font-family: 'IBM Plex Mono', 'monospace';
   min-height: 100vh;
 `;
 
