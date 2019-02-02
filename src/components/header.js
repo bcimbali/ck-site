@@ -6,7 +6,6 @@ import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
   background: #B1B0E5;
-  border-bottom: 1px solid #FFFFFF;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.45rem;
