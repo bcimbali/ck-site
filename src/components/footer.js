@@ -1,6 +1,5 @@
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
-import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -41,7 +40,7 @@ const Footer = ({ siteTitle }) => (
       <p>All Rights Reserved.</p>
     </FooterText>
     <Icons>
-      <a href="https://www.linkedin.com/in/christine-kanownik" target="_blank" rel="noopener"><FaLinkedin /></a>
+      <a href="https://www.linkedin.com/in/christine-kanownik" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
       <a href="mailto:cnkanownik@gmail.com"><FaEnvelope /></a>
     </Icons>
   </FooterWrapper> 
