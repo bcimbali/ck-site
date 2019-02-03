@@ -27,6 +27,9 @@ const Icons = styled.div`
     color: #FFFFFF;
     margin: 0 0.5rem;
   }
+  a:hover {
+    color: blue;
+  }
   font-size: 2rem;
   padding: 0.25rem 0;
 `;

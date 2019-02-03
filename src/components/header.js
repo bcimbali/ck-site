@@ -17,6 +17,9 @@ const NameToHome = styled.div`
     color: white;
     text-decoration: none;
   }
+  a:hover {
+    color: blue;
+  }
 `;
 
 const Header = ({ siteTitle, menuLinks }) => (
