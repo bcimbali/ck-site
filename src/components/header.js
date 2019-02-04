@@ -9,6 +9,7 @@ import styled from 'styled-components';
 /** HEADER STYLING */
 
 const HeaderWrapper = styled.div`
+  align-items: center;
   background: #B1B0E5;
   display: flex;
   justify-content: space-between;
@@ -18,6 +19,7 @@ const HeaderWrapper = styled.div`
 const NameToHome = styled.div`
   a {
     color: white;
+    font-size: 2rem;
     text-decoration: none;
   }
   a:hover {
