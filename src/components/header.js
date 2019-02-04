@@ -90,7 +90,7 @@ const DropDownNav = styled.div`
   li {
     border-bottom: 1px solid #FFFFFF;
     list-style-type: none;
-    padding: 0.5rem 0;
+    padding: 1.5rem 0;
     text-align: center;
     width: 100vw;
   }
