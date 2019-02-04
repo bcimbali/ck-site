@@ -1090,6 +1090,10 @@
             "version": "^3.3.0"
           },
           {
+            "name": "react-spring",
+            "version": "^7.2.10"
+          },
+          {
             "name": "styled-components",
             "version": "^4.1.3"
           }
@@ -1246,12 +1250,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-04T00:47:58.819Z",
+      "buildTime": "2019-02-04T01:02:52.281Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "efca9ac5a31c31bcc7f0cef2870c25e0",
+        "contentDigest": "f1d35c6fbeaa376e693fc91460fca48c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1261,7 +1265,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "563539707937bb40b5281fa7e642295e",
+        "contentDigest": "52feae516eae84cea8e33495a4b5d24b",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1273,7 +1277,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-02T18:23:50.033Z",
-      "accessTime": "2019-02-04T00:48:01.221Z",
+      "accessTime": "2019-02-04T01:02:54.917Z",
       "changeTime": "2019-02-02T18:23:50.033Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1291,11 +1295,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549241281220.6318,
+      "atimeMs": 1549242174917.3445,
       "mtimeMs": 1549131830032.5867,
       "ctimeMs": 1549131830032.5867,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-04T00:48:01.221Z",
+      "atime": "2019-02-04T01:02:54.917Z",
       "mtime": "2019-02-02T18:23:50.033Z",
       "ctime": "2019-02-02T18:23:50.033Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1318,7 +1322,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-02T18:23:45.559Z",
+      "accessTime": "2019-02-04T00:48:04.939Z",
       "changeTime": "2019-02-02T16:38:09.828Z",
       "birthTime": "2019-02-02T16:37:52.567Z",
       "root": "/",
@@ -1336,11 +1340,11 @@
       "blksize": 4096,
       "ino": 8603085283,
       "blocks": 8,
-      "atimeMs": 1549131825558.798,
+      "atimeMs": 1549241284939.2551,
       "mtimeMs": 1549125472577.4873,
       "ctimeMs": 1549125489828.3196,
       "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-02T18:23:45.559Z",
+      "atime": "2019-02-04T00:48:04.939Z",
       "mtime": "2019-02-02T16:37:52.577Z",
       "ctime": "2019-02-02T16:38:09.828Z",
       "birthtime": "2019-02-02T16:37:52.567Z"
@@ -1365,7 +1369,7 @@
       "size": 120,
       "prettySize": "120 B",
       "modifiedTime": "2019-02-02T18:23:45.482Z",
-      "accessTime": "2019-02-02T18:23:56.142Z",
+      "accessTime": "2019-02-04T00:48:03.974Z",
       "changeTime": "2019-02-02T18:23:53.878Z",
       "birthTime": "2019-02-02T18:23:45.482Z",
       "root": "/",
@@ -1383,11 +1387,11 @@
       "blksize": 4096,
       "ino": 8603097964,
       "blocks": 8,
-      "atimeMs": 1549131836142.465,
+      "atimeMs": 1549241283974.3218,
       "mtimeMs": 1549131825481.9692,
       "ctimeMs": 1549131833878.3313,
       "birthtimeMs": 1549131825481.712,
-      "atime": "2019-02-02T18:23:56.142Z",
+      "atime": "2019-02-04T00:48:03.974Z",
       "mtime": "2019-02-02T18:23:45.482Z",
       "ctime": "2019-02-02T18:23:53.878Z",
       "birthtime": "2019-02-02T18:23:45.482Z"
@@ -1412,7 +1416,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-02T18:22:36.422Z",
+      "accessTime": "2019-02-04T00:48:01.616Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1430,11 +1434,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549131756421.702,
+      "atimeMs": 1549241281616.1956,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-02T18:22:36.422Z",
+      "atime": "2019-02-04T00:48:01.616Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1622,7 +1626,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1f17f389e35930656f696b16d05a6aef"
+    "PLUGINS_HASH": "c72e65f571e89318fa13e96a9902748a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1682,14 +1686,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
-      "hash": 3436215879
-    },
     "sq--src-components-image-js": {
       "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
@@ -1697,6 +1693,14 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
+      "hash": 3436215879
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",

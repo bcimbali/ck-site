@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
+import { Spring } from 'react-spring'
 import styled from 'styled-components';
 
 /** HEADER STYLING */
@@ -116,7 +117,7 @@ const generateNavLinks = link => (
 export default class Header extends Component {
   constructor({ menuLinks }) {
     super();
-    this.linksMarkup = menuLinks.map(generateNavLinks)
+    this.linksMarkup = menuLinks.map(generateNavLinks);
     this.toggleDropDown = this.toggleDropDown.bind(this);
     this.state = {
       isOpen: false,
@@ -162,7 +163,9 @@ export default class Header extends Component {
             this.state.isOpen
             ? (
                 <DropDownNavLinks>
-                  {this.linksMarkup}
+                  <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+                    {props => <div style={props}>{this.linksMarkup}</div>}
+                  </Spring>
                 </DropDownNavLinks>
             )
             : (
