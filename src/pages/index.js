@@ -10,10 +10,20 @@ const MainText = styled.h1`
 `;
 
 const PortfolioBox = styled.div`
+  align-items: center;
   border: 1px solid #FFFFFF;
+  display: flex;
   height: 35vh;
+  justify-content: center;
   margin-bottom: 2rem;
+  overflow: hidden;
   width: 25vw;
+
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
 
   @media (max-width: 768px) {
     width: 35vw;
@@ -45,12 +55,24 @@ const IndexPage = () => (
         Content + Digital Marketing
       </MainText>
       <PortfolioContainer>
-        <PortfolioBox>1</PortfolioBox>
-        <PortfolioBox>2</PortfolioBox>
-        <PortfolioBox>3</PortfolioBox>
-        <PortfolioBox>4</PortfolioBox>
-        <PortfolioBox>5</PortfolioBox>
-        <PortfolioBox>6</PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/600" alt=""/>
+        </PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/300" alt=""/>
+        </PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/500" alt=""/>
+        </PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/200" alt=""/>
+        </PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/700" alt=""/>
+        </PortfolioBox>
+        <PortfolioBox>
+          <img src="https://picsum.photos/800" alt=""/>
+        </PortfolioBox>
       </PortfolioContainer>
     </IndexWrapper>
   </Layout>
