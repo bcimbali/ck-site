@@ -50,7 +50,6 @@ const HeaderNav = styled.nav`
       display: none;
     } 
   }
-  }
 `;
 
 const HeaderNavLinks = styled.div`
@@ -88,6 +87,7 @@ export default class Header extends Component {
     super();
     this.linksMarkup = menuLinks.map(generateNavLinks);
     this.toggleDropDown = this.toggleDropDown.bind(this);
+    this.closeDropDown = this.closeDropDown.bind(this);
     this.state = {
       isOpen: false,
     }
@@ -98,7 +98,13 @@ export default class Header extends Component {
         isOpen: !prevState.isOpen,
       })
     );
-    };
+  };
+
+  closeDropDown() {
+    this.setState({
+      isOpen: false,
+    })
+  };
 
   render() {
     const { siteTitle } = this.props;
@@ -130,6 +136,7 @@ export default class Header extends Component {
         <DropDown 
           isOpen={this.state.isOpen}
           linksMarkup={this.linksMarkup}
+          closeDropDown={this.closeDropDown}
         />
     </HeaderContainer>
     )

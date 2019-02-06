@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { Spring } from 'react-spring';
+import onClickOutside from "react-onclickoutside";
 import styled from 'styled-components';
 
 const DropDownContainer = styled.div`
@@ -41,6 +42,10 @@ const DropDownItems = styled.div`
 `;
 
 class DropDown extends Component {
+
+  handleClickOutside = evt => {
+    this.props.closeDropDown();
+  };
   
   render() {
 
@@ -64,4 +69,4 @@ class DropDown extends Component {
   }
 };
 
-export default DropDown
+export default onClickOutside(DropDown);

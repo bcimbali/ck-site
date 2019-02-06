@@ -1090,6 +1090,10 @@
             "version": "^3.3.0"
           },
           {
+            "name": "react-onclickoutside",
+            "version": "^6.7.1"
+          },
+          {
             "name": "react-spring",
             "version": "^7.2.10"
           },
@@ -1250,12 +1254,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-06T03:17:03.884Z",
+      "buildTime": "2019-02-06T03:50:17.522Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9fc5d55c7b45af7e1ef6a9f0e8553cd1",
+        "contentDigest": "ed829acbab7e1da570364cee23b18ddc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1265,7 +1269,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bce7bbfac9666db61dab4adacf8af419",
+        "contentDigest": "0141f7e2231d8fbe7c93cfac3c8f239f",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1277,7 +1281,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-02T18:23:50.033Z",
-      "accessTime": "2019-02-06T03:17:06.247Z",
+      "accessTime": "2019-02-06T03:50:19.880Z",
       "changeTime": "2019-02-02T18:23:50.033Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1295,11 +1299,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549423026246.708,
+      "atimeMs": 1549425019879.8633,
       "mtimeMs": 1549131830032.5867,
       "ctimeMs": 1549131830032.5867,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-06T03:17:06.247Z",
+      "atime": "2019-02-06T03:50:19.880Z",
       "mtime": "2019-02-02T18:23:50.033Z",
       "ctime": "2019-02-02T18:23:50.033Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1322,7 +1326,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-04T00:48:04.939Z",
+      "accessTime": "2019-02-06T03:28:32.067Z",
       "changeTime": "2019-02-02T16:38:09.828Z",
       "birthTime": "2019-02-02T16:37:52.567Z",
       "root": "/",
@@ -1340,11 +1344,11 @@
       "blksize": 4096,
       "ino": 8603085283,
       "blocks": 8,
-      "atimeMs": 1549241284939.2551,
+      "atimeMs": 1549423712066.9949,
       "mtimeMs": 1549125472577.4873,
       "ctimeMs": 1549125489828.3196,
       "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-04T00:48:04.939Z",
+      "atime": "2019-02-06T03:28:32.067Z",
       "mtime": "2019-02-02T16:37:52.577Z",
       "ctime": "2019-02-02T16:38:09.828Z",
       "birthtime": "2019-02-02T16:37:52.567Z"
@@ -1369,7 +1373,7 @@
       "size": 120,
       "prettySize": "120 B",
       "modifiedTime": "2019-02-02T18:23:45.482Z",
-      "accessTime": "2019-02-04T00:48:03.974Z",
+      "accessTime": "2019-02-06T03:28:31.060Z",
       "changeTime": "2019-02-02T18:23:53.878Z",
       "birthTime": "2019-02-02T18:23:45.482Z",
       "root": "/",
@@ -1387,11 +1391,11 @@
       "blksize": 4096,
       "ino": 8603097964,
       "blocks": 8,
-      "atimeMs": 1549241283974.3218,
+      "atimeMs": 1549423711059.9148,
       "mtimeMs": 1549131825481.9692,
       "ctimeMs": 1549131833878.3313,
       "birthtimeMs": 1549131825481.712,
-      "atime": "2019-02-04T00:48:03.974Z",
+      "atime": "2019-02-06T03:28:31.060Z",
       "mtime": "2019-02-02T18:23:45.482Z",
       "ctime": "2019-02-02T18:23:53.878Z",
       "birthtime": "2019-02-02T18:23:45.482Z"
@@ -1416,7 +1420,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-04T00:48:01.616Z",
+      "accessTime": "2019-02-06T03:28:28.716Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1434,11 +1438,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549241281616.1956,
+      "atimeMs": 1549423708716.1575,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-04T00:48:01.616Z",
+      "atime": "2019-02-06T03:28:28.716Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1626,7 +1630,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c72e65f571e89318fa13e96a9902748a"
+    "PLUGINS_HASH": "28d827b361f7a97590c4774d2945b711"
   },
   "componentDataDependencies": {
     "nodes": {
