@@ -1,9 +1,9 @@
 import { FaBars, FaTimes } from 'react-icons/fa';
 import React, { Component } from 'react';
 
+import DropDown from './dropDown';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Spring } from 'react-spring'
 import styled from 'styled-components';
 
 /** HEADER STYLING */
@@ -16,6 +16,13 @@ const HeaderWrapper = styled.div`
   padding: 1.45rem 1.0875rem;
 `;
 
+const HeaderContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.45rem;
+`;
+
+/** Styling for Name in upper-left */
 const NameToHome = styled.div`
   a {
     color: white;
@@ -27,14 +34,7 @@ const NameToHome = styled.div`
   }
 `;
 
-const HeaderContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.45rem;
-`;
-
-/** NAV STYLING */
-
+/** Styling for Nav in upper-right */
 const HeaderNav = styled.nav`
   i {
       color: #FFFFFF;
@@ -75,39 +75,6 @@ const HeaderNavLinks = styled.div`
       display: none;
     }
   }
-`;
-
-const DropDownNav = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
-  a { 
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-  }
-  a:hover {
-    color: blue;
-  }
-  li {
-    border-bottom: 1px solid #FFFFFF;
-    list-style-type: none;
-    padding: 1.5rem 0;
-    text-align: center;
-    width: 100vw;
-  }
-
-  @media (min-width: 700px) {
-    display: none;
-  }
-`;
-
-const DropDownNavLinks = styled.div`
-    background-color: #B1B0E5;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
 `;
 
 const generateNavLinks = link => (
@@ -160,23 +127,11 @@ export default class Header extends Component {
             }</i>
           </HeaderNav>
         </HeaderWrapper>
-        <DropDownNav>
-          {
-            this.state.isOpen
-            ? (
-                <DropDownNavLinks>
-                  <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-                    {props => <div style={props}>{this.linksMarkup}</div>}
-                  </Spring>
-                </DropDownNavLinks>
-            )
-            : (
-              null
-            )
-          }
-        </DropDownNav>
+        <DropDown 
+          isOpen={this.state.isOpen}
+          linksMarkup={this.linksMarkup}
+        />
     </HeaderContainer>
-
     )
   }
 }
