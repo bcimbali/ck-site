@@ -52,7 +52,7 @@ const HeaderNav = styled.nav`
   }
 `;
 
-const HeaderNavLinks = styled.div`
+const HeaderNavLinks = styled.ul`
   display: flex;
   
   a {

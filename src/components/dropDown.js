@@ -56,7 +56,7 @@ class DropDown extends Component {
         ? (
             <DropDownItems>
               <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-                {props => <div style={props}>{this.props.linksMarkup}</div>}
+                {props => <ul style={props}>{this.props.linksMarkup}</ul>}
               </Spring>
             </DropDownItems>
         )
