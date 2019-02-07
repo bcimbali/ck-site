@@ -5,25 +5,8 @@ import onClickOutside from "react-onclickoutside";
 import styled from 'styled-components';
 
 const DropDownContainer = styled.div`
-  align-items: center;
   display: flex;
   flex-direction: column;
-
-  a { 
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-  }
-  a:hover {
-    color: blue;
-  }
-  li {
-    border-bottom: 1px solid #FFFFFF;
-    list-style-type: none;
-    padding: 1.5rem 0;
-    text-align: center;
-    width: 100vw;
-  }
 
   @media (min-width: 700px) {
     display: none;
@@ -31,14 +14,28 @@ const DropDownContainer = styled.div`
 `;
 
 const DropDownItems = styled.div`
-    background-color: #B1B0E5;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+    width: 100vw;
+`;
 
-    li:hover {
+const DropDownUl = styled.ul`
+  background-color: #B1B0E5;
+  position: absolute;
+  width: 100vw;
+
+  li a {
+    border-bottom: 1px solid #FFFFFF;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100vw;
+  }
+
+  li a:hover {
       background-color: rgba(255, 255, 255, 0.2);
-    }
+      color: blue;
+  }
 `;
 
 class DropDown extends Component {
@@ -56,7 +53,7 @@ class DropDown extends Component {
         ? (
             <DropDownItems>
               <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-                {props => <ul style={props}>{this.props.linksMarkup}</ul>}
+                {props => <DropDownUl style={props}>{this.props.linksMarkup}</DropDownUl>}
               </Spring>
             </DropDownItems>
         )
