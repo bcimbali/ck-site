@@ -26,8 +26,18 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
+        "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
         "path": "/portfolio-items/iit-international-travel-brochure"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-itemsnull-ecf",
+        "path": "/portfolio-itemsnull"
     },
     {
         "componentChunkName": "component---src-pages-portfolio-js",

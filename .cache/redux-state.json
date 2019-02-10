@@ -1669,12 +1669,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T19:55:02.556Z",
+      "buildTime": "2019-02-10T20:07:05.341Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "725a43bfd5efb40e95a01e5a3db81882",
+        "contentDigest": "f3b4f5a81e256b301ce6eebbea1fb51e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1684,7 +1684,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d256e273683f262ad0157a78e30c5310",
+        "contentDigest": "fce7a3764472f97420a11b2561788db6",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1696,7 +1696,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-02-09T03:43:59.287Z",
-      "accessTime": "2019-02-10T19:55:05.064Z",
+      "accessTime": "2019-02-10T20:07:07.809Z",
       "changeTime": "2019-02-09T03:43:59.287Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1714,11 +1714,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549828505064.148,
+      "atimeMs": 1549829227808.7754,
       "mtimeMs": 1549683839286.5308,
       "ctimeMs": 1549683839286.5308,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-10T19:55:05.064Z",
+      "atime": "2019-02-10T20:07:07.809Z",
       "mtime": "2019-02-09T03:43:59.287Z",
       "ctime": "2019-02-09T03:43:59.287Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1944,7 +1944,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "39b6dee68d1523469b324e41c568f2e3",
+        "contentDigest": "bf8737cf19eb589e321bf45f4509284b",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -1956,7 +1956,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-07T02:58:49.316Z",
-      "accessTime": "2019-02-10T19:55:05.084Z",
+      "accessTime": "2019-02-10T20:07:07.830Z",
       "changeTime": "2019-02-07T02:58:49.316Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -1974,11 +1974,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1549828505083.7373,
+      "atimeMs": 1549829227829.598,
       "mtimeMs": 1549508329315.8374,
       "ctimeMs": 1549508329315.8374,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-10T19:55:05.084Z",
+      "atime": "2019-02-10T20:07:07.830Z",
       "mtime": "2019-02-07T02:58:49.316Z",
       "ctime": "2019-02-07T02:58:49.316Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -2191,6 +2191,174 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "f2115d80-3656-5964-b996-ba2f0a757a25": {
+      "id": "f2115d80-3656-5964-b996-ba2f0a757a25",
+      "children": [
+        "0cb07786-9d2d-5915-bf74-d920d84de1a5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/motherboard-screenshot.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/motherboard-screenshot.png",
+      "relativePath": "motherboard-screenshot.png",
+      "extension": "png",
+      "size": 815482,
+      "prettySize": "815 kB",
+      "modifiedTime": "2019-02-10T20:16:54.208Z",
+      "accessTime": "2019-02-10T20:17:19.692Z",
+      "changeTime": "2019-02-10T20:17:34.783Z",
+      "birthTime": "2019-02-10T20:16:54.208Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "motherboard-screenshot.png",
+      "ext": ".png",
+      "name": "motherboard-screenshot",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603270910,
+      "blocks": 1600,
+      "atimeMs": 1549829839691.9126,
+      "mtimeMs": 1549829814208.415,
+      "ctimeMs": 1549829854782.6575,
+      "birthtimeMs": 1549829814208.0933,
+      "atime": "2019-02-10T20:17:19.692Z",
+      "mtime": "2019-02-10T20:16:54.208Z",
+      "ctime": "2019-02-10T20:17:34.783Z",
+      "birthtime": "2019-02-10T20:16:54.208Z"
+    },
+    "0cb07786-9d2d-5915-bf74-d920d84de1a5": {
+      "id": "0cb07786-9d2d-5915-bf74-d920d84de1a5",
+      "children": [],
+      "parent": "f2115d80-3656-5964-b996-ba2f0a757a25",
+      "internal": {
+        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /portfolio-itemsnull": {
+      "jsonName": "portfolio-itemsnull-ecf",
+      "internalComponentName": "ComponentPortfolioItemsnull",
+      "path": "/portfolio-itemsnull",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-itemsnull",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d2eeff0fc44aac3acbe5f360bdeb80ea",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ccddff91-752c-5394-9cfc-cc1a01056576": {
+      "id": "ccddff91-752c-5394-9cfc-cc1a01056576",
+      "children": [
+        "143b335a-4a76-5f12-988a-4d5ae2c14890"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "98e4b23bc7382311da03fca702c66249",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/vice-motherboard-article.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md",
+      "relativePath": "vice-motherboard-article.md",
+      "extension": "md",
+      "size": 341,
+      "prettySize": "341 B",
+      "modifiedTime": "2019-02-10T20:22:21.081Z",
+      "accessTime": "2019-02-10T20:22:21.080Z",
+      "changeTime": "2019-02-10T20:22:21.081Z",
+      "birthTime": "2019-02-10T20:18:17.002Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "vice-motherboard-article.md",
+      "ext": ".md",
+      "name": "vice-motherboard-article",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603270986,
+      "blocks": 8,
+      "atimeMs": 1549830141080.2002,
+      "mtimeMs": 1549830141080.5957,
+      "ctimeMs": 1549830141080.5957,
+      "birthtimeMs": 1549829897001.5728,
+      "atime": "2019-02-10T20:22:21.080Z",
+      "mtime": "2019-02-10T20:22:21.081Z",
+      "ctime": "2019-02-10T20:22:21.081Z",
+      "birthtime": "2019-02-10T20:18:17.002Z"
+    },
+    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
+      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
+      "children": [],
+      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
+      "internal": {
+        "content": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
+        "type": "MarkdownRemark",
+        "contentDigest": "0e6439364ff0cfd0c8acc577bbc909d6",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "hero": "./../images/motherboard-screenshot.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
+    },
+    "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
+      "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
+      "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
+      "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b6d74db11401bf550781c351af2210a0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -2200,8 +2368,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "5cd8612b-fb02-5f07-aada-eb46339b4d90": [
         "/portfolio-items/iit-international-travel-brochure"
@@ -2211,6 +2379,15 @@
       ],
       "15a4d724-e84a-5385-8864-35d3ac942fcb": [
         "/portfolio-items/iit-international-travel-brochure"
+      ],
+      "143b335a-4a76-5f12-988a-4d5ae2c14890": [
+        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+      ],
+      "f2115d80-3656-5964-b996-ba2f0a757a25": [
+        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+      ],
+      "0cb07786-9d2d-5915-bf74-d920d84de1a5": [
+        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
       ]
     },
     "connections": {
@@ -2233,7 +2410,9 @@
     "sq--src-components-image-js": 2011440971,
     "sq--src-components-layout-js": 3436215879,
     "sq--src-components-seo-js": 1315885718,
-    "sq--src-pages-portfolio-js": 1785820708
+    "sq--src-pages-portfolio-js": 1785820708,
+    "portfolio-itemsnull-ecf": "434/path---portfolio-itemsnull-ecf-224-473qBx44pctuFz18k2Yp2fSZhM",
+    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "80/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-xSO9KBK4hDdYulqfJDlxWigSI"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
