@@ -8,20 +8,12 @@ module.exports = {
         link: '/about'
       },
       {
-        name: 'Contact',
-        link: '/contact'
-      },
-      {
         name: 'Resume',
         link: '/resume'
       },
       {
         name: 'Portfolio',
         link: '/portfolio'
-      },
-      {
-        name: 'Videos',
-        link: '/videos'
       },
     ]
   },
@@ -32,6 +24,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `portfolio-items`,
+        path: `${__dirname}/src/portfolio-items`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -59,6 +58,12 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-images',],
+      },
+    },
     'gatsby-plugin-offline',
   ],
 }

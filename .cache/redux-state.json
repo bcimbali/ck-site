@@ -11,7 +11,7 @@
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -47,7 +47,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "203e46a3d607b3a75cb403e229f8347d",
@@ -82,7 +82,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "26eea2fe2ac9d55da9dcf42a49ba40ea",
@@ -118,7 +118,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "a150e4934f29296018c0073c7115da51",
@@ -153,7 +153,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "549abc96b561fb5715c04d655a42bd21",
@@ -188,7 +188,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "8961dbaf6213b7942acd41d54de1e9d7",
@@ -223,7 +223,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "dfe9ec6c1bdc66c2683c2ef4cf2cbd03",
@@ -235,7 +235,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.5",
+      "version": "3.0.6",
       "pluginOptions": {
         "plugins": []
       },
@@ -248,7 +248,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.5",
+        "version": "3.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -298,20 +298,20 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           },
           {
             "name": "react-helmet",
-            "version": ">=5.1.3"
+            "version": "^5.1.3"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "84e0a9c172d5a19864364b8fcffc6960",
+        "contentDigest": "ea19d95268de0cd3726d96ab5fc64a54",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -320,7 +320,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-source-filesystem",
       "id": "6c501ae1-2f16-50fe-b09b-c08f32120cec",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.12",
+      "version": "2.0.20",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
@@ -336,7 +336,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.12",
+        "version": "2.0.20",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -388,6 +388,10 @@
             "version": "^4.0.2"
           },
           {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
             "name": "read-chunk",
             "version": "^3.0.0"
           },
@@ -425,16 +429,143 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e097919022894085f7a0d087723bd52a",
+        "contentDigest": "5770dd9395bea903719a2ca61eb7bde2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "622b7749-137c-5941-ae83-fb3d484149a4": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-source-filesystem",
+      "id": "622b7749-137c-5941-ae83-fb3d484149a4",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "portfolio-items",
+        "path": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "029ca408c490fb2ab95097cc765da5cb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -443,7 +574,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.9",
+      "version": "2.1.13",
       "pluginOptions": {
         "plugins": []
       },
@@ -458,7 +589,7 @@
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.9",
+        "version": "2.1.13",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -493,7 +624,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.21.0"
+            "version": "^0.21.3"
           }
         ],
         "devDependencies": [
@@ -527,10 +658,10 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "83ab7611027661211fe60cff90dd0ff3",
+        "contentDigest": "ce82fede28e233c991913d6735ce88bf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -539,7 +670,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-styled-components",
       "id": "176dadcc-aa26-5c02-a651-88867760143b",
       "name": "gatsby-plugin-styled-components",
-      "version": "3.0.4",
+      "version": "3.0.5",
       "pluginOptions": {
         "plugins": []
       },
@@ -555,7 +686,7 @@
       "packageJson": {
         "name": "gatsby-plugin-styled-components",
         "description": "Gatsby plugin to add support for styled components",
-        "version": "3.0.4",
+        "version": "3.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -594,20 +725,20 @@
           },
           {
             "name": "gatsby",
-            "version": ">=2.0.32"
+            "version": "^2.0.32"
           },
           {
             "name": "styled-components",
-            "version": ">= 2.0.0"
+            "version": ">=2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "53c47eaffca3a3285afca81e4f08f5e2",
+        "contentDigest": "cb4a63e216901058fa745a9234304fe6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -616,7 +747,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.16",
+      "version": "2.0.20",
       "pluginOptions": {
         "plugins": []
       },
@@ -629,7 +760,7 @@
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.16",
+        "version": "2.0.20",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -701,7 +832,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.21.0"
+            "version": "^0.21.3"
           },
           {
             "name": "svgo",
@@ -729,16 +860,16 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b13c9059571f4656e359dd443b314c37",
+        "contentDigest": "c8094aa00ac6b473189c3d635ae6d0e1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -811,7 +942,7 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "contentDigest": "8889a3409d1f04054a441d3f8384626d",
@@ -823,7 +954,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-manifest",
       "id": "c2b13c1f-7b9e-58a2-8c54-de41661001c9",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.12",
+      "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
         "name": "gatsby-starter-default",
@@ -845,7 +976,7 @@
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.12",
+        "version": "2.0.17",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -872,7 +1003,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.21.0"
+            "version": "^0.21.3"
           }
         ],
         "devDependencies": [
@@ -896,16 +1027,294 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "52bd69f985dba4fda8ca4d8376bee389",
+        "contentDigest": "985b95564659e42281e55fccd85d11e8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4d5fa376-6ce5-525f-b28f-f43b18ed68be": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-transformer-remark",
+      "id": "4d5fa376-6ce5-525f-b28f-f43b18ed68be",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.4",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-remark-images",
+            "id": "3626c0e0-58d4-5046-b0e5-cb7731a052f2",
+            "name": "gatsby-remark-images",
+            "version": "3.0.3",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 650,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3342ed26f155ec05d2dc26ac1e36ba59",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3626c0e0-58d4-5046-b0e5-cb7731a052f2": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-remark-images",
+      "id": "3626c0e0-58d4-5046-b0e5-cb7731a052f2",
+      "name": "gatsby-remark-images",
+      "version": "3.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 650,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5cea2a829a0226cca067ae45384336da",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -914,7 +1323,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-offline",
       "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
-      "version": "2.0.20",
+      "version": "2.0.22",
       "pluginOptions": {
         "plugins": []
       },
@@ -932,7 +1341,7 @@
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.20",
+        "version": "2.0.22",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -954,6 +1363,10 @@
           {
             "name": "cheerio",
             "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
           },
           {
             "name": "idb-keyval",
@@ -989,16 +1402,16 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">=2.0.53"
+            "version": "^2.0.100"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ad96374871c0f01b60a38a49b6be8569",
+        "contentDigest": "9c71271e45dbb2142dfc2359c915f9de",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1007,11 +1420,13 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e44b06aaf5478e096451e3982579a9f3",
+      "version": "e47a3bb9b9c94bca06c5007a8ce6a373",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/BrettCimbalik/code/ck-site",
@@ -1031,43 +1446,51 @@
           },
           {
             "name": "gatsby",
-            "version": "^2.0.76"
+            "version": "^2.0.116"
           },
           {
             "name": "gatsby-image",
-            "version": "^2.0.20"
+            "version": "^2.0.29"
           },
           {
             "name": "gatsby-plugin-manifest",
-            "version": "^2.0.9"
+            "version": "^2.0.17"
           },
           {
             "name": "gatsby-plugin-offline",
-            "version": "^2.0.16"
+            "version": "^2.0.22"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^3.0.2"
+            "version": "^3.0.6"
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.14"
+            "version": "^2.0.20"
           },
           {
             "name": "gatsby-plugin-styled-components",
-            "version": "^3.0.4"
+            "version": "^3.0.5"
           },
           {
             "name": "gatsby-plugin-web-font-loader",
             "version": "^1.0.4"
           },
           {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.3"
+          },
+          {
             "name": "gatsby-source-filesystem",
-            "version": "^2.0.8"
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.4"
           },
           {
             "name": "gatsby-transformer-sharp",
-            "version": "^2.1.8"
+            "version": "^2.1.13"
           },
           {
             "name": "prop-types",
@@ -1075,11 +1498,11 @@
           },
           {
             "name": "react",
-            "version": "^16.6.3"
+            "version": "^16.8.1"
           },
           {
             "name": "react-dom",
-            "version": "^16.6.3"
+            "version": "^16.8.1"
           },
           {
             "name": "react-helmet",
@@ -1105,17 +1528,17 @@
         "devDependencies": [
           {
             "name": "prettier",
-            "version": "^1.15.2"
+            "version": "^1.16.4"
           }
         ],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a3e0a314b09c9c1c38c70eab0f3b07c9",
+        "contentDigest": "f8985e445bceafa252d26e86749d6b3e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1124,7 +1547,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-page-creator",
       "id": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/BrettCimbalik/code/ck-site/src/pages",
@@ -1139,7 +1562,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.5",
+        "version": "2.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1209,16 +1632,16 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d9f8a85c4e860573fc99f1f8d6d7fa30",
+        "contentDigest": "4155a251d9cade51ebc8749d993f384d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1233,20 +1656,12 @@
             "link": "/about"
           },
           {
-            "name": "Contact",
-            "link": "/contact"
-          },
-          {
             "name": "Resume",
             "link": "/resume"
           },
           {
             "name": "Portfolio",
             "link": "/portfolio"
-          },
-          {
-            "name": "Videos",
-            "link": "/videos"
           }
         ]
       },
@@ -1254,12 +1669,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-07T01:04:37.745Z",
+      "buildTime": "2019-02-10T18:53:10.662Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "07cb86791e48e37bb9fc0e767e8549d5",
+        "contentDigest": "42d9adc032864a09c8ed6622fb08a9dc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1267,9 +1682,9 @@
     "304cf6a3-46e2-5520-bbad-bd4e21a6d124": {
       "id": "304cf6a3-46e2-5520-bbad-bd4e21a6d124",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "f1e0eb048776fce43c3f069618ea0823",
+        "contentDigest": "8b6c62932f6b37a47ea76b5272889527",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1278,11 +1693,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2019-02-02T18:23:50.033Z",
-      "accessTime": "2019-02-07T01:04:40.149Z",
-      "changeTime": "2019-02-02T18:23:50.033Z",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-02-09T03:43:59.287Z",
+      "accessTime": "2019-02-10T18:53:13.217Z",
+      "changeTime": "2019-02-09T03:43:59.287Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1292,73 +1707,28 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549501480148.9868,
-      "mtimeMs": 1549131830032.5867,
-      "ctimeMs": 1549131830032.5867,
+      "atimeMs": 1549824793217.159,
+      "mtimeMs": 1549683839286.5308,
+      "ctimeMs": 1549683839286.5308,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-07T01:04:40.149Z",
-      "mtime": "2019-02-02T18:23:50.033Z",
-      "ctime": "2019-02-02T18:23:50.033Z",
+      "atime": "2019-02-10T18:53:13.217Z",
+      "mtime": "2019-02-09T03:43:59.287Z",
+      "ctime": "2019-02-09T03:43:59.287Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
-    },
-    "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
-      "id": "9fc83080-2b83-5a62-9dce-99387b10fcd2",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2b290c88e6acbe397fde5579c86308ad",
-        "type": "File",
-        "mediaType": "image/vnd.microsoft.icon",
-        "description": "File \"src/images/favicon.ico\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.ico",
-      "relativePath": "favicon.ico",
-      "extension": "ico",
-      "size": 318,
-      "prettySize": "318 B",
-      "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-06T03:28:32.067Z",
-      "changeTime": "2019-02-02T16:38:09.828Z",
-      "birthTime": "2019-02-02T16:37:52.567Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "favicon.ico",
-      "ext": ".ico",
-      "name": "favicon",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603085283,
-      "blocks": 8,
-      "atimeMs": 1549423712066.9949,
-      "mtimeMs": 1549125472577.4873,
-      "ctimeMs": 1549125489828.3196,
-      "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-06T03:28:32.067Z",
-      "mtime": "2019-02-02T16:37:52.577Z",
-      "ctime": "2019-02-02T16:38:09.828Z",
-      "birthtime": "2019-02-02T16:37:52.567Z"
     },
     "dbd10f3c-0011-55b5-ab23-50f23f77bec4": {
       "id": "dbd10f3c-0011-55b5-ab23-50f23f77bec4",
       "children": [
         "5396f530-0333-5b1a-b030-0e894521c965"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "a58d56c07890042a3ee5550364410d0e",
         "type": "File",
@@ -1373,7 +1743,7 @@
       "size": 120,
       "prettySize": "120 B",
       "modifiedTime": "2019-02-02T18:23:45.482Z",
-      "accessTime": "2019-02-06T03:28:31.060Z",
+      "accessTime": "2019-02-10T18:12:00.666Z",
       "changeTime": "2019-02-02T18:23:53.878Z",
       "birthTime": "2019-02-02T18:23:45.482Z",
       "root": "/",
@@ -1391,11 +1761,11 @@
       "blksize": 4096,
       "ino": 8603097964,
       "blocks": 8,
-      "atimeMs": 1549423711059.9148,
+      "atimeMs": 1549822320665.8735,
       "mtimeMs": 1549131825481.9692,
       "ctimeMs": 1549131833878.3313,
       "birthtimeMs": 1549131825481.712,
-      "atime": "2019-02-06T03:28:31.060Z",
+      "atime": "2019-02-10T18:12:00.666Z",
       "mtime": "2019-02-02T18:23:45.482Z",
       "ctime": "2019-02-02T18:23:53.878Z",
       "birthtime": "2019-02-02T18:23:45.482Z"
@@ -1405,7 +1775,7 @@
       "children": [
         "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
         "type": "File",
@@ -1420,7 +1790,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-06T03:28:28.716Z",
+      "accessTime": "2019-02-10T18:11:57.647Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1438,14 +1808,59 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549423708716.1575,
+      "atimeMs": 1549822317646.7769,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-06T03:28:28.716Z",
+      "atime": "2019-02-10T18:11:57.647Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
+    },
+    "9fc83080-2b83-5a62-9dce-99387b10fcd2": {
+      "id": "9fc83080-2b83-5a62-9dce-99387b10fcd2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2b290c88e6acbe397fde5579c86308ad",
+        "type": "File",
+        "mediaType": "image/vnd.microsoft.icon",
+        "description": "File \"src/images/favicon.ico\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.ico",
+      "relativePath": "favicon.ico",
+      "extension": "ico",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-02-02T16:37:52.577Z",
+      "accessTime": "2019-02-10T18:12:00.666Z",
+      "changeTime": "2019-02-02T16:38:09.828Z",
+      "birthTime": "2019-02-02T16:37:52.567Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603085283,
+      "blocks": 8,
+      "atimeMs": 1549822320665.8699,
+      "mtimeMs": 1549125472577.4873,
+      "ctimeMs": 1549125489828.3196,
+      "birthtimeMs": 1549125472567.3447,
+      "atime": "2019-02-10T18:12:00.666Z",
+      "mtime": "2019-02-02T16:37:52.577Z",
+      "ctime": "2019-02-02T16:38:09.828Z",
+      "birthtime": "2019-02-02T16:37:52.567Z"
     },
     "5396f530-0333-5b1a-b030-0e894521c965": {
       "id": "5396f530-0333-5b1a-b030-0e894521c965",
@@ -1467,6 +1882,196 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "919c9dcf-6ec5-50b9-b5fc-0018504b8183": {
+      "id": "919c9dcf-6ec5-50b9-b5fc-0018504b8183",
+      "children": [
+        "15a4d724-e84a-5385-8864-35d3ac942fcb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d6f7b58e74246984a98fc20eaf6cfd14",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/IIT-intl.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/IIT-intl.png",
+      "relativePath": "IIT-intl.png",
+      "extension": "png",
+      "size": 3123696,
+      "prettySize": "3.12 MB",
+      "modifiedTime": "2019-02-09T03:42:04.426Z",
+      "accessTime": "2019-02-10T18:14:44.993Z",
+      "changeTime": "2019-02-09T03:43:59.287Z",
+      "birthTime": "2019-02-09T03:42:04.425Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "IIT-intl.png",
+      "ext": ".png",
+      "name": "IIT-intl",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603237113,
+      "blocks": 6104,
+      "atimeMs": 1549822484992.6924,
+      "mtimeMs": 1549683724425.579,
+      "ctimeMs": 1549683839286.5305,
+      "birthtimeMs": 1549683724424.5964,
+      "atime": "2019-02-10T18:14:44.993Z",
+      "mtime": "2019-02-09T03:42:04.426Z",
+      "ctime": "2019-02-09T03:43:59.287Z",
+      "birthtime": "2019-02-09T03:42:04.425Z"
+    },
+    "15a4d724-e84a-5385-8864-35d3ac942fcb": {
+      "id": "15a4d724-e84a-5385-8864-35d3ac942fcb",
+      "children": [],
+      "parent": "919c9dcf-6ec5-50b9-b5fc-0018504b8183",
+      "internal": {
+        "contentDigest": "d6f7b58e74246984a98fc20eaf6cfd14",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d8ab3500-172e-5295-9f65-e1716ca1938f": {
+      "id": "d8ab3500-172e-5295-9f65-e1716ca1938f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7602cd7dcdf70296bc16ec8c1e14506f",
+        "type": "Directory",
+        "description": "Directory \"src/portfolio-items\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-07T02:58:49.316Z",
+      "accessTime": "2019-02-10T18:53:13.236Z",
+      "changeTime": "2019-02-07T02:58:49.316Z",
+      "birthTime": "2019-02-07T02:53:00.065Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src",
+      "base": "portfolio-items",
+      "ext": "",
+      "name": "portfolio-items",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603185244,
+      "blocks": 0,
+      "atimeMs": 1549824793236.1306,
+      "mtimeMs": 1549508329315.8374,
+      "ctimeMs": 1549508329315.8374,
+      "birthtimeMs": 1549507980064.5435,
+      "atime": "2019-02-10T18:53:13.236Z",
+      "mtime": "2019-02-07T02:58:49.316Z",
+      "ctime": "2019-02-07T02:58:49.316Z",
+      "birthtime": "2019-02-07T02:53:00.065Z"
+    },
+    "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1": {
+      "id": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
+      "children": [
+        "5cd8612b-fb02-5f07-aada-eb46339b4d90"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5ee33f62835948f1795a82eeda5e92d9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/iit-international-travel-brochure.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md",
+      "relativePath": "iit-international-travel-brochure.md",
+      "extension": "md",
+      "size": 273,
+      "prettySize": "273 B",
+      "modifiedTime": "2019-02-10T17:59:42.641Z",
+      "accessTime": "2019-02-10T18:11:57.647Z",
+      "changeTime": "2019-02-10T17:59:42.641Z",
+      "birthTime": "2019-02-07T02:53:55.986Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "iit-international-travel-brochure.md",
+      "ext": ".md",
+      "name": "iit-international-travel-brochure",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603185249,
+      "blocks": 8,
+      "atimeMs": 1549822317647.26,
+      "mtimeMs": 1549821582641.081,
+      "ctimeMs": 1549821582641.081,
+      "birthtimeMs": 1549508035986.0767,
+      "atime": "2019-02-10T18:11:57.647Z",
+      "mtime": "2019-02-10T17:59:42.641Z",
+      "ctime": "2019-02-10T17:59:42.641Z",
+      "birthtime": "2019-02-07T02:53:55.986Z"
+    },
+    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
+      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
+      "children": [],
+      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
+      "internal": {
+        "content": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
+        "type": "MarkdownRemark",
+        "contentDigest": "7a188865612149ccc313323c8e7cbc1f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "IIT International Travel Brochure",
+        "slug": "/iit-international-travel-brochure",
+        "hero": "./../images/IIT-intl.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
+    },
+    "SitePage /portfolio-items/iit-international-travel-brochure": {
+      "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
+      "internalComponentName": "ComponentPortfolioItemsIitInternationalTravelBrochure",
+      "path": "/portfolio-items/iit-international-travel-brochure",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/iit-international-travel-brochure"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/iit-international-travel-brochure",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e9bf52a522391465d75035dbdd4a0e1b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -1478,7 +2083,7 @@
       "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/404.js",
       "id": "SitePage /404/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -1498,31 +2103,11 @@
       "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
       "id": "SitePage /about/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
         "contentDigest": "200e8361b5906f17e643e827f67fa01a",
-        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "jsonName": "contact-26a",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1523bc824ca523564eb00ac78ef7f019",
         "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
         "owner": "internal-data-bridge"
       }
@@ -1538,7 +2123,7 @@
       "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -1558,7 +2143,7 @@
       "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/portfolio.js",
       "id": "SitePage /portfolio/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -1578,31 +2163,11 @@
       "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js",
       "id": "SitePage /resume/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
         "contentDigest": "ab638f2234f222fd106e6077d86f8985",
-        "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /videos/": {
-      "jsonName": "videos-c1d",
-      "internalComponentName": "ComponentVideos",
-      "path": "/videos/",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/pages/videos.js",
-      "componentChunkName": "component---src-pages-videos-js",
-      "context": {},
-      "pluginCreator___NODE": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "pluginCreatorId": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/videos.js",
-      "id": "SitePage /videos/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1f80e709f1a60828d846054bd9ddecc3",
         "description": "6fdc4753-bf5b-52b8-a16c-f04a46491af4",
         "owner": "internal-data-bridge"
       }
@@ -1618,7 +2183,7 @@
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/404.js",
       "id": "SitePage /404.html",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -1630,32 +2195,51 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "28d827b361f7a97590c4774d2945b711"
+    "PLUGINS_HASH": "4bbea8651d1b55f26b7853ed05b36d06"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
+      ],
+      "5cd8612b-fb02-5f07-aada-eb46339b4d90": [
+        "/portfolio-items/iit-international-travel-brochure"
+      ],
+      "919c9dcf-6ec5-50b9-b5fc-0018504b8183": [
+        "/portfolio-items/iit-international-travel-brochure"
+      ],
+      "15a4d724-e84a-5385-8864-35d3ac942fcb": [
+        "/portfolio-items/iit-international-travel-brochure"
       ]
     },
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        null,
+        "sq--src-pages-portfolio-js"
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-seo-js": 1315885718,
-    "sq--src-components-layout-js": 3436215879,
-    "sq--src-components-image-js": 2011440971,
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portfolio-items-iit-international-travel-brochure-4aa": "266/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-CZLTVbscceDhNmfOYzPD8cFW5w",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
     "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E",
-    "videos-c1d": "612/path---videos-c-1-d-bf2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "sq--src-components-layout-js": 3436215879,
+    "sq--src-components-seo-js": 1315885718,
+    "sq--src-pages-portfolio-js": 1785820708
   },
   "components": {
+    "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
+      "query": "query PortfolioPageQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      hero {\n        childImageSharp {\n          fluid {\n            ...GatsbyImageSharpFluid_tracedSVG\n          }\n        }\n      }\n      homepage\n      slug\n      title\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js"
+    },
     "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js"
@@ -1668,10 +2252,6 @@
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js"
     },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/contact.js"
-    },
     "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/index.js"
@@ -1683,10 +2263,6 @@
     "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js"
-    },
-    "/Users/BrettCimbalik/code/ck-site/src/pages/videos.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/videos.js"
     }
   },
   "staticQueryComponents": {
@@ -1713,6 +2289,14 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
       "hash": 1315885718
+    },
+    "sq--src-pages-portfolio-js": {
+      "name": "PortfolioQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/portfolio.js",
+      "id": "sq--src-pages-portfolio-js",
+      "jsonName": "sq--src-pages-portfolio-js",
+      "query": "query PortfolioQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        html\n        excerpt\n        frontmatter {\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1785820708
     }
   }
 }

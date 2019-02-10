@@ -21,12 +21,13 @@ const DropDownUl = styled.ul`
   background-color: #B1B0E5;
   position: absolute;
   width: 100vw;
+  z-index: 9;
 
   li a {
     border-bottom: 1px solid #FFFFFF;
     color: white;
     display: inline-block;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
     text-decoration: none;
     width: 100vw;
