@@ -5,6 +5,10 @@ import Layout from './layout';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
+const ImgContainer = styled.div`
+  width: 40vw;
+`;
+
 const InfoBlurb = styled.div`
   color: #FFFFFF;
   margin-bottom: 2rem;
@@ -37,8 +41,10 @@ export default class portfolioLayout extends Component {
         <PortfolioWrapper>
           <TitleText>
             {markdownRemark.frontmatter.title}
-            <Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} />
           </TitleText>
+          <ImgContainer>
+            <Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} />
+          </ImgContainer>
           <InfoBlurb dangerouslySetInnerHTML={{
             __html: markdownRemark.html
           }}/>

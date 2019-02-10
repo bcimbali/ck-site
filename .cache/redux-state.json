@@ -1669,12 +1669,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T21:55:44.140Z",
+      "buildTime": "2019-02-10T22:54:05.031Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "69ed46d17677896e2af4e666f973bca4",
+        "contentDigest": "d0e3103391a9ac87f7735d535686e290",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1684,7 +1684,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "45311c30e56e1ba294eeaa0f27ef5865",
+        "contentDigest": "458016bbc648b2c283d88733c667eefb",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1696,7 +1696,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-02-10T20:17:34.783Z",
-      "accessTime": "2019-02-10T21:55:46.590Z",
+      "accessTime": "2019-02-10T22:54:07.540Z",
       "changeTime": "2019-02-10T20:17:34.783Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1714,11 +1714,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549835746590.4875,
+      "atimeMs": 1549839247539.6528,
       "mtimeMs": 1549829854782.6575,
       "ctimeMs": 1549829854782.6575,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-10T21:55:46.590Z",
+      "atime": "2019-02-10T22:54:07.540Z",
       "mtime": "2019-02-10T20:17:34.783Z",
       "ctime": "2019-02-10T20:17:34.783Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -1944,7 +1944,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a2e3ea50f8762ae870f46c40b31ab5f8",
+        "contentDigest": "74f852280aa8e16749b18aafee8830d5",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -1956,7 +1956,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-10T20:19:43.301Z",
-      "accessTime": "2019-02-10T21:55:46.612Z",
+      "accessTime": "2019-02-10T22:54:07.562Z",
       "changeTime": "2019-02-10T20:19:43.301Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -1974,11 +1974,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1549835746611.8865,
+      "atimeMs": 1549839247561.6875,
       "mtimeMs": 1549829983301.1035,
       "ctimeMs": 1549829983301.1035,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-10T21:55:46.612Z",
+      "atime": "2019-02-10T22:54:07.562Z",
       "mtime": "2019-02-10T20:19:43.301Z",
       "ctime": "2019-02-10T20:19:43.301Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -2350,13 +2350,16 @@
         "sq--src-components-seo-js"
       ],
       "5cd8612b-fb02-5f07-aada-eb46339b4d90": [
+        "/",
         "/portfolio-items/iit-international-travel-brochure"
       ],
       "919c9dcf-6ec5-50b9-b5fc-0018504b8183": [
+        "/",
         "/portfolio-items/iit-international-travel-brochure",
         "sq--src-pages-portfolio-js"
       ],
       "15a4d724-e84a-5385-8864-35d3ac942fcb": [
+        "/",
         "/portfolio-items/iit-international-travel-brochure",
         "sq--src-pages-portfolio-js"
       ],
@@ -2392,7 +2395,7 @@
     "sq--src-components-image-js": 2011440971,
     "sq--src-components-layout-js": 3436215879,
     "sq--src-components-seo-js": 1315885718,
-    "sq--src-pages-portfolio-js": 2374203532,
+    "sq--src-pages-portfolio-js": 2438295035,
     "portfolio-itemsnull-ecf": "434/path---portfolio-itemsnull-ecf-224-473qBx44pctuFz18k2Yp2fSZhM",
     "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "80/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-xSO9KBK4hDdYulqfJDlxWigSI"
   },
@@ -2427,14 +2430,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/layout.js",
@@ -2451,13 +2446,21 @@
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
       "hash": 1315885718
     },
+    "sq--src-components-image-js": {
+      "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
     "sq--src-pages-portfolio-js": {
       "name": "PortfolioQuery",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/portfolio.js",
       "id": "sq--src-pages-portfolio-js",
       "jsonName": "sq--src-pages-portfolio-js",
-      "query": "query PortfolioQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        html\n        excerpt\n        frontmatter {\n          hero {\n            childImageSharp {\n              fluid {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2374203532
+      "query": "query PortfolioQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        html\n        excerpt\n        frontmatter {\n          hero {\n            childImageSharp {\n              fluid(maxWidth: 500, maxHeight: 500) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2438295035
     }
   }
 }

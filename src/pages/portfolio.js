@@ -7,27 +7,14 @@ import SEO from '../components/seo';
 import styled from 'styled-components';
 
 const PortfolioImgContainer = styled.div`
-  align-items: center;
-  border: 1px solid #FFFFFF;
-  display: flex;
-  height: 40vh;
-  justify-content: center;
-  /* margin-bottom: 2rem; */
-  overflow: hidden;
-  width: 25vw;
-
-  /* img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-  } */
+  width: 15vw;
 
   @media (max-width: 768px) {
     width: 35vw;
   }
 
   @media (max-width: 414px) {
-    width: 100vw;
+    width: 79.5vw;
   }
 `;
 
@@ -35,18 +22,32 @@ const PortfolioItemRow = styled.div`
   align-items: center;
   border: 1px solid #FFFFFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 1rem;
+  width: 60vw;
+
+  img {
+      filter: grayscale(100%);
+    }
   
   :hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
     }
+    img {
+      filter: none;
+    }
+  }
+
+  @media (max-width: 414px) {
+    flex-direction: column;
+    width: 80vw;
   }
 `;
 
 const PortfolioWrapper = styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -82,7 +83,7 @@ const PORTFOLIO_QUERY = graphql`
           frontmatter {
             hero {
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 500, maxHeight: 500) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
@@ -109,7 +110,9 @@ const Portfolio = () => (
             allMarkdownRemark.edges.map(({node}) => (
               <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                 <PortfolioItemRow key={node.frontmatter.slug}>
-                  <PortfolioImgContainer />
+                  <PortfolioImgContainer>
+                    <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                  </PortfolioImgContainer>
                   <ItemContainer>
                       <h2>{node.frontmatter.title}</h2>
                   </ItemContainer>
