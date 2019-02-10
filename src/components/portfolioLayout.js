@@ -7,12 +7,19 @@ import styled from 'styled-components';
 
 const InfoBlurb = styled.div`
   color: #FFFFFF;
+  margin-bottom: 2rem;
+  text-align: center;
+  /* width: 60vw; */
 `;
 
 const TitleText = styled.h1`
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
+
+  img {
+    margin-top: 1rem;
+  }
 `;
 
 const PortfolioWrapper = styled.div`
