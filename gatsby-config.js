@@ -33,6 +33,13 @@ module.exports = {
         path: `${__dirname}/src/portfolio-items`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pdf`,
+        path: `${__dirname}/src/pdf`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,

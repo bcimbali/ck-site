@@ -570,6 +570,133 @@
         "owner": "internal-data-bridge"
       }
     },
+    "703f519f-cbc5-5964-8f3c-756812ec9268": {
+      "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-source-filesystem",
+      "id": "703f519f-cbc5-5964-8f3c-756812ec9268",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pdf",
+        "path": "/Users/BrettCimbalik/code/ck-site/src/pdf"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6c31e31b1078b5632aabe940fb28e80c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
       "resolve": "/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
@@ -1420,7 +1547,7 @@
       "resolve": "/Users/BrettCimbalik/code/ck-site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e47a3bb9b9c94bca06c5007a8ce6a373",
+      "version": "23584cc3592b24fa406cbfca382cb6ab",
       "pluginOptions": {
         "plugins": []
       },
@@ -1517,6 +1644,10 @@
             "version": "^6.7.1"
           },
           {
+            "name": "react-pdf",
+            "version": "^4.0.2"
+          },
+          {
             "name": "react-spring",
             "version": "^7.2.10"
           },
@@ -1538,7 +1669,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f8985e445bceafa252d26e86749d6b3e",
+        "contentDigest": "e59e50b9bd880360d079728079f7d421",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1669,12 +1800,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T22:54:05.031Z",
+      "buildTime": "2019-02-10T23:56:08.540Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d0e3103391a9ac87f7735d535686e290",
+        "contentDigest": "128c18c7abe0c2459fda1be1712b9502",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1684,7 +1815,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "458016bbc648b2c283d88733c667eefb",
+        "contentDigest": "ba8d6baa0f90ad75ee9b5b4c7a4d75f3",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1696,7 +1827,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-02-10T20:17:34.783Z",
-      "accessTime": "2019-02-10T22:54:07.540Z",
+      "accessTime": "2019-02-10T23:56:11.460Z",
       "changeTime": "2019-02-10T20:17:34.783Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1714,61 +1845,14 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549839247539.6528,
+      "atimeMs": 1549842971460.1323,
       "mtimeMs": 1549829854782.6575,
       "ctimeMs": 1549829854782.6575,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-10T22:54:07.540Z",
+      "atime": "2019-02-10T23:56:11.460Z",
       "mtime": "2019-02-10T20:17:34.783Z",
       "ctime": "2019-02-10T20:17:34.783Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
-    },
-    "dbd10f3c-0011-55b5-ab23-50f23f77bec4": {
-      "id": "dbd10f3c-0011-55b5-ab23-50f23f77bec4",
-      "children": [
-        "5396f530-0333-5b1a-b030-0e894521c965"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "a58d56c07890042a3ee5550364410d0e",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/favicon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.png",
-      "relativePath": "favicon.png",
-      "extension": "png",
-      "size": 120,
-      "prettySize": "120 B",
-      "modifiedTime": "2019-02-02T18:23:45.482Z",
-      "accessTime": "2019-02-10T18:12:00.666Z",
-      "changeTime": "2019-02-02T18:23:53.878Z",
-      "birthTime": "2019-02-02T18:23:45.482Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "favicon.png",
-      "ext": ".png",
-      "name": "favicon",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603097964,
-      "blocks": 8,
-      "atimeMs": 1549822320665.8735,
-      "mtimeMs": 1549131825481.9692,
-      "ctimeMs": 1549131833878.3313,
-      "birthtimeMs": 1549131825481.712,
-      "atime": "2019-02-10T18:12:00.666Z",
-      "mtime": "2019-02-02T18:23:45.482Z",
-      "ctime": "2019-02-02T18:23:53.878Z",
-      "birthtime": "2019-02-02T18:23:45.482Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
       "id": "941d6726-7490-5573-85db-e714efdba0ed",
@@ -1790,7 +1874,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T00:45:47.404Z",
-      "accessTime": "2019-02-10T18:11:57.647Z",
+      "accessTime": "2019-02-10T22:54:07.984Z",
       "changeTime": "2019-01-28T00:45:47.404Z",
       "birthTime": "2019-01-28T00:45:47.404Z",
       "root": "/",
@@ -1808,11 +1892,11 @@
       "blksize": 4096,
       "ino": 8602527120,
       "blocks": 48,
-      "atimeMs": 1549822317646.7769,
+      "atimeMs": 1549839247984.2986,
       "mtimeMs": 1548636347404.155,
       "ctimeMs": 1548636347404.155,
       "birthtimeMs": 1548636347403.95,
-      "atime": "2019-02-10T18:11:57.647Z",
+      "atime": "2019-02-10T22:54:07.984Z",
       "mtime": "2019-01-28T00:45:47.404Z",
       "ctime": "2019-01-28T00:45:47.404Z",
       "birthtime": "2019-01-28T00:45:47.404Z"
@@ -1835,7 +1919,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-02-02T16:37:52.577Z",
-      "accessTime": "2019-02-10T18:12:00.666Z",
+      "accessTime": "2019-02-10T22:54:11.771Z",
       "changeTime": "2019-02-02T16:38:09.828Z",
       "birthTime": "2019-02-02T16:37:52.567Z",
       "root": "/",
@@ -1853,14 +1937,71 @@
       "blksize": 4096,
       "ino": 8603085283,
       "blocks": 8,
-      "atimeMs": 1549822320665.8699,
+      "atimeMs": 1549839251770.5427,
       "mtimeMs": 1549125472577.4873,
       "ctimeMs": 1549125489828.3196,
       "birthtimeMs": 1549125472567.3447,
-      "atime": "2019-02-10T18:12:00.666Z",
+      "atime": "2019-02-10T22:54:11.771Z",
       "mtime": "2019-02-02T16:37:52.577Z",
       "ctime": "2019-02-02T16:38:09.828Z",
       "birthtime": "2019-02-02T16:37:52.567Z"
+    },
+    "dbd10f3c-0011-55b5-ab23-50f23f77bec4": {
+      "id": "dbd10f3c-0011-55b5-ab23-50f23f77bec4",
+      "children": [
+        "5396f530-0333-5b1a-b030-0e894521c965"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a58d56c07890042a3ee5550364410d0e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 120,
+      "prettySize": "120 B",
+      "modifiedTime": "2019-02-02T18:23:45.482Z",
+      "accessTime": "2019-02-10T22:54:11.771Z",
+      "changeTime": "2019-02-02T18:23:53.878Z",
+      "birthTime": "2019-02-02T18:23:45.482Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603097964,
+      "blocks": 8,
+      "atimeMs": 1549839251770.5713,
+      "mtimeMs": 1549131825481.9692,
+      "ctimeMs": 1549131833878.3313,
+      "birthtimeMs": 1549131825481.712,
+      "atime": "2019-02-10T22:54:11.771Z",
+      "mtime": "2019-02-02T18:23:45.482Z",
+      "ctime": "2019-02-02T18:23:53.878Z",
+      "birthtime": "2019-02-02T18:23:45.482Z"
+    },
+    "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a": {
+      "id": "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a",
+      "children": [],
+      "parent": "941d6726-7490-5573-85db-e714efdba0ed",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "5396f530-0333-5b1a-b030-0e894521c965": {
       "id": "5396f530-0333-5b1a-b030-0e894521c965",
@@ -1872,12 +2013,59 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a": {
-      "id": "f7b2e0f0-3577-5f8f-b94f-680c7aa99f2a",
-      "children": [],
-      "parent": "941d6726-7490-5573-85db-e714efdba0ed",
+    "f2115d80-3656-5964-b996-ba2f0a757a25": {
+      "id": "f2115d80-3656-5964-b996-ba2f0a757a25",
+      "children": [
+        "0cb07786-9d2d-5915-bf74-d920d84de1a5"
+      ],
+      "parent": null,
       "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/motherboard-screenshot.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/motherboard-screenshot.png",
+      "relativePath": "motherboard-screenshot.png",
+      "extension": "png",
+      "size": 815482,
+      "prettySize": "815 kB",
+      "modifiedTime": "2019-02-10T20:16:54.208Z",
+      "accessTime": "2019-02-10T23:29:03.846Z",
+      "changeTime": "2019-02-10T20:17:34.783Z",
+      "birthTime": "2019-02-10T20:16:54.208Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "motherboard-screenshot.png",
+      "ext": ".png",
+      "name": "motherboard-screenshot",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603270910,
+      "blocks": 1600,
+      "atimeMs": 1549841343846.2585,
+      "mtimeMs": 1549829814208.415,
+      "ctimeMs": 1549829854782.6575,
+      "birthtimeMs": 1549829814208.0933,
+      "atime": "2019-02-10T23:29:03.846Z",
+      "mtime": "2019-02-10T20:16:54.208Z",
+      "ctime": "2019-02-10T20:17:34.783Z",
+      "birthtime": "2019-02-10T20:16:54.208Z"
+    },
+    "0cb07786-9d2d-5915-bf74-d920d84de1a5": {
+      "id": "0cb07786-9d2d-5915-bf74-d920d84de1a5",
+      "children": [],
+      "parent": "f2115d80-3656-5964-b996-ba2f0a757a25",
+      "internal": {
+        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1902,7 +2090,7 @@
       "size": 3123696,
       "prettySize": "3.12 MB",
       "modifiedTime": "2019-02-09T03:42:04.426Z",
-      "accessTime": "2019-02-10T18:14:44.993Z",
+      "accessTime": "2019-02-10T23:29:03.809Z",
       "changeTime": "2019-02-09T03:43:59.287Z",
       "birthTime": "2019-02-09T03:42:04.425Z",
       "root": "/",
@@ -1920,11 +2108,11 @@
       "blksize": 4096,
       "ino": 8603237113,
       "blocks": 6104,
-      "atimeMs": 1549822484992.6924,
+      "atimeMs": 1549841343809.1086,
       "mtimeMs": 1549683724425.579,
       "ctimeMs": 1549683839286.5305,
       "birthtimeMs": 1549683724424.5964,
-      "atime": "2019-02-10T18:14:44.993Z",
+      "atime": "2019-02-10T23:29:03.809Z",
       "mtime": "2019-02-09T03:42:04.426Z",
       "ctime": "2019-02-09T03:43:59.287Z",
       "birthtime": "2019-02-09T03:42:04.425Z"
@@ -1944,7 +2132,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "74f852280aa8e16749b18aafee8830d5",
+        "contentDigest": "c1349bb24e445c38061a0781a87f97a3",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -1956,7 +2144,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-10T20:19:43.301Z",
-      "accessTime": "2019-02-10T22:54:07.562Z",
+      "accessTime": "2019-02-10T23:56:11.488Z",
       "changeTime": "2019-02-10T20:19:43.301Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -1974,138 +2162,14 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1549839247561.6875,
+      "atimeMs": 1549842971488.4126,
       "mtimeMs": 1549829983301.1035,
       "ctimeMs": 1549829983301.1035,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-10T22:54:07.562Z",
+      "atime": "2019-02-10T23:56:11.488Z",
       "mtime": "2019-02-10T20:19:43.301Z",
       "ctime": "2019-02-10T20:19:43.301Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
-    },
-    "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1": {
-      "id": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
-      "children": [
-        "5cd8612b-fb02-5f07-aada-eb46339b4d90"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "5ee33f62835948f1795a82eeda5e92d9",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/portfolio-items/iit-international-travel-brochure.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "portfolio-items",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md",
-      "relativePath": "iit-international-travel-brochure.md",
-      "extension": "md",
-      "size": 273,
-      "prettySize": "273 B",
-      "modifiedTime": "2019-02-10T17:59:42.641Z",
-      "accessTime": "2019-02-10T18:11:57.647Z",
-      "changeTime": "2019-02-10T17:59:42.641Z",
-      "birthTime": "2019-02-07T02:53:55.986Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
-      "base": "iit-international-travel-brochure.md",
-      "ext": ".md",
-      "name": "iit-international-travel-brochure",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603185249,
-      "blocks": 8,
-      "atimeMs": 1549822317647.26,
-      "mtimeMs": 1549821582641.081,
-      "ctimeMs": 1549821582641.081,
-      "birthtimeMs": 1549508035986.0767,
-      "atime": "2019-02-10T18:11:57.647Z",
-      "mtime": "2019-02-10T17:59:42.641Z",
-      "ctime": "2019-02-10T17:59:42.641Z",
-      "birthtime": "2019-02-07T02:53:55.986Z"
-    },
-    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
-      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
-      "children": [],
-      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
-      "internal": {
-        "content": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
-        "type": "MarkdownRemark",
-        "contentDigest": "7a188865612149ccc313323c8e7cbc1f",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "IIT International Travel Brochure",
-        "slug": "/iit-international-travel-brochure",
-        "hero": "./../images/IIT-intl.png",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
-    },
-    "f2115d80-3656-5964-b996-ba2f0a757a25": {
-      "id": "f2115d80-3656-5964-b996-ba2f0a757a25",
-      "children": [
-        "0cb07786-9d2d-5915-bf74-d920d84de1a5"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/motherboard-screenshot.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/motherboard-screenshot.png",
-      "relativePath": "motherboard-screenshot.png",
-      "extension": "png",
-      "size": 815482,
-      "prettySize": "815 kB",
-      "modifiedTime": "2019-02-10T20:16:54.208Z",
-      "accessTime": "2019-02-10T20:17:19.692Z",
-      "changeTime": "2019-02-10T20:17:34.783Z",
-      "birthTime": "2019-02-10T20:16:54.208Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "motherboard-screenshot.png",
-      "ext": ".png",
-      "name": "motherboard-screenshot",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603270910,
-      "blocks": 1600,
-      "atimeMs": 1549829839691.9126,
-      "mtimeMs": 1549829814208.415,
-      "ctimeMs": 1549829854782.6575,
-      "birthtimeMs": 1549829814208.0933,
-      "atime": "2019-02-10T20:17:19.692Z",
-      "mtime": "2019-02-10T20:16:54.208Z",
-      "ctime": "2019-02-10T20:17:34.783Z",
-      "birthtime": "2019-02-10T20:16:54.208Z"
-    },
-    "0cb07786-9d2d-5915-bf74-d920d84de1a5": {
-      "id": "0cb07786-9d2d-5915-bf74-d920d84de1a5",
-      "children": [],
-      "parent": "f2115d80-3656-5964-b996-ba2f0a757a25",
-      "internal": {
-        "contentDigest": "51b3187c977a05fe7d19bf643bbf5716",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "ccddff91-752c-5394-9cfc-cc1a01056576": {
       "id": "ccddff91-752c-5394-9cfc-cc1a01056576",
@@ -2127,7 +2191,7 @@
       "size": 341,
       "prettySize": "341 B",
       "modifiedTime": "2019-02-10T20:22:21.081Z",
-      "accessTime": "2019-02-10T20:22:21.080Z",
+      "accessTime": "2019-02-10T22:54:07.985Z",
       "changeTime": "2019-02-10T20:22:21.081Z",
       "birthTime": "2019-02-10T20:18:17.002Z",
       "root": "/",
@@ -2145,14 +2209,61 @@
       "blksize": 4096,
       "ino": 8603270986,
       "blocks": 8,
-      "atimeMs": 1549830141080.2002,
+      "atimeMs": 1549839247984.872,
       "mtimeMs": 1549830141080.5957,
       "ctimeMs": 1549830141080.5957,
       "birthtimeMs": 1549829897001.5728,
-      "atime": "2019-02-10T20:22:21.080Z",
+      "atime": "2019-02-10T22:54:07.985Z",
       "mtime": "2019-02-10T20:22:21.081Z",
       "ctime": "2019-02-10T20:22:21.081Z",
       "birthtime": "2019-02-10T20:18:17.002Z"
+    },
+    "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1": {
+      "id": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
+      "children": [
+        "5cd8612b-fb02-5f07-aada-eb46339b4d90"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5ee33f62835948f1795a82eeda5e92d9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/iit-international-travel-brochure.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md",
+      "relativePath": "iit-international-travel-brochure.md",
+      "extension": "md",
+      "size": 273,
+      "prettySize": "273 B",
+      "modifiedTime": "2019-02-10T17:59:42.641Z",
+      "accessTime": "2019-02-10T22:54:07.985Z",
+      "changeTime": "2019-02-10T17:59:42.641Z",
+      "birthTime": "2019-02-07T02:53:55.986Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "iit-international-travel-brochure.md",
+      "ext": ".md",
+      "name": "iit-international-travel-brochure",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603185249,
+      "blocks": 8,
+      "atimeMs": 1549839247984.8464,
+      "mtimeMs": 1549821582641.081,
+      "ctimeMs": 1549821582641.081,
+      "birthtimeMs": 1549508035986.0767,
+      "atime": "2019-02-10T22:54:07.985Z",
+      "mtime": "2019-02-10T17:59:42.641Z",
+      "ctime": "2019-02-10T17:59:42.641Z",
+      "birthtime": "2019-02-07T02:53:55.986Z"
     },
     "143b335a-4a76-5f12-988a-4d5ae2c14890": {
       "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
@@ -2174,27 +2285,114 @@
       "rawMarkdownBody": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     },
-    "SitePage /portfolio-items/iit-international-travel-brochure": {
-      "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
-      "internalComponentName": "ComponentPortfolioItemsIitInternationalTravelBrochure",
-      "path": "/portfolio-items/iit-international-travel-brochure",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/iit-international-travel-brochure"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/iit-international-travel-brochure",
-      "parent": null,
+    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
+      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
       "children": [],
+      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "e9bf52a522391465d75035dbdd4a0e1b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
+        "content": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
+        "type": "MarkdownRemark",
+        "contentDigest": "7a188865612149ccc313323c8e7cbc1f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "IIT International Travel Brochure",
+        "slug": "/iit-international-travel-brochure",
+        "hero": "./../images/IIT-intl.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
+    },
+    "1ec8ab32-098f-53ff-b160-d1fb9797c3bf": {
+      "id": "1ec8ab32-098f-53ff-b160-d1fb9797c3bf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3266420bbce90b5b0915f0537b493f60",
+        "type": "Directory",
+        "description": "Directory \"src/pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-10T23:51:17.790Z",
+      "accessTime": "2019-02-10T23:56:11.514Z",
+      "changeTime": "2019-02-10T23:51:17.790Z",
+      "birthTime": "2019-02-10T23:51:14.443Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src",
+      "base": "pdf",
+      "ext": "",
+      "name": "pdf",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603281075,
+      "blocks": 0,
+      "atimeMs": 1549842971513.6543,
+      "mtimeMs": 1549842677790.176,
+      "ctimeMs": 1549842677790.176,
+      "birthtimeMs": 1549842674442.7078,
+      "atime": "2019-02-10T23:56:11.514Z",
+      "mtime": "2019-02-10T23:51:17.790Z",
+      "ctime": "2019-02-10T23:51:17.790Z",
+      "birthtime": "2019-02-10T23:51:14.443Z"
+    },
+    "fff83ef1-ed10-548b-80cf-8b51b304afc6": {
+      "id": "fff83ef1-ed10-548b-80cf-8b51b304afc6",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "23a1350fe34e1f65f72e703433a65956",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/MINES.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/MINES.pdf",
+      "relativePath": "MINES.pdf",
+      "extension": "pdf",
+      "size": 1674769,
+      "prettySize": "1.67 MB",
+      "modifiedTime": "2019-02-10T23:51:01.810Z",
+      "accessTime": "2019-02-10T23:52:36.079Z",
+      "changeTime": "2019-02-10T23:51:17.881Z",
+      "birthTime": "2019-02-10T23:51:01.126Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "MINES.pdf",
+      "ext": ".pdf",
+      "name": "MINES",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603281032,
+      "blocks": 3272,
+      "atimeMs": 1549842756079.3337,
+      "mtimeMs": 1549842661810.3057,
+      "ctimeMs": 1549842677881.2927,
+      "birthtimeMs": 1549842661126.3738,
+      "atime": "2019-02-10T23:52:36.079Z",
+      "mtime": "2019-02-10T23:51:01.810Z",
+      "ctime": "2019-02-10T23:51:17.881Z",
+      "birthtime": "2019-02-10T23:51:01.126Z"
     },
     "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
       "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
@@ -2214,6 +2412,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "b6d74db11401bf550781c351af2210a0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/iit-international-travel-brochure": {
+      "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
+      "internalComponentName": "ComponentPortfolioItemsIitInternationalTravelBrochure",
+      "path": "/portfolio-items/iit-international-travel-brochure",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/iit-international-travel-brochure"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/iit-international-travel-brochure",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e9bf52a522391465d75035dbdd4a0e1b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2337,11 +2557,56 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "8bebf74c-5a48-5653-971d-312f5019bb0b": {
+      "id": "8bebf74c-5a48-5653-971d-312f5019bb0b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4975d7f4ce5ad6727a995d6e80b4a392",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/Christine_Kanownik_Resume.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/Christine_Kanownik_Resume.pdf",
+      "relativePath": "Christine_Kanownik_Resume.pdf",
+      "extension": "pdf",
+      "size": 83669,
+      "prettySize": "83.7 kB",
+      "modifiedTime": "2019-02-11T00:15:11.334Z",
+      "accessTime": "2019-02-11T00:15:11.207Z",
+      "changeTime": "2019-02-11T00:15:15.846Z",
+      "birthTime": "2019-02-11T00:15:11.207Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "Christine_Kanownik_Resume.pdf",
+      "ext": ".pdf",
+      "name": "Christine_Kanownik_Resume",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603284180,
+      "blocks": 168,
+      "atimeMs": 1549844111207.3335,
+      "mtimeMs": 1549844111333.6033,
+      "ctimeMs": 1549844115845.626,
+      "birthtimeMs": 1549844111207.3335,
+      "atime": "2019-02-11T00:15:11.207Z",
+      "mtime": "2019-02-11T00:15:11.334Z",
+      "ctime": "2019-02-11T00:15:15.846Z",
+      "birthtime": "2019-02-11T00:15:11.207Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4bbea8651d1b55f26b7853ed05b36d06"
+    "PLUGINS_HASH": "22cc9280f2a993c8c3b4f94a9173db8a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2349,37 +2614,39 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "5cd8612b-fb02-5f07-aada-eb46339b4d90": [
-        "/",
-        "/portfolio-items/iit-international-travel-brochure"
+      "f2115d80-3656-5964-b996-ba2f0a757a25": [
+        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "sq--src-pages-portfolio-js"
       ],
       "919c9dcf-6ec5-50b9-b5fc-0018504b8183": [
-        "/",
         "/portfolio-items/iit-international-travel-brochure",
         "sq--src-pages-portfolio-js"
       ],
+      "0cb07786-9d2d-5915-bf74-d920d84de1a5": [
+        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "sq--src-pages-portfolio-js"
+      ],
       "15a4d724-e84a-5385-8864-35d3ac942fcb": [
-        "/",
         "/portfolio-items/iit-international-travel-brochure",
         "sq--src-pages-portfolio-js"
       ],
       "143b335a-4a76-5f12-988a-4d5ae2c14890": [
         "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
       ],
-      "f2115d80-3656-5964-b996-ba2f0a757a25": [
-        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "sq--src-pages-portfolio-js"
+      "5cd8612b-fb02-5f07-aada-eb46339b4d90": [
+        "/portfolio-items/iit-international-travel-brochure"
       ],
-      "0cb07786-9d2d-5915-bf74-d920d84de1a5": [
-        "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "sq--src-pages-portfolio-js"
+      "941d6726-7490-5573-85db-e714efdba0ed": [
+        "/"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
-        null,
         "sq--src-pages-portfolio-js"
+      ],
+      "File": [
+        null
       ]
     }
   },
@@ -2438,14 +2705,6 @@
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
       "hash": 3436215879
     },
-    "sq--src-components-seo-js": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
-      "hash": 1315885718
-    },
     "sq--src-components-image-js": {
       "name": "usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/image.js",
@@ -2453,6 +2712,14 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query usersBrettCimbalikCodeCkSiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
+      "hash": 1315885718
     },
     "sq--src-pages-portfolio-js": {
       "name": "PortfolioQuery",
