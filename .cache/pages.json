@@ -26,6 +26,21 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-an-interview-with-vincent-sherry-988",
+        "path": "/portfolio-items/an-interview-with-vincent-sherry"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c",
+        "path": "/portfolio-items/cambridge-companions-from-cambridge University-press"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-completed-application-next-steps-35b",
+        "path": "/portfolio-items/completed-application-next-steps"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
         "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
     },
@@ -33,6 +48,21 @@
         "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
         "path": "/portfolio-items/iit-international-travel-brochure"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-shakespeare-at-cambridge-035",
+        "path": "/portfolio-items/shakespeare-at-cambridge"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-shakespeare-from-cambridge-4c4",
+        "path": "/portfolio-items/shakespeare-from-cambridge"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-the-hidden-jane-austen-de6",
+        "path": "/portfolio-items/the-hidden-jane-austen"
     },
     {
         "componentChunkName": "component---src-pages-portfolio-js",

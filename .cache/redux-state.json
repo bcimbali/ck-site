@@ -1800,12 +1800,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-12T01:35:45.602Z",
+      "buildTime": "2019-02-12T03:08:05.393Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "14331a5967ce9c97d3cad08d74d10152",
+        "contentDigest": "feae82aabb63ebf79f7c3b4f5773a25b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1815,7 +1815,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "9f803a3a2f1ccab301311f3e8d056e51",
+        "contentDigest": "38fe016f01c1534bf00f0563ecc005d6",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1824,11 +1824,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2019-02-10T20:17:34.783Z",
-      "accessTime": "2019-02-12T01:35:50.609Z",
-      "changeTime": "2019-02-10T20:17:34.783Z",
+      "size": 416,
+      "prettySize": "416 B",
+      "modifiedTime": "2019-02-12T03:05:11.063Z",
+      "accessTime": "2019-02-12T03:08:08.025Z",
+      "changeTime": "2019-02-12T03:05:11.063Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1838,20 +1838,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 13,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549935350608.8767,
-      "mtimeMs": 1549829854782.6575,
-      "ctimeMs": 1549829854782.6575,
+      "atimeMs": 1549940888025.2373,
+      "mtimeMs": 1549940711062.629,
+      "ctimeMs": 1549940711062.629,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-12T01:35:50.609Z",
-      "mtime": "2019-02-10T20:17:34.783Z",
-      "ctime": "2019-02-10T20:17:34.783Z",
+      "atime": "2019-02-12T03:08:08.025Z",
+      "mtime": "2019-02-12T03:05:11.063Z",
+      "ctime": "2019-02-12T03:05:11.063Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
@@ -2132,7 +2132,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "f674a8c1252a51b6c82e182147f6d509",
+        "contentDigest": "97f1f1c53524aa56b62b8c9e32d75d2b",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -2141,11 +2141,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-02-10T20:19:43.301Z",
-      "accessTime": "2019-02-12T01:35:50.635Z",
-      "changeTime": "2019-02-10T20:19:43.301Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2019-02-12T03:05:26.129Z",
+      "accessTime": "2019-02-12T03:08:08.052Z",
+      "changeTime": "2019-02-12T03:05:26.129Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -2155,20 +2155,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1549935350635.491,
-      "mtimeMs": 1549829983301.1035,
-      "ctimeMs": 1549829983301.1035,
+      "atimeMs": 1549940888052.2695,
+      "mtimeMs": 1549940726129.1152,
+      "ctimeMs": 1549940726129.1152,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-12T01:35:50.635Z",
-      "mtime": "2019-02-10T20:19:43.301Z",
-      "ctime": "2019-02-10T20:19:43.301Z",
+      "atime": "2019-02-12T03:08:08.052Z",
+      "mtime": "2019-02-12T03:05:26.129Z",
+      "ctime": "2019-02-12T03:05:26.129Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
     },
     "ccddff91-752c-5394-9cfc-cc1a01056576": {
@@ -2310,7 +2310,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "5b05a08aca588f6d083ce3c939ad5f99",
+        "contentDigest": "0c3e8f17bf4f3a646bb79c3ae5918c87",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -2322,7 +2322,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-12T01:32:00.838Z",
-      "accessTime": "2019-02-12T01:35:50.640Z",
+      "accessTime": "2019-02-12T03:08:08.061Z",
       "changeTime": "2019-02-12T01:32:00.838Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -2340,11 +2340,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1549935350639.708,
+      "atimeMs": 1549940888061.4272,
       "mtimeMs": 1549935120837.9429,
       "ctimeMs": 1549935120837.9429,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-12T01:35:50.640Z",
+      "atime": "2019-02-12T03:08:08.061Z",
       "mtime": "2019-02-12T01:32:00.838Z",
       "ctime": "2019-02-12T01:32:00.838Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -2484,6 +2484,750 @@
       "ctime": "2019-02-12T01:32:00.921Z",
       "birthtime": "2019-02-12T01:31:47.525Z"
     },
+    "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0": {
+      "id": "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0",
+      "children": [
+        "01e40782-045b-5f7d-be9f-ee0f05fd4811"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cd29883d106660ecea152b20ac7a3dbd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/shakespeare-at-cambridge.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/shakespeare-at-cambridge.jpg",
+      "relativePath": "shakespeare-at-cambridge.jpg",
+      "extension": "jpg",
+      "size": 164860,
+      "prettySize": "165 kB",
+      "modifiedTime": "2019-02-12T02:11:17.883Z",
+      "accessTime": "2019-02-12T02:15:40.473Z",
+      "changeTime": "2019-02-12T02:15:39.233Z",
+      "birthTime": "2019-02-12T02:11:17.831Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "shakespeare-at-cambridge.jpg",
+      "ext": ".jpg",
+      "name": "shakespeare-at-cambridge",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603291917,
+      "blocks": 328,
+      "atimeMs": 1549937740473.4468,
+      "mtimeMs": 1549937477883.3838,
+      "ctimeMs": 1549937739232.9282,
+      "birthtimeMs": 1549937477831.3928,
+      "atime": "2019-02-12T02:15:40.473Z",
+      "mtime": "2019-02-12T02:11:17.883Z",
+      "ctime": "2019-02-12T02:15:39.233Z",
+      "birthtime": "2019-02-12T02:11:17.831Z"
+    },
+    "01e40782-045b-5f7d-be9f-ee0f05fd4811": {
+      "id": "01e40782-045b-5f7d-be9f-ee0f05fd4811",
+      "children": [],
+      "parent": "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0",
+      "internal": {
+        "contentDigest": "cd29883d106660ecea152b20ac7a3dbd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3": {
+      "id": "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3",
+      "children": [
+        "e1b39c19-6558-50c9-96a1-83f2908a1902"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "89b7fa259d8dde05f0fd72ce6c519e14",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/shakespeare-at-cambridge.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-at-cambridge.md",
+      "relativePath": "shakespeare-at-cambridge.md",
+      "extension": "md",
+      "size": 242,
+      "prettySize": "242 B",
+      "modifiedTime": "2019-02-12T02:15:53.808Z",
+      "accessTime": "2019-02-12T02:15:53.808Z",
+      "changeTime": "2019-02-12T02:15:53.808Z",
+      "birthTime": "2019-02-12T02:13:44.647Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "shakespeare-at-cambridge.md",
+      "ext": ".md",
+      "name": "shakespeare-at-cambridge",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603292054,
+      "blocks": 8,
+      "atimeMs": 1549937753807.9104,
+      "mtimeMs": 1549937753808.3384,
+      "ctimeMs": 1549937753808.3384,
+      "birthtimeMs": 1549937624647.0642,
+      "atime": "2019-02-12T02:15:53.808Z",
+      "mtime": "2019-02-12T02:15:53.808Z",
+      "ctime": "2019-02-12T02:15:53.808Z",
+      "birthtime": "2019-02-12T02:13:44.647Z"
+    },
+    "e1b39c19-6558-50c9-96a1-83f2908a1902": {
+      "id": "e1b39c19-6558-50c9-96a1-83f2908a1902",
+      "children": [],
+      "parent": "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3",
+      "internal": {
+        "content": "\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
+        "type": "MarkdownRemark",
+        "contentDigest": "ea4cb0e29e223e6323357a3324fc0d5c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare at Cambridge",
+        "slug": "/shakespeare-at-cambridge",
+        "hero": "./../images/shakespeare-at-cambridge.jpg",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-at-cambridge.md"
+    },
+    "567d3b14-743d-5f39-bef3-934aaaacbcff": {
+      "id": "567d3b14-743d-5f39-bef3-934aaaacbcff",
+      "children": [
+        "7715bab7-7307-5b14-a35a-29ed7899a881"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "db9955f2dc6e703cae27b775cdf77d42",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/cambridge-companions-from-cambridge University-press.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/cambridge-companions-from-cambridge University-press.jpg",
+      "relativePath": "cambridge-companions-from-cambridge University-press.jpg",
+      "extension": "jpg",
+      "size": 119487,
+      "prettySize": "119 kB",
+      "modifiedTime": "2019-02-12T02:22:50.954Z",
+      "accessTime": "2019-02-12T02:30:08.696Z",
+      "changeTime": "2019-02-12T02:30:07.456Z",
+      "birthTime": "2019-02-12T02:22:50.917Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "cambridge-companions-from-cambridge University-press.jpg",
+      "ext": ".jpg",
+      "name": "cambridge-companions-from-cambridge University-press",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603292458,
+      "blocks": 240,
+      "atimeMs": 1549938608696.4475,
+      "mtimeMs": 1549938170953.8235,
+      "ctimeMs": 1549938607456.3884,
+      "birthtimeMs": 1549938170916.5608,
+      "atime": "2019-02-12T02:30:08.696Z",
+      "mtime": "2019-02-12T02:22:50.954Z",
+      "ctime": "2019-02-12T02:30:07.456Z",
+      "birthtime": "2019-02-12T02:22:50.917Z"
+    },
+    "7715bab7-7307-5b14-a35a-29ed7899a881": {
+      "id": "7715bab7-7307-5b14-a35a-29ed7899a881",
+      "children": [],
+      "parent": "567d3b14-743d-5f39-bef3-934aaaacbcff",
+      "internal": {
+        "contentDigest": "db9955f2dc6e703cae27b775cdf77d42",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d34d7226-0f38-589b-bd61-2ce4782d24d2": {
+      "id": "d34d7226-0f38-589b-bd61-2ce4782d24d2",
+      "children": [
+        "2dcb6874-75c3-567b-9449-e1cdf3d51d75"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f05f336d64fa6fbc5776bf31af4964b3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/cambridge-companions.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/cambridge-companions.md",
+      "relativePath": "cambridge-companions.md",
+      "extension": "md",
+      "size": 411,
+      "prettySize": "411 B",
+      "modifiedTime": "2019-02-12T02:31:29.082Z",
+      "accessTime": "2019-02-12T02:31:29.080Z",
+      "changeTime": "2019-02-12T02:31:29.082Z",
+      "birthTime": "2019-02-12T02:30:25.680Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "cambridge-companions.md",
+      "ext": ".md",
+      "name": "cambridge-companions",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603293006,
+      "blocks": 8,
+      "atimeMs": 1549938689079.6973,
+      "mtimeMs": 1549938689081.9941,
+      "ctimeMs": 1549938689081.9941,
+      "birthtimeMs": 1549938625679.586,
+      "atime": "2019-02-12T02:31:29.080Z",
+      "mtime": "2019-02-12T02:31:29.082Z",
+      "ctime": "2019-02-12T02:31:29.082Z",
+      "birthtime": "2019-02-12T02:30:25.680Z"
+    },
+    "2dcb6874-75c3-567b-9449-e1cdf3d51d75": {
+      "id": "2dcb6874-75c3-567b-9449-e1cdf3d51d75",
+      "children": [],
+      "parent": "d34d7226-0f38-589b-bd61-2ce4782d24d2",
+      "internal": {
+        "content": "\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
+        "type": "MarkdownRemark",
+        "contentDigest": "1a3ef2a24880265208a6fcc42d0b8e22",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Cambridge Companions from Cambridge University Press",
+        "slug": "/cambridge-companions-from-cambridge University-press",
+        "hero": "./../images/cambridge-companions-from-cambridge University-press.jpg",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/cambridge-companions.md"
+    },
+    "410bfd62-bbd2-598d-8728-208ef4f91d80": {
+      "id": "410bfd62-bbd2-598d-8728-208ef4f91d80",
+      "children": [
+        "a14b1df1-1a73-5cbb-8267-cf13529f4074"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b094a99cc66bdab77f0b36be0b770927",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/shakespeare-from-cambridge.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/shakespeare-from-cambridge.jpg",
+      "relativePath": "shakespeare-from-cambridge.jpg",
+      "extension": "jpg",
+      "size": 118317,
+      "prettySize": "118 kB",
+      "modifiedTime": "2019-02-12T02:38:30.535Z",
+      "accessTime": "2019-02-12T02:42:16.207Z",
+      "changeTime": "2019-02-12T02:42:14.967Z",
+      "birthTime": "2019-02-12T02:38:30.491Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "shakespeare-from-cambridge.jpg",
+      "ext": ".jpg",
+      "name": "shakespeare-from-cambridge",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603293482,
+      "blocks": 232,
+      "atimeMs": 1549939336206.8113,
+      "mtimeMs": 1549939110535.38,
+      "ctimeMs": 1549939334966.6467,
+      "birthtimeMs": 1549939110491.4868,
+      "atime": "2019-02-12T02:42:16.207Z",
+      "mtime": "2019-02-12T02:38:30.535Z",
+      "ctime": "2019-02-12T02:42:14.967Z",
+      "birthtime": "2019-02-12T02:38:30.491Z"
+    },
+    "a14b1df1-1a73-5cbb-8267-cf13529f4074": {
+      "id": "a14b1df1-1a73-5cbb-8267-cf13529f4074",
+      "children": [],
+      "parent": "410bfd62-bbd2-598d-8728-208ef4f91d80",
+      "internal": {
+        "contentDigest": "b094a99cc66bdab77f0b36be0b770927",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1db07cae-307b-55b0-821c-83da1b048501": {
+      "id": "1db07cae-307b-55b0-821c-83da1b048501",
+      "children": [
+        "221338c0-9e2e-5f54-a281-134159e19641"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d5ba84dd6414f293e758bc121c67529a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/shakespeare-from-cambridge.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-from-cambridge.md",
+      "relativePath": "shakespeare-from-cambridge.md",
+      "extension": "md",
+      "size": 291,
+      "prettySize": "291 B",
+      "modifiedTime": "2019-02-12T02:43:45.304Z",
+      "accessTime": "2019-02-12T02:43:45.304Z",
+      "changeTime": "2019-02-12T02:43:45.304Z",
+      "birthTime": "2019-02-12T02:42:28.276Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "shakespeare-from-cambridge.md",
+      "ext": ".md",
+      "name": "shakespeare-from-cambridge",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603294172,
+      "blocks": 8,
+      "atimeMs": 1549939425303.939,
+      "mtimeMs": 1549939425304.2705,
+      "ctimeMs": 1549939425304.2705,
+      "birthtimeMs": 1549939348276.1897,
+      "atime": "2019-02-12T02:43:45.304Z",
+      "mtime": "2019-02-12T02:43:45.304Z",
+      "ctime": "2019-02-12T02:43:45.304Z",
+      "birthtime": "2019-02-12T02:42:28.276Z"
+    },
+    "221338c0-9e2e-5f54-a281-134159e19641": {
+      "id": "221338c0-9e2e-5f54-a281-134159e19641",
+      "children": [],
+      "parent": "1db07cae-307b-55b0-821c-83da1b048501",
+      "internal": {
+        "content": "\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
+        "type": "MarkdownRemark",
+        "contentDigest": "a39d50ad0400ff08aaae1e085b7c33df",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare from Cambridge",
+        "slug": "/shakespeare-from-cambridge",
+        "hero": "./../images/shakespeare-from-cambridge.jpg",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-from-cambridge.md"
+    },
+    "77f4b5bf-948b-5872-bd42-6e373466da80": {
+      "id": "77f4b5bf-948b-5872-bd42-6e373466da80",
+      "children": [
+        "a8bd7acb-a398-5e15-94b5-6fef17ccf768"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9a0e44e6a301ff3b220e01e995b864ac",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/an-interview-with-vincent-sherry.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/an-interview-with-vincent-sherry.jpg",
+      "relativePath": "an-interview-with-vincent-sherry.jpg",
+      "extension": "jpg",
+      "size": 63446,
+      "prettySize": "63.4 kB",
+      "modifiedTime": "2019-02-12T02:50:59.782Z",
+      "accessTime": "2019-02-12T02:52:05.636Z",
+      "changeTime": "2019-02-12T02:52:11.066Z",
+      "birthTime": "2019-02-12T02:50:59.754Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "an-interview-with-vincent-sherry.jpg",
+      "ext": ".jpg",
+      "name": "an-interview-with-vincent-sherry",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603294557,
+      "blocks": 128,
+      "atimeMs": 1549939925635.7402,
+      "mtimeMs": 1549939859781.6953,
+      "ctimeMs": 1549939931065.7722,
+      "birthtimeMs": 1549939859753.7844,
+      "atime": "2019-02-12T02:52:05.636Z",
+      "mtime": "2019-02-12T02:50:59.782Z",
+      "ctime": "2019-02-12T02:52:11.066Z",
+      "birthtime": "2019-02-12T02:50:59.754Z"
+    },
+    "a8bd7acb-a398-5e15-94b5-6fef17ccf768": {
+      "id": "a8bd7acb-a398-5e15-94b5-6fef17ccf768",
+      "children": [],
+      "parent": "77f4b5bf-948b-5872-bd42-6e373466da80",
+      "internal": {
+        "contentDigest": "9a0e44e6a301ff3b220e01e995b864ac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3624665b-7f8b-5b74-a49f-ca386c9e254e": {
+      "id": "3624665b-7f8b-5b74-a49f-ca386c9e254e",
+      "children": [
+        "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "841035ace1e06b5d9e8add4f0b5134df",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/an-interview-with-vincent-sherry.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/an-interview-with-vincent-sherry.md",
+      "relativePath": "an-interview-with-vincent-sherry.md",
+      "extension": "md",
+      "size": 715,
+      "prettySize": "715 B",
+      "modifiedTime": "2019-02-12T02:59:37.758Z",
+      "accessTime": "2019-02-12T02:59:37.758Z",
+      "changeTime": "2019-02-12T02:59:37.758Z",
+      "birthTime": "2019-02-12T02:52:25.209Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "an-interview-with-vincent-sherry.md",
+      "ext": ".md",
+      "name": "an-interview-with-vincent-sherry",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603294843,
+      "blocks": 8,
+      "atimeMs": 1549940377757.754,
+      "mtimeMs": 1549940377758.0889,
+      "ctimeMs": 1549940377758.0889,
+      "birthtimeMs": 1549939945208.8943,
+      "atime": "2019-02-12T02:59:37.758Z",
+      "mtime": "2019-02-12T02:59:37.758Z",
+      "ctime": "2019-02-12T02:59:37.758Z",
+      "birthtime": "2019-02-12T02:52:25.209Z"
+    },
+    "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df": {
+      "id": "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df",
+      "children": [],
+      "parent": "3624665b-7f8b-5b74-a49f-ca386c9e254e",
+      "internal": {
+        "content": "\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
+        "type": "MarkdownRemark",
+        "contentDigest": "6d05c5b6da4bdd3565cd049eb6a0dc6f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "An Interview with Vincent Sherry",
+        "slug": "/an-interview-with-vincent-sherry",
+        "hero": "./../images/an-interview-with-vincent-sherry.jpg",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/an-interview-with-vincent-sherry.md"
+    },
+    "f6f021d7-5d49-52f4-8c22-57a19b693e0e": {
+      "id": "f6f021d7-5d49-52f4-8c22-57a19b693e0e",
+      "children": [
+        "e9dc0fb8-89d3-53b9-a91b-917135cb7867"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fe006258ba140c4ed1bb1440e8b9807f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/the-hidden-jane-austen.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/the-hidden-jane-austen.jpg",
+      "relativePath": "the-hidden-jane-austen.jpg",
+      "extension": "jpg",
+      "size": 203714,
+      "prettySize": "204 kB",
+      "modifiedTime": "2019-02-12T03:00:36.146Z",
+      "accessTime": "2019-02-12T03:01:04.782Z",
+      "changeTime": "2019-02-12T03:01:10.992Z",
+      "birthTime": "2019-02-12T03:00:36.089Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "the-hidden-jane-austen.jpg",
+      "ext": ".jpg",
+      "name": "the-hidden-jane-austen",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603295491,
+      "blocks": 400,
+      "atimeMs": 1549940464782.2083,
+      "mtimeMs": 1549940436146.348,
+      "ctimeMs": 1549940470992.3433,
+      "birthtimeMs": 1549940436088.8064,
+      "atime": "2019-02-12T03:01:04.782Z",
+      "mtime": "2019-02-12T03:00:36.146Z",
+      "ctime": "2019-02-12T03:01:10.992Z",
+      "birthtime": "2019-02-12T03:00:36.089Z"
+    },
+    "e9dc0fb8-89d3-53b9-a91b-917135cb7867": {
+      "id": "e9dc0fb8-89d3-53b9-a91b-917135cb7867",
+      "children": [],
+      "parent": "f6f021d7-5d49-52f4-8c22-57a19b693e0e",
+      "internal": {
+        "contentDigest": "fe006258ba140c4ed1bb1440e8b9807f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8b06ed07-9c95-576a-bc4a-6d7eff99da6b": {
+      "id": "8b06ed07-9c95-576a-bc4a-6d7eff99da6b",
+      "children": [
+        "761c073d-ba83-557f-801d-d56d5d5f1117"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8e05a3313a5d9ffec80c249a93efb6fd",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/the-hidden-jane-austen.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md",
+      "relativePath": "the-hidden-jane-austen.md",
+      "extension": "md",
+      "size": 260,
+      "prettySize": "260 B",
+      "modifiedTime": "2019-02-12T03:02:45.642Z",
+      "accessTime": "2019-02-12T03:02:45.640Z",
+      "changeTime": "2019-02-12T03:02:45.642Z",
+      "birthTime": "2019-02-12T03:01:27.614Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "the-hidden-jane-austen.md",
+      "ext": ".md",
+      "name": "the-hidden-jane-austen",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603295604,
+      "blocks": 8,
+      "atimeMs": 1549940565639.8406,
+      "mtimeMs": 1549940565641.7366,
+      "ctimeMs": 1549940565641.7366,
+      "birthtimeMs": 1549940487614.244,
+      "atime": "2019-02-12T03:02:45.640Z",
+      "mtime": "2019-02-12T03:02:45.642Z",
+      "ctime": "2019-02-12T03:02:45.642Z",
+      "birthtime": "2019-02-12T03:01:27.614Z"
+    },
+    "761c073d-ba83-557f-801d-d56d5d5f1117": {
+      "id": "761c073d-ba83-557f-801d-d56d5d5f1117",
+      "children": [],
+      "parent": "8b06ed07-9c95-576a-bc4a-6d7eff99da6b",
+      "internal": {
+        "content": "\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
+        "type": "MarkdownRemark",
+        "contentDigest": "695929c8e4c6767bc7b8037e49b477a7",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Hidden Jane Austen",
+        "slug": "/the-hidden-jane-austen",
+        "hero": "./../images/the-hidden-jane-austen.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md"
+    },
+    "489ac4b7-aada-5281-9cb0-8bf462248c6e": {
+      "id": "489ac4b7-aada-5281-9cb0-8bf462248c6e",
+      "children": [
+        "4c54b8a3-4e54-5ae2-a22a-74af31c24494"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "278a65a4213deafe5f6c7e277bf4afbd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/completed-application-next-steps.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/completed-application-next-steps.jpg",
+      "relativePath": "completed-application-next-steps.jpg",
+      "extension": "jpg",
+      "size": 66268,
+      "prettySize": "66.3 kB",
+      "modifiedTime": "2019-02-12T03:04:21.434Z",
+      "accessTime": "2019-02-12T03:05:00.408Z",
+      "changeTime": "2019-02-12T03:05:11.063Z",
+      "birthTime": "2019-02-12T03:04:21.402Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "completed-application-next-steps.jpg",
+      "ext": ".jpg",
+      "name": "completed-application-next-steps",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603295743,
+      "blocks": 136,
+      "atimeMs": 1549940700407.9766,
+      "mtimeMs": 1549940661434.212,
+      "ctimeMs": 1549940711062.629,
+      "birthtimeMs": 1549940661402.3152,
+      "atime": "2019-02-12T03:05:00.408Z",
+      "mtime": "2019-02-12T03:04:21.434Z",
+      "ctime": "2019-02-12T03:05:11.063Z",
+      "birthtime": "2019-02-12T03:04:21.402Z"
+    },
+    "4c54b8a3-4e54-5ae2-a22a-74af31c24494": {
+      "id": "4c54b8a3-4e54-5ae2-a22a-74af31c24494",
+      "children": [],
+      "parent": "489ac4b7-aada-5281-9cb0-8bf462248c6e",
+      "internal": {
+        "contentDigest": "278a65a4213deafe5f6c7e277bf4afbd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "658f5933-c2cf-5ea8-9ad9-21ea348253fc": {
+      "id": "658f5933-c2cf-5ea8-9ad9-21ea348253fc",
+      "children": [
+        "ce414ef0-aadc-5b0e-b156-85f275689e04"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8ff774b9615432ff36ca4b478f9ca281",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/completed-application-next-steps.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md",
+      "relativePath": "completed-application-next-steps.md",
+      "extension": "md",
+      "size": 362,
+      "prettySize": "362 B",
+      "modifiedTime": "2019-02-12T03:06:20.673Z",
+      "accessTime": "2019-02-12T03:06:20.672Z",
+      "changeTime": "2019-02-12T03:06:20.673Z",
+      "birthTime": "2019-02-12T03:05:26.129Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "completed-application-next-steps.md",
+      "ext": ".md",
+      "name": "completed-application-next-steps",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603295935,
+      "blocks": 8,
+      "atimeMs": 1549940780672.4326,
+      "mtimeMs": 1549940780672.8223,
+      "ctimeMs": 1549940780672.8223,
+      "birthtimeMs": 1549940726129.0986,
+      "atime": "2019-02-12T03:06:20.672Z",
+      "mtime": "2019-02-12T03:06:20.673Z",
+      "ctime": "2019-02-12T03:06:20.673Z",
+      "birthtime": "2019-02-12T03:05:26.129Z"
+    },
+    "ce414ef0-aadc-5b0e-b156-85f275689e04": {
+      "id": "ce414ef0-aadc-5b0e-b156-85f275689e04",
+      "children": [],
+      "parent": "658f5933-c2cf-5ea8-9ad9-21ea348253fc",
+      "internal": {
+        "content": "\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
+        "type": "MarkdownRemark",
+        "contentDigest": "41a8152320708734282416103930494a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Completed Application Next Steps",
+        "slug": "/completed-application-next-steps",
+        "hero": "./../images/completed-application-next-steps.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md"
+    },
     "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
       "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
       "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
@@ -2524,6 +3268,138 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "e9bf52a522391465d75035dbdd4a0e1b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/shakespeare-at-cambridge": {
+      "jsonName": "portfolio-items-shakespeare-at-cambridge-035",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareAtCambridge",
+      "path": "/portfolio-items/shakespeare-at-cambridge",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/shakespeare-at-cambridge"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/shakespeare-at-cambridge",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3916cec8c0f29d29530452322bb3e108",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press": {
+      "jsonName": "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c",
+      "internalComponentName": "ComponentPortfolioItemsCambridgeCompanionsFromCambridgeUniversityPress",
+      "path": "/portfolio-items/cambridge-companions-from-cambridge University-press",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/cambridge-companions-from-cambridge University-press"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88d592cff51f977fe21497662ed1e9bb",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/shakespeare-from-cambridge": {
+      "jsonName": "portfolio-items-shakespeare-from-cambridge-4c4",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareFromCambridge",
+      "path": "/portfolio-items/shakespeare-from-cambridge",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/shakespeare-from-cambridge"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/shakespeare-from-cambridge",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3690d66c766d806f877c0bd919bef072",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/an-interview-with-vincent-sherry": {
+      "jsonName": "portfolio-items-an-interview-with-vincent-sherry-988",
+      "internalComponentName": "ComponentPortfolioItemsAnInterviewWithVincentSherry",
+      "path": "/portfolio-items/an-interview-with-vincent-sherry",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/an-interview-with-vincent-sherry"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/an-interview-with-vincent-sherry",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f16c7b524b6286521f8259981a2c2b14",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/the-hidden-jane-austen": {
+      "jsonName": "portfolio-items-the-hidden-jane-austen-de6",
+      "internalComponentName": "ComponentPortfolioItemsTheHiddenJaneAusten",
+      "path": "/portfolio-items/the-hidden-jane-austen",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/the-hidden-jane-austen"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/the-hidden-jane-austen",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8c99675a2d92f8bdfc5eca30f636250c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/completed-application-next-steps": {
+      "jsonName": "portfolio-items-completed-application-next-steps-35b",
+      "internalComponentName": "ComponentPortfolioItemsCompletedApplicationNextSteps",
+      "path": "/portfolio-items/completed-application-next-steps",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/completed-application-next-steps"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/completed-application-next-steps",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "75df48461c9e8e6b58910db791457166",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2689,6 +3565,72 @@
       ],
       "8bebf74c-5a48-5653-971d-312f5019bb0b": [
         "/"
+      ],
+      "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0": [
+        "/portfolio-items/shakespeare-at-cambridge",
+        "sq--src-pages-portfolio-js"
+      ],
+      "01e40782-045b-5f7d-be9f-ee0f05fd4811": [
+        "/portfolio-items/shakespeare-at-cambridge",
+        "sq--src-pages-portfolio-js"
+      ],
+      "e1b39c19-6558-50c9-96a1-83f2908a1902": [
+        "/portfolio-items/shakespeare-at-cambridge"
+      ],
+      "567d3b14-743d-5f39-bef3-934aaaacbcff": [
+        "/portfolio-items/cambridge-companions-from-cambridge University-press",
+        "sq--src-pages-portfolio-js"
+      ],
+      "7715bab7-7307-5b14-a35a-29ed7899a881": [
+        "/portfolio-items/cambridge-companions-from-cambridge University-press",
+        "sq--src-pages-portfolio-js"
+      ],
+      "2dcb6874-75c3-567b-9449-e1cdf3d51d75": [
+        "/portfolio-items/cambridge-companions-from-cambridge University-press"
+      ],
+      "410bfd62-bbd2-598d-8728-208ef4f91d80": [
+        "/portfolio-items/shakespeare-from-cambridge",
+        "sq--src-pages-portfolio-js"
+      ],
+      "a14b1df1-1a73-5cbb-8267-cf13529f4074": [
+        "/portfolio-items/shakespeare-from-cambridge",
+        "sq--src-pages-portfolio-js"
+      ],
+      "221338c0-9e2e-5f54-a281-134159e19641": [
+        "/portfolio-items/shakespeare-from-cambridge"
+      ],
+      "77f4b5bf-948b-5872-bd42-6e373466da80": [
+        "/portfolio-items/an-interview-with-vincent-sherry",
+        "sq--src-pages-portfolio-js"
+      ],
+      "a8bd7acb-a398-5e15-94b5-6fef17ccf768": [
+        "/portfolio-items/an-interview-with-vincent-sherry",
+        "sq--src-pages-portfolio-js"
+      ],
+      "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df": [
+        "/portfolio-items/an-interview-with-vincent-sherry"
+      ],
+      "f6f021d7-5d49-52f4-8c22-57a19b693e0e": [
+        "/portfolio-items/the-hidden-jane-austen",
+        "sq--src-pages-portfolio-js"
+      ],
+      "e9dc0fb8-89d3-53b9-a91b-917135cb7867": [
+        "/portfolio-items/the-hidden-jane-austen",
+        "sq--src-pages-portfolio-js"
+      ],
+      "761c073d-ba83-557f-801d-d56d5d5f1117": [
+        "/portfolio-items/the-hidden-jane-austen"
+      ],
+      "489ac4b7-aada-5281-9cb0-8bf462248c6e": [
+        "/portfolio-items/completed-application-next-steps",
+        "sq--src-pages-portfolio-js"
+      ],
+      "4c54b8a3-4e54-5ae2-a22a-74af31c24494": [
+        "/portfolio-items/completed-application-next-steps",
+        "sq--src-pages-portfolio-js"
+      ],
+      "ce414ef0-aadc-5b0e-b156-85f275689e04": [
+        "/portfolio-items/completed-application-next-steps"
       ]
     },
     "connections": {
@@ -2717,7 +3659,13 @@
     "sq--src-components-seo-js": 1315885718,
     "sq--src-pages-portfolio-js": 2438295035,
     "portfolio-itemsnull-ecf": "434/path---portfolio-itemsnull-ecf-224-473qBx44pctuFz18k2Yp2fSZhM",
-    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "80/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-xSO9KBK4hDdYulqfJDlxWigSI"
+    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "80/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-xSO9KBK4hDdYulqfJDlxWigSI",
+    "portfolio-items-shakespeare-at-cambridge-035": "520/path---portfolio-items-shakespeare-at-cambridge-035-e95-xSgS4fcOfBeL8AxBgLTJDVpukYA",
+    "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c": "172/path---portfolio-items-cambridge-companions-from-cambridge-university-press-b-9-c-edf-QLNmePBlUUiFW8HSfvUVmlcbB9o",
+    "portfolio-items-shakespeare-from-cambridge-4c4": "953/path---portfolio-items-shakespeare-from-cambridge-4-c-4-74f-v0qdpGnhwprIXuxsuDJSpxmfys",
+    "portfolio-items-an-interview-with-vincent-sherry-988": "683/path---portfolio-items-an-interview-with-vincent-sherry-988-c71-Vaq1y2OhWFYjfXVWo8NtRcqBo",
+    "portfolio-items-the-hidden-jane-austen-de6": "639/path---portfolio-items-the-hidden-jane-austen-de-6-d92-NpuWApxowNHTxBEgRKVz0LtJlDQ",
+    "portfolio-items-completed-application-next-steps-35b": "19/path---portfolio-items-completed-application-next-steps-35-b-b44-vpjN1DDcxzguZTv7sZ3cN0LP2k"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {

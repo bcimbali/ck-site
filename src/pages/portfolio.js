@@ -7,7 +7,6 @@ import SEO from '../components/seo';
 import styled from 'styled-components';
 
 const PortfolioImgContainer = styled.div`
-  border: 1px solid orange;
   width: 100%;
 
   @media (max-width: 414px) {
@@ -17,13 +16,14 @@ const PortfolioImgContainer = styled.div`
 
 const PortfolioCard = styled.div`
   align-items: center;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 1rem;
   min-height: 40vh;
-  width: 20vw;
+  overflow: hidden;
+  width: 23vw;
 
   img {
       filter: grayscale(100%);
@@ -37,6 +37,10 @@ const PortfolioCard = styled.div`
     img {
       filter: none;
     }
+  }
+
+  @media (max-width: 768px) {
+    width: 38vw;
   }
 
   @media (max-width: 414px) {
@@ -66,6 +70,14 @@ const PortfolioTitle = styled.div`
     font-size: 1rem;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    min-height: 8vh;
+  }
+
+  @media (max-width: 414px) {
+    min-height: 10vh;
+  }
 `;
 
 const TitleText = styled.h1`
@@ -75,7 +87,6 @@ const TitleText = styled.h1`
 `;
 
 const CardContainer = styled.div`
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
