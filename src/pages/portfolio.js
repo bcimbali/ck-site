@@ -7,24 +7,23 @@ import SEO from '../components/seo';
 import styled from 'styled-components';
 
 const PortfolioImgContainer = styled.div`
-  width: 15vw;
-
-  @media (max-width: 768px) {
-    width: 35vw;
-  }
+  border: 1px solid orange;
+  width: 100%;
 
   @media (max-width: 414px) {
-    width: 79.5vw;
+    width: 80vw;
   }
 `;
 
-const PortfolioItemRow = styled.div`
+const PortfolioCard = styled.div`
   align-items: center;
   border: 1px solid #FFFFFF;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 1rem;
-  width: 60vw;
+  min-height: 40vh;
+  width: 20vw;
 
   img {
       filter: grayscale(100%);
@@ -58,11 +57,13 @@ const PortfolioWrapper = styled.div`
   }
 `;
 
-const ItemContainer = styled.div`
-  width: 40vw;
+const PortfolioTitle = styled.div`
+  align-items: center;
+  min-height: 10vh;
+  display: flex;
   h2 {
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 `;
@@ -71,6 +72,14 @@ const TitleText = styled.h1`
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+`;
+
+const CardContainer = styled.div`
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
 `;
 
 const PORTFOLIO_QUERY = graphql`
@@ -104,24 +113,26 @@ const Portfolio = () => (
         <TitleText>
           Portfolio
         </TitleText>
+        <CardContainer>
         <StaticQuery
           query={PORTFOLIO_QUERY}
           render={({allMarkdownRemark}) => (
             allMarkdownRemark.edges.map(({node}) => (
               <Link to={`/portfolio-items${node.frontmatter.slug}`}>
-                <PortfolioItemRow key={node.frontmatter.slug}>
+                <PortfolioCard key={node.frontmatter.slug}>
                   <PortfolioImgContainer>
                     <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
                   </PortfolioImgContainer>
-                  <ItemContainer>
+                  <PortfolioTitle>
                       <h2>{node.frontmatter.title}</h2>
-                  </ItemContainer>
-                </PortfolioItemRow>
+                  </PortfolioTitle>
+                </PortfolioCard>
               </Link>
             ))
           )}
         >
         </StaticQuery>
+        </CardContainer>
       </PortfolioWrapper>
   </Layout>
 )

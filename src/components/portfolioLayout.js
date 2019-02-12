@@ -6,7 +6,16 @@ import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
 const ImgContainer = styled.div`
+  margin-bottom: 2rem;
   width: 40vw;
+
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
+
+  @media (max-width: 414px) {
+    width: 80vw;
+  }
 `;
 
 const InfoBlurb = styled.div`
