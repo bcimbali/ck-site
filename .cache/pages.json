@@ -26,8 +26,23 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262",
+        "path": "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-ace-your-interview-585",
+        "path": "/portfolio-items/ace-your-interview"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-an-interview-with-vincent-sherry-988",
         "path": "/portfolio-items/an-interview-with-vincent-sherry"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-application-overview-1e9",
+        "path": "/portfolio-items/application-overview"
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
@@ -41,13 +56,43 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-domestic-resource-guide-fd8",
+        "path": "/portfolio-items/domestic-resource-guide"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e",
+        "path": "/portfolio-items/five-things-you'll-learn-at-grad-discover-day"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-graduate-programs-fast-facts-b59",
+        "path": "/portfolio-items/graduate-programs-fast-facts"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-hemingway-on-screen-c12",
+        "path": "/portfolio-items/hemingway-on-screen"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
         "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea",
+        "path": "/portfolio-items/iit-grad-admissions-career-fair-postcard"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-iit-international-travel-brochure-4aa",
         "path": "/portfolio-items/iit-international-travel-brochure"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
+        "path": "/portfolio-items/illinois-tech-ranks-in-top-100"
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
@@ -61,8 +106,33 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-shakespeare-goes-digital-22b",
+        "path": "/portfolio-items/shakespeare-goes-digital"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847",
+        "path": "/portfolio-items/shakespeare-the-man-the-myth-the-doubt"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-tales-from-shakespeare-1d0",
+        "path": "/portfolio-items/tales-from-shakespeare"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-the-hidden-jane-austen-de6",
         "path": "/portfolio-items/the-hidden-jane-austen"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
+        "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3"
+    },
+    {
+        "componentChunkName": "component---src-components-portfolio-layout-js",
+        "jsonName": "portfolio-itemsnull-ecf",
+        "path": "/portfolio-itemsnull"
     },
     {
         "componentChunkName": "component---src-pages-portfolio-js",

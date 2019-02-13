@@ -1,8 +1,8 @@
 --- 
 slug: "/iit-international-travel-brochure"
-title: "IIT International Travel Brochure"
+title: "Illinois Tech Int'l Travel"
 hero: "./../images/IIT-intl.png"
 homepage: "yes"
 ---
 
-This is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.
+This is a brochure that details the Illinois Tech international graduate travel programs.

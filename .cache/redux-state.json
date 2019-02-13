@@ -1800,12 +1800,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-12T03:08:05.393Z",
+      "buildTime": "2019-02-13T01:42:31.717Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "feae82aabb63ebf79f7c3b4f5773a25b",
+        "contentDigest": "a360042512e6efee2855062b3036c0c5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1815,7 +1815,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "38fe016f01c1534bf00f0563ecc005d6",
+        "contentDigest": "179da44fd7334a5220bdadd40ab42771",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1824,11 +1824,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 416,
-      "prettySize": "416 B",
-      "modifiedTime": "2019-02-12T03:05:11.063Z",
-      "accessTime": "2019-02-12T03:08:08.025Z",
-      "changeTime": "2019-02-12T03:05:11.063Z",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2019-02-13T01:40:36.022Z",
+      "accessTime": "2019-02-13T01:42:36.760Z",
+      "changeTime": "2019-02-13T01:40:36.022Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1838,20 +1838,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 13,
+      "nlink": 14,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1549940888025.2373,
-      "mtimeMs": 1549940711062.629,
-      "ctimeMs": 1549940711062.629,
+      "atimeMs": 1550022156760.0044,
+      "mtimeMs": 1550022036021.6177,
+      "ctimeMs": 1550022036021.6177,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-12T03:08:08.025Z",
-      "mtime": "2019-02-12T03:05:11.063Z",
-      "ctime": "2019-02-12T03:05:11.063Z",
+      "atime": "2019-02-13T01:42:36.760Z",
+      "mtime": "2019-02-13T01:40:36.022Z",
+      "ctime": "2019-02-13T01:40:36.022Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "941d6726-7490-5573-85db-e714efdba0ed": {
@@ -2132,7 +2132,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "97f1f1c53524aa56b62b8c9e32d75d2b",
+        "contentDigest": "1d168b788e9179f92d40661eca163408",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -2141,11 +2141,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
       "relativePath": "",
       "extension": "",
-      "size": 320,
-      "prettySize": "320 B",
-      "modifiedTime": "2019-02-12T03:05:26.129Z",
-      "accessTime": "2019-02-12T03:08:08.052Z",
-      "changeTime": "2019-02-12T03:05:26.129Z",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2019-02-13T01:41:13.340Z",
+      "accessTime": "2019-02-13T01:42:36.791Z",
+      "changeTime": "2019-02-13T01:41:13.340Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -2155,20 +2155,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 10,
+      "nlink": 11,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1549940888052.2695,
-      "mtimeMs": 1549940726129.1152,
-      "ctimeMs": 1549940726129.1152,
+      "atimeMs": 1550022156791.0334,
+      "mtimeMs": 1550022073340.0762,
+      "ctimeMs": 1550022073340.0762,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-12T03:08:08.052Z",
-      "mtime": "2019-02-12T03:05:26.129Z",
-      "ctime": "2019-02-12T03:05:26.129Z",
+      "atime": "2019-02-13T01:42:36.791Z",
+      "mtime": "2019-02-13T01:41:13.340Z",
+      "ctime": "2019-02-13T01:41:13.340Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
     },
     "ccddff91-752c-5394-9cfc-cc1a01056576": {
@@ -2225,7 +2225,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "5ee33f62835948f1795a82eeda5e92d9",
+        "contentDigest": "6c10c34cd237de2ee56995d5260921bd",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/iit-international-travel-brochure.md\"",
@@ -2235,11 +2235,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md",
       "relativePath": "iit-international-travel-brochure.md",
       "extension": "md",
-      "size": 273,
-      "prettySize": "273 B",
-      "modifiedTime": "2019-02-10T17:59:42.641Z",
-      "accessTime": "2019-02-10T22:54:07.985Z",
-      "changeTime": "2019-02-10T17:59:42.641Z",
+      "size": 227,
+      "prettySize": "227 B",
+      "modifiedTime": "2019-02-13T02:34:21.277Z",
+      "accessTime": "2019-02-13T02:34:21.277Z",
+      "changeTime": "2019-02-13T02:34:21.277Z",
       "birthTime": "2019-02-07T02:53:55.986Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -2256,13 +2256,13 @@
       "blksize": 4096,
       "ino": 8603185249,
       "blocks": 8,
-      "atimeMs": 1549839247984.8464,
-      "mtimeMs": 1549821582641.081,
-      "ctimeMs": 1549821582641.081,
+      "atimeMs": 1550025261276.9307,
+      "mtimeMs": 1550025261277.314,
+      "ctimeMs": 1550025261277.314,
       "birthtimeMs": 1549508035986.0767,
-      "atime": "2019-02-10T22:54:07.985Z",
-      "mtime": "2019-02-10T17:59:42.641Z",
-      "ctime": "2019-02-10T17:59:42.641Z",
+      "atime": "2019-02-13T02:34:21.277Z",
+      "mtime": "2019-02-13T02:34:21.277Z",
+      "ctime": "2019-02-13T02:34:21.277Z",
       "birthtime": "2019-02-07T02:53:55.986Z"
     },
     "143b335a-4a76-5f12-988a-4d5ae2c14890": {
@@ -2285,32 +2285,12 @@
       "rawMarkdownBody": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     },
-    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
-      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
-      "children": [],
-      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
-      "internal": {
-        "content": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
-        "type": "MarkdownRemark",
-        "contentDigest": "7a188865612149ccc313323c8e7cbc1f",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "IIT International Travel Brochure",
-        "slug": "/iit-international-travel-brochure",
-        "hero": "./../images/IIT-intl.png",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is a brochure that advertised international travel to our graduate students. I worked with my team to create this material.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
-    },
     "1ec8ab32-098f-53ff-b160-d1fb9797c3bf": {
       "id": "1ec8ab32-098f-53ff-b160-d1fb9797c3bf",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0c3e8f17bf4f3a646bb79c3ae5918c87",
+        "contentDigest": "290eb690b8158d4c94fe2142beb5669c",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -2322,7 +2302,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-12T01:32:00.838Z",
-      "accessTime": "2019-02-12T03:08:08.061Z",
+      "accessTime": "2019-02-13T01:42:36.834Z",
       "changeTime": "2019-02-12T01:32:00.838Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -2340,59 +2320,14 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1549940888061.4272,
+      "atimeMs": 1550022156834.0786,
       "mtimeMs": 1549935120837.9429,
       "ctimeMs": 1549935120837.9429,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-12T03:08:08.061Z",
+      "atime": "2019-02-13T01:42:36.834Z",
       "mtime": "2019-02-12T01:32:00.838Z",
       "ctime": "2019-02-12T01:32:00.838Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
-    },
-    "fff83ef1-ed10-548b-80cf-8b51b304afc6": {
-      "id": "fff83ef1-ed10-548b-80cf-8b51b304afc6",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "23a1350fe34e1f65f72e703433a65956",
-        "type": "File",
-        "mediaType": "application/pdf",
-        "description": "File \"src/pdf/MINES.pdf\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pdf",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/MINES.pdf",
-      "relativePath": "MINES.pdf",
-      "extension": "pdf",
-      "size": 1674769,
-      "prettySize": "1.67 MB",
-      "modifiedTime": "2019-02-10T23:51:01.810Z",
-      "accessTime": "2019-02-10T23:52:36.079Z",
-      "changeTime": "2019-02-10T23:51:17.881Z",
-      "birthTime": "2019-02-10T23:51:01.126Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
-      "base": "MINES.pdf",
-      "ext": ".pdf",
-      "name": "MINES",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603281032,
-      "blocks": 3272,
-      "atimeMs": 1549842756079.3337,
-      "mtimeMs": 1549842661810.3057,
-      "ctimeMs": 1549842677881.2927,
-      "birthtimeMs": 1549842661126.3738,
-      "atime": "2019-02-10T23:52:36.079Z",
-      "mtime": "2019-02-10T23:51:01.810Z",
-      "ctime": "2019-02-10T23:51:17.881Z",
-      "birthtime": "2019-02-10T23:51:01.126Z"
     },
     "8bebf74c-5a48-5653-971d-312f5019bb0b": {
       "id": "8bebf74c-5a48-5653-971d-312f5019bb0b",
@@ -2438,51 +2373,6 @@
       "mtime": "2019-02-11T00:15:11.334Z",
       "ctime": "2019-02-11T00:15:15.846Z",
       "birthtime": "2019-02-11T00:15:11.207Z"
-    },
-    "7c796699-51fa-5054-96de-712d2fa500c5": {
-      "id": "7c796699-51fa-5054-96de-712d2fa500c5",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0d542489ca58e3e3745b9c7405a69f09",
-        "type": "File",
-        "mediaType": "application/pdf",
-        "description": "File \"src/pdf/150219_IIT_Intl_Travel_Brochure_2018-19_PROOF.pdf\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pdf",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/150219_IIT_Intl_Travel_Brochure_2018-19_PROOF.pdf",
-      "relativePath": "150219_IIT_Intl_Travel_Brochure_2018-19_PROOF.pdf",
-      "extension": "pdf",
-      "size": 6707305,
-      "prettySize": "6.71 MB",
-      "modifiedTime": "2019-02-12T01:31:49.634Z",
-      "accessTime": "2019-02-12T01:34:03.843Z",
-      "changeTime": "2019-02-12T01:32:00.921Z",
-      "birthTime": "2019-02-12T01:31:47.525Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
-      "base": "150219_IIT_Intl_Travel_Brochure_2018-19_PROOF.pdf",
-      "ext": ".pdf",
-      "name": "150219_IIT_Intl_Travel_Brochure_2018-19_PROOF",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603290011,
-      "blocks": 13456,
-      "atimeMs": 1549935243843.16,
-      "mtimeMs": 1549935109634.3376,
-      "ctimeMs": 1549935120921.4543,
-      "birthtimeMs": 1549935107525.2322,
-      "atime": "2019-02-12T01:34:03.843Z",
-      "mtime": "2019-02-12T01:31:49.634Z",
-      "ctime": "2019-02-12T01:32:00.921Z",
-      "birthtime": "2019-02-12T01:31:47.525Z"
     },
     "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0": {
       "id": "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0",
@@ -3228,6 +3118,130 @@
       "rawMarkdownBody": "\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md"
     },
+    "c31e195d-f685-54f0-94ae-45d5ee2dbb97": {
+      "id": "c31e195d-f685-54f0-94ae-45d5ee2dbb97",
+      "children": [
+        "7ec4c52d-7cd4-5a6c-800a-d87b6437a2a3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "886172eac1fe7cdcc17a29c7e1ee7482",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/tales-from-shakespeare.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/tales-from-shakespeare.jpg",
+      "relativePath": "tales-from-shakespeare.jpg",
+      "extension": "jpg",
+      "size": 102845,
+      "prettySize": "103 kB",
+      "modifiedTime": "2019-02-13T01:39:41.768Z",
+      "accessTime": "2019-02-13T01:40:37.452Z",
+      "changeTime": "2019-02-13T01:40:36.022Z",
+      "birthTime": "2019-02-13T01:39:41.726Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "tales-from-shakespeare.jpg",
+      "ext": ".jpg",
+      "name": "tales-from-shakespeare",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603300847,
+      "blocks": 208,
+      "atimeMs": 1550022037451.596,
+      "mtimeMs": 1550021981768.212,
+      "ctimeMs": 1550022036021.6177,
+      "birthtimeMs": 1550021981725.8955,
+      "atime": "2019-02-13T01:40:37.452Z",
+      "mtime": "2019-02-13T01:39:41.768Z",
+      "ctime": "2019-02-13T01:40:36.022Z",
+      "birthtime": "2019-02-13T01:39:41.726Z"
+    },
+    "7ec4c52d-7cd4-5a6c-800a-d87b6437a2a3": {
+      "id": "7ec4c52d-7cd4-5a6c-800a-d87b6437a2a3",
+      "children": [],
+      "parent": "c31e195d-f685-54f0-94ae-45d5ee2dbb97",
+      "internal": {
+        "contentDigest": "886172eac1fe7cdcc17a29c7e1ee7482",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a": {
+      "id": "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a",
+      "children": [
+        "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "62e1a22af10a10463ba0202baf968a5c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/tales-from-shakespeare.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/tales-from-shakespeare.md",
+      "relativePath": "tales-from-shakespeare.md",
+      "extension": "md",
+      "size": 284,
+      "prettySize": "284 B",
+      "modifiedTime": "2019-02-13T01:42:23.901Z",
+      "accessTime": "2019-02-13T01:42:23.899Z",
+      "changeTime": "2019-02-13T01:42:23.901Z",
+      "birthTime": "2019-02-13T01:41:13.340Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "tales-from-shakespeare.md",
+      "ext": ".md",
+      "name": "tales-from-shakespeare",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603301157,
+      "blocks": 8,
+      "atimeMs": 1550022143899.2644,
+      "mtimeMs": 1550022143901.0583,
+      "ctimeMs": 1550022143901.0583,
+      "birthtimeMs": 1550022073340.0608,
+      "atime": "2019-02-13T01:42:23.899Z",
+      "mtime": "2019-02-13T01:42:23.901Z",
+      "ctime": "2019-02-13T01:42:23.901Z",
+      "birthtime": "2019-02-13T01:41:13.340Z"
+    },
+    "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e": {
+      "id": "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e",
+      "children": [],
+      "parent": "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a",
+      "internal": {
+        "content": "\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
+        "type": "MarkdownRemark",
+        "contentDigest": "bd3b185e1b8cb554e2a2aaa4f5fda742",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Tales from Shakespeare",
+        "slug": "/tales-from-shakespeare",
+        "hero": "./../images/tales-from-shakespeare.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/tales-from-shakespeare.md"
+    },
     "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
       "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
       "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
@@ -3404,6 +3418,28 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /portfolio-items/tales-from-shakespeare": {
+      "jsonName": "portfolio-items-tales-from-shakespeare-1d0",
+      "internalComponentName": "ComponentPortfolioItemsTalesFromShakespeare",
+      "path": "/portfolio-items/tales-from-shakespeare",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/tales-from-shakespeare"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/tales-from-shakespeare",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c34c8baa194448d6cef6b749b4f171ef",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -3523,6 +3559,2025 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "1101f5e9-a18f-5f15-9a32-c46909ed8dfb": {
+      "id": "1101f5e9-a18f-5f15-9a32-c46909ed8dfb",
+      "children": [
+        "96f11c7d-334e-51ce-8474-7d03fd1758d1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c644981e4db4eab1d64d3a9155f2cdad",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/the-letters-of-samuel-beckett-volume-3.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/the-letters-of-samuel-beckett-volume-3.jpg",
+      "relativePath": "the-letters-of-samuel-beckett-volume-3.jpg",
+      "extension": "jpg",
+      "size": 87690,
+      "prettySize": "87.7 kB",
+      "modifiedTime": "2019-02-13T01:44:39.969Z",
+      "accessTime": "2019-02-13T01:45:33.547Z",
+      "changeTime": "2019-02-13T01:45:38.004Z",
+      "birthTime": "2019-02-13T01:44:39.940Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "the-letters-of-samuel-beckett-volume-3.jpg",
+      "ext": ".jpg",
+      "name": "the-letters-of-samuel-beckett-volume-3",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603301597,
+      "blocks": 176,
+      "atimeMs": 1550022333547.065,
+      "mtimeMs": 1550022279969.1313,
+      "ctimeMs": 1550022338003.5847,
+      "birthtimeMs": 1550022279940.118,
+      "atime": "2019-02-13T01:45:33.547Z",
+      "mtime": "2019-02-13T01:44:39.969Z",
+      "ctime": "2019-02-13T01:45:38.004Z",
+      "birthtime": "2019-02-13T01:44:39.940Z"
+    },
+    "96f11c7d-334e-51ce-8474-7d03fd1758d1": {
+      "id": "96f11c7d-334e-51ce-8474-7d03fd1758d1",
+      "children": [],
+      "parent": "1101f5e9-a18f-5f15-9a32-c46909ed8dfb",
+      "internal": {
+        "contentDigest": "c644981e4db4eab1d64d3a9155f2cdad",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "417b6014-6dee-5bc1-98b6-25aa9abad124": {
+      "id": "417b6014-6dee-5bc1-98b6-25aa9abad124",
+      "children": [
+        "ad51ff26-fba9-5307-a379-aa612d7ee334"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3b20b72239f3c1c0f525b7735d42c3d1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md",
+      "relativePath": "the-letters-of-samuel-beckett-volume-3.md",
+      "extension": "md",
+      "size": 294,
+      "prettySize": "294 B",
+      "modifiedTime": "2019-02-13T01:49:12.537Z",
+      "accessTime": "2019-02-13T01:49:12.537Z",
+      "changeTime": "2019-02-13T01:49:12.537Z",
+      "birthTime": "2019-02-13T01:45:50.132Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "the-letters-of-samuel-beckett-volume-3.md",
+      "ext": ".md",
+      "name": "the-letters-of-samuel-beckett-volume-3",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603301733,
+      "blocks": 8,
+      "atimeMs": 1550022552536.6685,
+      "mtimeMs": 1550022552537.048,
+      "ctimeMs": 1550022552537.048,
+      "birthtimeMs": 1550022350132.1516,
+      "atime": "2019-02-13T01:49:12.537Z",
+      "mtime": "2019-02-13T01:49:12.537Z",
+      "ctime": "2019-02-13T01:49:12.537Z",
+      "birthtime": "2019-02-13T01:45:50.132Z"
+    },
+    "SitePage /portfolio-itemsnull": {
+      "jsonName": "portfolio-itemsnull-ecf",
+      "internalComponentName": "ComponentPortfolioItemsnull",
+      "path": "/portfolio-itemsnull",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-itemsnull",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d2eeff0fc44aac3acbe5f360bdeb80ea",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3": {
+      "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
+      "internalComponentName": "ComponentPortfolioItemsTheLettersOfSamuelBeckettVolume3",
+      "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/the-letters-of-samuel-beckett-volume-3"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31294549f144bbbc4499da6c4c549acc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
+      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
+      "children": [],
+      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
+      "internal": {
+        "content": "\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
+        "type": "MarkdownRemark",
+        "contentDigest": "1d6c547a618f4ca7e03ac8351987db99",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Letters of Samuel Beckett, Volume 3",
+        "slug": "/the-letters-of-samuel-beckett-volume-3",
+        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
+    },
+    "51099f84-020f-51d8-bd34-e1d1a2a42af0": {
+      "id": "51099f84-020f-51d8-bd34-e1d1a2a42af0",
+      "children": [
+        "e921f17e-853e-5d65-8aba-0b44619c9d57"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f1bd38a8384e4cdf1950267ea7274123",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/illinois-tech-ranks-in-top-100.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/illinois-tech-ranks-in-top-100.jpg",
+      "relativePath": "illinois-tech-ranks-in-top-100.jpg",
+      "extension": "jpg",
+      "size": 260693,
+      "prettySize": "261 kB",
+      "modifiedTime": "2019-02-13T01:49:57.770Z",
+      "accessTime": "2019-02-13T01:51:49.251Z",
+      "changeTime": "2019-02-13T01:52:20.327Z",
+      "birthTime": "2019-02-13T01:49:57.704Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "illinois-tech-ranks-in-top-100.jpg",
+      "ext": ".jpg",
+      "name": "illinois-tech-ranks-in-top-100",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603301982,
+      "blocks": 512,
+      "atimeMs": 1550022709250.5725,
+      "mtimeMs": 1550022597770.0693,
+      "ctimeMs": 1550022740327.3052,
+      "birthtimeMs": 1550022597704.4568,
+      "atime": "2019-02-13T01:51:49.251Z",
+      "mtime": "2019-02-13T01:49:57.770Z",
+      "ctime": "2019-02-13T01:52:20.327Z",
+      "birthtime": "2019-02-13T01:49:57.704Z"
+    },
+    "e921f17e-853e-5d65-8aba-0b44619c9d57": {
+      "id": "e921f17e-853e-5d65-8aba-0b44619c9d57",
+      "children": [],
+      "parent": "51099f84-020f-51d8-bd34-e1d1a2a42af0",
+      "internal": {
+        "contentDigest": "f1bd38a8384e4cdf1950267ea7274123",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5e9390ef-677a-540a-9861-c6397b26366d": {
+      "id": "5e9390ef-677a-540a-9861-c6397b26366d",
+      "children": [
+        "de9c3fbb-e963-529c-9c20-16ba6217dd06"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ef1041ed252e3f8f774dcba42532be6a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/illinois-tech-ranks-in-top-100.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md",
+      "relativePath": "illinois-tech-ranks-in-top-100.md",
+      "extension": "md",
+      "size": 297,
+      "prettySize": "297 B",
+      "modifiedTime": "2019-02-13T01:53:35.424Z",
+      "accessTime": "2019-02-13T01:53:35.424Z",
+      "changeTime": "2019-02-13T01:53:35.424Z",
+      "birthTime": "2019-02-13T01:52:37.122Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "illinois-tech-ranks-in-top-100.md",
+      "ext": ".md",
+      "name": "illinois-tech-ranks-in-top-100",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603302235,
+      "blocks": 8,
+      "atimeMs": 1550022815423.632,
+      "mtimeMs": 1550022815423.9758,
+      "ctimeMs": 1550022815423.9758,
+      "birthtimeMs": 1550022757122.3145,
+      "atime": "2019-02-13T01:53:35.424Z",
+      "mtime": "2019-02-13T01:53:35.424Z",
+      "ctime": "2019-02-13T01:53:35.424Z",
+      "birthtime": "2019-02-13T01:52:37.122Z"
+    },
+    "SitePage /portfolio-items/illinois-tech-ranks-in-top-100": {
+      "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
+      "internalComponentName": "ComponentPortfolioItemsIllinoisTechRanksInTop100",
+      "path": "/portfolio-items/illinois-tech-ranks-in-top-100",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/illinois-tech-ranks-in-top-100"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/illinois-tech-ranks-in-top-100",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "de9c3fbb-e963-529c-9c20-16ba6217dd06": {
+      "id": "de9c3fbb-e963-529c-9c20-16ba6217dd06",
+      "children": [],
+      "parent": "5e9390ef-677a-540a-9861-c6397b26366d",
+      "internal": {
+        "content": "\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
+        "type": "MarkdownRemark",
+        "contentDigest": "a73fb32aae0b89f33b5f8279057e0c02",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Ranks in Top 100",
+        "slug": "/illinois-tech-ranks-in-top-100",
+        "hero": "./../images/illinois-tech-ranks-in-top-100.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
+    },
+    "248b233d-cf9c-549b-bb65-bd9480a6fd94": {
+      "id": "248b233d-cf9c-549b-bb65-bd9480a6fd94",
+      "children": [
+        "e1563d7d-599d-58be-beb2-70b2030956cd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e3e497a7e3b935c5e905066ac44ecfd5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/five-things-you'll-learn-at-grad-discover-day.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/five-things-you'll-learn-at-grad-discover-day.jpg",
+      "relativePath": "five-things-you'll-learn-at-grad-discover-day.jpg",
+      "extension": "jpg",
+      "size": 11722,
+      "prettySize": "11.7 kB",
+      "modifiedTime": "2019-02-13T01:54:38.961Z",
+      "accessTime": "2019-02-13T01:56:55.877Z",
+      "changeTime": "2019-02-13T01:57:03.068Z",
+      "birthTime": "2019-02-13T01:54:38.956Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "five-things-you'll-learn-at-grad-discover-day.jpg",
+      "ext": ".jpg",
+      "name": "five-things-you'll-learn-at-grad-discover-day",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603302425,
+      "blocks": 24,
+      "atimeMs": 1550023015877.4111,
+      "mtimeMs": 1550022878961.2046,
+      "ctimeMs": 1550023023067.777,
+      "birthtimeMs": 1550022878956.1545,
+      "atime": "2019-02-13T01:56:55.877Z",
+      "mtime": "2019-02-13T01:54:38.961Z",
+      "ctime": "2019-02-13T01:57:03.068Z",
+      "birthtime": "2019-02-13T01:54:38.956Z"
+    },
+    "e1563d7d-599d-58be-beb2-70b2030956cd": {
+      "id": "e1563d7d-599d-58be-beb2-70b2030956cd",
+      "children": [],
+      "parent": "248b233d-cf9c-549b-bb65-bd9480a6fd94",
+      "internal": {
+        "contentDigest": "e3e497a7e3b935c5e905066ac44ecfd5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cd934455-30e6-53ee-92de-2aedb6195167": {
+      "id": "cd934455-30e6-53ee-92de-2aedb6195167",
+      "children": [
+        "b40a8979-af15-5792-a1fb-b661c97d8ac1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1959b85f9dafd7b161f4026b22a71509",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md",
+      "relativePath": "five-things-you'll-learn-at-grad-discover-day.md",
+      "extension": "md",
+      "size": 539,
+      "prettySize": "539 B",
+      "modifiedTime": "2019-02-13T01:58:32.040Z",
+      "accessTime": "2019-02-13T01:58:32.039Z",
+      "changeTime": "2019-02-13T01:58:32.040Z",
+      "birthTime": "2019-02-13T01:57:14.812Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "five-things-you'll-learn-at-grad-discover-day.md",
+      "ext": ".md",
+      "name": "five-things-you'll-learn-at-grad-discover-day",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603302853,
+      "blocks": 8,
+      "atimeMs": 1550023112038.8604,
+      "mtimeMs": 1550023112039.8103,
+      "ctimeMs": 1550023112039.8103,
+      "birthtimeMs": 1550023034811.5745,
+      "atime": "2019-02-13T01:58:32.039Z",
+      "mtime": "2019-02-13T01:58:32.040Z",
+      "ctime": "2019-02-13T01:58:32.040Z",
+      "birthtime": "2019-02-13T01:57:14.812Z"
+    },
+    "b40a8979-af15-5792-a1fb-b661c97d8ac1": {
+      "id": "b40a8979-af15-5792-a1fb-b661c97d8ac1",
+      "children": [],
+      "parent": "cd934455-30e6-53ee-92de-2aedb6195167",
+      "internal": {
+        "content": "\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
+        "type": "MarkdownRemark",
+        "contentDigest": "5cba1da26469fd41381ed762bc9f8b5f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "5 Things You'll Learn at Grad Discover Day",
+        "slug": "/five-things-you'll-learn-at-grad-discover-day",
+        "hero": "./../images/five-things-you'll-learn-at-grad-discover-day.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md"
+    },
+    "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day": {
+      "jsonName": "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e",
+      "internalComponentName": "ComponentPortfolioItemsFiveThingsYoullLearnAtGradDiscoverDay",
+      "path": "/portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/five-things-you'll-learn-at-grad-discover-day"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c616404ffba9d2652c792aac4b9c5acf",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4b65f421-b7e1-53d1-a44a-59356afdeef2": {
+      "id": "4b65f421-b7e1-53d1-a44a-59356afdeef2",
+      "children": [
+        "ecc2b8da-b181-5edc-9ece-a0cd5bb49d50"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2107b1dd55c27d4c1662ec4aaf8380a8",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/application-overview.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/application-overview.jpg",
+      "relativePath": "application-overview.jpg",
+      "extension": "jpg",
+      "size": 89058,
+      "prettySize": "89.1 kB",
+      "modifiedTime": "2019-02-13T01:59:39.346Z",
+      "accessTime": "2019-02-13T02:00:29.793Z",
+      "changeTime": "2019-02-13T02:00:35.307Z",
+      "birthTime": "2019-02-13T01:59:39.312Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "application-overview.jpg",
+      "ext": ".jpg",
+      "name": "application-overview",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603302971,
+      "blocks": 176,
+      "atimeMs": 1550023229793.4868,
+      "mtimeMs": 1550023179345.5405,
+      "ctimeMs": 1550023235307.4001,
+      "birthtimeMs": 1550023179311.9365,
+      "atime": "2019-02-13T02:00:29.793Z",
+      "mtime": "2019-02-13T01:59:39.346Z",
+      "ctime": "2019-02-13T02:00:35.307Z",
+      "birthtime": "2019-02-13T01:59:39.312Z"
+    },
+    "ecc2b8da-b181-5edc-9ece-a0cd5bb49d50": {
+      "id": "ecc2b8da-b181-5edc-9ece-a0cd5bb49d50",
+      "children": [],
+      "parent": "4b65f421-b7e1-53d1-a44a-59356afdeef2",
+      "internal": {
+        "contentDigest": "2107b1dd55c27d4c1662ec4aaf8380a8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b4b39acc-f61e-5856-9437-599c2b936309": {
+      "id": "b4b39acc-f61e-5856-9437-599c2b936309",
+      "children": [
+        "42080fb6-f7e3-501b-bbb3-076e70f8520e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7d5fcc9c4a0c8f294b6ad9276286b93e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/application-overview.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/application-overview.md",
+      "relativePath": "application-overview.md",
+      "extension": "md",
+      "size": 325,
+      "prettySize": "325 B",
+      "modifiedTime": "2019-02-13T02:02:07.489Z",
+      "accessTime": "2019-02-13T02:02:07.489Z",
+      "changeTime": "2019-02-13T02:02:07.489Z",
+      "birthTime": "2019-02-13T02:00:45.711Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "application-overview.md",
+      "ext": ".md",
+      "name": "application-overview",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603303239,
+      "blocks": 8,
+      "atimeMs": 1550023327488.6758,
+      "mtimeMs": 1550023327488.9038,
+      "ctimeMs": 1550023327488.9038,
+      "birthtimeMs": 1550023245710.5742,
+      "atime": "2019-02-13T02:02:07.489Z",
+      "mtime": "2019-02-13T02:02:07.489Z",
+      "ctime": "2019-02-13T02:02:07.489Z",
+      "birthtime": "2019-02-13T02:00:45.711Z"
+    },
+    "42080fb6-f7e3-501b-bbb3-076e70f8520e": {
+      "id": "42080fb6-f7e3-501b-bbb3-076e70f8520e",
+      "children": [],
+      "parent": "b4b39acc-f61e-5856-9437-599c2b936309",
+      "internal": {
+        "content": "\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
+        "type": "MarkdownRemark",
+        "contentDigest": "433b71a91d2e77c9b2d0c1c17a9ef29c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Application Overview",
+        "slug": "/application-overview",
+        "hero": "./../images/application-overview.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/application-overview.md"
+    },
+    "SitePage /portfolio-items/application-overview": {
+      "jsonName": "portfolio-items-application-overview-1e9",
+      "internalComponentName": "ComponentPortfolioItemsApplicationOverview",
+      "path": "/portfolio-items/application-overview",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/application-overview"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/application-overview",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d560048e6224099263d2ff60074223c5",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5c435382-1f13-563e-a60c-85a45367ed31": {
+      "id": "5c435382-1f13-563e-a60c-85a45367ed31",
+      "children": [
+        "fe187f88-0191-5c97-926e-4e8995814a93"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4dd4850dee4b2000dec6c5b1e0abe825",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/ace-your-interview.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/ace-your-interview.jpg",
+      "relativePath": "ace-your-interview.jpg",
+      "extension": "jpg",
+      "size": 84592,
+      "prettySize": "84.6 kB",
+      "modifiedTime": "2019-02-13T02:03:06.287Z",
+      "accessTime": "2019-02-13T02:03:44.628Z",
+      "changeTime": "2019-02-13T02:03:50.237Z",
+      "birthTime": "2019-02-13T02:03:06.244Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "ace-your-interview.jpg",
+      "ext": ".jpg",
+      "name": "ace-your-interview",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603303374,
+      "blocks": 168,
+      "atimeMs": 1550023424627.6013,
+      "mtimeMs": 1550023386286.677,
+      "ctimeMs": 1550023430236.9724,
+      "birthtimeMs": 1550023386244.1582,
+      "atime": "2019-02-13T02:03:44.628Z",
+      "mtime": "2019-02-13T02:03:06.287Z",
+      "ctime": "2019-02-13T02:03:50.237Z",
+      "birthtime": "2019-02-13T02:03:06.244Z"
+    },
+    "fe187f88-0191-5c97-926e-4e8995814a93": {
+      "id": "fe187f88-0191-5c97-926e-4e8995814a93",
+      "children": [],
+      "parent": "5c435382-1f13-563e-a60c-85a45367ed31",
+      "internal": {
+        "contentDigest": "4dd4850dee4b2000dec6c5b1e0abe825",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "55ed33a9-760e-5d86-bb33-45453f9828a6": {
+      "id": "55ed33a9-760e-5d86-bb33-45453f9828a6",
+      "children": [
+        "d114efed-c9dd-5216-b9da-db7b62cfb093"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "83c39a8c929f81eef1c8fbbca4a19cf5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/ace-your-interview.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/ace-your-interview.md",
+      "relativePath": "ace-your-interview.md",
+      "extension": "md",
+      "size": 180,
+      "prettySize": "180 B",
+      "modifiedTime": "2019-02-13T02:04:54.845Z",
+      "accessTime": "2019-02-13T02:04:54.844Z",
+      "changeTime": "2019-02-13T02:04:54.845Z",
+      "birthTime": "2019-02-13T02:04:02.359Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "ace-your-interview.md",
+      "ext": ".md",
+      "name": "ace-your-interview",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603303561,
+      "blocks": 8,
+      "atimeMs": 1550023494844.3525,
+      "mtimeMs": 1550023494844.7048,
+      "ctimeMs": 1550023494844.7048,
+      "birthtimeMs": 1550023442358.9858,
+      "atime": "2019-02-13T02:04:54.844Z",
+      "mtime": "2019-02-13T02:04:54.845Z",
+      "ctime": "2019-02-13T02:04:54.845Z",
+      "birthtime": "2019-02-13T02:04:02.359Z"
+    },
+    "d114efed-c9dd-5216-b9da-db7b62cfb093": {
+      "id": "d114efed-c9dd-5216-b9da-db7b62cfb093",
+      "children": [],
+      "parent": "55ed33a9-760e-5d86-bb33-45453f9828a6",
+      "internal": {
+        "content": "\nTips on how to approach your visa interview confidently.",
+        "type": "MarkdownRemark",
+        "contentDigest": "84e07b06dc47c5903a8b9537a3bd26f4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Ace Your Interview",
+        "slug": "/ace-your-interview",
+        "hero": "./../images/ace-your-interview.jpg",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nTips on how to approach your visa interview confidently.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/ace-your-interview.md"
+    },
+    "SitePage /portfolio-items/ace-your-interview": {
+      "jsonName": "portfolio-items-ace-your-interview-585",
+      "internalComponentName": "ComponentPortfolioItemsAceYourInterview",
+      "path": "/portfolio-items/ace-your-interview",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/ace-your-interview"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/ace-your-interview",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5ec131846f9251308a0731083304b6e7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b00c5c92-31b1-5513-b96b-352c84337ea2": {
+      "id": "b00c5c92-31b1-5513-b96b-352c84337ea2",
+      "children": [
+        "1e695fb0-fbae-5e80-a9d9-48c8a22d524a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4c9702f1592f10e51ad21b6ed4ee737e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/shakespeare-goes-digital.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/shakespeare-goes-digital.png",
+      "relativePath": "shakespeare-goes-digital.png",
+      "extension": "png",
+      "size": 1107043,
+      "prettySize": "1.11 MB",
+      "modifiedTime": "2019-02-13T02:09:43.744Z",
+      "accessTime": "2019-02-13T02:10:31.800Z",
+      "changeTime": "2019-02-13T02:11:18.620Z",
+      "birthTime": "2019-02-13T02:09:43.739Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "shakespeare-goes-digital.png",
+      "ext": ".png",
+      "name": "shakespeare-goes-digital",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603303914,
+      "blocks": 2168,
+      "atimeMs": 1550023831800.0723,
+      "mtimeMs": 1550023783743.8647,
+      "ctimeMs": 1550023878619.919,
+      "birthtimeMs": 1550023783739.2656,
+      "atime": "2019-02-13T02:10:31.800Z",
+      "mtime": "2019-02-13T02:09:43.744Z",
+      "ctime": "2019-02-13T02:11:18.620Z",
+      "birthtime": "2019-02-13T02:09:43.739Z"
+    },
+    "1e695fb0-fbae-5e80-a9d9-48c8a22d524a": {
+      "id": "1e695fb0-fbae-5e80-a9d9-48c8a22d524a",
+      "children": [],
+      "parent": "b00c5c92-31b1-5513-b96b-352c84337ea2",
+      "internal": {
+        "contentDigest": "4c9702f1592f10e51ad21b6ed4ee737e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ec465ed0-f721-5322-b1c6-6b60749920f7": {
+      "id": "ec465ed0-f721-5322-b1c6-6b60749920f7",
+      "children": [
+        "aee181c9-8262-5f39-9e9e-b8f02fab21f3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1cd762195881def859e315a5bcff9a9b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/shakespeare-goes-digital.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-goes-digital.md",
+      "relativePath": "shakespeare-goes-digital.md",
+      "extension": "md",
+      "size": 361,
+      "prettySize": "361 B",
+      "modifiedTime": "2019-02-13T02:12:29.949Z",
+      "accessTime": "2019-02-13T02:12:29.948Z",
+      "changeTime": "2019-02-13T02:12:29.949Z",
+      "birthTime": "2019-02-13T02:11:29.275Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "shakespeare-goes-digital.md",
+      "ext": ".md",
+      "name": "shakespeare-goes-digital",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603304240,
+      "blocks": 8,
+      "atimeMs": 1550023949948.3838,
+      "mtimeMs": 1550023949948.6926,
+      "ctimeMs": 1550023949948.6926,
+      "birthtimeMs": 1550023889275.3528,
+      "atime": "2019-02-13T02:12:29.948Z",
+      "mtime": "2019-02-13T02:12:29.949Z",
+      "ctime": "2019-02-13T02:12:29.949Z",
+      "birthtime": "2019-02-13T02:11:29.275Z"
+    },
+    "aee181c9-8262-5f39-9e9e-b8f02fab21f3": {
+      "id": "aee181c9-8262-5f39-9e9e-b8f02fab21f3",
+      "children": [],
+      "parent": "ec465ed0-f721-5322-b1c6-6b60749920f7",
+      "internal": {
+        "content": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
+        "type": "MarkdownRemark",
+        "contentDigest": "eff36b1f76196b1f619f96fab4608d97",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare Goes Digital",
+        "slug": "/shakespeare-goes-digital",
+        "hero": "./../images/shakespeare-goes-digital.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-goes-digital.md"
+    },
+    "SitePage /portfolio-items/shakespeare-goes-digital": {
+      "jsonName": "portfolio-items-shakespeare-goes-digital-22b",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareGoesDigital",
+      "path": "/portfolio-items/shakespeare-goes-digital",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/shakespeare-goes-digital"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/shakespeare-goes-digital",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "586a2cd5ab417b51d5a90f7631072913",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ebfb2f2f-78ca-532c-9275-249dcf4cc84f": {
+      "id": "ebfb2f2f-78ca-532c-9275-249dcf4cc84f",
+      "children": [
+        "6f273a04-2000-5429-9dcd-8f3c14294c64"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "49c4f5bee2b94a4db1a43bd5f311c6fd",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/hemingway-on-screen.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/hemingway-on-screen.png",
+      "relativePath": "hemingway-on-screen.png",
+      "extension": "png",
+      "size": 1277366,
+      "prettySize": "1.28 MB",
+      "modifiedTime": "2019-02-13T02:13:32.898Z",
+      "accessTime": "2019-02-13T02:13:32.893Z",
+      "changeTime": "2019-02-13T02:14:05.291Z",
+      "birthTime": "2019-02-13T02:13:32.893Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "hemingway-on-screen.png",
+      "ext": ".png",
+      "name": "hemingway-on-screen",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603304343,
+      "blocks": 2496,
+      "atimeMs": 1550024012893.124,
+      "mtimeMs": 1550024012898.32,
+      "ctimeMs": 1550024045291.4087,
+      "birthtimeMs": 1550024012893.124,
+      "atime": "2019-02-13T02:13:32.893Z",
+      "mtime": "2019-02-13T02:13:32.898Z",
+      "ctime": "2019-02-13T02:14:05.291Z",
+      "birthtime": "2019-02-13T02:13:32.893Z"
+    },
+    "6f273a04-2000-5429-9dcd-8f3c14294c64": {
+      "id": "6f273a04-2000-5429-9dcd-8f3c14294c64",
+      "children": [],
+      "parent": "ebfb2f2f-78ca-532c-9275-249dcf4cc84f",
+      "internal": {
+        "contentDigest": "49c4f5bee2b94a4db1a43bd5f311c6fd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e038302f-073b-577b-a225-bb3db8aa6379": {
+      "id": "e038302f-073b-577b-a225-bb3db8aa6379",
+      "children": [
+        "b94e038c-a8ed-5d71-81f3-9bf4c8157393"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8f1e7d0d4c75628dbb750092cfc6d86b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/hemingway-on-screen.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/hemingway-on-screen.md",
+      "relativePath": "hemingway-on-screen.md",
+      "extension": "md",
+      "size": 480,
+      "prettySize": "480 B",
+      "modifiedTime": "2019-02-13T02:15:16.121Z",
+      "accessTime": "2019-02-13T02:15:16.119Z",
+      "changeTime": "2019-02-13T02:15:16.121Z",
+      "birthTime": "2019-02-13T02:14:23.031Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "hemingway-on-screen.md",
+      "ext": ".md",
+      "name": "hemingway-on-screen",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603304473,
+      "blocks": 8,
+      "atimeMs": 1550024116119.1025,
+      "mtimeMs": 1550024116120.8,
+      "ctimeMs": 1550024116120.8,
+      "birthtimeMs": 1550024063031.2856,
+      "atime": "2019-02-13T02:15:16.119Z",
+      "mtime": "2019-02-13T02:15:16.121Z",
+      "ctime": "2019-02-13T02:15:16.121Z",
+      "birthtime": "2019-02-13T02:14:23.031Z"
+    },
+    "b94e038c-a8ed-5d71-81f3-9bf4c8157393": {
+      "id": "b94e038c-a8ed-5d71-81f3-9bf4c8157393",
+      "children": [],
+      "parent": "e038302f-073b-577b-a225-bb3db8aa6379",
+      "internal": {
+        "content": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
+        "type": "MarkdownRemark",
+        "contentDigest": "e3f428d1a707f32a8680f20986da8553",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hemingway on Screen",
+        "slug": "/hemingway-on-screen",
+        "hero": "./../images/hemingway-on-screen.png",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/hemingway-on-screen.md"
+    },
+    "SitePage /portfolio-items/hemingway-on-screen": {
+      "jsonName": "portfolio-items-hemingway-on-screen-c12",
+      "internalComponentName": "ComponentPortfolioItemsHemingwayOnScreen",
+      "path": "/portfolio-items/hemingway-on-screen",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/hemingway-on-screen"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/hemingway-on-screen",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "deb682dfd28a6d9ca7e9df97f422992a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "75229f40-c316-5591-9c25-517f11dddc89": {
+      "id": "75229f40-c316-5591-9c25-517f11dddc89",
+      "children": [
+        "773d9fc5-45f7-529d-adf6-6545efc79ed4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3c60356412a777e63d5929e50cafd8e3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/shakespeare-the-man-the-myth-the-doubt.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/shakespeare-the-man-the-myth-the-doubt.png",
+      "relativePath": "shakespeare-the-man-the-myth-the-doubt.png",
+      "extension": "png",
+      "size": 1514342,
+      "prettySize": "1.51 MB",
+      "modifiedTime": "2019-02-13T02:16:38.302Z",
+      "accessTime": "2019-02-13T02:16:38.295Z",
+      "changeTime": "2019-02-13T02:17:25.978Z",
+      "birthTime": "2019-02-13T02:16:38.295Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "shakespeare-the-man-the-myth-the-doubt.png",
+      "ext": ".png",
+      "name": "shakespeare-the-man-the-myth-the-doubt",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603304575,
+      "blocks": 2960,
+      "atimeMs": 1550024198295.4827,
+      "mtimeMs": 1550024198301.6143,
+      "ctimeMs": 1550024245978.408,
+      "birthtimeMs": 1550024198295.4827,
+      "atime": "2019-02-13T02:16:38.295Z",
+      "mtime": "2019-02-13T02:16:38.302Z",
+      "ctime": "2019-02-13T02:17:25.978Z",
+      "birthtime": "2019-02-13T02:16:38.295Z"
+    },
+    "773d9fc5-45f7-529d-adf6-6545efc79ed4": {
+      "id": "773d9fc5-45f7-529d-adf6-6545efc79ed4",
+      "children": [],
+      "parent": "75229f40-c316-5591-9c25-517f11dddc89",
+      "internal": {
+        "contentDigest": "3c60356412a777e63d5929e50cafd8e3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e3009205-0520-56e6-a9ec-aee8facefc9c": {
+      "id": "e3009205-0520-56e6-a9ec-aee8facefc9c",
+      "children": [
+        "2ed47630-38fc-5694-b2ec-dfeb7184ca98"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cea2f4f7289eb60434cf5ec537b03d52",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md",
+      "relativePath": "shakespeare-the-man-the-myth-the-doubt.md",
+      "extension": "md",
+      "size": 731,
+      "prettySize": "731 B",
+      "modifiedTime": "2019-02-13T02:19:05.370Z",
+      "accessTime": "2019-02-13T02:19:05.369Z",
+      "changeTime": "2019-02-13T02:19:05.370Z",
+      "birthTime": "2019-02-13T02:17:42.969Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "shakespeare-the-man-the-myth-the-doubt.md",
+      "ext": ".md",
+      "name": "shakespeare-the-man-the-myth-the-doubt",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603304692,
+      "blocks": 8,
+      "atimeMs": 1550024345369.3005,
+      "mtimeMs": 1550024345369.5737,
+      "ctimeMs": 1550024345369.5737,
+      "birthtimeMs": 1550024262969.2825,
+      "atime": "2019-02-13T02:19:05.369Z",
+      "mtime": "2019-02-13T02:19:05.370Z",
+      "ctime": "2019-02-13T02:19:05.370Z",
+      "birthtime": "2019-02-13T02:17:42.969Z"
+    },
+    "2ed47630-38fc-5694-b2ec-dfeb7184ca98": {
+      "id": "2ed47630-38fc-5694-b2ec-dfeb7184ca98",
+      "children": [],
+      "parent": "e3009205-0520-56e6-a9ec-aee8facefc9c",
+      "internal": {
+        "content": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
+        "type": "MarkdownRemark",
+        "contentDigest": "4542524cd6d3bf66085c884d8641e9c1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare: The man, the myth…the doubt",
+        "slug": "/shakespeare-the-man-the-myth-the-doubt",
+        "hero": "./../images/shakespeare-the-man-the-myth-the-doubt.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md"
+    },
+    "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt": {
+      "jsonName": "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareTheManTheMythTheDoubt",
+      "path": "/portfolio-items/shakespeare-the-man-the-myth-the-doubt",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/shakespeare-the-man-the-myth-the-doubt"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cbb341931675de7ce5a40012107fbb10",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "546b6704-38f8-56a0-915a-c74fe20da79c": {
+      "id": "546b6704-38f8-56a0-915a-c74fe20da79c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "23a1350fe34e1f65f72e703433a65956",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/graduate-programs-fast-facts.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/graduate-programs-fast-facts.pdf",
+      "relativePath": "graduate-programs-fast-facts.pdf",
+      "extension": "pdf",
+      "size": 1674769,
+      "prettySize": "1.67 MB",
+      "modifiedTime": "2019-02-13T02:28:38.255Z",
+      "accessTime": "2019-02-13T01:42:37.374Z",
+      "changeTime": "2019-02-13T02:28:38.256Z",
+      "birthTime": "2019-02-10T23:51:01.126Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "graduate-programs-fast-facts.pdf",
+      "ext": ".pdf",
+      "name": "graduate-programs-fast-facts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603281032,
+      "blocks": 3272,
+      "atimeMs": 1550022157374,
+      "mtimeMs": 1550024918255,
+      "ctimeMs": 1550024918255.7317,
+      "birthtimeMs": 1549842661126.3738,
+      "atime": "2019-02-13T01:42:37.374Z",
+      "mtime": "2019-02-13T02:28:38.255Z",
+      "ctime": "2019-02-13T02:28:38.256Z",
+      "birthtime": "2019-02-10T23:51:01.126Z"
+    },
+    "883eea2d-65d2-5749-ac90-8427003f6d6a": {
+      "id": "883eea2d-65d2-5749-ac90-8427003f6d6a",
+      "children": [
+        "449cdfaf-17cd-57ef-9c5f-5deddebbfea5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1496608aa1e2580a0ebbf65312766616",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/graduate-programs-fast-facts.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/graduate-programs-fast-facts.md",
+      "relativePath": "graduate-programs-fast-facts.md",
+      "extension": "md",
+      "size": 233,
+      "prettySize": "233 B",
+      "modifiedTime": "2019-02-13T02:34:58.364Z",
+      "accessTime": "2019-02-13T02:34:58.363Z",
+      "changeTime": "2019-02-13T02:34:58.364Z",
+      "birthTime": "2019-02-13T02:28:54.145Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "graduate-programs-fast-facts.md",
+      "ext": ".md",
+      "name": "graduate-programs-fast-facts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603305675,
+      "blocks": 8,
+      "atimeMs": 1550025298362.7012,
+      "mtimeMs": 1550025298364.4707,
+      "ctimeMs": 1550025298364.4707,
+      "birthtimeMs": 1550024934144.5793,
+      "atime": "2019-02-13T02:34:58.363Z",
+      "mtime": "2019-02-13T02:34:58.364Z",
+      "ctime": "2019-02-13T02:34:58.364Z",
+      "birthtime": "2019-02-13T02:28:54.145Z"
+    },
+    "76342acf-39bd-5af3-bae2-77381f97f5cc": {
+      "id": "76342acf-39bd-5af3-bae2-77381f97f5cc",
+      "children": [
+        "0dcbca94-284c-5966-9bcc-18cf13e87279"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "312703556472b52f88c0f39511c7d006",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/graduate-programs-fast-facts.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/graduate-programs-fast-facts.png",
+      "relativePath": "graduate-programs-fast-facts.png",
+      "extension": "png",
+      "size": 2485511,
+      "prettySize": "2.49 MB",
+      "modifiedTime": "2019-02-13T02:31:57.602Z",
+      "accessTime": "2019-02-13T02:32:34.814Z",
+      "changeTime": "2019-02-13T02:33:00.613Z",
+      "birthTime": "2019-02-13T02:31:57.601Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "graduate-programs-fast-facts.png",
+      "ext": ".png",
+      "name": "graduate-programs-fast-facts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603305773,
+      "blocks": 4856,
+      "atimeMs": 1550025154814.3386,
+      "mtimeMs": 1550025117601.639,
+      "ctimeMs": 1550025180612.9739,
+      "birthtimeMs": 1550025117600.8845,
+      "atime": "2019-02-13T02:32:34.814Z",
+      "mtime": "2019-02-13T02:31:57.602Z",
+      "ctime": "2019-02-13T02:33:00.613Z",
+      "birthtime": "2019-02-13T02:31:57.601Z"
+    },
+    "0dcbca94-284c-5966-9bcc-18cf13e87279": {
+      "id": "0dcbca94-284c-5966-9bcc-18cf13e87279",
+      "children": [],
+      "parent": "76342acf-39bd-5af3-bae2-77381f97f5cc",
+      "internal": {
+        "contentDigest": "312703556472b52f88c0f39511c7d006",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
+      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
+      "children": [],
+      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
+      "internal": {
+        "content": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
+        "type": "MarkdownRemark",
+        "contentDigest": "1a3842f32fafd9874362f4fc2d233b36",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Int'l Travel",
+        "slug": "/iit-international-travel-brochure",
+        "hero": "./../images/IIT-intl.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
+    },
+    "449cdfaf-17cd-57ef-9c5f-5deddebbfea5": {
+      "id": "449cdfaf-17cd-57ef-9c5f-5deddebbfea5",
+      "children": [],
+      "parent": "883eea2d-65d2-5749-ac90-8427003f6d6a",
+      "internal": {
+        "content": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c5261b5413255e408d9468e2a9ab8a4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Graduate Programs Fast Facts",
+        "slug": "/graduate-programs-fast-facts",
+        "hero": "./../images/graduate-programs-fast-facts.png",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/graduate-programs-fast-facts.md"
+    },
+    "SitePage /portfolio-items/graduate-programs-fast-facts": {
+      "jsonName": "portfolio-items-graduate-programs-fast-facts-b59",
+      "internalComponentName": "ComponentPortfolioItemsGraduateProgramsFastFacts",
+      "path": "/portfolio-items/graduate-programs-fast-facts",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/graduate-programs-fast-facts"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/graduate-programs-fast-facts",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "44da56fa1bf4b42b2713d45daf071d06",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "244b9069-b38b-5424-8ed2-8ea7244da1ca": {
+      "id": "244b9069-b38b-5424-8ed2-8ea7244da1ca",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0d542489ca58e3e3745b9c7405a69f09",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/iit-intl-travel-brochure.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/iit-intl-travel-brochure.pdf",
+      "relativePath": "iit-intl-travel-brochure.pdf",
+      "extension": "pdf",
+      "size": 6707305,
+      "prettySize": "6.71 MB",
+      "modifiedTime": "2019-02-13T02:37:40.811Z",
+      "accessTime": "2019-02-13T02:37:41.383Z",
+      "changeTime": "2019-02-13T02:37:40.812Z",
+      "birthTime": "2019-02-12T01:31:47.525Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "iit-intl-travel-brochure.pdf",
+      "ext": ".pdf",
+      "name": "iit-intl-travel-brochure",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603290011,
+      "blocks": 13456,
+      "atimeMs": 1550025461383.4485,
+      "mtimeMs": 1550025460811,
+      "ctimeMs": 1550025460811.52,
+      "birthtimeMs": 1549935107525.2322,
+      "atime": "2019-02-13T02:37:41.383Z",
+      "mtime": "2019-02-13T02:37:40.811Z",
+      "ctime": "2019-02-13T02:37:40.812Z",
+      "birthtime": "2019-02-12T01:31:47.525Z"
+    },
+    "3988e5a9-0695-5a7b-9680-0f6e2b56383c": {
+      "id": "3988e5a9-0695-5a7b-9680-0f6e2b56383c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d2b677d8ae57ea0e18007c0d6dff9af0",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/domestic-resource-guide.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/domestic-resource-guide.pdf",
+      "relativePath": "domestic-resource-guide.pdf",
+      "extension": "pdf",
+      "size": 716071,
+      "prettySize": "716 kB",
+      "modifiedTime": "2019-02-13T02:38:06.012Z",
+      "accessTime": "2019-02-13T02:38:05.678Z",
+      "changeTime": "2019-02-13T02:38:39.548Z",
+      "birthTime": "2019-02-13T02:38:05.678Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "domestic-resource-guide.pdf",
+      "ext": ".pdf",
+      "name": "domestic-resource-guide",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603305964,
+      "blocks": 1400,
+      "atimeMs": 1550025485677.8457,
+      "mtimeMs": 1550025486012.4138,
+      "ctimeMs": 1550025519548.1648,
+      "birthtimeMs": 1550025485677.8457,
+      "atime": "2019-02-13T02:38:05.678Z",
+      "mtime": "2019-02-13T02:38:06.012Z",
+      "ctime": "2019-02-13T02:38:39.548Z",
+      "birthtime": "2019-02-13T02:38:05.678Z"
+    },
+    "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03": {
+      "id": "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03",
+      "children": [
+        "3c6bf2c1-209d-5560-94c7-7d31ed69e752"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ed13c6190d58fe0b0b322417114da163",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/domestic-resource-guide.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/domestic-resource-guide.md",
+      "relativePath": "domestic-resource-guide.md",
+      "extension": "md",
+      "size": 271,
+      "prettySize": "271 B",
+      "modifiedTime": "2019-02-13T02:42:05.123Z",
+      "accessTime": "2019-02-13T02:42:05.122Z",
+      "changeTime": "2019-02-13T02:42:05.123Z",
+      "birthTime": "2019-02-13T02:38:48.309Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "domestic-resource-guide.md",
+      "ext": ".md",
+      "name": "domestic-resource-guide",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306096,
+      "blocks": 8,
+      "atimeMs": 1550025725122.42,
+      "mtimeMs": 1550025725122.787,
+      "ctimeMs": 1550025725122.787,
+      "birthtimeMs": 1550025528309.0679,
+      "atime": "2019-02-13T02:42:05.122Z",
+      "mtime": "2019-02-13T02:42:05.123Z",
+      "ctime": "2019-02-13T02:42:05.123Z",
+      "birthtime": "2019-02-13T02:38:48.309Z"
+    },
+    "0151154b-a7fe-59ce-a70c-100b643105f5": {
+      "id": "0151154b-a7fe-59ce-a70c-100b643105f5",
+      "children": [
+        "c7e9f727-44e3-5aa6-b8a8-83667e5a78b9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a6fa8f25982b3309d17867cb0950e6e0",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/domestic-resource-guide.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/domestic-resource-guide.png",
+      "relativePath": "domestic-resource-guide.png",
+      "extension": "png",
+      "size": 1219786,
+      "prettySize": "1.22 MB",
+      "modifiedTime": "2019-02-13T02:40:24.600Z",
+      "accessTime": "2019-02-13T02:40:42.808Z",
+      "changeTime": "2019-02-13T02:40:52.221Z",
+      "birthTime": "2019-02-13T02:40:24.599Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "domestic-resource-guide.png",
+      "ext": ".png",
+      "name": "domestic-resource-guide",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306188,
+      "blocks": 2384,
+      "atimeMs": 1550025642807.5413,
+      "mtimeMs": 1550025624599.7507,
+      "ctimeMs": 1550025652220.631,
+      "birthtimeMs": 1550025624599.3083,
+      "atime": "2019-02-13T02:40:42.808Z",
+      "mtime": "2019-02-13T02:40:24.600Z",
+      "ctime": "2019-02-13T02:40:52.221Z",
+      "birthtime": "2019-02-13T02:40:24.599Z"
+    },
+    "c7e9f727-44e3-5aa6-b8a8-83667e5a78b9": {
+      "id": "c7e9f727-44e3-5aa6-b8a8-83667e5a78b9",
+      "children": [],
+      "parent": "0151154b-a7fe-59ce-a70c-100b643105f5",
+      "internal": {
+        "contentDigest": "a6fa8f25982b3309d17867cb0950e6e0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3c6bf2c1-209d-5560-94c7-7d31ed69e752": {
+      "id": "3c6bf2c1-209d-5560-94c7-7d31ed69e752",
+      "children": [],
+      "parent": "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03",
+      "internal": {
+        "content": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
+        "type": "MarkdownRemark",
+        "contentDigest": "b96f220516e22a8bbe4133e74831f5cf",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Domestic Resource Guide",
+        "slug": "/domestic-resource-guide",
+        "hero": "./../images/domestic-resource-guide.png",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/domestic-resource-guide.md"
+    },
+    "SitePage /portfolio-items/domestic-resource-guide": {
+      "jsonName": "portfolio-items-domestic-resource-guide-fd8",
+      "internalComponentName": "ComponentPortfolioItemsDomesticResourceGuide",
+      "path": "/portfolio-items/domestic-resource-guide",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/domestic-resource-guide"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/domestic-resource-guide",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b08cbd8801adb6d03572410ca5bd484b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2a05da79-d758-5d77-88c8-1bf6c60478a5": {
+      "id": "2a05da79-d758-5d77-88c8-1bf6c60478a5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6032b77a4a4de75a81afd1a6b4031ba0",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/iit-grad-admissions-career-fair-postcard.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/iit-grad-admissions-career-fair-postcard.pdf",
+      "relativePath": "iit-grad-admissions-career-fair-postcard.pdf",
+      "extension": "pdf",
+      "size": 797080,
+      "prettySize": "797 kB",
+      "modifiedTime": "2019-02-13T02:42:34.442Z",
+      "accessTime": "2019-02-13T02:42:33.971Z",
+      "changeTime": "2019-02-13T02:43:03.814Z",
+      "birthTime": "2019-02-13T02:42:33.971Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "iit-grad-admissions-career-fair-postcard.pdf",
+      "ext": ".pdf",
+      "name": "iit-grad-admissions-career-fair-postcard",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306301,
+      "blocks": 1560,
+      "atimeMs": 1550025753970.9578,
+      "mtimeMs": 1550025754441.9824,
+      "ctimeMs": 1550025783814.1743,
+      "birthtimeMs": 1550025753970.9578,
+      "atime": "2019-02-13T02:42:33.971Z",
+      "mtime": "2019-02-13T02:42:34.442Z",
+      "ctime": "2019-02-13T02:43:03.814Z",
+      "birthtime": "2019-02-13T02:42:33.971Z"
+    },
+    "7e0557b1-3eb2-52af-befd-89f1dab6ce98": {
+      "id": "7e0557b1-3eb2-52af-befd-89f1dab6ce98",
+      "children": [
+        "db79d089-fbb4-5518-a115-8ae475334ee3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "91a65233f5c71fc2012b463f35330a04",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/iit-grad-admissions-career-fair-postcard.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/iit-grad-admissions-career-fair-postcard.png",
+      "relativePath": "iit-grad-admissions-career-fair-postcard.png",
+      "extension": "png",
+      "size": 2566199,
+      "prettySize": "2.57 MB",
+      "modifiedTime": "2019-02-13T02:45:01.644Z",
+      "accessTime": "2019-02-13T02:45:36.909Z",
+      "changeTime": "2019-02-13T02:45:45.030Z",
+      "birthTime": "2019-02-13T02:45:01.643Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "iit-grad-admissions-career-fair-postcard.png",
+      "ext": ".png",
+      "name": "iit-grad-admissions-career-fair-postcard",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306443,
+      "blocks": 5016,
+      "atimeMs": 1550025936908.9133,
+      "mtimeMs": 1550025901643.541,
+      "ctimeMs": 1550025945029.535,
+      "birthtimeMs": 1550025901642.7297,
+      "atime": "2019-02-13T02:45:36.909Z",
+      "mtime": "2019-02-13T02:45:01.644Z",
+      "ctime": "2019-02-13T02:45:45.030Z",
+      "birthtime": "2019-02-13T02:45:01.643Z"
+    },
+    "db79d089-fbb4-5518-a115-8ae475334ee3": {
+      "id": "db79d089-fbb4-5518-a115-8ae475334ee3",
+      "children": [],
+      "parent": "7e0557b1-3eb2-52af-befd-89f1dab6ce98",
+      "internal": {
+        "contentDigest": "91a65233f5c71fc2012b463f35330a04",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6df8042f-cb8a-580d-9ea5-20541890d013": {
+      "id": "6df8042f-cb8a-580d-9ea5-20541890d013",
+      "children": [
+        "9649e75c-b895-5fc8-a613-6ecfd3ce3ead"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f830f4ff2e33eea32bffa9e9a054734a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/iit-grad-admissions-career-fair-postcard.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md",
+      "relativePath": "iit-grad-admissions-career-fair-postcard.md",
+      "extension": "md",
+      "size": 265,
+      "prettySize": "265 B",
+      "modifiedTime": "2019-02-13T02:47:37.957Z",
+      "accessTime": "2019-02-13T02:47:37.956Z",
+      "changeTime": "2019-02-13T02:47:37.957Z",
+      "birthTime": "2019-02-13T02:46:05.585Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "iit-grad-admissions-career-fair-postcard.md",
+      "ext": ".md",
+      "name": "iit-grad-admissions-career-fair-postcard",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306488,
+      "blocks": 8,
+      "atimeMs": 1550026057955.662,
+      "mtimeMs": 1550026057957.263,
+      "ctimeMs": 1550026057957.263,
+      "birthtimeMs": 1550025965585.154,
+      "atime": "2019-02-13T02:47:37.956Z",
+      "mtime": "2019-02-13T02:47:37.957Z",
+      "ctime": "2019-02-13T02:47:37.957Z",
+      "birthtime": "2019-02-13T02:46:05.585Z"
+    },
+    "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard": {
+      "jsonName": "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea",
+      "internalComponentName": "ComponentPortfolioItemsIitGradAdmissionsCareerFairPostcard",
+      "path": "/portfolio-items/iit-grad-admissions-career-fair-postcard",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/iit-grad-admissions-career-fair-postcard"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "37f3afe22ffa72cedd9913feeede0e6f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": {
+      "id": "9649e75c-b895-5fc8-a613-6ecfd3ce3ead",
+      "children": [],
+      "parent": "6df8042f-cb8a-580d-9ea5-20541890d013",
+      "internal": {
+        "content": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9504ad8c2981dbc61111ab7a551f9d99",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Career Fair Postcard",
+        "slug": "/iit-grad-admissions-career-fair-postcard",
+        "hero": "./../images/iit-grad-admissions-career-fair-postcard.png",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md"
+    },
+    "9e1a1dff-5c77-51ec-b100-8ccc94e21ddb": {
+      "id": "9e1a1dff-5c77-51ec-b100-8ccc94e21ddb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cf8d8bb211cfe5d3ec7a142e9d0986cd",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"src/pdf/a-crash-course-to-making-your-mark-in-the-recording-industry.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pdf",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/pdf/a-crash-course-to-making-your-mark-in-the-recording-industry.pdf",
+      "relativePath": "a-crash-course-to-making-your-mark-in-the-recording-industry.pdf",
+      "extension": "pdf",
+      "size": 7655104,
+      "prettySize": "7.66 MB",
+      "modifiedTime": "2019-02-13T02:49:46.306Z",
+      "accessTime": "2019-02-13T02:49:46.268Z",
+      "changeTime": "2019-02-13T02:50:28.117Z",
+      "birthTime": "2019-02-13T02:49:46.268Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/pdf",
+      "base": "a-crash-course-to-making-your-mark-in-the-recording-industry.pdf",
+      "ext": ".pdf",
+      "name": "a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306634,
+      "blocks": 14952,
+      "atimeMs": 1550026186268.0269,
+      "mtimeMs": 1550026186306.4226,
+      "ctimeMs": 1550026228116.5332,
+      "birthtimeMs": 1550026186268.0269,
+      "atime": "2019-02-13T02:49:46.268Z",
+      "mtime": "2019-02-13T02:49:46.306Z",
+      "ctime": "2019-02-13T02:50:28.117Z",
+      "birthtime": "2019-02-13T02:49:46.268Z"
+    },
+    "09b116f1-75ab-5ca7-827f-82e56b4a90bb": {
+      "id": "09b116f1-75ab-5ca7-827f-82e56b4a90bb",
+      "children": [
+        "d801c09c-228a-533a-8283-53abc4cdf8f5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "312a292704cb1fcf20e14de787a61f08",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/a-crash-course-to-making-your-mark.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/a-crash-course-to-making-your-mark.png",
+      "relativePath": "a-crash-course-to-making-your-mark.png",
+      "extension": "png",
+      "size": 337072,
+      "prettySize": "337 kB",
+      "modifiedTime": "2019-02-13T02:51:30.758Z",
+      "accessTime": "2019-02-13T02:52:12.857Z",
+      "changeTime": "2019-02-13T02:52:39.986Z",
+      "birthTime": "2019-02-13T02:51:30.758Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "a-crash-course-to-making-your-mark.png",
+      "ext": ".png",
+      "name": "a-crash-course-to-making-your-mark",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306782,
+      "blocks": 664,
+      "atimeMs": 1550026332856.897,
+      "mtimeMs": 1550026290757.749,
+      "ctimeMs": 1550026359986.2307,
+      "birthtimeMs": 1550026290757.5486,
+      "atime": "2019-02-13T02:52:12.857Z",
+      "mtime": "2019-02-13T02:51:30.758Z",
+      "ctime": "2019-02-13T02:52:39.986Z",
+      "birthtime": "2019-02-13T02:51:30.758Z"
+    },
+    "d801c09c-228a-533a-8283-53abc4cdf8f5": {
+      "id": "d801c09c-228a-533a-8283-53abc4cdf8f5",
+      "children": [],
+      "parent": "09b116f1-75ab-5ca7-827f-82e56b4a90bb",
+      "internal": {
+        "contentDigest": "312a292704cb1fcf20e14de787a61f08",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7f2d266b-29d7-558a-ba8b-4f07eb5359a8": {
+      "id": "7f2d266b-29d7-558a-ba8b-4f07eb5359a8",
+      "children": [
+        "d7b89767-a4e3-527d-a178-d28526ade1a3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "68e19a95e2683a77b7098cb29c62dabd",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/portfolio-items/a-crash-course-to-making-your-mark.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "portfolio-items",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/a-crash-course-to-making-your-mark.md",
+      "relativePath": "a-crash-course-to-making-your-mark.md",
+      "extension": "md",
+      "size": 230,
+      "prettySize": "230 B",
+      "modifiedTime": "2019-02-13T02:54:48.391Z",
+      "accessTime": "2019-02-13T02:54:48.390Z",
+      "changeTime": "2019-02-13T02:54:48.391Z",
+      "birthTime": "2019-02-13T02:52:55.773Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
+      "base": "a-crash-course-to-making-your-mark.md",
+      "ext": ".md",
+      "name": "a-crash-course-to-making-your-mark",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603306844,
+      "blocks": 8,
+      "atimeMs": 1550026488389.793,
+      "mtimeMs": 1550026488391.4631,
+      "ctimeMs": 1550026488391.4631,
+      "birthtimeMs": 1550026375772.8667,
+      "atime": "2019-02-13T02:54:48.390Z",
+      "mtime": "2019-02-13T02:54:48.391Z",
+      "ctime": "2019-02-13T02:54:48.391Z",
+      "birthtime": "2019-02-13T02:52:55.773Z"
+    },
+    "d7b89767-a4e3-527d-a178-d28526ade1a3": {
+      "id": "d7b89767-a4e3-527d-a178-d28526ade1a3",
+      "children": [],
+      "parent": "7f2d266b-29d7-558a-ba8b-4f07eb5359a8",
+      "internal": {
+        "content": "\nI did editing work on this book.",
+        "type": "MarkdownRemark",
+        "contentDigest": "40bb8fd08641cd390cfcfa25a8e25ad0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "A Crash Course to Making Your Mark",
+        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry",
+        "hero": "./../images/a-crash-course-to-making-your-mark.png",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI did editing work on this book.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/a-crash-course-to-making-your-mark.md"
+    },
+    "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry": {
+      "jsonName": "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262",
+      "internalComponentName": "ComponentPortfolioItemsACrashCourseToMakingYourMarkInTheRecordingIndustry",
+      "path": "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "985a79349c864729741aada34f457afd",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -3631,6 +5686,149 @@
       ],
       "ce414ef0-aadc-5b0e-b156-85f275689e04": [
         "/portfolio-items/completed-application-next-steps"
+      ],
+      "c31e195d-f685-54f0-94ae-45d5ee2dbb97": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/tales-from-shakespeare"
+      ],
+      "7ec4c52d-7cd4-5a6c-800a-d87b6437a2a3": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/tales-from-shakespeare"
+      ],
+      "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e": [
+        "/portfolio-items/tales-from-shakespeare"
+      ],
+      "1101f5e9-a18f-5f15-9a32-c46909ed8dfb": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/the-letters-of-samuel-beckett-volume-3"
+      ],
+      "96f11c7d-334e-51ce-8474-7d03fd1758d1": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/the-letters-of-samuel-beckett-volume-3"
+      ],
+      "ad51ff26-fba9-5307-a379-aa612d7ee334": [
+        "/portfolio-items/the-letters-of-samuel-beckett-volume-3"
+      ],
+      "51099f84-020f-51d8-bd34-e1d1a2a42af0": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/illinois-tech-ranks-in-top-100"
+      ],
+      "e921f17e-853e-5d65-8aba-0b44619c9d57": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/illinois-tech-ranks-in-top-100"
+      ],
+      "de9c3fbb-e963-529c-9c20-16ba6217dd06": [
+        "/portfolio-items/illinois-tech-ranks-in-top-100"
+      ],
+      "248b233d-cf9c-549b-bb65-bd9480a6fd94": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/five-things-you'll-learn-at-grad-discover-day"
+      ],
+      "e1563d7d-599d-58be-beb2-70b2030956cd": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/five-things-you'll-learn-at-grad-discover-day"
+      ],
+      "b40a8979-af15-5792-a1fb-b661c97d8ac1": [
+        "/portfolio-items/five-things-you'll-learn-at-grad-discover-day"
+      ],
+      "4b65f421-b7e1-53d1-a44a-59356afdeef2": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/application-overview"
+      ],
+      "ecc2b8da-b181-5edc-9ece-a0cd5bb49d50": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/application-overview"
+      ],
+      "42080fb6-f7e3-501b-bbb3-076e70f8520e": [
+        "/portfolio-items/application-overview"
+      ],
+      "5c435382-1f13-563e-a60c-85a45367ed31": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/ace-your-interview"
+      ],
+      "fe187f88-0191-5c97-926e-4e8995814a93": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/ace-your-interview"
+      ],
+      "d114efed-c9dd-5216-b9da-db7b62cfb093": [
+        "/portfolio-items/ace-your-interview"
+      ],
+      "b00c5c92-31b1-5513-b96b-352c84337ea2": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/shakespeare-goes-digital"
+      ],
+      "1e695fb0-fbae-5e80-a9d9-48c8a22d524a": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/shakespeare-goes-digital"
+      ],
+      "aee181c9-8262-5f39-9e9e-b8f02fab21f3": [
+        "/portfolio-items/shakespeare-goes-digital"
+      ],
+      "ebfb2f2f-78ca-532c-9275-249dcf4cc84f": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/hemingway-on-screen"
+      ],
+      "6f273a04-2000-5429-9dcd-8f3c14294c64": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/hemingway-on-screen"
+      ],
+      "b94e038c-a8ed-5d71-81f3-9bf4c8157393": [
+        "/portfolio-items/hemingway-on-screen"
+      ],
+      "75229f40-c316-5591-9c25-517f11dddc89": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/shakespeare-the-man-the-myth-the-doubt"
+      ],
+      "773d9fc5-45f7-529d-adf6-6545efc79ed4": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/shakespeare-the-man-the-myth-the-doubt"
+      ],
+      "2ed47630-38fc-5694-b2ec-dfeb7184ca98": [
+        "/portfolio-items/shakespeare-the-man-the-myth-the-doubt"
+      ],
+      "76342acf-39bd-5af3-bae2-77381f97f5cc": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/graduate-programs-fast-facts"
+      ],
+      "0dcbca94-284c-5966-9bcc-18cf13e87279": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/graduate-programs-fast-facts"
+      ],
+      "449cdfaf-17cd-57ef-9c5f-5deddebbfea5": [
+        "/portfolio-items/graduate-programs-fast-facts"
+      ],
+      "0151154b-a7fe-59ce-a70c-100b643105f5": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/domestic-resource-guide"
+      ],
+      "c7e9f727-44e3-5aa6-b8a8-83667e5a78b9": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/domestic-resource-guide"
+      ],
+      "3c6bf2c1-209d-5560-94c7-7d31ed69e752": [
+        "/portfolio-items/domestic-resource-guide"
+      ],
+      "7e0557b1-3eb2-52af-befd-89f1dab6ce98": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/iit-grad-admissions-career-fair-postcard"
+      ],
+      "db79d089-fbb4-5518-a115-8ae475334ee3": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/iit-grad-admissions-career-fair-postcard"
+      ],
+      "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": [
+        "/portfolio-items/iit-grad-admissions-career-fair-postcard"
+      ],
+      "09b116f1-75ab-5ca7-827f-82e56b4a90bb": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
+      ],
+      "d801c09c-228a-533a-8283-53abc4cdf8f5": [
+        "sq--src-pages-portfolio-js",
+        "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
+      ],
+      "d7b89767-a4e3-527d-a178-d28526ade1a3": [
+        "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
       ]
     },
     "connections": {
@@ -3649,7 +5847,7 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "portfolio-items-iit-international-travel-brochure-4aa": "266/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-CZLTVbscceDhNmfOYzPD8cFW5w",
+    "portfolio-items-iit-international-travel-brochure-4aa": "945/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-8kAZrGNdffYfdxQ4GIbmC34p6k",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
     "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -3665,7 +5863,20 @@
     "portfolio-items-shakespeare-from-cambridge-4c4": "953/path---portfolio-items-shakespeare-from-cambridge-4-c-4-74f-v0qdpGnhwprIXuxsuDJSpxmfys",
     "portfolio-items-an-interview-with-vincent-sherry-988": "683/path---portfolio-items-an-interview-with-vincent-sherry-988-c71-Vaq1y2OhWFYjfXVWo8NtRcqBo",
     "portfolio-items-the-hidden-jane-austen-de6": "639/path---portfolio-items-the-hidden-jane-austen-de-6-d92-NpuWApxowNHTxBEgRKVz0LtJlDQ",
-    "portfolio-items-completed-application-next-steps-35b": "19/path---portfolio-items-completed-application-next-steps-35-b-b44-vpjN1DDcxzguZTv7sZ3cN0LP2k"
+    "portfolio-items-completed-application-next-steps-35b": "19/path---portfolio-items-completed-application-next-steps-35-b-b44-vpjN1DDcxzguZTv7sZ3cN0LP2k",
+    "portfolio-items-tales-from-shakespeare-1d0": "842/path---portfolio-items-tales-from-shakespeare-1-d-0-9e1-wDplL9t6I5PqGwV6NfJtHu2ZI",
+    "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1": "839/path---portfolio-items-the-letters-of-samuel-beckett-volume-3-bd-1-ea3-j5Uex7VFCChP2HOAyKZvYbHgjY",
+    "portfolio-items-illinois-tech-ranks-in-top-100-1e3": "983/path---portfolio-items-illinois-tech-ranks-in-top-100-1-e-3-b76-F685NV4TLYIhwfo23QUBjY2XisE",
+    "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e": "775/path---portfolio-items-five-things-youll-learn-at-grad-discover-day-29-e-652-FjlMpnoviGYHLAdbwUfNvUxVYzs",
+    "portfolio-items-application-overview-1e9": "266/path---portfolio-items-application-overview-1-e-9-f40-zKrmbccnxXPm8W2hYisEoRnAQys",
+    "portfolio-items-ace-your-interview-585": "221/path---portfolio-items-ace-your-interview-585-a66-jBsfEiTIhLro9cyVyWcScqvsp4",
+    "portfolio-items-shakespeare-goes-digital-22b": "593/path---portfolio-items-shakespeare-goes-digital-22-b-8d1-pLLruxN5nOAoKi44bUJeOZxsLas",
+    "portfolio-items-hemingway-on-screen-c12": "249/path---portfolio-items-hemingway-on-screen-c-12-9d6-9eHSZ9CtChNRlAD4KDfORVtE4",
+    "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847": "557/path---portfolio-items-shakespeare-the-man-the-myth-the-doubt-847-d0d-p066gCTN3yKUyoMo0sTG7QjW9c",
+    "portfolio-items-graduate-programs-fast-facts-b59": "647/path---portfolio-items-graduate-programs-fast-facts-b-59-27c-XQzyFps2ffyihyoGMWoH39x9Tpw",
+    "portfolio-items-domestic-resource-guide-fd8": "738/path---portfolio-items-domestic-resource-guide-fd-8-f05-4efP8LPY5JbPGRavLbw04YUwykM",
+    "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea": "271/path---portfolio-items-iit-grad-admissions-career-fair-postcard-8-ea-b4c-61TLlPgAHU5Jn1DJ7MlTdnO3dBk",
+    "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262": "730/path---portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262-a92-lRtmMtcVNNTwtshKAbCskC163Zk"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
