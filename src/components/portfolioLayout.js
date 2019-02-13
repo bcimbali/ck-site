@@ -22,7 +22,11 @@ const InfoBlurb = styled.div`
   color: #FFFFFF;
   margin-bottom: 2rem;
   text-align: center;
-  /* width: 60vw; */
+  width: 60vw;
+
+  @media (max-width: 414px) {
+    width: 100%;
+  }
 `;
 
 const TitleText = styled.h1`
@@ -51,9 +55,9 @@ export default class portfolioLayout extends Component {
           <TitleText>
             {markdownRemark.frontmatter.title}
           </TitleText>
-          <ImgContainer>
+          {/* <ImgContainer>
             <Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} />
-          </ImgContainer>
+          </ImgContainer> */}
           <InfoBlurb dangerouslySetInnerHTML={{
             __html: markdownRemark.html
           }}/>

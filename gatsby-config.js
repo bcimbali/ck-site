@@ -68,7 +68,8 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-images',],
+        plugins: [`gatsby-remark-responsive-iframe`,
+        'gatsby-remark-images',],
       },
     },
     'gatsby-plugin-offline',

@@ -130,11 +130,6 @@
         "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3"
     },
     {
-        "componentChunkName": "component---src-components-portfolio-layout-js",
-        "jsonName": "portfolio-itemsnull-ecf",
-        "path": "/portfolio-itemsnull"
-    },
-    {
         "componentChunkName": "component---src-pages-portfolio-js",
         "jsonName": "portfolio-964",
         "path": "/portfolio/"
