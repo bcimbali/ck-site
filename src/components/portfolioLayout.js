@@ -1,8 +1,8 @@
+import { Link, graphql } from 'gatsby';
 import React, { Component } from 'react';
 
 import Img from 'gatsby-image';
 import Layout from './layout';
-import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
 const ImgContainer = styled.div`
@@ -39,6 +39,16 @@ const TitleText = styled.h1`
   }
 `;
 
+const PDFWrapper = styled.div`
+  margin-bottom: 2rem;
+  height: 80vh;
+  width: 80vw;
+  object {
+    width: 100%;
+    height: 100%;
+  }
+`;
+
 const PortfolioWrapper = styled.div`
   align-items: center;
   display: flex;
@@ -55,9 +65,17 @@ export default class portfolioLayout extends Component {
           <TitleText>
             {markdownRemark.frontmatter.title}
           </TitleText>
-          {/* <ImgContainer>
-            <Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} />
-          </ImgContainer> */}
+          {
+            markdownRemark.frontmatter.content === "ebook"
+            ? (
+              <object data={markdownRemark.frontmatter.ebook.publicURL} width="100%" height="800px">
+              </object>
+              
+            )
+            : (
+              null
+            )
+          }
           <InfoBlurb dangerouslySetInnerHTML={{
             __html: markdownRemark.html
           }}/>
@@ -86,6 +104,10 @@ export const query = graphql`
         homepage
         slug
         title
+        content
+        ebook {
+          publicURL
+        }
       }
     }
   }
