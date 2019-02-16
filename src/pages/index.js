@@ -1,6 +1,9 @@
-import Layout from '../components/layout'
-import React from 'react'
-import SEO from '../components/seo'
+import { Link, StaticQuery, graphql } from 'gatsby';
+
+import Img from 'gatsby-image';
+import Layout from '../components/layout';
+import React from 'react';
+import SEO from '../components/seo';
 import styled from 'styled-components';
 
 const MainText = styled.h1`
@@ -9,28 +12,31 @@ const MainText = styled.h1`
   text-align: center;
 `;
 
-const PortfolioBox = styled.div`
+const PortfolioCard = styled.div`
   align-items: center;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   display: flex;
-  height: 35vh;
-  justify-content: center;
-  margin-bottom: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  min-height: 40vh;
   overflow: hidden;
-  width: 25vw;
-
-  img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+  width: 23vw;
+  
+  :hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    h2 {
+      color: blue;
+    }
   }
 
   @media (max-width: 768px) {
-    width: 35vw;
+    width: 38vw;
   }
 
   @media (max-width: 414px) {
-    width: 100vw;
+    flex-direction: column;
+    width: 80vw;
   }
 `;
 
@@ -39,6 +45,37 @@ const PortfolioContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   width: 80vw;
+
+  a {
+    text-decoration: none;
+  }
+`;
+
+const PortfolioImgContainer = styled.div`
+  width: 100%;
+
+  @media (max-width: 414px) {
+    width: 80vw;
+  }
+`;
+
+const PortfolioTitle = styled.div`
+  align-items: center;
+  min-height: 10vh;
+  display: flex;
+  h2 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 8vh;
+  }
+
+  @media (max-width: 414px) {
+    min-height: 10vh;
+  }
 `;
 
 const IndexWrapper = styled.div`
@@ -46,6 +83,31 @@ const IndexWrapper = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+const HOMEPAGE_QUERY = graphql`
+  query HomepageQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          excerpt
+          frontmatter {
+            hero {
+              childImageSharp {
+                fluid(maxWidth: 500, maxHeight: 500) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            title
+            homepage
+            slug
+          }
+        }
+      }
+    }
+  }
+`
 
 const IndexPage = () => (
   <Layout>
@@ -55,24 +117,28 @@ const IndexPage = () => (
         Content + Digital Marketing
       </MainText>
       <PortfolioContainer>
-        <PortfolioBox>
-          <img src="https://picsum.photos/600" alt=""/>
-        </PortfolioBox>
-        <PortfolioBox>
-          <img src="https://picsum.photos/300" alt=""/>
-        </PortfolioBox>
-        <PortfolioBox>
-          <img src="https://picsum.photos/500" alt=""/>
-        </PortfolioBox>
-        <PortfolioBox>
-          <img src="https://picsum.photos/200" alt=""/>
-        </PortfolioBox>
-        <PortfolioBox>
-          <img src="https://picsum.photos/700" alt=""/>
-        </PortfolioBox>
-        <PortfolioBox>
-          <img src="https://picsum.photos/800" alt=""/>
-        </PortfolioBox>
+        <StaticQuery
+          query={HOMEPAGE_QUERY}
+          render={({allMarkdownRemark}) => (
+            allMarkdownRemark.edges.map(({node}) => {
+              if (node.frontmatter.homepage === "yes") {
+                return (
+                  <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                    <PortfolioCard key={node.frontmatter.slug}>
+                      <PortfolioImgContainer>
+                        <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                      </PortfolioImgContainer>
+                      <PortfolioTitle>
+                          <h2>{node.frontmatter.title}</h2>
+                      </PortfolioTitle>
+                    </PortfolioCard>
+                  </Link>
+                )
+              }
+            })
+          )}
+        >
+        </StaticQuery>
       </PortfolioContainer>
     </IndexWrapper>
   </Layout>
