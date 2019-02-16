@@ -2,6 +2,7 @@
 slug: "/illinois-tech-ranks-in-top-100"
 title: "Illinois Tech Ranks in Top 100"
 hero: "./../images/illinois-tech-ranks-in-top-100.jpg"
+content: "video"
 homepage: "no"
 ---
 

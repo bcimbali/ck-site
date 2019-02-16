@@ -10,11 +10,7 @@ const ImgContainer = styled.div`
   width: 40vw;
 
   @media (max-width: 768px) {
-    width: 80vw;
-  }
-
-  @media (max-width: 414px) {
-    width: 80vw;
+    width: 100%;
   }
 `;
 
@@ -72,6 +68,13 @@ export default class portfolioLayout extends Component {
               </object>
               
             )
+            : 
+            markdownRemark.frontmatter.content === "blog"
+            ? (
+              <ImgContainer>
+                <a href={markdownRemark.frontmatter.link} target="_blank" rel="noopener noreferrer"><Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} /></a>
+              </ImgContainer>
+            )
             : (
               null
             )
@@ -105,6 +108,7 @@ export const query = graphql`
         slug
         title
         content
+        link
         ebook {
           publicURL
         }

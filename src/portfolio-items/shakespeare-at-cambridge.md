@@ -2,6 +2,7 @@
 slug: "/shakespeare-at-cambridge"
 title: "Shakespeare at Cambridge"
 hero: "./../images/shakespeare-at-cambridge.jpg"
+content: "video"
 homepage: "yes"
 ---
 

@@ -2,6 +2,7 @@
 slug: "/application-overview"
 title: "Application Overview"
 hero: "./../images/application-overview.jpg"
+content: "video"
 homepage: "no"
 ---
 

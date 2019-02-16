@@ -2,6 +2,7 @@
 slug: "/an-interview-with-vincent-sherry"
 title: "An Interview with Vincent Sherry"
 hero: "./../images/an-interview-with-vincent-sherry.jpg"
+content: "video"
 homepage: "yes"
 ---
 

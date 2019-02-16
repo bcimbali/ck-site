@@ -2,6 +2,7 @@
 slug: "/five-things-you'll-learn-at-grad-discover-day"
 title: "5 Things You'll Learn at Grad Discover Day"
 hero: "./../images/five-things-you'll-learn-at-grad-discover-day.jpg"
+content: "video"
 homepage: "no"
 ---
 

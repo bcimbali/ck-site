@@ -1911,12 +1911,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-14T04:07:52.879Z",
+      "buildTime": "2019-02-16T17:59:46.644Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b014e71cdb2c1fc934e63aa5ab20b74a",
+        "contentDigest": "a6f620f56fa1c856f03b0680fa856236",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1926,7 +1926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "285f54bc144fc9745de767c58fd1594c",
+        "contentDigest": "915aeec5293fbf3506f005d0a9056e00",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1938,7 +1938,7 @@
       "size": 832,
       "prettySize": "832 B",
       "modifiedTime": "2019-02-13T02:52:39.986Z",
-      "accessTime": "2019-02-14T04:07:55.504Z",
+      "accessTime": "2019-02-16T17:59:49.207Z",
       "changeTime": "2019-02-13T02:52:39.986Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1956,11 +1956,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550117275504.144,
+      "atimeMs": 1550339989206.605,
       "mtimeMs": 1550026359986.231,
       "ctimeMs": 1550026359986.231,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-14T04:07:55.504Z",
+      "atime": "2019-02-16T17:59:49.207Z",
       "mtime": "2019-02-13T02:52:39.986Z",
       "ctime": "2019-02-13T02:52:39.986Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -3326,7 +3326,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b39496cd33cb1f2dbc9615e8ea3e285c",
+        "contentDigest": "7f55c04a2f1fbfb2e496f2ad41375abe",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3338,7 +3338,7 @@
       "size": 736,
       "prettySize": "736 B",
       "modifiedTime": "2019-02-13T02:52:55.773Z",
-      "accessTime": "2019-02-14T04:07:55.565Z",
+      "accessTime": "2019-02-16T17:59:49.271Z",
       "changeTime": "2019-02-13T02:52:55.773Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3356,11 +3356,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550117275565.3818,
+      "atimeMs": 1550339989270.9053,
       "mtimeMs": 1550026375772.8826,
       "ctimeMs": 1550026375772.8826,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-14T04:07:55.565Z",
+      "atime": "2019-02-16T17:59:49.271Z",
       "mtime": "2019-02-13T02:52:55.773Z",
       "ctime": "2019-02-13T02:52:55.773Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -3466,7 +3466,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "789fabd7ddc8b4897d40e0a2431c4846",
+        "contentDigest": "bb61e3e0e80e0766f4c53a53d31d7177",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/an-interview-with-vincent-sherry.md\"",
@@ -3476,11 +3476,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/an-interview-with-vincent-sherry.md",
       "relativePath": "an-interview-with-vincent-sherry.md",
       "extension": "md",
-      "size": 919,
-      "prettySize": "919 B",
-      "modifiedTime": "2019-02-13T03:34:37.145Z",
-      "accessTime": "2019-02-13T03:34:37.144Z",
-      "changeTime": "2019-02-13T03:34:37.145Z",
+      "size": 936,
+      "prettySize": "936 B",
+      "modifiedTime": "2019-02-16T17:35:18.550Z",
+      "accessTime": "2019-02-16T17:35:19.639Z",
+      "changeTime": "2019-02-16T17:35:18.550Z",
       "birthTime": "2019-02-12T02:52:25.209Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3497,13 +3497,13 @@
       "blksize": 4096,
       "ino": 8603294843,
       "blocks": 8,
-      "atimeMs": 1550028877143.5222,
-      "mtimeMs": 1550028877144.6216,
-      "ctimeMs": 1550028877144.6216,
+      "atimeMs": 1550338519638.79,
+      "mtimeMs": 1550338518549.802,
+      "ctimeMs": 1550338518549.802,
       "birthtimeMs": 1549939945208.8943,
-      "atime": "2019-02-13T03:34:37.144Z",
-      "mtime": "2019-02-13T03:34:37.145Z",
-      "ctime": "2019-02-13T03:34:37.145Z",
+      "atime": "2019-02-16T17:35:19.639Z",
+      "mtime": "2019-02-16T17:35:18.550Z",
+      "ctime": "2019-02-16T17:35:18.550Z",
       "birthtime": "2019-02-12T02:52:25.209Z"
     },
     "b4b39acc-f61e-5856-9437-599c2b936309": {
@@ -3513,7 +3513,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "77cc5e8ee67b08ee9b9c1fa6e745e993",
+        "contentDigest": "c608608ff284fa35de7e22f175ffcb3c",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/application-overview.md\"",
@@ -3523,11 +3523,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/application-overview.md",
       "relativePath": "application-overview.md",
       "extension": "md",
-      "size": 529,
-      "prettySize": "529 B",
-      "modifiedTime": "2019-02-13T03:39:48.257Z",
-      "accessTime": "2019-02-13T03:39:48.257Z",
-      "changeTime": "2019-02-13T03:39:48.257Z",
+      "size": 546,
+      "prettySize": "546 B",
+      "modifiedTime": "2019-02-16T17:35:35.188Z",
+      "accessTime": "2019-02-16T17:35:36.200Z",
+      "changeTime": "2019-02-16T17:35:35.188Z",
       "birthTime": "2019-02-13T02:00:45.711Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3544,13 +3544,13 @@
       "blksize": 4096,
       "ino": 8603303239,
       "blocks": 8,
-      "atimeMs": 1550029188256.5935,
-      "mtimeMs": 1550029188257.0022,
-      "ctimeMs": 1550029188257.0022,
+      "atimeMs": 1550338536199.681,
+      "mtimeMs": 1550338535187.9937,
+      "ctimeMs": 1550338535187.9937,
       "birthtimeMs": 1550023245710.5742,
-      "atime": "2019-02-13T03:39:48.257Z",
-      "mtime": "2019-02-13T03:39:48.257Z",
-      "ctime": "2019-02-13T03:39:48.257Z",
+      "atime": "2019-02-16T17:35:36.200Z",
+      "mtime": "2019-02-16T17:35:35.188Z",
+      "ctime": "2019-02-16T17:35:35.188Z",
       "birthtime": "2019-02-13T02:00:45.711Z"
     },
     "d34d7226-0f38-589b-bd61-2ce4782d24d2": {
@@ -3560,7 +3560,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "f966ca36b6716e67fe1bd9c7eff3b544",
+        "contentDigest": "7fc5cc7d3f2582964acb1e2da30c24e3",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/cambridge-companions.md\"",
@@ -3570,11 +3570,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/cambridge-companions.md",
       "relativePath": "cambridge-companions.md",
       "extension": "md",
-      "size": 615,
-      "prettySize": "615 B",
-      "modifiedTime": "2019-02-13T03:35:31.435Z",
-      "accessTime": "2019-02-13T03:35:31.433Z",
-      "changeTime": "2019-02-13T03:35:31.435Z",
+      "size": 632,
+      "prettySize": "632 B",
+      "modifiedTime": "2019-02-16T17:35:46.948Z",
+      "accessTime": "2019-02-16T17:35:47.960Z",
+      "changeTime": "2019-02-16T17:35:46.948Z",
       "birthTime": "2019-02-12T02:30:25.680Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3591,13 +3591,13 @@
       "blksize": 4096,
       "ino": 8603293006,
       "blocks": 8,
-      "atimeMs": 1550028931433.1895,
-      "mtimeMs": 1550028931434.824,
-      "ctimeMs": 1550028931434.824,
+      "atimeMs": 1550338547959.8574,
+      "mtimeMs": 1550338546947.7212,
+      "ctimeMs": 1550338546947.7212,
       "birthtimeMs": 1549938625679.586,
-      "atime": "2019-02-13T03:35:31.433Z",
-      "mtime": "2019-02-13T03:35:31.435Z",
-      "ctime": "2019-02-13T03:35:31.435Z",
+      "atime": "2019-02-16T17:35:47.960Z",
+      "mtime": "2019-02-16T17:35:46.948Z",
+      "ctime": "2019-02-16T17:35:46.948Z",
       "birthtime": "2019-02-12T02:30:25.680Z"
     },
     "658f5933-c2cf-5ea8-9ad9-21ea348253fc": {
@@ -3607,7 +3607,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "af987dc94f749a339aa79fa7034cd8be",
+        "contentDigest": "46e62f4d191ef4e7e830c434cbb9fa8f",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/completed-application-next-steps.md\"",
@@ -3617,11 +3617,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md",
       "relativePath": "completed-application-next-steps.md",
       "extension": "md",
-      "size": 566,
-      "prettySize": "566 B",
-      "modifiedTime": "2019-02-13T03:40:23.527Z",
-      "accessTime": "2019-02-13T03:40:23.526Z",
-      "changeTime": "2019-02-13T03:40:23.527Z",
+      "size": 583,
+      "prettySize": "583 B",
+      "modifiedTime": "2019-02-16T17:35:55.890Z",
+      "accessTime": "2019-02-16T17:35:56.902Z",
+      "changeTime": "2019-02-16T17:35:55.890Z",
       "birthTime": "2019-02-12T03:05:26.129Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3638,13 +3638,13 @@
       "blksize": 4096,
       "ino": 8603295935,
       "blocks": 8,
-      "atimeMs": 1550029223526.3486,
-      "mtimeMs": 1550029223526.7524,
-      "ctimeMs": 1550029223526.7524,
+      "atimeMs": 1550338556902.1018,
+      "mtimeMs": 1550338555890.1033,
+      "ctimeMs": 1550338555890.1033,
       "birthtimeMs": 1549940726129.0986,
-      "atime": "2019-02-13T03:40:23.526Z",
-      "mtime": "2019-02-13T03:40:23.527Z",
-      "ctime": "2019-02-13T03:40:23.527Z",
+      "atime": "2019-02-16T17:35:56.902Z",
+      "mtime": "2019-02-16T17:35:55.890Z",
+      "ctime": "2019-02-16T17:35:55.890Z",
       "birthtime": "2019-02-12T03:05:26.129Z"
     },
     "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03": {
@@ -3701,7 +3701,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "dd4664aeb993b1e9401fb8a86fa8579c",
+        "contentDigest": "65c4113d223043bae117c0fb6595b988",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md\"",
@@ -3711,11 +3711,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md",
       "relativePath": "five-things-you'll-learn-at-grad-discover-day.md",
       "extension": "md",
-      "size": 743,
-      "prettySize": "743 B",
-      "modifiedTime": "2019-02-13T03:39:15.497Z",
-      "accessTime": "2019-02-13T03:39:15.497Z",
-      "changeTime": "2019-02-13T03:39:15.497Z",
+      "size": 760,
+      "prettySize": "760 B",
+      "modifiedTime": "2019-02-16T17:36:08.324Z",
+      "accessTime": "2019-02-16T17:36:09.336Z",
+      "changeTime": "2019-02-16T17:36:08.324Z",
       "birthTime": "2019-02-13T01:57:14.812Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3732,13 +3732,13 @@
       "blksize": 4096,
       "ino": 8603302853,
       "blocks": 8,
-      "atimeMs": 1550029155496.8599,
-      "mtimeMs": 1550029155497.2014,
-      "ctimeMs": 1550029155497.2014,
+      "atimeMs": 1550338569336.2297,
+      "mtimeMs": 1550338568324.3242,
+      "ctimeMs": 1550338568324.3242,
       "birthtimeMs": 1550023034811.5745,
-      "atime": "2019-02-13T03:39:15.497Z",
-      "mtime": "2019-02-13T03:39:15.497Z",
-      "ctime": "2019-02-13T03:39:15.497Z",
+      "atime": "2019-02-16T17:36:09.336Z",
+      "mtime": "2019-02-16T17:36:08.324Z",
+      "ctime": "2019-02-16T17:36:08.324Z",
       "birthtime": "2019-02-13T01:57:14.812Z"
     },
     "883eea2d-65d2-5749-ac90-8427003f6d6a": {
@@ -3795,7 +3795,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "8f1e7d0d4c75628dbb750092cfc6d86b",
+        "contentDigest": "9075af3a22ab9c87d7adfe7c89a0f51f",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/hemingway-on-screen.md\"",
@@ -3805,11 +3805,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/hemingway-on-screen.md",
       "relativePath": "hemingway-on-screen.md",
       "extension": "md",
-      "size": 480,
-      "prettySize": "480 B",
-      "modifiedTime": "2019-02-13T02:15:16.121Z",
-      "accessTime": "2019-02-13T03:03:32.741Z",
-      "changeTime": "2019-02-13T02:15:16.121Z",
+      "size": 562,
+      "prettySize": "562 B",
+      "modifiedTime": "2019-02-16T17:58:45.865Z",
+      "accessTime": "2019-02-16T17:58:45.865Z",
+      "changeTime": "2019-02-16T17:58:45.865Z",
       "birthTime": "2019-02-13T02:14:23.031Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3826,13 +3826,13 @@
       "blksize": 4096,
       "ino": 8603304473,
       "blocks": 8,
-      "atimeMs": 1550027012741.2034,
-      "mtimeMs": 1550024116120.8,
-      "ctimeMs": 1550024116120.8,
+      "atimeMs": 1550339925864.8806,
+      "mtimeMs": 1550339925865.2937,
+      "ctimeMs": 1550339925865.2937,
       "birthtimeMs": 1550024063031.2856,
-      "atime": "2019-02-13T03:03:32.741Z",
-      "mtime": "2019-02-13T02:15:16.121Z",
-      "ctime": "2019-02-13T02:15:16.121Z",
+      "atime": "2019-02-16T17:58:45.865Z",
+      "mtime": "2019-02-16T17:58:45.865Z",
+      "ctime": "2019-02-16T17:58:45.865Z",
       "birthtime": "2019-02-13T02:14:23.031Z"
     },
     "6df8042f-cb8a-580d-9ea5-20541890d013": {
@@ -3936,7 +3936,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "5e5d6095e4a19c6d5024398c9b1ec0d5",
+        "contentDigest": "6884a3fd52f39fdf1abed1d8e6918da3",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/illinois-tech-ranks-in-top-100.md\"",
@@ -3946,11 +3946,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md",
       "relativePath": "illinois-tech-ranks-in-top-100.md",
       "extension": "md",
-      "size": 501,
-      "prettySize": "501 B",
-      "modifiedTime": "2019-02-13T03:38:36.996Z",
-      "accessTime": "2019-02-13T03:38:36.994Z",
-      "changeTime": "2019-02-13T03:38:36.996Z",
+      "size": 518,
+      "prettySize": "518 B",
+      "modifiedTime": "2019-02-16T17:36:44.342Z",
+      "accessTime": "2019-02-16T17:36:45.354Z",
+      "changeTime": "2019-02-16T17:36:44.342Z",
       "birthTime": "2019-02-13T01:52:37.122Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3967,13 +3967,13 @@
       "blksize": 4096,
       "ino": 8603302235,
       "blocks": 8,
-      "atimeMs": 1550029116993.7373,
-      "mtimeMs": 1550029116995.5396,
-      "ctimeMs": 1550029116995.5396,
+      "atimeMs": 1550338605353.7693,
+      "mtimeMs": 1550338604341.5132,
+      "ctimeMs": 1550338604341.5132,
       "birthtimeMs": 1550022757122.3145,
-      "atime": "2019-02-13T03:38:36.994Z",
-      "mtime": "2019-02-13T03:38:36.996Z",
-      "ctime": "2019-02-13T03:38:36.996Z",
+      "atime": "2019-02-16T17:36:45.354Z",
+      "mtime": "2019-02-16T17:36:44.342Z",
+      "ctime": "2019-02-16T17:36:44.342Z",
       "birthtime": "2019-02-13T01:52:37.122Z"
     },
     "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3": {
@@ -3983,7 +3983,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "f18be99998a5f2e5301c9c5ad3e76655",
+        "contentDigest": "28f8dd04f7a3dff3eda7c7e909308a2c",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/shakespeare-at-cambridge.md\"",
@@ -3993,11 +3993,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-at-cambridge.md",
       "relativePath": "shakespeare-at-cambridge.md",
       "extension": "md",
-      "size": 446,
-      "prettySize": "446 B",
-      "modifiedTime": "2019-02-13T03:22:23.800Z",
-      "accessTime": "2019-02-13T03:22:23.799Z",
-      "changeTime": "2019-02-13T03:22:23.800Z",
+      "size": 463,
+      "prettySize": "463 B",
+      "modifiedTime": "2019-02-16T17:36:51.797Z",
+      "accessTime": "2019-02-16T17:36:52.809Z",
+      "changeTime": "2019-02-16T17:36:51.797Z",
       "birthTime": "2019-02-12T02:13:44.647Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4014,13 +4014,13 @@
       "blksize": 4096,
       "ino": 8603292054,
       "blocks": 8,
-      "atimeMs": 1550028143799.1094,
-      "mtimeMs": 1550028143800.4646,
-      "ctimeMs": 1550028143800.4646,
+      "atimeMs": 1550338612808.6926,
+      "mtimeMs": 1550338611796.7095,
+      "ctimeMs": 1550338611796.7095,
       "birthtimeMs": 1549937624647.0642,
-      "atime": "2019-02-13T03:22:23.799Z",
-      "mtime": "2019-02-13T03:22:23.800Z",
-      "ctime": "2019-02-13T03:22:23.800Z",
+      "atime": "2019-02-16T17:36:52.809Z",
+      "mtime": "2019-02-16T17:36:51.797Z",
+      "ctime": "2019-02-16T17:36:51.797Z",
       "birthtime": "2019-02-12T02:13:44.647Z"
     },
     "1db07cae-307b-55b0-821c-83da1b048501": {
@@ -4030,7 +4030,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "a8a79534d32dd93f2f039079726d4e77",
+        "contentDigest": "1fd9d976203e9170740e1a23b8e3c036",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/shakespeare-from-cambridge.md\"",
@@ -4040,11 +4040,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-from-cambridge.md",
       "relativePath": "shakespeare-from-cambridge.md",
       "extension": "md",
-      "size": 495,
-      "prettySize": "495 B",
-      "modifiedTime": "2019-02-13T03:33:16.762Z",
-      "accessTime": "2019-02-13T03:33:16.761Z",
-      "changeTime": "2019-02-13T03:33:16.762Z",
+      "size": 512,
+      "prettySize": "512 B",
+      "modifiedTime": "2019-02-16T17:37:00.517Z",
+      "accessTime": "2019-02-16T17:37:01.529Z",
+      "changeTime": "2019-02-16T17:37:00.517Z",
       "birthTime": "2019-02-12T02:42:28.276Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4061,13 +4061,13 @@
       "blksize": 4096,
       "ino": 8603294172,
       "blocks": 8,
-      "atimeMs": 1550028796760.9348,
-      "mtimeMs": 1550028796762.4595,
-      "ctimeMs": 1550028796762.4595,
+      "atimeMs": 1550338621528.8406,
+      "mtimeMs": 1550338620516.9514,
+      "ctimeMs": 1550338620516.9514,
       "birthtimeMs": 1549939348276.1897,
-      "atime": "2019-02-13T03:33:16.761Z",
-      "mtime": "2019-02-13T03:33:16.762Z",
-      "ctime": "2019-02-13T03:33:16.762Z",
+      "atime": "2019-02-16T17:37:01.529Z",
+      "mtime": "2019-02-16T17:37:00.517Z",
+      "ctime": "2019-02-16T17:37:00.517Z",
       "birthtime": "2019-02-12T02:42:28.276Z"
     },
     "ec465ed0-f721-5322-b1c6-6b60749920f7": {
@@ -4077,7 +4077,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "1cd762195881def859e315a5bcff9a9b",
+        "contentDigest": "f1b3e97e3f1a6a5de0b36d8a6cfe638c",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/shakespeare-goes-digital.md\"",
@@ -4087,11 +4087,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-goes-digital.md",
       "relativePath": "shakespeare-goes-digital.md",
       "extension": "md",
-      "size": 361,
-      "prettySize": "361 B",
-      "modifiedTime": "2019-02-13T02:12:29.949Z",
-      "accessTime": "2019-02-13T03:03:32.741Z",
-      "changeTime": "2019-02-13T02:12:29.949Z",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2019-02-16T17:59:14.913Z",
+      "accessTime": "2019-02-16T17:59:14.913Z",
+      "changeTime": "2019-02-16T17:59:14.913Z",
       "birthTime": "2019-02-13T02:11:29.275Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4108,13 +4108,13 @@
       "blksize": 4096,
       "ino": 8603304240,
       "blocks": 8,
-      "atimeMs": 1550027012741.3386,
-      "mtimeMs": 1550023949948.6926,
-      "ctimeMs": 1550023949948.6926,
+      "atimeMs": 1550339954912.6968,
+      "mtimeMs": 1550339954913.0535,
+      "ctimeMs": 1550339954913.0535,
       "birthtimeMs": 1550023889275.3528,
-      "atime": "2019-02-13T03:03:32.741Z",
-      "mtime": "2019-02-13T02:12:29.949Z",
-      "ctime": "2019-02-13T02:12:29.949Z",
+      "atime": "2019-02-16T17:59:14.913Z",
+      "mtime": "2019-02-16T17:59:14.913Z",
+      "ctime": "2019-02-16T17:59:14.913Z",
       "birthtime": "2019-02-13T02:11:29.275Z"
     },
     "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a": {
@@ -4124,7 +4124,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "46c6a0f9fe138d08bbeed28704249732",
+        "contentDigest": "5c3484e8f2d6dcabd06d7353c28f43a8",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/tales-from-shakespeare.md\"",
@@ -4134,11 +4134,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/tales-from-shakespeare.md",
       "relativePath": "tales-from-shakespeare.md",
       "extension": "md",
-      "size": 488,
-      "prettySize": "488 B",
-      "modifiedTime": "2019-02-13T03:36:17.599Z",
-      "accessTime": "2019-02-13T03:36:17.599Z",
-      "changeTime": "2019-02-13T03:36:17.599Z",
+      "size": 505,
+      "prettySize": "505 B",
+      "modifiedTime": "2019-02-16T17:37:25.142Z",
+      "accessTime": "2019-02-16T17:37:26.154Z",
+      "changeTime": "2019-02-16T17:37:25.142Z",
       "birthTime": "2019-02-13T01:41:13.340Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4155,13 +4155,13 @@
       "blksize": 4096,
       "ino": 8603301157,
       "blocks": 8,
-      "atimeMs": 1550028977598.9255,
-      "mtimeMs": 1550028977599.3142,
-      "ctimeMs": 1550028977599.3142,
+      "atimeMs": 1550338646153.783,
+      "mtimeMs": 1550338645142.2817,
+      "ctimeMs": 1550338645142.2817,
       "birthtimeMs": 1550022073340.0608,
-      "atime": "2019-02-13T03:36:17.599Z",
-      "mtime": "2019-02-13T03:36:17.599Z",
-      "ctime": "2019-02-13T03:36:17.599Z",
+      "atime": "2019-02-16T17:37:26.154Z",
+      "mtime": "2019-02-16T17:37:25.142Z",
+      "ctime": "2019-02-16T17:37:25.142Z",
       "birthtime": "2019-02-13T01:41:13.340Z"
     },
     "e3009205-0520-56e6-a9ec-aee8facefc9c": {
@@ -4171,7 +4171,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "cea2f4f7289eb60434cf5ec537b03d52",
+        "contentDigest": "0503bfc0a497a321d331dc558de53381",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md\"",
@@ -4181,11 +4181,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md",
       "relativePath": "shakespeare-the-man-the-myth-the-doubt.md",
       "extension": "md",
-      "size": 731,
-      "prettySize": "731 B",
-      "modifiedTime": "2019-02-13T02:19:05.370Z",
-      "accessTime": "2019-02-13T03:03:32.741Z",
-      "changeTime": "2019-02-13T02:19:05.370Z",
+      "size": 832,
+      "prettySize": "832 B",
+      "modifiedTime": "2019-02-16T17:56:45.893Z",
+      "accessTime": "2019-02-16T17:56:45.893Z",
+      "changeTime": "2019-02-16T17:56:45.893Z",
       "birthTime": "2019-02-13T02:17:42.969Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4202,13 +4202,13 @@
       "blksize": 4096,
       "ino": 8603304692,
       "blocks": 8,
-      "atimeMs": 1550027012741.3608,
-      "mtimeMs": 1550024345369.5737,
-      "ctimeMs": 1550024345369.5737,
+      "atimeMs": 1550339805893,
+      "mtimeMs": 1550339805893.3674,
+      "ctimeMs": 1550339805893.3674,
       "birthtimeMs": 1550024262969.2825,
-      "atime": "2019-02-13T03:03:32.741Z",
-      "mtime": "2019-02-13T02:19:05.370Z",
-      "ctime": "2019-02-13T02:19:05.370Z",
+      "atime": "2019-02-16T17:56:45.893Z",
+      "mtime": "2019-02-16T17:56:45.893Z",
+      "ctime": "2019-02-16T17:56:45.893Z",
       "birthtime": "2019-02-13T02:17:42.969Z"
     },
     "8b06ed07-9c95-576a-bc4a-6d7eff99da6b": {
@@ -4218,7 +4218,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "f478bbd49d94de731f7e428d49f806ae",
+        "contentDigest": "e9e9c37b789eea93746ec2a9022760e1",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/the-hidden-jane-austen.md\"",
@@ -4228,11 +4228,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md",
       "relativePath": "the-hidden-jane-austen.md",
       "extension": "md",
-      "size": 464,
-      "prettySize": "464 B",
-      "modifiedTime": "2019-02-13T03:38:00.392Z",
-      "accessTime": "2019-02-13T03:38:00.392Z",
-      "changeTime": "2019-02-13T03:38:00.392Z",
+      "size": 481,
+      "prettySize": "481 B",
+      "modifiedTime": "2019-02-16T17:37:33.993Z",
+      "accessTime": "2019-02-16T17:37:35.005Z",
+      "changeTime": "2019-02-16T17:37:33.993Z",
       "birthTime": "2019-02-12T03:01:27.614Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4249,13 +4249,13 @@
       "blksize": 4096,
       "ino": 8603295604,
       "blocks": 8,
-      "atimeMs": 1550029080391.5444,
-      "mtimeMs": 1550029080391.9734,
-      "ctimeMs": 1550029080391.9734,
+      "atimeMs": 1550338655004.9604,
+      "mtimeMs": 1550338653993.0674,
+      "ctimeMs": 1550338653993.0674,
       "birthtimeMs": 1549940487614.244,
-      "atime": "2019-02-13T03:38:00.392Z",
-      "mtime": "2019-02-13T03:38:00.392Z",
-      "ctime": "2019-02-13T03:38:00.392Z",
+      "atime": "2019-02-16T17:37:35.005Z",
+      "mtime": "2019-02-16T17:37:33.993Z",
+      "ctime": "2019-02-16T17:37:33.993Z",
       "birthtime": "2019-02-12T03:01:27.614Z"
     },
     "ccddff91-752c-5394-9cfc-cc1a01056576": {
@@ -4265,7 +4265,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "98e4b23bc7382311da03fca702c66249",
+        "contentDigest": "73b5195ddcb402c63080d128d7810c27",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/vice-motherboard-article.md\"",
@@ -4275,11 +4275,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md",
       "relativePath": "vice-motherboard-article.md",
       "extension": "md",
-      "size": 341,
-      "prettySize": "341 B",
-      "modifiedTime": "2019-02-10T20:22:21.081Z",
-      "accessTime": "2019-02-13T03:03:32.741Z",
-      "changeTime": "2019-02-10T20:22:21.081Z",
+      "size": 489,
+      "prettySize": "489 B",
+      "modifiedTime": "2019-02-16T17:59:39.984Z",
+      "accessTime": "2019-02-16T17:59:39.983Z",
+      "changeTime": "2019-02-16T17:59:39.984Z",
       "birthTime": "2019-02-10T20:18:17.002Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4296,13 +4296,13 @@
       "blksize": 4096,
       "ino": 8603270986,
       "blocks": 8,
-      "atimeMs": 1550027012741.45,
-      "mtimeMs": 1549830141080.5957,
-      "ctimeMs": 1549830141080.5957,
+      "atimeMs": 1550339979983.311,
+      "mtimeMs": 1550339979983.682,
+      "ctimeMs": 1550339979983.682,
       "birthtimeMs": 1549829897001.5728,
-      "atime": "2019-02-13T03:03:32.741Z",
-      "mtime": "2019-02-10T20:22:21.081Z",
-      "ctime": "2019-02-10T20:22:21.081Z",
+      "atime": "2019-02-16T17:59:39.983Z",
+      "mtime": "2019-02-16T17:59:39.984Z",
+      "ctime": "2019-02-16T17:59:39.984Z",
       "birthtime": "2019-02-10T20:18:17.002Z"
     },
     "417b6014-6dee-5bc1-98b6-25aa9abad124": {
@@ -4312,7 +4312,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "82a192df9470ae623daf8c018d700c1b",
+        "contentDigest": "0be68b973321516884b00074e5da7a8e",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md\"",
@@ -4322,11 +4322,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md",
       "relativePath": "the-letters-of-samuel-beckett-volume-3.md",
       "extension": "md",
-      "size": 498,
-      "prettySize": "498 B",
-      "modifiedTime": "2019-02-13T03:37:05.693Z",
-      "accessTime": "2019-02-13T03:37:05.693Z",
-      "changeTime": "2019-02-13T03:37:05.693Z",
+      "size": 515,
+      "prettySize": "515 B",
+      "modifiedTime": "2019-02-16T17:37:43.853Z",
+      "accessTime": "2019-02-16T17:37:44.865Z",
+      "changeTime": "2019-02-16T17:37:43.853Z",
       "birthTime": "2019-02-13T01:45:50.132Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4343,101 +4343,21 @@
       "blksize": 4096,
       "ino": 8603301733,
       "blocks": 8,
-      "atimeMs": 1550029025692.67,
-      "mtimeMs": 1550029025693.0466,
-      "ctimeMs": 1550029025693.0466,
+      "atimeMs": 1550338664864.86,
+      "mtimeMs": 1550338663853.0623,
+      "ctimeMs": 1550338663853.0623,
       "birthtimeMs": 1550022350132.1516,
-      "atime": "2019-02-13T03:37:05.693Z",
-      "mtime": "2019-02-13T03:37:05.693Z",
-      "ctime": "2019-02-13T03:37:05.693Z",
+      "atime": "2019-02-16T17:37:44.865Z",
+      "mtime": "2019-02-16T17:37:43.853Z",
+      "ctime": "2019-02-16T17:37:43.853Z",
       "birthtime": "2019-02-13T01:45:50.132Z"
-    },
-    "b94e038c-a8ed-5d71-81f3-9bf4c8157393": {
-      "id": "b94e038c-a8ed-5d71-81f3-9bf4c8157393",
-      "children": [],
-      "parent": "e038302f-073b-577b-a225-bb3db8aa6379",
-      "internal": {
-        "content": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
-        "type": "MarkdownRemark",
-        "contentDigest": "e3f428d1a707f32a8680f20986da8553",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hemingway on Screen",
-        "slug": "/hemingway-on-screen",
-        "hero": "./../images/hemingway-on-screen.png",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/hemingway-on-screen.md"
-    },
-    "aee181c9-8262-5f39-9e9e-b8f02fab21f3": {
-      "id": "aee181c9-8262-5f39-9e9e-b8f02fab21f3",
-      "children": [],
-      "parent": "ec465ed0-f721-5322-b1c6-6b60749920f7",
-      "internal": {
-        "content": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
-        "type": "MarkdownRemark",
-        "contentDigest": "eff36b1f76196b1f619f96fab4608d97",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Shakespeare Goes Digital",
-        "slug": "/shakespeare-goes-digital",
-        "hero": "./../images/shakespeare-goes-digital.png",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-goes-digital.md"
-    },
-    "2ed47630-38fc-5694-b2ec-dfeb7184ca98": {
-      "id": "2ed47630-38fc-5694-b2ec-dfeb7184ca98",
-      "children": [],
-      "parent": "e3009205-0520-56e6-a9ec-aee8facefc9c",
-      "internal": {
-        "content": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
-        "type": "MarkdownRemark",
-        "contentDigest": "4542524cd6d3bf66085c884d8641e9c1",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Shakespeare: The man, the myth…the doubt",
-        "slug": "/shakespeare-the-man-the-myth-the-doubt",
-        "hero": "./../images/shakespeare-the-man-the-myth-the-doubt.png",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md"
-    },
-    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
-      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
-      "children": [],
-      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
-      "internal": {
-        "content": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
-        "type": "MarkdownRemark",
-        "contentDigest": "0e6439364ff0cfd0c8acc577bbc909d6",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
-        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "hero": "./../images/motherboard-screenshot.png",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     },
     "1ec8ab32-098f-53ff-b160-d1fb9797c3bf": {
       "id": "1ec8ab32-098f-53ff-b160-d1fb9797c3bf",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3919cd042048720f6eca71dc54552928",
+        "contentDigest": "17676fb71f6e929e109e4803b4e2798c",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -4449,7 +4369,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-14T04:07:55.586Z",
+      "accessTime": "2019-02-16T17:59:49.295Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -4467,11 +4387,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550117275586.099,
+      "atimeMs": 1550339989294.5854,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-14T04:07:55.586Z",
+      "atime": "2019-02-16T17:59:49.295Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -4746,226 +4666,6 @@
       "ctime": "2019-02-13T02:50:28.117Z",
       "birthtime": "2019-02-13T02:49:46.268Z"
     },
-    "e1b39c19-6558-50c9-96a1-83f2908a1902": {
-      "id": "e1b39c19-6558-50c9-96a1-83f2908a1902",
-      "children": [],
-      "parent": "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hj2JKCMdGR4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
-        "type": "MarkdownRemark",
-        "contentDigest": "fc2bf12b7b77f6959defb571e3aaf902",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Shakespeare at Cambridge",
-        "slug": "/shakespeare-at-cambridge",
-        "hero": "./../images/shakespeare-at-cambridge.jpg",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hj2JKCMdGR4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-at-cambridge.md"
-    },
-    "221338c0-9e2e-5f54-a281-134159e19641": {
-      "id": "221338c0-9e2e-5f54-a281-134159e19641",
-      "children": [],
-      "parent": "1db07cae-307b-55b0-821c-83da1b048501",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YBQQLDJXhj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
-        "type": "MarkdownRemark",
-        "contentDigest": "d60383885da84e1dcfac79b664635b6d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Shakespeare from Cambridge",
-        "slug": "/shakespeare-from-cambridge",
-        "hero": "./../images/shakespeare-from-cambridge.jpg",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YBQQLDJXhj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-from-cambridge.md"
-    },
-    "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df": {
-      "id": "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df",
-      "children": [],
-      "parent": "3624665b-7f8b-5b74-a49f-ca386c9e254e",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m9g_n79-NDE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
-        "type": "MarkdownRemark",
-        "contentDigest": "ece84ff17818f946a879d8d9f5fd5e76",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "An Interview with Vincent Sherry",
-        "slug": "/an-interview-with-vincent-sherry",
-        "hero": "./../images/an-interview-with-vincent-sherry.jpg",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m9g_n79-NDE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/an-interview-with-vincent-sherry.md"
-    },
-    "2dcb6874-75c3-567b-9449-e1cdf3d51d75": {
-      "id": "2dcb6874-75c3-567b-9449-e1cdf3d51d75",
-      "children": [],
-      "parent": "d34d7226-0f38-589b-bd61-2ce4782d24d2",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WkojVoy31Ak\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
-        "type": "MarkdownRemark",
-        "contentDigest": "d86c52a67051c23d0418251288310385",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Cambridge Companions from Cambridge University Press",
-        "slug": "/cambridge-companions-from-cambridge University-press",
-        "hero": "./../images/cambridge-companions-from-cambridge University-press.jpg",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WkojVoy31Ak\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/cambridge-companions.md"
-    },
-    "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e": {
-      "id": "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e",
-      "children": [],
-      "parent": "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cfvqQlxwrwE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
-        "type": "MarkdownRemark",
-        "contentDigest": "7cfe3b5502c99b6e4d81ba1bdcc2e051",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Tales from Shakespeare",
-        "slug": "/tales-from-shakespeare",
-        "hero": "./../images/tales-from-shakespeare.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cfvqQlxwrwE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/tales-from-shakespeare.md"
-    },
-    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
-      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
-      "children": [],
-      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
-        "type": "MarkdownRemark",
-        "contentDigest": "00258069d6aff1fb65d50d2388bee82b",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Letters of Samuel Beckett, Volume 3",
-        "slug": "/the-letters-of-samuel-beckett-volume-3",
-        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
-    },
-    "761c073d-ba83-557f-801d-d56d5d5f1117": {
-      "id": "761c073d-ba83-557f-801d-d56d5d5f1117",
-      "children": [],
-      "parent": "8b06ed07-9c95-576a-bc4a-6d7eff99da6b",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AJ5JWh_ZPJI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
-        "type": "MarkdownRemark",
-        "contentDigest": "e97261084f1173f265c1ef5d5168d400",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Hidden Jane Austen",
-        "slug": "/the-hidden-jane-austen",
-        "hero": "./../images/the-hidden-jane-austen.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AJ5JWh_ZPJI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md"
-    },
-    "de9c3fbb-e963-529c-9c20-16ba6217dd06": {
-      "id": "de9c3fbb-e963-529c-9c20-16ba6217dd06",
-      "children": [],
-      "parent": "5e9390ef-677a-540a-9861-c6397b26366d",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
-        "type": "MarkdownRemark",
-        "contentDigest": "37643f54eb65e95b3bfb80a21c838c7b",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Illinois Tech Ranks in Top 100",
-        "slug": "/illinois-tech-ranks-in-top-100",
-        "hero": "./../images/illinois-tech-ranks-in-top-100.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
-    },
-    "b40a8979-af15-5792-a1fb-b661c97d8ac1": {
-      "id": "b40a8979-af15-5792-a1fb-b661c97d8ac1",
-      "children": [],
-      "parent": "cd934455-30e6-53ee-92de-2aedb6195167",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0BIRwSfHOeU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
-        "type": "MarkdownRemark",
-        "contentDigest": "87485e8c71f95ed7d516c85d95079158",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "5 Things You'll Learn at Grad Discover Day",
-        "slug": "/five-things-you'll-learn-at-grad-discover-day",
-        "hero": "./../images/five-things-you'll-learn-at-grad-discover-day.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0BIRwSfHOeU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md"
-    },
-    "42080fb6-f7e3-501b-bbb3-076e70f8520e": {
-      "id": "42080fb6-f7e3-501b-bbb3-076e70f8520e",
-      "children": [],
-      "parent": "b4b39acc-f61e-5856-9437-599c2b936309",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VzJnu2nL1A8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
-        "type": "MarkdownRemark",
-        "contentDigest": "82c87617ce3fb3bee16edf197d83815d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Application Overview",
-        "slug": "/application-overview",
-        "hero": "./../images/application-overview.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VzJnu2nL1A8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/application-overview.md"
-    },
-    "ce414ef0-aadc-5b0e-b156-85f275689e04": {
-      "id": "ce414ef0-aadc-5b0e-b156-85f275689e04",
-      "children": [],
-      "parent": "658f5933-c2cf-5ea8-9ad9-21ea348253fc",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k7huI1_eRx8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
-        "type": "MarkdownRemark",
-        "contentDigest": "f22ae80bea9a60f76977166ed709b34d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Completed Application Next Steps",
-        "slug": "/completed-application-next-steps",
-        "hero": "./../images/completed-application-next-steps.jpg",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k7huI1_eRx8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md"
-    },
     "d114efed-c9dd-5216-b9da-db7b62cfb093": {
       "id": "d114efed-c9dd-5216-b9da-db7b62cfb093",
       "children": [],
@@ -4988,6 +4688,501 @@
       "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/31ae-FltOEA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nTips on how to approach your visa interview confidently.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/ace-your-interview.md"
     },
+    "3c6bf2c1-209d-5560-94c7-7d31ed69e752": {
+      "id": "3c6bf2c1-209d-5560-94c7-7d31ed69e752",
+      "children": [],
+      "parent": "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03",
+      "internal": {
+        "content": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
+        "type": "MarkdownRemark",
+        "contentDigest": "22515c34babc8643c10d419b4b22f83e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Domestic Resource Guide",
+        "slug": "/domestic-resource-guide",
+        "hero": "./../images/domestic-resource-guide.png",
+        "content": "ebook",
+        "ebook": "./../pdf/domestic-resource-guide.pdf",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/domestic-resource-guide.md"
+    },
+    "d7b89767-a4e3-527d-a178-d28526ade1a3": {
+      "id": "d7b89767-a4e3-527d-a178-d28526ade1a3",
+      "children": [],
+      "parent": "7f2d266b-29d7-558a-ba8b-4f07eb5359a8",
+      "internal": {
+        "content": "\nI did editing work on this book.",
+        "type": "MarkdownRemark",
+        "contentDigest": "e6008a3b1c2b64dd083a2996fa0ae33b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "A Crash Course to Making Your Mark",
+        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry",
+        "hero": "./../images/a-crash-course-to-making-your-mark.png",
+        "homepage": "no",
+        "content": "ebook",
+        "ebook": "./../pdf/a-crash-course-to-making-your-mark-in-the-recording-industry.pdf"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI did editing work on this book.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/a-crash-course-to-making-your-mark.md"
+    },
+    "449cdfaf-17cd-57ef-9c5f-5deddebbfea5": {
+      "id": "449cdfaf-17cd-57ef-9c5f-5deddebbfea5",
+      "children": [],
+      "parent": "883eea2d-65d2-5749-ac90-8427003f6d6a",
+      "internal": {
+        "content": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
+        "type": "MarkdownRemark",
+        "contentDigest": "75c2ad01f1d3e349bb22e8881ab21adc",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Graduate Programs Fast Facts",
+        "slug": "/graduate-programs-fast-facts",
+        "hero": "./../images/graduate-programs-fast-facts.png",
+        "content": "ebook",
+        "ebook": "./../pdf/graduate-programs-fast-facts.pdf",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/graduate-programs-fast-facts.md"
+    },
+    "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": {
+      "id": "9649e75c-b895-5fc8-a613-6ecfd3ce3ead",
+      "children": [],
+      "parent": "6df8042f-cb8a-580d-9ea5-20541890d013",
+      "internal": {
+        "content": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
+        "type": "MarkdownRemark",
+        "contentDigest": "54e28596d393a704953071060cafa15d",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Career Fair Postcard",
+        "slug": "/iit-grad-admissions-career-fair-postcard",
+        "hero": "./../images/iit-grad-admissions-career-fair-postcard.png",
+        "content": "ebook",
+        "ebook": "./../pdf/iit-grad-admissions-career-fair-postcard.pdf",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md"
+    },
+    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
+      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
+      "children": [],
+      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
+      "internal": {
+        "content": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
+        "type": "MarkdownRemark",
+        "contentDigest": "91b022ecd22c90a3d04b584ba77d60b7",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Int'l Travel",
+        "slug": "/iit-international-travel-brochure",
+        "hero": "./../images/IIT-intl.png",
+        "content": "ebook",
+        "ebook": "./../pdf/iit-intl-travel-brochure.pdf",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
+    },
+    "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df": {
+      "id": "10f5f1fc-1b50-5dda-aff1-7a5a90a5a4df",
+      "children": [],
+      "parent": "3624665b-7f8b-5b74-a49f-ca386c9e254e",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m9g_n79-NDE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
+        "type": "MarkdownRemark",
+        "contentDigest": "40d23a09a5c105c78f86ff484727bbf9",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "An Interview with Vincent Sherry",
+        "slug": "/an-interview-with-vincent-sherry",
+        "hero": "./../images/an-interview-with-vincent-sherry.jpg",
+        "content": "video",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m9g_n79-NDE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nVincent Sherry is Howard Nemerov Professor in the Humanities and Professor of English at Washington University in St Louis. A prominent scholar of modernism, he is the author of a number of major books in this field, including The Great War and the Language of Modernism (2003), James Joyce's Ulysses (1995, 2005) and Ezra Pound, Wyndham Lewis, and Radical Modernism (1993). He has also written The Uncommon Tongue: The Poetry and Criticism of Geoffrey Hill (1987) and edited the Cambridge Companion to the Literature of the First World War (2005).",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/an-interview-with-vincent-sherry.md"
+    },
+    "42080fb6-f7e3-501b-bbb3-076e70f8520e": {
+      "id": "42080fb6-f7e3-501b-bbb3-076e70f8520e",
+      "children": [],
+      "parent": "b4b39acc-f61e-5856-9437-599c2b936309",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VzJnu2nL1A8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
+        "type": "MarkdownRemark",
+        "contentDigest": "ba583fe6332e55d2131c087f31f631c3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Application Overview",
+        "slug": "/application-overview",
+        "hero": "./../images/application-overview.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VzJnu2nL1A8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've started your application for Illinois Tech! Wondering what to do next, what tests you don't need to take, what documents we need, or how to send them to us? Watch this video to learn more.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/application-overview.md"
+    },
+    "2dcb6874-75c3-567b-9449-e1cdf3d51d75": {
+      "id": "2dcb6874-75c3-567b-9449-e1cdf3d51d75",
+      "children": [],
+      "parent": "d34d7226-0f38-589b-bd61-2ce4782d24d2",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WkojVoy31Ak\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9287d487d83d69e42d470ff3e1949d17",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Cambridge Companions from Cambridge University Press",
+        "slug": "/cambridge-companions-from-cambridge University-press",
+        "hero": "./../images/cambridge-companions-from-cambridge University-press.jpg",
+        "content": "video",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WkojVoy31Ak\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nCambridge Companions are a series of authoritative guides, written by leading experts, offering lively, accessible surveys to major writers, artists, philosophers, topics, and periods.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/cambridge-companions.md"
+    },
+    "b40a8979-af15-5792-a1fb-b661c97d8ac1": {
+      "id": "b40a8979-af15-5792-a1fb-b661c97d8ac1",
+      "children": [],
+      "parent": "cd934455-30e6-53ee-92de-2aedb6195167",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0BIRwSfHOeU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
+        "type": "MarkdownRemark",
+        "contentDigest": "2b095e75c5e5ed3aed93291d9a847cc8",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "5 Things You'll Learn at Grad Discover Day",
+        "slug": "/five-things-you'll-learn-at-grad-discover-day",
+        "hero": "./../images/five-things-you'll-learn-at-grad-discover-day.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0BIRwSfHOeU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/five-things-you'll-learn-at-grad-discover-day.md"
+    },
+    "ce414ef0-aadc-5b0e-b156-85f275689e04": {
+      "id": "ce414ef0-aadc-5b0e-b156-85f275689e04",
+      "children": [],
+      "parent": "658f5933-c2cf-5ea8-9ad9-21ea348253fc",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k7huI1_eRx8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
+        "type": "MarkdownRemark",
+        "contentDigest": "906b2dab4db14090b76692ba10a4d107",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Completed Application Next Steps",
+        "slug": "/completed-application-next-steps",
+        "hero": "./../images/completed-application-next-steps.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k7huI1_eRx8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nYou've completed your application for Illinois Tech! Now what? Watch this video to learn more about what happens when your application is completed, and how long it takes to receive your decision!",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/completed-application-next-steps.md"
+    },
+    "de9c3fbb-e963-529c-9c20-16ba6217dd06": {
+      "id": "de9c3fbb-e963-529c-9c20-16ba6217dd06",
+      "children": [],
+      "parent": "5e9390ef-677a-540a-9861-c6397b26366d",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
+        "type": "MarkdownRemark",
+        "contentDigest": "f5993b469ca450647d5d6d3cd8ff6b22",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Ranks in Top 100",
+        "slug": "/illinois-tech-ranks-in-top-100",
+        "hero": "./../images/illinois-tech-ranks-in-top-100.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThis year, Illinois Tech ranked in the Top 100 of National Universities and Best Value National Universities by U.S. News & World Report.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
+    },
+    "e1b39c19-6558-50c9-96a1-83f2908a1902": {
+      "id": "e1b39c19-6558-50c9-96a1-83f2908a1902",
+      "children": [],
+      "parent": "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hj2JKCMdGR4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
+        "type": "MarkdownRemark",
+        "contentDigest": "98e08e1858d25f13b522c3235a8e76cb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare at Cambridge",
+        "slug": "/shakespeare-at-cambridge",
+        "hero": "./../images/shakespeare-at-cambridge.jpg",
+        "content": "video",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hj2JKCMdGR4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA marketing video produced at Cambridge University Press for our \"Shakespeare at Cambridge\" series.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-at-cambridge.md"
+    },
+    "221338c0-9e2e-5f54-a281-134159e19641": {
+      "id": "221338c0-9e2e-5f54-a281-134159e19641",
+      "children": [],
+      "parent": "1db07cae-307b-55b0-821c-83da1b048501",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YBQQLDJXhj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
+        "type": "MarkdownRemark",
+        "contentDigest": "a20a32d2ce1fdb201bc886c6736b0324",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare from Cambridge",
+        "slug": "/shakespeare-from-cambridge",
+        "hero": "./../images/shakespeare-from-cambridge.jpg",
+        "content": "video",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YBQQLDJXhj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nExplore the Shakespeare collection from Cambridge University Press, featuring updated editions of Shakespeare's work and the finest criticism.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-from-cambridge.md"
+    },
+    "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e": {
+      "id": "5e56d2a6-828e-51f1-9b6d-a6459ef4eb0e",
+      "children": [],
+      "parent": "ca570ea8-f56a-5e7d-bdc3-2085d5a1648a",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cfvqQlxwrwE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
+        "type": "MarkdownRemark",
+        "contentDigest": "49791bc4bc5a3e35dfacbb3ac46143ca",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Tales from Shakespeare",
+        "slug": "/tales-from-shakespeare",
+        "hero": "./../images/tales-from-shakespeare.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cfvqQlxwrwE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nIn TALES FROM SHAKESPEARE, Graham Holderness salutes the enduring legacy of Shakespeare by incorporating the Bard's classic plays into modern tales.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/tales-from-shakespeare.md"
+    },
+    "761c073d-ba83-557f-801d-d56d5d5f1117": {
+      "id": "761c073d-ba83-557f-801d-d56d5d5f1117",
+      "children": [],
+      "parent": "8b06ed07-9c95-576a-bc4a-6d7eff99da6b",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AJ5JWh_ZPJI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
+        "type": "MarkdownRemark",
+        "contentDigest": "e67b1d425051bb133029f5a03a7f55ae",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Hidden Jane Austen",
+        "slug": "/the-hidden-jane-austen",
+        "hero": "./../images/the-hidden-jane-austen.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AJ5JWh_ZPJI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nLeading Austen scholar John Wiltshire offers new interpretations of your favorite Jane Austen novels in this landmark study.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md"
+    },
+    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
+      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
+      "children": [],
+      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
+        "type": "MarkdownRemark",
+        "contentDigest": "6f00f8919d796b7842a5bf393a5ad40b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Letters of Samuel Beckett, Volume 3",
+        "slug": "/the-letters-of-samuel-beckett-volume-3",
+        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
+        "content": "video",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nThe eagerly anticipated third volume of the critically acclaimed LETTERS OF SAMUEL BECKETT arrives this Fall",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
+    },
+    "2ed47630-38fc-5694-b2ec-dfeb7184ca98": {
+      "id": "2ed47630-38fc-5694-b2ec-dfeb7184ca98",
+      "children": [],
+      "parent": "e3009205-0520-56e6-a9ec-aee8facefc9c",
+      "internal": {
+        "content": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
+        "type": "MarkdownRemark",
+        "contentDigest": "6b34e515d9c52d59d6fd392d1e3a0e09",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare: The man, the myth…the doubt",
+        "slug": "/shakespeare-the-man-the-myth-the-doubt",
+        "hero": "./../images/shakespeare-the-man-the-myth-the-doubt.png",
+        "link": "http://www.cambridgeblog.org/2013/06/shakespeare-the-man-the-myth-the-doubt/",
+        "content": "blog",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md"
+    },
+    "b94e038c-a8ed-5d71-81f3-9bf4c8157393": {
+      "id": "b94e038c-a8ed-5d71-81f3-9bf4c8157393",
+      "children": [],
+      "parent": "e038302f-073b-577b-a225-bb3db8aa6379",
+      "internal": {
+        "content": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
+        "type": "MarkdownRemark",
+        "contentDigest": "79e25cd2b2fc78d4e6883ac9ea00d750",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hemingway on Screen",
+        "slug": "/hemingway-on-screen",
+        "hero": "./../images/hemingway-on-screen.png",
+        "content": "blog",
+        "link": "http://www.cambridgeblog.org/2013/10/hemingway-on-screen/",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nIf you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/hemingway-on-screen.md"
+    },
+    "aee181c9-8262-5f39-9e9e-b8f02fab21f3": {
+      "id": "aee181c9-8262-5f39-9e9e-b8f02fab21f3",
+      "children": [],
+      "parent": "ec465ed0-f721-5322-b1c6-6b60749920f7",
+      "internal": {
+        "content": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
+        "type": "MarkdownRemark",
+        "contentDigest": "43fe6da942fc6221097b26c8a67dcbf4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Shakespeare Goes Digital",
+        "slug": "/shakespeare-goes-digital",
+        "hero": "./../images/shakespeare-goes-digital.png",
+        "content": "blog",
+        "link": "http://www.cambridgeblog.org/2014/06/shakespeare-goes-digital/",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSince our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-goes-digital.md"
+    },
+    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
+      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
+      "children": [],
+      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
+      "internal": {
+        "content": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
+        "type": "MarkdownRemark",
+        "contentDigest": "c6fa984c74d3638422d53426a465066c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "hero": "./../images/motherboard-screenshot.png",
+        "content": "blog",
+        "link": "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAn article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
+    },
+    "SitePage /portfolio-items/ace-your-interview": {
+      "jsonName": "portfolio-items-ace-your-interview-585",
+      "internalComponentName": "ComponentPortfolioItemsAceYourInterview",
+      "path": "/portfolio-items/ace-your-interview",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/ace-your-interview"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/ace-your-interview",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5ec131846f9251308a0731083304b6e7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/domestic-resource-guide": {
+      "jsonName": "portfolio-items-domestic-resource-guide-fd8",
+      "internalComponentName": "ComponentPortfolioItemsDomesticResourceGuide",
+      "path": "/portfolio-items/domestic-resource-guide",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/domestic-resource-guide"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/domestic-resource-guide",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b08cbd8801adb6d03572410ca5bd484b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry": {
+      "jsonName": "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262",
+      "internalComponentName": "ComponentPortfolioItemsACrashCourseToMakingYourMarkInTheRecordingIndustry",
+      "path": "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "985a79349c864729741aada34f457afd",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /portfolio-items/graduate-programs-fast-facts": {
       "jsonName": "portfolio-items-graduate-programs-fast-facts-b59",
       "internalComponentName": "ComponentPortfolioItemsGraduateProgramsFastFacts",
@@ -5006,28 +5201,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "44da56fa1bf4b42b2713d45daf071d06",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/hemingway-on-screen": {
-      "jsonName": "portfolio-items-hemingway-on-screen-c12",
-      "internalComponentName": "ComponentPortfolioItemsHemingwayOnScreen",
-      "path": "/portfolio-items/hemingway-on-screen",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/hemingway-on-screen"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/hemingway-on-screen",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "deb682dfd28a6d9ca7e9df97f422992a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5076,68 +5249,134 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/shakespeare-goes-digital": {
-      "jsonName": "portfolio-items-shakespeare-goes-digital-22b",
-      "internalComponentName": "ComponentPortfolioItemsShakespeareGoesDigital",
-      "path": "/portfolio-items/shakespeare-goes-digital",
+    "SitePage /portfolio-items/an-interview-with-vincent-sherry": {
+      "jsonName": "portfolio-items-an-interview-with-vincent-sherry-988",
+      "internalComponentName": "ComponentPortfolioItemsAnInterviewWithVincentSherry",
+      "path": "/portfolio-items/an-interview-with-vincent-sherry",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/shakespeare-goes-digital"
+        "slug": "/an-interview-with-vincent-sherry"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/shakespeare-goes-digital",
+      "id": "SitePage /portfolio-items/an-interview-with-vincent-sherry",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "586a2cd5ab417b51d5a90f7631072913",
+        "contentDigest": "f16c7b524b6286521f8259981a2c2b14",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt": {
-      "jsonName": "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847",
-      "internalComponentName": "ComponentPortfolioItemsShakespeareTheManTheMythTheDoubt",
-      "path": "/portfolio-items/shakespeare-the-man-the-myth-the-doubt",
+    "SitePage /portfolio-items/application-overview": {
+      "jsonName": "portfolio-items-application-overview-1e9",
+      "internalComponentName": "ComponentPortfolioItemsApplicationOverview",
+      "path": "/portfolio-items/application-overview",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/shakespeare-the-man-the-myth-the-doubt"
+        "slug": "/application-overview"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt",
+      "id": "SitePage /portfolio-items/application-overview",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbb341931675de7ce5a40012107fbb10",
+        "contentDigest": "d560048e6224099263d2ff60074223c5",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
-      "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
-      "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
-      "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+    "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press": {
+      "jsonName": "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c",
+      "internalComponentName": "ComponentPortfolioItemsCambridgeCompanionsFromCambridgeUniversityPress",
+      "path": "/portfolio-items/cambridge-companions-from-cambridge University-press",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+        "slug": "/cambridge-companions-from-cambridge University-press"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+      "id": "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b6d74db11401bf550781c351af2210a0",
+        "contentDigest": "88d592cff51f977fe21497662ed1e9bb",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day": {
+      "jsonName": "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e",
+      "internalComponentName": "ComponentPortfolioItemsFiveThingsYoullLearnAtGradDiscoverDay",
+      "path": "/portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/five-things-you'll-learn-at-grad-discover-day"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c616404ffba9d2652c792aac4b9c5acf",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/completed-application-next-steps": {
+      "jsonName": "portfolio-items-completed-application-next-steps-35b",
+      "internalComponentName": "ComponentPortfolioItemsCompletedApplicationNextSteps",
+      "path": "/portfolio-items/completed-application-next-steps",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/completed-application-next-steps"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/completed-application-next-steps",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "75df48461c9e8e6b58910db791457166",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/illinois-tech-ranks-in-top-100": {
+      "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
+      "internalComponentName": "ComponentPortfolioItemsIllinoisTechRanksInTop100",
+      "path": "/portfolio-items/illinois-tech-ranks-in-top-100",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/illinois-tech-ranks-in-top-100"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/illinois-tech-ranks-in-top-100",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5186,50 +5425,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/an-interview-with-vincent-sherry": {
-      "jsonName": "portfolio-items-an-interview-with-vincent-sherry-988",
-      "internalComponentName": "ComponentPortfolioItemsAnInterviewWithVincentSherry",
-      "path": "/portfolio-items/an-interview-with-vincent-sherry",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/an-interview-with-vincent-sherry"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/an-interview-with-vincent-sherry",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f16c7b524b6286521f8259981a2c2b14",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press": {
-      "jsonName": "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c",
-      "internalComponentName": "ComponentPortfolioItemsCambridgeCompanionsFromCambridgeUniversityPress",
-      "path": "/portfolio-items/cambridge-companions-from-cambridge University-press",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/cambridge-companions-from-cambridge University-press"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/cambridge-companions-from-cambridge University-press",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "88d592cff51f977fe21497662ed1e9bb",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /portfolio-items/tales-from-shakespeare": {
       "jsonName": "portfolio-items-tales-from-shakespeare-1d0",
       "internalComponentName": "ComponentPortfolioItemsTalesFromShakespeare",
@@ -5248,28 +5443,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "c34c8baa194448d6cef6b749b4f171ef",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3": {
-      "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
-      "internalComponentName": "ComponentPortfolioItemsTheLettersOfSamuelBeckettVolume3",
-      "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/the-letters-of-samuel-beckett-volume-3"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "31294549f144bbbc4499da6c4c549acc",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5296,156 +5469,112 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/illinois-tech-ranks-in-top-100": {
-      "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
-      "internalComponentName": "ComponentPortfolioItemsIllinoisTechRanksInTop100",
-      "path": "/portfolio-items/illinois-tech-ranks-in-top-100",
+    "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3": {
+      "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
+      "internalComponentName": "ComponentPortfolioItemsTheLettersOfSamuelBeckettVolume3",
+      "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/illinois-tech-ranks-in-top-100"
+        "slug": "/the-letters-of-samuel-beckett-volume-3"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/illinois-tech-ranks-in-top-100",
+      "id": "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
+        "contentDigest": "31294549f144bbbc4499da6c4c549acc",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day": {
-      "jsonName": "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e",
-      "internalComponentName": "ComponentPortfolioItemsFiveThingsYoullLearnAtGradDiscoverDay",
-      "path": "/portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+    "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt": {
+      "jsonName": "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareTheManTheMythTheDoubt",
+      "path": "/portfolio-items/shakespeare-the-man-the-myth-the-doubt",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/five-things-you'll-learn-at-grad-discover-day"
+        "slug": "/shakespeare-the-man-the-myth-the-doubt"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/five-things-you'll-learn-at-grad-discover-day",
+      "id": "SitePage /portfolio-items/shakespeare-the-man-the-myth-the-doubt",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c616404ffba9d2652c792aac4b9c5acf",
+        "contentDigest": "cbb341931675de7ce5a40012107fbb10",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/application-overview": {
-      "jsonName": "portfolio-items-application-overview-1e9",
-      "internalComponentName": "ComponentPortfolioItemsApplicationOverview",
-      "path": "/portfolio-items/application-overview",
+    "SitePage /portfolio-items/hemingway-on-screen": {
+      "jsonName": "portfolio-items-hemingway-on-screen-c12",
+      "internalComponentName": "ComponentPortfolioItemsHemingwayOnScreen",
+      "path": "/portfolio-items/hemingway-on-screen",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/application-overview"
+        "slug": "/hemingway-on-screen"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/application-overview",
+      "id": "SitePage /portfolio-items/hemingway-on-screen",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d560048e6224099263d2ff60074223c5",
+        "contentDigest": "deb682dfd28a6d9ca7e9df97f422992a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/completed-application-next-steps": {
-      "jsonName": "portfolio-items-completed-application-next-steps-35b",
-      "internalComponentName": "ComponentPortfolioItemsCompletedApplicationNextSteps",
-      "path": "/portfolio-items/completed-application-next-steps",
+    "SitePage /portfolio-items/shakespeare-goes-digital": {
+      "jsonName": "portfolio-items-shakespeare-goes-digital-22b",
+      "internalComponentName": "ComponentPortfolioItemsShakespeareGoesDigital",
+      "path": "/portfolio-items/shakespeare-goes-digital",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/completed-application-next-steps"
+        "slug": "/shakespeare-goes-digital"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/completed-application-next-steps",
+      "id": "SitePage /portfolio-items/shakespeare-goes-digital",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75df48461c9e8e6b58910db791457166",
+        "contentDigest": "586a2cd5ab417b51d5a90f7631072913",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry": {
-      "jsonName": "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262",
-      "internalComponentName": "ComponentPortfolioItemsACrashCourseToMakingYourMarkInTheRecordingIndustry",
-      "path": "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+    "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
+      "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
+      "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
+      "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
       "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
       "componentChunkName": "component---src-components-portfolio-layout-js",
       "context": {
-        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry"
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
+      "id": "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "985a79349c864729741aada34f457afd",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/ace-your-interview": {
-      "jsonName": "portfolio-items-ace-your-interview-585",
-      "internalComponentName": "ComponentPortfolioItemsAceYourInterview",
-      "path": "/portfolio-items/ace-your-interview",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/ace-your-interview"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/ace-your-interview",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5ec131846f9251308a0731083304b6e7",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/domestic-resource-guide": {
-      "jsonName": "portfolio-items-domestic-resource-guide-fd8",
-      "internalComponentName": "ComponentPortfolioItemsDomesticResourceGuide",
-      "path": "/portfolio-items/domestic-resource-guide",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/domestic-resource-guide"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/domestic-resource-guide",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b08cbd8801adb6d03572410ca5bd484b",
+        "contentDigest": "b6d74db11401bf550781c351af2210a0",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5569,116 +5698,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "3c6bf2c1-209d-5560-94c7-7d31ed69e752": {
-      "id": "3c6bf2c1-209d-5560-94c7-7d31ed69e752",
-      "children": [],
-      "parent": "00d9b6e1-f9fd-59c7-bd54-b9eb5b65bd03",
-      "internal": {
-        "content": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
-        "type": "MarkdownRemark",
-        "contentDigest": "22515c34babc8643c10d419b4b22f83e",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Domestic Resource Guide",
-        "slug": "/domestic-resource-guide",
-        "hero": "./../images/domestic-resource-guide.png",
-        "content": "ebook",
-        "ebook": "./../pdf/domestic-resource-guide.pdf",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nA resource guide for new students at Illinois Tech.  Everything from directions, immunizations, and academic resources are included.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/domestic-resource-guide.md"
-    },
-    "d7b89767-a4e3-527d-a178-d28526ade1a3": {
-      "id": "d7b89767-a4e3-527d-a178-d28526ade1a3",
-      "children": [],
-      "parent": "7f2d266b-29d7-558a-ba8b-4f07eb5359a8",
-      "internal": {
-        "content": "\nI did editing work on this book.",
-        "type": "MarkdownRemark",
-        "contentDigest": "e6008a3b1c2b64dd083a2996fa0ae33b",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "A Crash Course to Making Your Mark",
-        "slug": "/a-crash-course-to-making-your-mark-in-the-recording-industry",
-        "hero": "./../images/a-crash-course-to-making-your-mark.png",
-        "homepage": "no",
-        "content": "ebook",
-        "ebook": "./../pdf/a-crash-course-to-making-your-mark-in-the-recording-industry.pdf"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI did editing work on this book.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/a-crash-course-to-making-your-mark.md"
-    },
-    "449cdfaf-17cd-57ef-9c5f-5deddebbfea5": {
-      "id": "449cdfaf-17cd-57ef-9c5f-5deddebbfea5",
-      "children": [],
-      "parent": "883eea2d-65d2-5749-ac90-8427003f6d6a",
-      "internal": {
-        "content": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
-        "type": "MarkdownRemark",
-        "contentDigest": "75c2ad01f1d3e349bb22e8881ab21adc",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Graduate Programs Fast Facts",
-        "slug": "/graduate-programs-fast-facts",
-        "hero": "./../images/graduate-programs-fast-facts.png",
-        "content": "ebook",
-        "ebook": "./../pdf/graduate-programs-fast-facts.pdf",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is a brochure that details fast facts about Illinois Tech, from 2017-2018.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/graduate-programs-fast-facts.md"
-    },
-    "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": {
-      "id": "9649e75c-b895-5fc8-a613-6ecfd3ce3ead",
-      "children": [],
-      "parent": "6df8042f-cb8a-580d-9ea5-20541890d013",
-      "internal": {
-        "content": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
-        "type": "MarkdownRemark",
-        "contentDigest": "54e28596d393a704953071060cafa15d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Illinois Tech Career Fair Postcard",
-        "slug": "/iit-grad-admissions-career-fair-postcard",
-        "hero": "./../images/iit-grad-admissions-career-fair-postcard.png",
-        "content": "ebook",
-        "ebook": "./../pdf/iit-grad-admissions-career-fair-postcard.pdf",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nAn informative postcard describing an Illinois Tech grad admissions career fair.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md"
-    },
-    "5cd8612b-fb02-5f07-aada-eb46339b4d90": {
-      "id": "5cd8612b-fb02-5f07-aada-eb46339b4d90",
-      "children": [],
-      "parent": "f379f33d-8b5b-5aa4-a315-f078fd1bb7e1",
-      "internal": {
-        "content": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
-        "type": "MarkdownRemark",
-        "contentDigest": "91b022ecd22c90a3d04b584ba77d60b7",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Illinois Tech Int'l Travel",
-        "slug": "/iit-international-travel-brochure",
-        "hero": "./../images/IIT-intl.png",
-        "content": "ebook",
-        "ebook": "./../pdf/iit-intl-travel-brochure.pdf",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is a brochure that details the Illinois Tech international graduate travel programs.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
     }
   },
   "status": {
@@ -5932,15 +5951,19 @@
         "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
       ],
       "3988e5a9-0695-5a7b-9680-0f6e2b56383c": [
+        "/",
         "/portfolio-items/domestic-resource-guide"
       ],
       "546b6704-38f8-56a0-915a-c74fe20da79c": [
+        "/",
         "/portfolio-items/graduate-programs-fast-facts"
       ],
       "2a05da79-d758-5d77-88c8-1bf6c60478a5": [
+        "/",
         "/portfolio-items/iit-grad-admissions-career-fair-postcard"
       ],
       "244b9069-b38b-5424-8ed2-8ea7244da1ca": [
+        "/",
         "/portfolio-items/iit-international-travel-brochure"
       ]
     },
@@ -5956,7 +5979,7 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "portfolio-items-iit-international-travel-brochure-4aa": "865/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-OSuze7gWCugHbMMgTCOtclcf3LY",
+    "portfolio-items-iit-international-travel-brochure-4aa": "86/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-1dnzVR8UfziRCaupAKZXaws",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
     "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -5966,30 +5989,30 @@
     "sq--src-components-seo-js": 1315885718,
     "sq--src-pages-portfolio-js": 2438295035,
     "portfolio-itemsnull-ecf": "434/path---portfolio-itemsnull-ecf-224-473qBx44pctuFz18k2Yp2fSZhM",
-    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "177/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-njiJFRJo8GMyx0VVqLpKbOpytg",
-    "portfolio-items-shakespeare-at-cambridge-035": "691/path---portfolio-items-shakespeare-at-cambridge-035-e95-A9XspuBHjHw4Grc2Tpv4smIKMIw",
-    "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c": "275/path---portfolio-items-cambridge-companions-from-cambridge-university-press-b-9-c-edf-EU7zKaA7G7M8tzWGJ1QFAUds",
-    "portfolio-items-shakespeare-from-cambridge-4c4": "159/path---portfolio-items-shakespeare-from-cambridge-4-c-4-74f-dIDGPC9k4P8HtcVW3Gj1d6vadw",
-    "portfolio-items-an-interview-with-vincent-sherry-988": "536/path---portfolio-items-an-interview-with-vincent-sherry-988-c71-0gqSVqrlT5UjK9dKUTLcQbBoaIM",
-    "portfolio-items-the-hidden-jane-austen-de6": "288/path---portfolio-items-the-hidden-jane-austen-de-6-d92-jkcIog2gpeVCDtHh4GDFiDvdeQw",
-    "portfolio-items-completed-application-next-steps-35b": "430/path---portfolio-items-completed-application-next-steps-35-b-b44-xZPHDrjvyyTIkLNFnc7HnbDDGU",
-    "portfolio-items-tales-from-shakespeare-1d0": "377/path---portfolio-items-tales-from-shakespeare-1-d-0-9e1-fXk6pbCLmsX5qNpawaHfttn9AJk",
-    "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1": "317/path---portfolio-items-the-letters-of-samuel-beckett-volume-3-bd-1-ea3-WARSx0mlJlCa2eNssY2EEC5Nnic",
-    "portfolio-items-illinois-tech-ranks-in-top-100-1e3": "690/path---portfolio-items-illinois-tech-ranks-in-top-100-1-e-3-b76-JvTGy3NZg2jWt2mZyujPvknY",
-    "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e": "486/path---portfolio-items-five-things-youll-learn-at-grad-discover-day-29-e-652-UubF9uQ8Pg1JhfOmT1CeA4kJ4gE",
-    "portfolio-items-application-overview-1e9": "849/path---portfolio-items-application-overview-1-e-9-f40-F7MSgV8qjC8zXssicD8mD3RbVdI",
-    "portfolio-items-ace-your-interview-585": "528/path---portfolio-items-ace-your-interview-585-a66-BTtjzJBKq8Z8gKyaW08CoKCzc",
-    "portfolio-items-shakespeare-goes-digital-22b": "214/path---portfolio-items-shakespeare-goes-digital-22-b-8d1-zusu1ZqHrhJm7Fsl1zdaJ2qmMew",
-    "portfolio-items-hemingway-on-screen-c12": "930/path---portfolio-items-hemingway-on-screen-c-12-9d6-uPjb6KL8RNDdzdKJg1w4tAGiOw",
-    "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847": "443/path---portfolio-items-shakespeare-the-man-the-myth-the-doubt-847-d0d-aRlQGNc6CufY9WsSUhOkRNvhJJE",
-    "portfolio-items-graduate-programs-fast-facts-b59": "542/path---portfolio-items-graduate-programs-fast-facts-b-59-27c-truAar12ULoIWtYZ65JUD6Z0F18",
-    "portfolio-items-domestic-resource-guide-fd8": "58/path---portfolio-items-domestic-resource-guide-fd-8-f05-ywuPEsMZuEfEGfX9jXTDZGPUROc",
-    "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea": "525/path---portfolio-items-iit-grad-admissions-career-fair-postcard-8-ea-b4c-LWrj1ZQl5p6gLqjt87HCzq0fJg",
-    "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262": "939/path---portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262-a92-RpuUlK8188GSKbZqGAnLl5RvOyM"
+    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "887/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-2fEGKAIsxHtwP75whPS32mHXjs",
+    "portfolio-items-shakespeare-at-cambridge-035": "189/path---portfolio-items-shakespeare-at-cambridge-035-e95-rypQjXM9879V0ArQNOCgx120RGI",
+    "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c": "530/path---portfolio-items-cambridge-companions-from-cambridge-university-press-b-9-c-edf-WhurOHQwYXmlXb6vCOUDrmK4hQ",
+    "portfolio-items-shakespeare-from-cambridge-4c4": "430/path---portfolio-items-shakespeare-from-cambridge-4-c-4-74f-E6Typw3XVNRkdAGd7TMP9dkYhN0",
+    "portfolio-items-an-interview-with-vincent-sherry-988": "767/path---portfolio-items-an-interview-with-vincent-sherry-988-c71-ATxzEAKEEvMcKNto6jv0HPCOlo",
+    "portfolio-items-the-hidden-jane-austen-de6": "487/path---portfolio-items-the-hidden-jane-austen-de-6-d92-TebmRJEn9OMhmEbs0T1lax4p3L8",
+    "portfolio-items-completed-application-next-steps-35b": "159/path---portfolio-items-completed-application-next-steps-35-b-b44-XgqISyUNYQzfkWjI2kGVrvTauQ",
+    "portfolio-items-tales-from-shakespeare-1d0": "424/path---portfolio-items-tales-from-shakespeare-1-d-0-9e1-ipPAuAWijCu8WsSGXu67S7wYo",
+    "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1": "358/path---portfolio-items-the-letters-of-samuel-beckett-volume-3-bd-1-ea3-SeRXRp4DaZHcafYs3XYZMeWKXgI",
+    "portfolio-items-illinois-tech-ranks-in-top-100-1e3": "215/path---portfolio-items-illinois-tech-ranks-in-top-100-1-e-3-b76-92EESVkQpEgVf3Le0EAwtnbmTcA",
+    "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e": "6/path---portfolio-items-five-things-youll-learn-at-grad-discover-day-29-e-652-pUHvGr53aucfUu6xiG638shL3rw",
+    "portfolio-items-application-overview-1e9": "755/path---portfolio-items-application-overview-1-e-9-f40-aKMXvPLjwNb1Ba6EslLhZligBU",
+    "portfolio-items-ace-your-interview-585": "347/path---portfolio-items-ace-your-interview-585-a66-yh4hpyyEg1z6sBgnPbVe5ELs",
+    "portfolio-items-shakespeare-goes-digital-22b": "209/path---portfolio-items-shakespeare-goes-digital-22-b-8d1-H1MNzsuH1t5uCrbpEctI0b5rPHk",
+    "portfolio-items-hemingway-on-screen-c12": "377/path---portfolio-items-hemingway-on-screen-c-12-9d6-YhqJBpAytgxlhDYFJFA7DHdD3bk",
+    "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847": "371/path---portfolio-items-shakespeare-the-man-the-myth-the-doubt-847-d0d-TpTd4mcmschllFbcPXLs01fved4",
+    "portfolio-items-graduate-programs-fast-facts-b59": "599/path---portfolio-items-graduate-programs-fast-facts-b-59-27c-YCmrf8AolapXT68C4VY7wBKXoJw",
+    "portfolio-items-domestic-resource-guide-fd8": "460/path---portfolio-items-domestic-resource-guide-fd-8-f05-F4zfuqxxS1pKjWenRt5uzAecCs",
+    "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea": "799/path---portfolio-items-iit-grad-admissions-career-fair-postcard-8-ea-b4c-Iriqgh6sTEXTkMfS76W4BdTLJDU",
+    "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262": "556/path---portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262-a92-YzxO0E8eGMgqS4cUuEnGvYoUc"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
-      "query": "query PortfolioPageQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      hero {\n        childImageSharp {\n          fluid {\n            ...GatsbyImageSharpFluid_tracedSVG\n          }\n        }\n      }\n      homepage\n      slug\n      title\n      content\n      ebook {\n        publicURL\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query PortfolioPageQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      hero {\n        childImageSharp {\n          fluid {\n            ...GatsbyImageSharpFluid_tracedSVG\n          }\n        }\n      }\n      homepage\n      slug\n      title\n      content\n      link\n      ebook {\n        publicURL\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js"
     },
     "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {

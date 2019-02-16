@@ -2,6 +2,7 @@
 slug: "/the-hidden-jane-austen"
 title: "The Hidden Jane Austen"
 hero: "./../images/the-hidden-jane-austen.jpg"
+content: "video"
 homepage: "no"
 ---
 

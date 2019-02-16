@@ -2,6 +2,7 @@
 slug: "/the-letters-of-samuel-beckett-volume-3"
 title: "The Letters of Samuel Beckett, Volume 3"
 hero: "./../images/the-letters-of-samuel-beckett-volume-3.jpg"
+content: "video"
 homepage: "yes"
 ---
 

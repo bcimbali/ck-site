@@ -2,6 +2,8 @@
 slug: "/shakespeare-the-man-the-myth-the-doubt"
 title: "Shakespeare: The man, the myth…the doubt"
 hero: "./../images/shakespeare-the-man-the-myth-the-doubt.png"
+link: "http://www.cambridgeblog.org/2013/06/shakespeare-the-man-the-myth-the-doubt/"
+content: "blog"
 homepage: "yes"
 ---
 

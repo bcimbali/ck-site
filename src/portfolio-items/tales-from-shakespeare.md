@@ -2,6 +2,7 @@
 slug: "/tales-from-shakespeare"
 title: "Tales from Shakespeare"
 hero: "./../images/tales-from-shakespeare.jpg"
+content: "video"
 homepage: "no"
 ---
 

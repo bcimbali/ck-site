@@ -2,6 +2,7 @@
 slug: "/completed-application-next-steps"
 title: "Completed Application Next Steps"
 hero: "./../images/completed-application-next-steps.jpg"
+content: "video"
 homepage: "no"
 ---
 
