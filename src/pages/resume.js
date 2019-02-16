@@ -1,30 +1,282 @@
 import Layout from '../components/layout';
-import { Link } from 'gatsby';
 import React from 'react';
 import SEO from '../components/seo';
-import resume from './../pdf/Christine_Kanownik_Resume.pdf';
 import styled from 'styled-components';
 
-const PDFWrapper = styled.div`
+const EducationListing = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  width: 90%;
+
+  p {
+    text-align: center;
+  }
+
+  .first {
+    text-align: left;
+  }
+`;
+
+const ResumeWrapper = styled.div`
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2rem;
-  height: 80vh;
+  padding: 1rem 0;
   width: 80vw;
-  object {
+
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: blue;
+  }
+
+  h1 {
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  p {
+    width: 90%;
+  }
+`;
+
+const SectionHeading = styled.h2`
+  color: #000000;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  margin: 1rem 0;
+`;
+
+const Contact = styled.p`
+  margin: 1rem 0;
+  text-align: center;
+`;
+
+const ThickDivider = styled.hr`
+  border: 2px solid #FFFFFF;
+  width: 90%;
+`;
+
+const ThinDivider = styled.hr`
+  border: 1px solid #FFFFFF;
+  width: 90%;
+`;
+
+const JobTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  .job-header {
+    display: flex;
+    font-size: 1.05rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    p {
+      border-left: 1px solid #FFFFFF;
+
+      :nth-child(1) {
+        border: none;
+        text-align: left;
+      }
+    }
+  }
+
+  ul {
+    list-style-position: inside;
+    list-style-type: square;
+  }
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  @media (max-width: 414px) {
+  .job-header {
+    p{
+      border-left: none;
+      border-bottom: 1px solid #000000;
+      padding: 0.5rem 0;
+
+      :nth-child(1) {
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+      }
+    }
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
+  }
   }
 `;
 
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <PDFWrapper>
-      <object data={resume} type="application/pdf" width="100%" height="800px">
-        <p>It appears you don't have a PDF plugin for this browser.
-        No biggie... you can <Link to={resume}>click here to
-          download the PDF file.</Link></p>
-      </object>
-    </PDFWrapper>
+    <ResumeWrapper>
+      <h1>
+        CHRISTINE KANOWNIK
+      </h1>
+      <Contact>
+        1918 S. Loomis St. Chicago, IL 60608 |
+        <a href="mailto:cnkanownik@gmail.com">
+          cnkanownik@gmail.com
+        </a>
+          | (347) 281-3211
+      </Contact>
+
+      <SectionHeading>
+        Marketing and Soft Skills
+      </SectionHeading>
+      <p>
+        CRM integration and management, email marketing, marketing automation and
+        personalization, SEO and SEM, brand development, paid and organic social
+        media, content marketing, strategic marketing, and storytelling,
+        proofreading, digital advertising, Google Analytics, A/B testing, CMS
+        management, mobile marketing, lead nurturing, and growth. Team leadership,
+        management, effective communication, organizational skills, flexibility,
+        and grace under pressure.
+      </p>
+      <SectionHeading>
+        Experience
+      </SectionHeading>
+      <ThickDivider />
+        <JobTitle>
+          <div class="job-header">
+            <p>Assistant Director of Marketing</p> 
+            <p>Aug 2017 - Present</p> 
+            <p>Illinois Institute of Technology</p>
+            <p>Chicago, IL</p>
+          </div>
+          <ul>
+            <li>
+                Created and automated over 300 dynamic emails campaigns for the
+                graduate enrollment funnel, increasing engagement and click-through
+                numbers by over 70%.
+            </li>
+            <li>
+                Implemented a successful multi-tiered, cross-channel digital marketing
+                campaign to foster brand awareness and customer growth through
+                LinkedIn, Google Adwords, Facebook, and other outlets.
+            </li>
+            <li>
+                Managed the editorial calendar and developed content with designers
+                and videographers to create infographics, videos, flyers,
+                advertisements, and more.
+            </li>
+            <li>
+                Utilized Google analytics, focus groups, A/B testing, and reporting to
+                analyze the effectiveness of each marketing effort.
+            </li>
+            <li>
+                Served as a collaborative liaison across the university by forging
+                relationships and partnerships with recruitment advisors, designers,
+                and other internal and external stakeholders.
+            </li>
+            <li>
+                Promoted and participated in several high-profile recruitment events
+                both locally and abroad.
+            </li>
+          </ul>
+        </JobTitle>
+      <ThinDivider />
+      <JobTitle>
+      <div class="job-header">
+        <p>Marketing Manager</p> 
+        <p>Sept 2015 - Aug 2017</p>
+        <p>Routledge</p>
+        <p>New York, NY</p>
+      </div>
+      <ul>
+        <li>
+            Improved communication across the marketing and editorial departments
+            by hosting monthly meetings to discuss concerns and upcoming projects.
+        </li>
+        <li>
+            Acted as editor of two key professional blogs, Mastering Film and
+            Mastering Photo, creating content such as articles and videos to post
+            on the blogs three times a week.
+        </li>
+        <li>
+            Hired three direct-reports and managed their training, schedules and
+            workloads.
+        </li>
+      </ul>
+      </JobTitle>
+      <ThinDivider />
+      <JobTitle>
+      <div class="job-header">
+        <p>Senior Marketing Associate</p> 
+        <p>Jul 2012 - Sept 2015</p>
+        <p>Cambridge University Press</p>
+        <p>New York, NY</p>
+      </div>
+      <ul>
+        <li>
+            Spearheaded international rebranding campaigns across digital and
+            print channels, working closely with colleagues in the United Kingdom.
+        </li>
+        <li>
+            Planned and attended Cambridge’s presence at global conferences and
+            expos.
+        </li>
+        <li>
+            Influenced and advised a group of six marketing team members across
+            different departments.
+        </li>
+        <li>
+            Improved upon budgetary and scheduling concerns by building
+            relationships with external vendors to ensure the effectiveness of
+            each marketing piece.
+        </li>
+      </ul>
+      </JobTitle>
+      <SectionHeading>
+        Education
+      </SectionHeading>
+      <EducationListing>
+      <p class="first">
+        M.F.A. in Writing <br></br>GPA: 4.0
+      </p>
+      <p>
+        New School University
+      </p>
+      <p>New York, NY</p>
+      </EducationListing>
+
+      <EducationListing>
+      <p class="first">
+        B.A. in Creative Writing Cum Laude <br></br> GPA: 3.62
+      </p>
+      <p>
+        North Park University
+      </p>
+      <p>Chicago, IL</p>
+      </EducationListing>
+
+      <SectionHeading>
+        Technical Skills
+      </SectionHeading>
+      <p>
+        Proficient with all Microsoft and Macintosh operating systems. Advanced
+        knowledge of Microsoft Word, Excel, PowerPoint, Confluence, Photoshop,
+        Indesign, Wordpress, SalesForce, Marketing Cloud, Adestra, Constant
+        Contact, Hubspot, Survey Monkey, Function Point, Trello, Google Adwords
+        and Analytics. Knowledge of intermediate HTML and CSS. Intermediate Spanish.
+      </p>
+    </ResumeWrapper>
   </Layout>
 )
 
