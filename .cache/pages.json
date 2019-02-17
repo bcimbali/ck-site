@@ -101,11 +101,6 @@
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",
-        "jsonName": "portfolio-items-shakespeare-from-cambridge-4c4",
-        "path": "/portfolio-items/shakespeare-from-cambridge"
-    },
-    {
-        "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-shakespeare-goes-digital-22b",
         "path": "/portfolio-items/shakespeare-goes-digital"
     },
@@ -113,11 +108,6 @@
         "componentChunkName": "component---src-components-portfolio-layout-js",
         "jsonName": "portfolio-items-shakespeare-the-man-the-myth-the-doubt-847",
         "path": "/portfolio-items/shakespeare-the-man-the-myth-the-doubt"
-    },
-    {
-        "componentChunkName": "component---src-components-portfolio-layout-js",
-        "jsonName": "portfolio-items-tales-from-shakespeare-1d0",
-        "path": "/portfolio-items/tales-from-shakespeare"
     },
     {
         "componentChunkName": "component---src-components-portfolio-layout-js",

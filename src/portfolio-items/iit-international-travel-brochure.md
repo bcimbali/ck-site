@@ -7,4 +7,4 @@ ebook: "./../pdf/iit-intl-travel-brochure.pdf"
 homepage: "yes"
 ---
 
-This is a brochure that details the Illinois Tech international graduate travel programs.
+A combined travel brochure for potential International Undergraduate and Graduate students at Illinois Tech featuring information about the university, programs, and the city of Chicago.

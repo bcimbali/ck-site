@@ -8,4 +8,4 @@ homepage: "yes"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hj2JKCMdGR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A marketing video produced at Cambridge University Press for our "Shakespeare at Cambridge" series.
+Shakespeare from Cambridge video teaser featuring the multiutde of researche and platforms available as part of the "As you like it..." branding campaign. 

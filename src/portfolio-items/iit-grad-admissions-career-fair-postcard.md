@@ -7,4 +7,4 @@ ebook: "./../pdf/iit-grad-admissions-career-fair-postcard.pdf"
 homepage: "yes"
 ---
 
-An informative postcard describing an Illinois Tech grad admissions career fair.
+Lookin to further your career? A general brochure promoting Graduate school at Illinois Tech.

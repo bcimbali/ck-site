@@ -7,4 +7,4 @@ link: "http://www.cambridgeblog.org/2014/06/shakespeare-goes-digital/"
 homepage: "no"
 ---
 
-Since our recreation of Romeo and Juliet through iMessages and tweets was so popular, we're bringing back digital Shakespeare! Here's what happens when some of your favorite Shakespeare moments meet today's technology.
+Ever wonder what would happen if Shakespeare characters had iPhones? Find out with "Shakespeare Goes Digital" on Cambridge's fifteen eightyfour blog.

@@ -7,4 +7,4 @@ link: "http://www.cambridgeblog.org/2013/10/hemingway-on-screen/"
 homepage: "no"
 ---
 
-If you have been reading The Letters of Ernest Hemingway, Volume 2, you know that the author has led a life that was far from boring. Between that and his larger than life persona, it is no wonder that a fictionalized Hemingway has popped up in several television shows and movies. Below is a list of five of our favorite moments of Hemingway on screen.
+Ernest Hemingway lived a cinematic life so it's no wonder that he showed up so often in filme and television. A ranking of the top 5 onscreen portrayals of Hemingway for Cambridge's fifteen eightyfour blog. 

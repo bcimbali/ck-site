@@ -7,4 +7,4 @@ link: "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-i
 homepage: "no"
 ---
 
-An article I wrote for Vice's Motherboard site. It is a profile of a 78 year old Estonian composer, Arvo Part.
+Motherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.

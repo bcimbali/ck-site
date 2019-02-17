@@ -8,4 +8,4 @@ homepage: "no"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0BIRwSfHOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-IT's Mies (Main) Campus, minutes from downtown Chicago, is on the National Register of Historic Places and was named as one of “America’s most beautiful college campuses” by Forbes magazine. Come see for yourself! You will meet with an admissions recruiter and speak with faculty or staff from your academic department of interest.
+Promotional video for Illinois Tech Graduate Discover event featuring Top 5 things students will learn. 

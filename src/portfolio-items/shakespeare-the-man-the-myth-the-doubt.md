@@ -7,4 +7,4 @@ content: "blog"
 homepage: "no"
 ---
 
-I was introduced to the Shakespeare authorship question for the first time in a high school literature class. I admit now that I didn’t give the argument much thought. My English teacher didn’t sound entirely convinced, either. I also never did put much stock in the Cult of Personality. I wanted to read “Othello,” not debate who wrote “Othello.” I left that question to those with more government or institutional funding. But as I pursued my life in books, the tittering never stopped. Did Shakespeare really write Shakespeare?
+Did Shakspeare really write Shakespeare? The short answer is yes. The slightly longer answer discusses "Shakespeare Beyond Doubt" edited by Stanley Wells and Paul Edmondsont on Cambridge's fifteen eightyfour blog.

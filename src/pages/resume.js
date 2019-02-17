@@ -130,11 +130,7 @@ const Resume = () => (
         CHRISTINE KANOWNIK
       </h1>
       <Contact>
-        1918 S. Loomis St. Chicago, IL 60608 |
-        <a href="mailto:cnkanownik@gmail.com">
-          cnkanownik@gmail.com
-        </a>
-          | (347) 281-3211
+        1918 S. Loomis St. Chicago, IL 60608 | cnkanownik [at] gmail [dot] com
       </Contact>
 
       <SectionHeading>

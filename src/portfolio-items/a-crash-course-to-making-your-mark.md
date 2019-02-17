@@ -7,4 +7,4 @@ content: "ebook"
 ebook: "./../pdf/a-crash-course-to-making-your-mark-in-the-recording-industry.pdf"
 ---
 
-I did editing work on this book.
+An editied eBook for sound engineers from popular authors at Focal Press.
