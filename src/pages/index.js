@@ -1,20 +1,20 @@
-import { Link, StaticQuery, graphql } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image';
-import Layout from '../components/layout';
-import React from 'react';
-import SEO from '../components/seo';
-import styled from 'styled-components';
+import Img from 'gatsby-image'
+import Layout from '../components/layout'
+import React from 'react'
+import SEO from '../components/seo'
+import styled from 'styled-components'
 
 const MainText = styled.h1`
   font-size: 1.75rem;
   margin-bottom: 2rem;
   text-align: center;
-`;
+`
 
 const PortfolioCard = styled.div`
   align-items: center;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,7 +22,7 @@ const PortfolioCard = styled.div`
   min-height: 40vh;
   overflow: hidden;
   width: 23vw;
-  
+
   :hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
@@ -38,7 +38,7 @@ const PortfolioCard = styled.div`
     flex-direction: column;
     width: 80vw;
   }
-`;
+`
 
 const PortfolioContainer = styled.div`
   display: flex;
@@ -49,7 +49,7 @@ const PortfolioContainer = styled.div`
   a {
     text-decoration: none;
   }
-`;
+`
 
 const PortfolioImgContainer = styled.div`
   width: 100%;
@@ -57,14 +57,14 @@ const PortfolioImgContainer = styled.div`
   @media (max-width: 414px) {
     width: 80vw;
   }
-`;
+`
 
 const PortfolioTitle = styled.div`
   align-items: center;
   min-height: 10vh;
   display: flex;
   h2 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 1rem;
     text-align: center;
   }
@@ -76,13 +76,13 @@ const PortfolioTitle = styled.div`
   @media (max-width: 414px) {
     min-height: 10vh;
   }
-`;
+`
 
 const IndexWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-`;
+`
 
 const HOMEPAGE_QUERY = graphql`
   query HomepageQuery {
@@ -111,34 +111,43 @@ const HOMEPAGE_QUERY = graphql`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`marketing`, `digital marketing`, `chicago`, `content marketing`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `marketing`,
+        `digital marketing`,
+        `chicago`,
+        `content marketing`,
+      ]}
+    />
     <IndexWrapper>
-      <MainText>
-        Content + Digital Marketing
-      </MainText>
+      <MainText>Content + Digital Marketing</MainText>
       <PortfolioContainer>
         <StaticQuery
           query={HOMEPAGE_QUERY}
-          render={({allMarkdownRemark}) => (
-            allMarkdownRemark.edges.map(({node}) => {
-              if (node.frontmatter.homepage === "yes") {
+          render={({ allMarkdownRemark }) =>
+            allMarkdownRemark.edges.map(({ node }) => {
+              if (node.frontmatter.homepage === 'yes') {
                 return (
                   <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
-                        <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                        <Img
+                          fluid={node.frontmatter.hero.childImageSharp.fluid}
+                        />
                       </PortfolioImgContainer>
                       <PortfolioTitle>
-                          <h2>{node.frontmatter.title}</h2>
+                        <h2>{node.frontmatter.title}</h2>
                       </PortfolioTitle>
                     </PortfolioCard>
                   </Link>
                 )
+              } else {
+                return null
               }
             })
-          )}
-        >
-        </StaticQuery>
+          }
+        />
       </PortfolioContainer>
     </IndexWrapper>
   </Layout>
