@@ -3,6 +3,13 @@ import React from 'react';
 import SEO from '../components/seo';
 import styled from 'styled-components';
 
+const Contact = styled.p`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+`;
+
 const EducationListing = styled.div`
   display: flex;
   justify-content: space-between;
@@ -18,10 +25,70 @@ const EducationListing = styled.div`
   }
 `;
 
+const JobTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  .job-header {
+    color: #4D4D4D;
+    display: flex;
+    font-size: 1.05rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    p {
+      border-left: 1px solid #FFFFFF;
+
+      :nth-child(1) {
+        border: none;
+        text-align: left;
+      }
+    }
+  }
+
+  ul {
+    margin: auto;
+    list-style-position: inside;
+    list-style-type: square;
+    width: 90%;
+  }
+
+  li {
+    margin: 0.75rem 0;
+  }
+
+  @media (max-width: 768px) {
+    .job-header {
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      p{
+        border-left: none;
+        border-bottom: 1px solid #000000;
+        padding: 0.5rem 0;
+
+        :nth-child(1) {
+          color: #000000;
+          border-bottom: 1px solid #000000;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    ul {
+      width: 100%;
+    }
+  }
+`;
+
 const ResumeWrapper = styled.div`
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #FFFFFF;
+  color: #2D2D2D;
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -49,16 +116,16 @@ const ResumeWrapper = styled.div`
 `;
 
 const SectionHeading = styled.h2`
-  color: #000000;
+  color: #6409b3;
   font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
-  text-decoration: underline;
   margin: 1rem 0;
 `;
 
-const Contact = styled.p`
-  margin: 1rem 0;
-  text-align: center;
+const SkillsListing = styled.div`
+  margin: 0.5rem 0;
+  width: 90%;
 `;
 
 const ThickDivider = styled.hr`
@@ -71,57 +138,6 @@ const ThinDivider = styled.hr`
   width: 90%;
 `;
 
-const JobTitle = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-
-  .job-header {
-    display: flex;
-    font-size: 1.05rem;
-    font-style: italic;
-    margin-bottom: 1rem;
-    text-align: center;
-
-    p {
-      border-left: 1px solid #FFFFFF;
-
-      :nth-child(1) {
-        border: none;
-        text-align: left;
-      }
-    }
-  }
-
-  ul {
-    list-style-position: inside;
-    list-style-type: square;
-  }
-
-  li {
-    margin: 0.5rem 0;
-  }
-
-  @media (max-width: 414px) {
-  .job-header {
-    p{
-      border-left: none;
-      border-bottom: 1px solid #000000;
-      padding: 0.5rem 0;
-
-      :nth-child(1) {
-        color: #000000;
-        border-bottom: 1px solid #000000;
-        text-align: center;
-      }
-    }
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-  }
-`;
-
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
@@ -129,26 +145,34 @@ const Resume = () => (
       <h1>
         CHRISTINE KANOWNIK
       </h1>
+
       <Contact>
-        Chicago, IL | cnkanownik [at] gmail [dot] com
+        <div>Chicago, IL</div>
+        <div>cnkanownik[at]gmail[dot]com</div>
       </Contact>
 
       <SectionHeading>
         Marketing and Soft Skills
       </SectionHeading>
-      <p>
+      
+      <SkillsListing>
         CRM integration and management, email marketing, marketing automation and
         personalization, SEO and SEM, brand development, paid and organic social
         media, content marketing, strategic marketing, and storytelling,
         proofreading, digital advertising, Google Analytics, A/B testing, CMS
-        management, mobile marketing, lead nurturing, and growth. Team leadership,
-        management, effective communication, organizational skills, flexibility,
+        management, mobile marketing, lead nurturing, and growth.
+      </SkillsListing>
+      <SkillsListing>
+        Team leadership, management, effective communication, organizational skills, flexibility,
         and grace under pressure.
-      </p>
+      </SkillsListing>
+
       <SectionHeading>
         Experience
       </SectionHeading>
+
       <ThickDivider />
+
         <JobTitle>
           <div class="job-header">
             <p>Assistant Director of Marketing</p> 
@@ -187,7 +211,9 @@ const Resume = () => (
             </li>
           </ul>
         </JobTitle>
+
       <ThinDivider />
+      
       <JobTitle>
       <div class="job-header">
         <p>Marketing Manager</p> 
@@ -211,7 +237,9 @@ const Resume = () => (
         </li>
       </ul>
       </JobTitle>
+
       <ThinDivider />
+
       <JobTitle>
       <div class="job-header">
         <p>Senior Marketing Associate</p> 
@@ -239,9 +267,11 @@ const Resume = () => (
         </li>
       </ul>
       </JobTitle>
+
       <SectionHeading>
         Education
       </SectionHeading>
+
       <EducationListing>
       <p class="first">
         M.F.A. in Writing <br></br>GPA: 4.0
@@ -265,13 +295,15 @@ const Resume = () => (
       <SectionHeading>
         Technical Skills
       </SectionHeading>
-      <p>
+      
+      <SkillsListing>
         Proficient with all Microsoft and Macintosh operating systems. Advanced
         knowledge of Microsoft Word, Excel, PowerPoint, Confluence, Photoshop,
         Indesign, Wordpress, SalesForce, Marketing Cloud, Adestra, Constant
         Contact, Hubspot, Survey Monkey, Function Point, Trello, Google Adwords
         and Analytics. Knowledge of intermediate HTML and CSS. Intermediate Spanish.
-      </p>
+      </SkillsListing>
+      
     </ResumeWrapper>
   </Layout>
 )

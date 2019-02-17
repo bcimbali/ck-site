@@ -1911,12 +1911,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-17T00:14:49.896Z",
+      "buildTime": "2019-02-17T19:26:54.445Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8da324d4c32458e66e7d68ee3f458093",
+        "contentDigest": "aba4c4c00bb4d11df075e8add65b99f1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1926,7 +1926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "584afbf1b259b5f0e41598789f5f982d",
+        "contentDigest": "bd8a6ef797657abdd74883b4c430f3f3",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1938,7 +1938,7 @@
       "size": 832,
       "prettySize": "832 B",
       "modifiedTime": "2019-02-13T02:52:39.986Z",
-      "accessTime": "2019-02-17T00:14:52.483Z",
+      "accessTime": "2019-02-17T19:26:59.327Z",
       "changeTime": "2019-02-13T02:52:39.986Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1956,11 +1956,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550362492482.545,
+      "atimeMs": 1550431619326.5518,
       "mtimeMs": 1550026359986.231,
       "ctimeMs": 1550026359986.231,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-17T00:14:52.483Z",
+      "atime": "2019-02-17T19:26:59.327Z",
       "mtime": "2019-02-13T02:52:39.986Z",
       "ctime": "2019-02-13T02:52:39.986Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -3326,7 +3326,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6febd7b8eee4afc1a9e9a649e6e28488",
+        "contentDigest": "bd8704989eb173aafa0e36ec3c826b36",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3338,7 +3338,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-02-17T00:03:29.942Z",
-      "accessTime": "2019-02-17T00:14:52.546Z",
+      "accessTime": "2019-02-17T19:26:59.393Z",
       "changeTime": "2019-02-17T00:03:29.942Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3356,11 +3356,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550362492545.8926,
+      "atimeMs": 1550431619393.4138,
       "mtimeMs": 1550361809941.8862,
       "ctimeMs": 1550361809941.8862,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-17T00:14:52.546Z",
+      "atime": "2019-02-17T19:26:59.393Z",
       "mtime": "2019-02-17T00:03:29.942Z",
       "ctime": "2019-02-17T00:03:29.942Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -4263,7 +4263,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ab70473b529cf53555b48719d6dd4af9",
+        "contentDigest": "ddfe961a719f51ff617f7b3b7cc4f8f8",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -4275,7 +4275,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-17T00:14:52.582Z",
+      "accessTime": "2019-02-17T19:26:59.414Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -4293,11 +4293,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550362492581.5845,
+      "atimeMs": 1550431619413.892,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-17T00:14:52.582Z",
+      "atime": "2019-02-17T19:26:59.414Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -4938,6 +4938,49 @@
       "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\"In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best \nValue National Universities by U.S. News & World Report.\"",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
     },
+    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
+      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
+      "children": [],
+      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
+        "type": "MarkdownRemark",
+        "contentDigest": "e526d2d05346be2c767e69a72c867ce1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Letters of Samuel Beckett, Volume 3",
+        "slug": "/the-letters-of-samuel-beckett-volume-3",
+        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
+    },
+    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
+      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
+      "children": [],
+      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
+      "internal": {
+        "content": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
+        "type": "MarkdownRemark",
+        "contentDigest": "2728277a3d2aebde638c7f18b85dd0d0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "hero": "./../images/motherboard-screenshot.png",
+        "content": "blog",
+        "link": "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
+    },
     "SitePage /portfolio-items/domestic-resource-guide": {
       "jsonName": "portfolio-items-domestic-resource-guide-fd8",
       "internalComponentName": "ComponentPortfolioItemsDomesticResourceGuide",
@@ -5066,28 +5109,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "cbb341931675de7ce5a40012107fbb10",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
-      "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
-      "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
-      "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b6d74db11401bf550781c351af2210a0",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5290,28 +5311,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3": {
-      "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
-      "internalComponentName": "ComponentPortfolioItemsTheLettersOfSamuelBeckettVolume3",
-      "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/the-letters-of-samuel-beckett-volume-3"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "31294549f144bbbc4499da6c4c549acc",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard": {
       "jsonName": "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea",
       "internalComponentName": "ComponentPortfolioItemsIitGradAdmissionsCareerFairPostcard",
@@ -5352,6 +5351,50 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3": {
+      "jsonName": "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1",
+      "internalComponentName": "ComponentPortfolioItemsTheLettersOfSamuelBeckettVolume3",
+      "path": "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/the-letters-of-samuel-beckett-volume-3"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/the-letters-of-samuel-beckett-volume-3",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31294549f144bbbc4499da6c4c549acc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music": {
+      "jsonName": "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1",
+      "internalComponentName": "ComponentPortfolioItemsHowA78YearOldEstonianComposerBecameTheHottestThingInMusic",
+      "path": "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b6d74db11401bf550781c351af2210a0",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5475,49 +5518,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
-      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
-      "children": [],
-      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
-        "type": "MarkdownRemark",
-        "contentDigest": "e526d2d05346be2c767e69a72c867ce1",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Letters of Samuel Beckett, Volume 3",
-        "slug": "/the-letters-of-samuel-beckett-volume-3",
-        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
-        "content": "video",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
-    },
-    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
-      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
-      "children": [],
-      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
-      "internal": {
-        "content": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
-        "type": "MarkdownRemark",
-        "contentDigest": "2728277a3d2aebde638c7f18b85dd0d0",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
-        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "hero": "./../images/motherboard-screenshot.png",
-        "content": "blog",
-        "link": "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part",
-        "homepage": "yes"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     }
   },
   "status": {
