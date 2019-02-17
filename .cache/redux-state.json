@@ -1911,12 +1911,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-17T00:08:05.082Z",
+      "buildTime": "2019-02-17T00:14:49.896Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "83420e1c32892c2b49beb1908b3c1307",
+        "contentDigest": "8da324d4c32458e66e7d68ee3f458093",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1926,7 +1926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "08aded86744f9188ee5d14be692596a3",
+        "contentDigest": "584afbf1b259b5f0e41598789f5f982d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1938,7 +1938,7 @@
       "size": 832,
       "prettySize": "832 B",
       "modifiedTime": "2019-02-13T02:52:39.986Z",
-      "accessTime": "2019-02-17T00:08:07.653Z",
+      "accessTime": "2019-02-17T00:14:52.483Z",
       "changeTime": "2019-02-13T02:52:39.986Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -1956,11 +1956,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550362087653.4187,
+      "atimeMs": 1550362492482.545,
       "mtimeMs": 1550026359986.231,
       "ctimeMs": 1550026359986.231,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-17T00:08:07.653Z",
+      "atime": "2019-02-17T00:14:52.483Z",
       "mtime": "2019-02-13T02:52:39.986Z",
       "ctime": "2019-02-13T02:52:39.986Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -3326,7 +3326,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "43ddae6c42ea16c508f896a4c1605136",
+        "contentDigest": "6febd7b8eee4afc1a9e9a649e6e28488",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3338,7 +3338,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-02-17T00:03:29.942Z",
-      "accessTime": "2019-02-17T00:08:07.716Z",
+      "accessTime": "2019-02-17T00:14:52.546Z",
       "changeTime": "2019-02-17T00:03:29.942Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3356,11 +3356,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550362087716.336,
+      "atimeMs": 1550362492545.8926,
       "mtimeMs": 1550361809941.8862,
       "ctimeMs": 1550361809941.8862,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-17T00:08:07.716Z",
+      "atime": "2019-02-17T00:14:52.546Z",
       "mtime": "2019-02-17T00:03:29.942Z",
       "ctime": "2019-02-17T00:03:29.942Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -3936,7 +3936,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "64df8c723c3f9995680a0c5ee8287327",
+        "contentDigest": "9ab51bf9885f76581c998d76a593a5b1",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/illinois-tech-ranks-in-top-100.md\"",
@@ -3946,11 +3946,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md",
       "relativePath": "illinois-tech-ranks-in-top-100.md",
       "extension": "md",
-      "size": 532,
-      "prettySize": "532 B",
-      "modifiedTime": "2019-02-17T00:04:59.915Z",
-      "accessTime": "2019-02-17T00:04:59.914Z",
-      "changeTime": "2019-02-17T00:04:59.915Z",
+      "size": 533,
+      "prettySize": "533 B",
+      "modifiedTime": "2019-02-17T00:14:40.561Z",
+      "accessTime": "2019-02-17T00:14:40.561Z",
+      "changeTime": "2019-02-17T00:14:40.561Z",
       "birthTime": "2019-02-13T01:52:37.122Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -3967,13 +3967,13 @@
       "blksize": 4096,
       "ino": 8603302235,
       "blocks": 8,
-      "atimeMs": 1550361899914.495,
-      "mtimeMs": 1550361899914.8774,
-      "ctimeMs": 1550361899914.8774,
+      "atimeMs": 1550362480560.835,
+      "mtimeMs": 1550362480561.2935,
+      "ctimeMs": 1550362480561.2935,
       "birthtimeMs": 1550022757122.3145,
-      "atime": "2019-02-17T00:04:59.914Z",
-      "mtime": "2019-02-17T00:04:59.915Z",
-      "ctime": "2019-02-17T00:04:59.915Z",
+      "atime": "2019-02-17T00:14:40.561Z",
+      "mtime": "2019-02-17T00:14:40.561Z",
+      "ctime": "2019-02-17T00:14:40.561Z",
       "birthtime": "2019-02-13T01:52:37.122Z"
     },
     "5d15dd30-d8af-5f35-83aa-4dd3e90a4bc3": {
@@ -4171,7 +4171,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "e8b644634485dc7687f1ec6884981ff9",
+        "contentDigest": "0146be3b87eb54cdd5351f50f3e0e243",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/vice-motherboard-article.md\"",
@@ -4181,11 +4181,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md",
       "relativePath": "vice-motherboard-article.md",
       "extension": "md",
-      "size": 497,
-      "prettySize": "497 B",
-      "modifiedTime": "2019-02-16T23:59:00.308Z",
-      "accessTime": "2019-02-16T23:59:00.306Z",
-      "changeTime": "2019-02-16T23:59:00.308Z",
+      "size": 498,
+      "prettySize": "498 B",
+      "modifiedTime": "2019-02-17T00:16:03.527Z",
+      "accessTime": "2019-02-17T00:16:03.527Z",
+      "changeTime": "2019-02-17T00:16:03.527Z",
       "birthTime": "2019-02-10T20:18:17.002Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4202,13 +4202,13 @@
       "blksize": 4096,
       "ino": 8603270986,
       "blocks": 8,
-      "atimeMs": 1550361540305.6091,
-      "mtimeMs": 1550361540307.7195,
-      "ctimeMs": 1550361540307.7195,
+      "atimeMs": 1550362563526.7224,
+      "mtimeMs": 1550362563527.1638,
+      "ctimeMs": 1550362563527.1638,
       "birthtimeMs": 1549829897001.5728,
-      "atime": "2019-02-16T23:59:00.306Z",
-      "mtime": "2019-02-16T23:59:00.308Z",
-      "ctime": "2019-02-16T23:59:00.308Z",
+      "atime": "2019-02-17T00:16:03.527Z",
+      "mtime": "2019-02-17T00:16:03.527Z",
+      "ctime": "2019-02-17T00:16:03.527Z",
       "birthtime": "2019-02-10T20:18:17.002Z"
     },
     "417b6014-6dee-5bc1-98b6-25aa9abad124": {
@@ -4218,7 +4218,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "0b31257bcc7e85fc85091a71a0253c5f",
+        "contentDigest": "bd91aedb287f847572c42d0b7f5bd3bc",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md\"",
@@ -4228,11 +4228,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md",
       "relativePath": "the-letters-of-samuel-beckett-volume-3.md",
       "extension": "md",
-      "size": 486,
-      "prettySize": "486 B",
-      "modifiedTime": "2019-02-17T00:04:09.394Z",
-      "accessTime": "2019-02-17T00:04:09.393Z",
-      "changeTime": "2019-02-17T00:04:09.394Z",
+      "size": 485,
+      "prettySize": "485 B",
+      "modifiedTime": "2019-02-17T00:15:56.017Z",
+      "accessTime": "2019-02-17T00:15:56.016Z",
+      "changeTime": "2019-02-17T00:15:56.017Z",
       "birthTime": "2019-02-13T01:45:50.132Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items",
@@ -4249,13 +4249,13 @@
       "blksize": 4096,
       "ino": 8603301733,
       "blocks": 8,
-      "atimeMs": 1550361849393.3997,
-      "mtimeMs": 1550361849393.7446,
-      "ctimeMs": 1550361849393.7446,
+      "atimeMs": 1550362556016.47,
+      "mtimeMs": 1550362556016.9111,
+      "ctimeMs": 1550362556016.9111,
       "birthtimeMs": 1550022350132.1516,
-      "atime": "2019-02-17T00:04:09.393Z",
-      "mtime": "2019-02-17T00:04:09.394Z",
-      "ctime": "2019-02-17T00:04:09.394Z",
+      "atime": "2019-02-17T00:15:56.016Z",
+      "mtime": "2019-02-17T00:15:56.017Z",
+      "ctime": "2019-02-17T00:15:56.017Z",
       "birthtime": "2019-02-13T01:45:50.132Z"
     },
     "1ec8ab32-098f-53ff-b160-d1fb9797c3bf": {
@@ -4263,7 +4263,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "71d808f6446c1b4ead2cb1bab50cfe98",
+        "contentDigest": "ab70473b529cf53555b48719d6dd4af9",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -4275,7 +4275,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-17T00:08:07.763Z",
+      "accessTime": "2019-02-17T00:14:52.582Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -4293,11 +4293,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550362087763.0317,
+      "atimeMs": 1550362492581.5845,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-17T00:08:07.763Z",
+      "atime": "2019-02-17T00:14:52.582Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -4703,28 +4703,6 @@
       "rawMarkdownBody": "\nDid Shakspeare really write Shakespeare? The short answer is yes. The slightly longer answer discusses \"Shakespeare Beyond Doubt\" edited by Stanley Wells and Paul Edmondsont on Cambridge's fifteen eightyfour blog.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/shakespeare-the-man-the-myth-the-doubt.md"
     },
-    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
-      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
-      "children": [],
-      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
-      "internal": {
-        "content": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
-        "type": "MarkdownRemark",
-        "contentDigest": "d2d119a3a161223b62787673185d617f",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
-        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "hero": "./../images/motherboard-screenshot.png",
-        "content": "blog",
-        "link": "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
-    },
     "d7b89767-a4e3-527d-a178-d28526ade1a3": {
       "id": "d7b89767-a4e3-527d-a178-d28526ade1a3",
       "children": [],
@@ -4896,27 +4874,6 @@
       "rawMarkdownBody": "\nA combined travel brochure for potential International Undergraduate and Graduate students at Illinois Tech featuring information about the university, programs, and the city of Chicago.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-international-travel-brochure.md"
     },
-    "de9c3fbb-e963-529c-9c20-16ba6217dd06": {
-      "id": "de9c3fbb-e963-529c-9c20-16ba6217dd06",
-      "children": [],
-      "parent": "5e9390ef-677a-540a-9861-c6397b26366d",
-      "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\"In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best \nValue National Universities by U.S. News & World Report.\"",
-        "type": "MarkdownRemark",
-        "contentDigest": "0d6f3623846df2c981b4da580f42e03d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Illinois Tech Ranks in Top 100",
-        "slug": "/illinois-tech-ranks-in-top-100",
-        "hero": "./../images/illinois-tech-ranks-in-top-100.jpg",
-        "content": "video",
-        "homepage": "no"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\"In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best \nValue National Universities by U.S. News & World Report.\"",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
-    },
     "761c073d-ba83-557f-801d-d56d5d5f1117": {
       "id": "761c073d-ba83-557f-801d-d56d5d5f1117",
       "children": [],
@@ -4938,26 +4895,48 @@
       "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AJ5JWh_ZPJI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nBook trailer promoting CUP's \"The Hidden Jane Austen\" by leading scholar John Wiltshire.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-hidden-jane-austen.md"
     },
-    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
-      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
+    "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": {
+      "id": "9649e75c-b895-5fc8-a613-6ecfd3ce3ead",
       "children": [],
-      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
+      "parent": "6df8042f-cb8a-580d-9ea5-20541890d013",
       "internal": {
-        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
+        "content": "\nLookin to further your career? A general brochure promoting Graduate school at Illinois Tech.",
         "type": "MarkdownRemark",
-        "contentDigest": "6e94b9d21ff36a31f8fe200849f10aa0",
+        "contentDigest": "23fce2c31cd0a3caa9203a65e9ef66ef",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "The Letters of Samuel Beckett, Volume 3",
-        "slug": "/the-letters-of-samuel-beckett-volume-3",
-        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
+        "title": "Illinois Tech Career Fair Postcard",
+        "slug": "/iit-grad-admissions-career-fair-postcard",
+        "hero": "./../images/iit-grad-admissions-career-fair-postcard.png",
+        "content": "ebook",
+        "ebook": "./../pdf/iit-grad-admissions-career-fair-postcard.pdf",
+        "homepage": "yes"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLookin to further your career? A general brochure promoting Graduate school at Illinois Tech.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md"
+    },
+    "de9c3fbb-e963-529c-9c20-16ba6217dd06": {
+      "id": "de9c3fbb-e963-529c-9c20-16ba6217dd06",
+      "children": [],
+      "parent": "5e9390ef-677a-540a-9861-c6397b26366d",
+      "internal": {
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\"In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best \nValue National Universities by U.S. News & World Report.\"",
+        "type": "MarkdownRemark",
+        "contentDigest": "7156e2aa7da560d089923a3ced49e860",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Illinois Tech Ranks in Top 100",
+        "slug": "/illinois-tech-ranks-in-top-100",
+        "hero": "./../images/illinois-tech-ranks-in-top-100.jpg",
         "content": "video",
         "homepage": "yes"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohw__7wGTvw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\"In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best \nValue National Universities by U.S. News & World Report.\"",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/illinois-tech-ranks-in-top-100.md"
     },
     "SitePage /portfolio-items/domestic-resource-guide": {
       "jsonName": "portfolio-items-domestic-resource-guide-fd8",
@@ -4999,28 +4978,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "44da56fa1bf4b42b2713d45daf071d06",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard": {
-      "jsonName": "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea",
-      "internalComponentName": "ComponentPortfolioItemsIitGradAdmissionsCareerFairPostcard",
-      "path": "/portfolio-items/iit-grad-admissions-career-fair-postcard",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/iit-grad-admissions-career-fair-postcard"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "37f3afe22ffa72cedd9913feeede0e6f",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5311,28 +5268,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /portfolio-items/illinois-tech-ranks-in-top-100": {
-      "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
-      "internalComponentName": "ComponentPortfolioItemsIllinoisTechRanksInTop100",
-      "path": "/portfolio-items/illinois-tech-ranks-in-top-100",
-      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "componentChunkName": "component---src-components-portfolio-layout-js",
-      "context": {
-        "slug": "/illinois-tech-ranks-in-top-100"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
-      "id": "SitePage /portfolio-items/illinois-tech-ranks-in-top-100",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /portfolio-items/the-hidden-jane-austen": {
       "jsonName": "portfolio-items-the-hidden-jane-austen-de6",
       "internalComponentName": "ComponentPortfolioItemsTheHiddenJaneAusten",
@@ -5373,6 +5308,50 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "31294549f144bbbc4499da6c4c549acc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard": {
+      "jsonName": "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea",
+      "internalComponentName": "ComponentPortfolioItemsIitGradAdmissionsCareerFairPostcard",
+      "path": "/portfolio-items/iit-grad-admissions-career-fair-postcard",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/iit-grad-admissions-career-fair-postcard"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/iit-grad-admissions-career-fair-postcard",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "37f3afe22ffa72cedd9913feeede0e6f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio-items/illinois-tech-ranks-in-top-100": {
+      "jsonName": "portfolio-items-illinois-tech-ranks-in-top-100-1e3",
+      "internalComponentName": "ComponentPortfolioItemsIllinoisTechRanksInTop100",
+      "path": "/portfolio-items/illinois-tech-ranks-in-top-100",
+      "component": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "componentChunkName": "component---src-components-portfolio-layout-js",
+      "context": {
+        "slug": "/illinois-tech-ranks-in-top-100"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js",
+      "id": "SitePage /portfolio-items/illinois-tech-ranks-in-top-100",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "49d1806424d3fb2b7b05d3b5906f736b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -5497,27 +5476,48 @@
         "owner": "internal-data-bridge"
       }
     },
-    "9649e75c-b895-5fc8-a613-6ecfd3ce3ead": {
-      "id": "9649e75c-b895-5fc8-a613-6ecfd3ce3ead",
+    "ad51ff26-fba9-5307-a379-aa612d7ee334": {
+      "id": "ad51ff26-fba9-5307-a379-aa612d7ee334",
       "children": [],
-      "parent": "6df8042f-cb8a-580d-9ea5-20541890d013",
+      "parent": "417b6014-6dee-5bc1-98b6-25aa9abad124",
       "internal": {
-        "content": "\nLookin to further your career? A general brochure promoting Graduate school at Illinois Tech.",
+        "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
         "type": "MarkdownRemark",
-        "contentDigest": "23fce2c31cd0a3caa9203a65e9ef66ef",
+        "contentDigest": "e526d2d05346be2c767e69a72c867ce1",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "Illinois Tech Career Fair Postcard",
-        "slug": "/iit-grad-admissions-career-fair-postcard",
-        "hero": "./../images/iit-grad-admissions-career-fair-postcard.png",
-        "content": "ebook",
-        "ebook": "./../pdf/iit-grad-admissions-career-fair-postcard.pdf",
+        "title": "The Letters of Samuel Beckett, Volume 3",
+        "slug": "/the-letters-of-samuel-beckett-volume-3",
+        "hero": "./../images/the-letters-of-samuel-beckett-volume-3.jpg",
+        "content": "video",
+        "homepage": "no"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DdFTVu7v4_k\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\nA teaser book trailer for \"The Letters of Samuel Beckett, Volume 3: 1957-1965\".",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/the-letters-of-samuel-beckett-volume-3.md"
+    },
+    "143b335a-4a76-5f12-988a-4d5ae2c14890": {
+      "id": "143b335a-4a76-5f12-988a-4d5ae2c14890",
+      "children": [],
+      "parent": "ccddff91-752c-5394-9cfc-cc1a01056576",
+      "internal": {
+        "content": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
+        "type": "MarkdownRemark",
+        "contentDigest": "2728277a3d2aebde638c7f18b85dd0d0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music",
+        "slug": "/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
+        "hero": "./../images/motherboard-screenshot.png",
+        "content": "blog",
+        "link": "https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part",
         "homepage": "yes"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nLookin to further your career? A general brochure promoting Graduate school at Illinois Tech.",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/iit-grad-admissions-career-fair-postcard.md"
+      "rawMarkdownBody": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     }
   },
   "status": {
@@ -5844,7 +5844,7 @@
     "sq--src-components-seo-js": 1315885718,
     "sq--src-pages-portfolio-js": 2438295035,
     "portfolio-itemsnull-ecf": "434/path---portfolio-itemsnull-ecf-224-473qBx44pctuFz18k2Yp2fSZhM",
-    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "342/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-4aDSkjcSDqErPDaeUYzB0DjmJvg",
+    "portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9c1": "910/path---portfolio-items-how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music-9-c-1-928-iFYA6OChK4YGENiW7OZYn3NdqA",
     "portfolio-items-shakespeare-at-cambridge-035": "42/path---portfolio-items-shakespeare-at-cambridge-035-e95-Yq7F8MEmTphKIOji4niz9zWGjQ",
     "portfolio-items-cambridge-companions-from-cambridge-university-press-b9c": "636/path---portfolio-items-cambridge-companions-from-cambridge-university-press-b-9-c-edf-MkFyzR3MuJy4dNrM7nBSluxymWI",
     "portfolio-items-shakespeare-from-cambridge-4c4": "430/path---portfolio-items-shakespeare-from-cambridge-4-c-4-74f-E6Typw3XVNRkdAGd7TMP9dkYhN0",
@@ -5852,8 +5852,8 @@
     "portfolio-items-the-hidden-jane-austen-de6": "689/path---portfolio-items-the-hidden-jane-austen-de-6-d92-VspRkWG05DNsmX9MfKEgQldVLQ",
     "portfolio-items-completed-application-next-steps-35b": "895/path---portfolio-items-completed-application-next-steps-35-b-b44-5KVtMtWEfzcxW8i8hpioWAtasM",
     "portfolio-items-tales-from-shakespeare-1d0": "424/path---portfolio-items-tales-from-shakespeare-1-d-0-9e1-ipPAuAWijCu8WsSGXu67S7wYo",
-    "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1": "657/path---portfolio-items-the-letters-of-samuel-beckett-volume-3-bd-1-ea3-P9BoGJUAlmaxEtx5sGUTCWBhgo",
-    "portfolio-items-illinois-tech-ranks-in-top-100-1e3": "927/path---portfolio-items-illinois-tech-ranks-in-top-100-1-e-3-b76-DXdvg0lNNE7ySSUB5vRfmGuVmoM",
+    "portfolio-items-the-letters-of-samuel-beckett-volume-3-bd1": "408/path---portfolio-items-the-letters-of-samuel-beckett-volume-3-bd-1-ea3-K3mAttmtYJRQZnLo4g02JxEh8wA",
+    "portfolio-items-illinois-tech-ranks-in-top-100-1e3": "645/path---portfolio-items-illinois-tech-ranks-in-top-100-1-e-3-b76-gtCUpX0wzNqDh145weWcbHrjFGY",
     "portfolio-items-five-things-youll-learn-at-grad-discover-day-29e": "4/path---portfolio-items-five-things-youll-learn-at-grad-discover-day-29-e-652-k4huMnJmm43U6UMM8ZwbA33Ogh0",
     "portfolio-items-application-overview-1e9": "851/path---portfolio-items-application-overview-1-e-9-f40-3KH1y2t7x8GS2QONkjh93HFF1Y",
     "portfolio-items-ace-your-interview-585": "319/path---portfolio-items-ace-your-interview-585-a66-fJD9aq4OIzjGM5EcE7vHv1jx0",
