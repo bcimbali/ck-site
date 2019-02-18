@@ -5,17 +5,17 @@ module.exports = {
     menuLinks: [
       {
         name: 'About',
-        link: '/about'
+        link: '/about',
       },
       {
         name: 'Resume',
-        link: '/resume'
+        link: '/resume',
       },
       {
         name: 'Portfolio',
-        link: '/portfolio'
+        link: '/portfolio',
       },
-    ]
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -47,9 +47,9 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['IBM Plex Mono', 'monospace']
-        }
-      }
+          families: ['IBM Plex Mono', 'monospace'],
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -68,10 +68,10 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [`gatsby-remark-responsive-iframe`,
-        'gatsby-remark-images',],
+        plugins: [`gatsby-remark-responsive-iframe`, 'gatsby-remark-images'],
       },
     },
+    `gatsby-plugin-netlify-cache`,
     'gatsby-plugin-offline',
   ],
 }
