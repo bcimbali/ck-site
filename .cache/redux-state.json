@@ -2019,12 +2019,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-18T02:56:33.256Z",
+      "buildTime": "2019-02-18T03:08:32.005Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9f4df646a5cb0378465b243109028f5d",
+        "contentDigest": "51d52fe4d6763c0bdbe019a40153b4bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2034,7 +2034,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0a538ebe1643e8a5892872c3e8162adc",
+        "contentDigest": "30b5fa78dde7fc1a0fa3a9b642b93b59",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -2046,7 +2046,7 @@
       "size": 960,
       "prettySize": "960 B",
       "modifiedTime": "2019-02-17T22:29:43.068Z",
-      "accessTime": "2019-02-18T02:56:35.959Z",
+      "accessTime": "2019-02-18T03:08:34.738Z",
       "changeTime": "2019-02-17T22:29:43.068Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -2064,11 +2064,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550458595958.678,
+      "atimeMs": 1550459314738.4424,
       "mtimeMs": 1550442583068.1711,
       "ctimeMs": 1550442583068.1711,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-18T02:56:35.959Z",
+      "atime": "2019-02-18T03:08:34.738Z",
       "mtime": "2019-02-17T22:29:43.068Z",
       "ctime": "2019-02-17T22:29:43.068Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -3662,7 +3662,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "57abc0e39c5b037a94ef29b7c4cde779",
+        "contentDigest": "1e24ecedd39a961a9acb3ec9eaa69008",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3674,7 +3674,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-02-17T00:03:29.942Z",
-      "accessTime": "2019-02-18T02:56:36.031Z",
+      "accessTime": "2019-02-18T03:08:34.811Z",
       "changeTime": "2019-02-17T00:03:29.942Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3692,11 +3692,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550458596030.5034,
+      "atimeMs": 1550459314810.7415,
       "mtimeMs": 1550361809941.8862,
       "ctimeMs": 1550361809941.8862,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-18T02:56:36.031Z",
+      "atime": "2019-02-18T03:08:34.811Z",
       "mtime": "2019-02-17T00:03:29.942Z",
       "ctime": "2019-02-17T00:03:29.942Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -5008,7 +5008,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "96faf87203881843e851fa1e7424b83e",
+        "contentDigest": "887a1b5ce66e014bf192c7d08c116504",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -5020,7 +5020,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-18T02:56:36.051Z",
+      "accessTime": "2019-02-18T03:08:34.831Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -5038,11 +5038,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550458596051.2861,
+      "atimeMs": 1550459314830.8132,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-18T02:56:36.051Z",
+      "atime": "2019-02-18T03:08:34.831Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -5867,9 +5867,11 @@
         "sq--src-components-seo-js"
       ],
       "6c8b7026-09c8-5bce-9409-e0078a655e9d": [
+        "/",
         "sq--src-pages-about-js"
       ],
       "03a15a05-024c-5c6a-9cec-08b20c656378": [
+        "/",
         "sq--src-pages-about-js"
       ],
       "d7b89767-a4e3-527d-a178-d28526ade1a3": [
@@ -5877,196 +5879,200 @@
       ],
       "09b116f1-75ab-5ca7-827f-82e56b4a90bb": [
         "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "5c435382-1f13-563e-a60c-85a45367ed31": [
         "/portfolio-items/ace-your-interview",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "77f4b5bf-948b-5872-bd42-6e373466da80": [
         "/portfolio-items/an-interview-with-vincent-sherry",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "/",
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "4b65f421-b7e1-53d1-a44a-59356afdeef2": [
         "/portfolio-items/application-overview",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "567d3b14-743d-5f39-bef3-934aaaacbcff": [
         "/portfolio-items/cambridge-companions-from-cambridge University-press",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "489ac4b7-aada-5281-9cb0-8bf462248c6e": [
         "/portfolio-items/completed-application-next-steps",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "0151154b-a7fe-59ce-a70c-100b643105f5": [
         "/portfolio-items/domestic-resource-guide",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "248b233d-cf9c-549b-bb65-bd9480a6fd94": [
         "/portfolio-items/five-things-you'll-learn-at-grad-discover-day",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "76342acf-39bd-5af3-bae2-77381f97f5cc": [
         "/portfolio-items/graduate-programs-fast-facts",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "ebfb2f2f-78ca-532c-9275-249dcf4cc84f": [
         "/portfolio-items/hemingway-on-screen",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "7e0557b1-3eb2-52af-befd-89f1dab6ce98": [
         "/portfolio-items/iit-grad-admissions-career-fair-postcard",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "919c9dcf-6ec5-50b9-b5fc-0018504b8183": [
         "/portfolio-items/iit-international-travel-brochure",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "51099f84-020f-51d8-bd34-e1d1a2a42af0": [
         "/portfolio-items/illinois-tech-ranks-in-top-100",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "/",
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "39cb2184-adfa-5d25-b8d9-0f5bf86d3ef0": [
         "/portfolio-items/shakespeare-at-cambridge",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "b00c5c92-31b1-5513-b96b-352c84337ea2": [
         "/portfolio-items/shakespeare-goes-digital",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "75229f40-c316-5591-9c25-517f11dddc89": [
         "/portfolio-items/shakespeare-the-man-the-myth-the-doubt",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "f6f021d7-5d49-52f4-8c22-57a19b693e0e": [
         "/portfolio-items/the-hidden-jane-austen",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "1101f5e9-a18f-5f15-9a32-c46909ed8dfb": [
         "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "f2115d80-3656-5964-b996-ba2f0a757a25": [
         "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "9e1a1dff-5c77-51ec-b100-8ccc94e21ddb": [
         "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry"
       ],
       "d801c09c-228a-533a-8283-53abc4cdf8f5": [
         "/portfolio-items/a-crash-course-to-making-your-mark-in-the-recording-industry",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "fe187f88-0191-5c97-926e-4e8995814a93": [
         "/portfolio-items/ace-your-interview",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "a8bd7acb-a398-5e15-94b5-6fef17ccf768": [
         "/portfolio-items/an-interview-with-vincent-sherry",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "/",
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "ecc2b8da-b181-5edc-9ece-a0cd5bb49d50": [
         "/portfolio-items/application-overview",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "7715bab7-7307-5b14-a35a-29ed7899a881": [
         "/portfolio-items/cambridge-companions-from-cambridge University-press",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "4c54b8a3-4e54-5ae2-a22a-74af31c24494": [
         "/portfolio-items/completed-application-next-steps",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "c7e9f727-44e3-5aa6-b8a8-83667e5a78b9": [
         "/portfolio-items/domestic-resource-guide",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "e1563d7d-599d-58be-beb2-70b2030956cd": [
         "/portfolio-items/five-things-you'll-learn-at-grad-discover-day",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "0dcbca94-284c-5966-9bcc-18cf13e87279": [
         "/portfolio-items/graduate-programs-fast-facts",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "6f273a04-2000-5429-9dcd-8f3c14294c64": [
         "/portfolio-items/hemingway-on-screen",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "db79d089-fbb4-5518-a115-8ae475334ee3": [
         "/portfolio-items/iit-grad-admissions-career-fair-postcard",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "15a4d724-e84a-5385-8864-35d3ac942fcb": [
         "/portfolio-items/iit-international-travel-brochure",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "e921f17e-853e-5d65-8aba-0b44619c9d57": [
         "/portfolio-items/illinois-tech-ranks-in-top-100",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "/",
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "01e40782-045b-5f7d-be9f-ee0f05fd4811": [
         "/portfolio-items/shakespeare-at-cambridge",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "1e695fb0-fbae-5e80-a9d9-48c8a22d524a": [
         "/portfolio-items/shakespeare-goes-digital",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "773d9fc5-45f7-529d-adf6-6545efc79ed4": [
         "/portfolio-items/shakespeare-the-man-the-myth-the-doubt",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "e9dc0fb8-89d3-53b9-a91b-917135cb7867": [
         "/portfolio-items/the-hidden-jane-austen",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "96f11c7d-334e-51ce-8474-7d03fd1758d1": [
         "/portfolio-items/the-letters-of-samuel-beckett-volume-3",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "0cb07786-9d2d-5915-bf74-d920d84de1a5": [
         "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music",
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ],
       "d114efed-c9dd-5216-b9da-db7b62cfb093": [
         "/portfolio-items/ace-your-interview"
@@ -6133,14 +6139,20 @@
       ],
       "143b335a-4a76-5f12-988a-4d5ae2c14890": [
         "/portfolio-items/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music"
+      ],
+      "06c661a6-d000-50a5-a229-98fd8154f51b": [
+        "/"
+      ],
+      "34df4453-8e4c-5efc-90d2-e01e6dd9820d": [
+        "/"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
         null,
-        "sq--src-pages-portfolio-js",
-        "sq--src-pages-index-js"
+        "sq--src-pages-index-js",
+        "sq--src-pages-portfolio-js"
       ]
     }
   },
@@ -6179,16 +6191,13 @@
     "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea": "887/path---portfolio-items-iit-grad-admissions-career-fair-postcard-8-ea-b4c-mBXaYoC0K4auimJFV47LA9piig",
     "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262": "481/path---portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262-a92-xUuqQOz5epcEiqeC8M2Y7gSmaUE",
     "sq--src-pages-index-js": 1948356594,
-    "sq--src-pages-about-js": 2401905083
+    "sq--src-pages-about-js": 3582628119,
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
       "query": "query PortfolioPageQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      hero {\n        childImageSharp {\n          fluid {\n            ...GatsbyImageSharpFluid_tracedSVG\n          }\n        }\n      }\n      homepage\n      slug\n      title\n      content\n      link\n      ebook {\n        publicURL\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js"
-    },
-    "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js"
     },
     "/Users/BrettCimbalik/code/ck-site/src/pages/404.js": {
       "query": "",
@@ -6209,6 +6218,10 @@
     "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/resume.js"
+    },
+    "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
@@ -6241,8 +6254,8 @@
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
       "id": "sq--src-pages-about-js",
       "jsonName": "sq--src-pages-about-js",
-      "query": "query AboutImageQuery {\n  imageSharp(id: {eq: \"6c8b7026-09c8-5bce-9409-e0078a655e9d\"}) {\n    id\n    fluid {\n      ...GatsbyImageSharpFluid_tracedSVG\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2401905083
+      "query": "query AboutImageQuery {\n  file(name: {regex: \"/yellow/\"}) {\n    childImageSharp {\n      id\n      fluid {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 3582628119
     },
     "sq--src-pages-portfolio-js": {
       "name": "PortfolioQuery",

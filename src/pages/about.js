@@ -61,10 +61,12 @@ const TextWrapper = styled.div`
 
 const ABOUT_QUERY = graphql`
   query AboutImageQuery {
-    imageSharp(id: { eq: "6c8b7026-09c8-5bce-9409-e0078a655e9d" }) {
-      id
-      fluid {
-        ...GatsbyImageSharpFluid_tracedSVG
+    file(name: { regex: "/yellow/" }) {
+      childImageSharp {
+        id
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
       }
     }
   }
@@ -80,9 +82,7 @@ const About = () => (
           query={ABOUT_QUERY}
           render={data => (
             <ImgContainer>
-              {data.imageSharp.fluid !== null ? (
-                <Img fluid={data.imageSharp.fluid} />
-              ) : null}
+              <Img fluid={data.file.childImageSharp.fluid} />
             </ImgContainer>
           )}
         />
