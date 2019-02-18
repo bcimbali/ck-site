@@ -80,7 +80,9 @@ const About = () => (
           query={ABOUT_QUERY}
           render={data => (
             <ImgContainer>
-              <Img fluid={data.imageSharp.fluid} />
+              {data.imageSharp.fluid !== null ? (
+                <Img fluid={data.imageSharp.fluid} />
+              ) : null}
             </ImgContainer>
           )}
         />
