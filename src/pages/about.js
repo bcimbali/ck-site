@@ -1,8 +1,9 @@
+import { StaticQuery, graphql } from 'gatsby'
+
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import React from 'react'
 import SEO from '../components/seo'
-import { graphql } from 'gatsby'
 import styled from 'styled-components'
 
 const AboutWrapper = styled.div`
@@ -58,15 +59,31 @@ const TextWrapper = styled.div`
   }
 `
 
-const About = ({ data }) => (
+const ABOUT_QUERY = graphql`
+  query AboutImageQuery {
+    imageSharp(id: { eq: "6c8b7026-09c8-5bce-9409-e0078a655e9d" }) {
+      id
+      fluid {
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }
+`
+
+const About = () => (
   <Layout>
     <SEO title="About" />
     <AboutWrapper>
       <MainText>About</MainText>
       <Content>
-        <ImgContainer>
-          <Img fluid={data.imageSharp.fluid} />
-        </ImgContainer>
+        <StaticQuery
+          query={ABOUT_QUERY}
+          render={data => (
+            <ImgContainer>
+              <Img fluid={data.imageSharp.fluid} />
+            </ImgContainer>
+          )}
+        />
         <TextWrapper>
           <Paragraph>
             Christine Kanownik is a dedicated digital marketing professional
@@ -102,14 +119,3 @@ const About = ({ data }) => (
 )
 
 export default About
-
-export const query = graphql`
-  query AboutImageQuery {
-    imageSharp(id: { eq: "6c8b7026-09c8-5bce-9409-e0078a655e9d" }) {
-      id
-      fluid {
-        ...GatsbyImageSharpFluid_tracedSVG
-      }
-    }
-  }
-`

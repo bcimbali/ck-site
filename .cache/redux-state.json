@@ -1911,12 +1911,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-17T22:15:17.219Z",
+      "buildTime": "2019-02-18T02:06:35.969Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a078ede6218761d7ab99151b7fd5cf79",
+        "contentDigest": "0df74ba6f35d8682e4afeeff59ef7b03",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1926,7 +1926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d171fd422edb94945492cca5820be4ce",
+        "contentDigest": "bfdc794e374a8da54560ed4eebe79a31",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1935,11 +1935,11 @@
       "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 832,
-      "prettySize": "832 B",
-      "modifiedTime": "2019-02-13T02:52:39.986Z",
-      "accessTime": "2019-02-17T22:15:21.075Z",
-      "changeTime": "2019-02-13T02:52:39.986Z",
+      "size": 960,
+      "prettySize": "960 B",
+      "modifiedTime": "2019-02-17T22:29:43.068Z",
+      "accessTime": "2019-02-18T02:06:38.595Z",
+      "changeTime": "2019-02-17T22:29:43.068Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
       "dir": "/Users/BrettCimbalik/code/ck-site/src",
@@ -1949,20 +1949,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 26,
+      "nlink": 30,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550441721074.6943,
-      "mtimeMs": 1550026359986.231,
-      "ctimeMs": 1550026359986.231,
+      "atimeMs": 1550455598594.8474,
+      "mtimeMs": 1550442583068.1711,
+      "ctimeMs": 1550442583068.1711,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-17T22:15:21.075Z",
-      "mtime": "2019-02-13T02:52:39.986Z",
-      "ctime": "2019-02-13T02:52:39.986Z",
+      "atime": "2019-02-18T02:06:38.595Z",
+      "mtime": "2019-02-17T22:29:43.068Z",
+      "ctime": "2019-02-17T22:29:43.068Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
     },
     "77f4b5bf-948b-5872-bd42-6e373466da80": {
@@ -3326,7 +3326,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e84bee814b3c4b9edf476b3893196b38",
+        "contentDigest": "d3af9d4eb23b136683b64674532a4a83",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3338,7 +3338,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-02-17T00:03:29.942Z",
-      "accessTime": "2019-02-17T22:15:21.142Z",
+      "accessTime": "2019-02-18T02:06:38.667Z",
       "changeTime": "2019-02-17T00:03:29.942Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3356,11 +3356,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550441721142.296,
+      "atimeMs": 1550455598666.7778,
       "mtimeMs": 1550361809941.8862,
       "ctimeMs": 1550361809941.8862,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-17T22:15:21.142Z",
+      "atime": "2019-02-18T02:06:38.667Z",
       "mtime": "2019-02-17T00:03:29.942Z",
       "ctime": "2019-02-17T00:03:29.942Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -4263,7 +4263,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "603da343b3f7dcbe7dd8b7620eec7c92",
+        "contentDigest": "412710520ecbdd4922eae21007e66406",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -4275,7 +4275,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-17T22:15:21.161Z",
+      "accessTime": "2019-02-18T02:06:38.684Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -4293,11 +4293,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550441721160.7795,
+      "atimeMs": 1550455598684.4067,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-17T22:15:21.161Z",
+      "atime": "2019-02-18T02:06:38.684Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -4981,6 +4981,234 @@
       "rawMarkdownBody": "\nMotherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/ck-site/src/portfolio-items/vice-motherboard-article.md"
     },
+    "03a15a05-024c-5c6a-9cec-08b20c656378": {
+      "id": "03a15a05-024c-5c6a-9cec-08b20c656378",
+      "children": [
+        "6c8b7026-09c8-5bce-9409-e0078a655e9d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b94f6f74c77421394bfc8c7344b3ed17",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/christine-red-yellow-bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-red-yellow-bg.jpg",
+      "relativePath": "christine-red-yellow-bg.jpg",
+      "extension": "jpg",
+      "size": 703558,
+      "prettySize": "704 kB",
+      "modifiedTime": "2019-02-17T22:28:29.514Z",
+      "accessTime": "2019-02-17T22:28:29.123Z",
+      "changeTime": "2019-02-17T22:28:48.175Z",
+      "birthTime": "2019-02-17T22:28:29.123Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "christine-red-yellow-bg.jpg",
+      "ext": ".jpg",
+      "name": "christine-red-yellow-bg",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603369518,
+      "blocks": 1376,
+      "atimeMs": 1550442509123.212,
+      "mtimeMs": 1550442509513.79,
+      "ctimeMs": 1550442528174.9324,
+      "birthtimeMs": 1550442509123.212,
+      "atime": "2019-02-17T22:28:29.123Z",
+      "mtime": "2019-02-17T22:28:29.514Z",
+      "ctime": "2019-02-17T22:28:48.175Z",
+      "birthtime": "2019-02-17T22:28:29.123Z"
+    },
+    "6c8b7026-09c8-5bce-9409-e0078a655e9d": {
+      "id": "6c8b7026-09c8-5bce-9409-e0078a655e9d",
+      "children": [],
+      "parent": "03a15a05-024c-5c6a-9cec-08b20c656378",
+      "internal": {
+        "contentDigest": "b94f6f74c77421394bfc8c7344b3ed17",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06c661a6-d000-50a5-a229-98fd8154f51b": {
+      "id": "06c661a6-d000-50a5-a229-98fd8154f51b",
+      "children": [
+        "34df4453-8e4c-5efc-90d2-e01e6dd9820d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f9a1cce7c73c67724ca5c76380c82681",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/christine-store-bg.JPG\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-store-bg.JPG",
+      "relativePath": "christine-store-bg.JPG",
+      "extension": "jpg",
+      "size": 633567,
+      "prettySize": "634 kB",
+      "modifiedTime": "2019-02-17T22:29:01.129Z",
+      "accessTime": "2019-02-17T22:29:00.752Z",
+      "changeTime": "2019-02-17T22:29:08.340Z",
+      "birthTime": "2019-02-17T22:29:00.752Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "christine-store-bg.JPG",
+      "ext": ".JPG",
+      "name": "christine-store-bg",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603369860,
+      "blocks": 1240,
+      "atimeMs": 1550442540751.749,
+      "mtimeMs": 1550442541128.8333,
+      "ctimeMs": 1550442548340.3037,
+      "birthtimeMs": 1550442540751.749,
+      "atime": "2019-02-17T22:29:00.752Z",
+      "mtime": "2019-02-17T22:29:01.129Z",
+      "ctime": "2019-02-17T22:29:08.340Z",
+      "birthtime": "2019-02-17T22:29:00.752Z"
+    },
+    "34df4453-8e4c-5efc-90d2-e01e6dd9820d": {
+      "id": "34df4453-8e4c-5efc-90d2-e01e6dd9820d",
+      "children": [],
+      "parent": "06c661a6-d000-50a5-a229-98fd8154f51b",
+      "internal": {
+        "contentDigest": "f9a1cce7c73c67724ca5c76380c82681",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "71f8b857-8135-516e-a1bb-1387ccb85166": {
+      "id": "71f8b857-8135-516e-a1bb-1387ccb85166",
+      "children": [
+        "4182ad91-4a55-5985-ada2-294ca6eaf31a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0a86248ba26b02fb24b47e98abefc314",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/christine-table-bg.JPG\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-table-bg.JPG",
+      "relativePath": "christine-table-bg.JPG",
+      "extension": "jpg",
+      "size": 809834,
+      "prettySize": "810 kB",
+      "modifiedTime": "2019-02-17T22:29:21.517Z",
+      "accessTime": "2019-02-17T22:29:21.096Z",
+      "changeTime": "2019-02-17T22:29:30.943Z",
+      "birthTime": "2019-02-17T22:29:21.096Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "christine-table-bg.JPG",
+      "ext": ".JPG",
+      "name": "christine-table-bg",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603369953,
+      "blocks": 1584,
+      "atimeMs": 1550442561096.0588,
+      "mtimeMs": 1550442561516.8704,
+      "ctimeMs": 1550442570943.3232,
+      "birthtimeMs": 1550442561096.0588,
+      "atime": "2019-02-17T22:29:21.096Z",
+      "mtime": "2019-02-17T22:29:21.517Z",
+      "ctime": "2019-02-17T22:29:30.943Z",
+      "birthtime": "2019-02-17T22:29:21.096Z"
+    },
+    "4182ad91-4a55-5985-ada2-294ca6eaf31a": {
+      "id": "4182ad91-4a55-5985-ada2-294ca6eaf31a",
+      "children": [],
+      "parent": "71f8b857-8135-516e-a1bb-1387ccb85166",
+      "internal": {
+        "contentDigest": "0a86248ba26b02fb24b47e98abefc314",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "aa0b16f1-0e21-5d60-90db-565d4d65ca45": {
+      "id": "aa0b16f1-0e21-5d60-90db-565d4d65ca45",
+      "children": [
+        "91bf2dc1-844b-5992-9b87-dc7814dc82d6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d5be0996451d48e01e8057a760b57f2a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/christine-picture.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-picture.jpg",
+      "relativePath": "christine-picture.jpg",
+      "extension": "jpg",
+      "size": 1499495,
+      "prettySize": "1.5 MB",
+      "modifiedTime": "2019-02-17T22:29:37.428Z",
+      "accessTime": "2019-02-17T22:29:36.820Z",
+      "changeTime": "2019-02-17T22:29:43.144Z",
+      "birthTime": "2019-02-17T22:29:36.820Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
+      "base": "christine-picture.jpg",
+      "ext": ".jpg",
+      "name": "christine-picture",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8603370035,
+      "blocks": 2936,
+      "atimeMs": 1550442576820.0498,
+      "mtimeMs": 1550442577428.2568,
+      "ctimeMs": 1550442583143.996,
+      "birthtimeMs": 1550442576820.0498,
+      "atime": "2019-02-17T22:29:36.820Z",
+      "mtime": "2019-02-17T22:29:37.428Z",
+      "ctime": "2019-02-17T22:29:43.144Z",
+      "birthtime": "2019-02-17T22:29:36.820Z"
+    },
+    "91bf2dc1-844b-5992-9b87-dc7814dc82d6": {
+      "id": "91bf2dc1-844b-5992-9b87-dc7814dc82d6",
+      "children": [],
+      "parent": "aa0b16f1-0e21-5d60-90db-565d4d65ca45",
+      "internal": {
+        "contentDigest": "d5be0996451d48e01e8057a760b57f2a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /portfolio-items/domestic-resource-guide": {
       "jsonName": "portfolio-items-domestic-resource-guide-fd8",
       "internalComponentName": "ComponentPortfolioItemsDomesticResourceGuide",
@@ -5518,234 +5746,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "03a15a05-024c-5c6a-9cec-08b20c656378": {
-      "id": "03a15a05-024c-5c6a-9cec-08b20c656378",
-      "children": [
-        "6c8b7026-09c8-5bce-9409-e0078a655e9d"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "b94f6f74c77421394bfc8c7344b3ed17",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/christine-red-yellow-bg.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-red-yellow-bg.jpg",
-      "relativePath": "christine-red-yellow-bg.jpg",
-      "extension": "jpg",
-      "size": 703558,
-      "prettySize": "704 kB",
-      "modifiedTime": "2019-02-17T22:28:29.514Z",
-      "accessTime": "2019-02-17T22:28:29.123Z",
-      "changeTime": "2019-02-17T22:28:48.175Z",
-      "birthTime": "2019-02-17T22:28:29.123Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "christine-red-yellow-bg.jpg",
-      "ext": ".jpg",
-      "name": "christine-red-yellow-bg",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603369518,
-      "blocks": 1376,
-      "atimeMs": 1550442509123.212,
-      "mtimeMs": 1550442509513.79,
-      "ctimeMs": 1550442528174.9324,
-      "birthtimeMs": 1550442509123.212,
-      "atime": "2019-02-17T22:28:29.123Z",
-      "mtime": "2019-02-17T22:28:29.514Z",
-      "ctime": "2019-02-17T22:28:48.175Z",
-      "birthtime": "2019-02-17T22:28:29.123Z"
-    },
-    "6c8b7026-09c8-5bce-9409-e0078a655e9d": {
-      "id": "6c8b7026-09c8-5bce-9409-e0078a655e9d",
-      "children": [],
-      "parent": "03a15a05-024c-5c6a-9cec-08b20c656378",
-      "internal": {
-        "contentDigest": "b94f6f74c77421394bfc8c7344b3ed17",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "06c661a6-d000-50a5-a229-98fd8154f51b": {
-      "id": "06c661a6-d000-50a5-a229-98fd8154f51b",
-      "children": [
-        "34df4453-8e4c-5efc-90d2-e01e6dd9820d"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "f9a1cce7c73c67724ca5c76380c82681",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/christine-store-bg.JPG\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-store-bg.JPG",
-      "relativePath": "christine-store-bg.JPG",
-      "extension": "jpg",
-      "size": 633567,
-      "prettySize": "634 kB",
-      "modifiedTime": "2019-02-17T22:29:01.129Z",
-      "accessTime": "2019-02-17T22:29:00.752Z",
-      "changeTime": "2019-02-17T22:29:08.340Z",
-      "birthTime": "2019-02-17T22:29:00.752Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "christine-store-bg.JPG",
-      "ext": ".JPG",
-      "name": "christine-store-bg",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603369860,
-      "blocks": 1240,
-      "atimeMs": 1550442540751.749,
-      "mtimeMs": 1550442541128.8333,
-      "ctimeMs": 1550442548340.3037,
-      "birthtimeMs": 1550442540751.749,
-      "atime": "2019-02-17T22:29:00.752Z",
-      "mtime": "2019-02-17T22:29:01.129Z",
-      "ctime": "2019-02-17T22:29:08.340Z",
-      "birthtime": "2019-02-17T22:29:00.752Z"
-    },
-    "34df4453-8e4c-5efc-90d2-e01e6dd9820d": {
-      "id": "34df4453-8e4c-5efc-90d2-e01e6dd9820d",
-      "children": [],
-      "parent": "06c661a6-d000-50a5-a229-98fd8154f51b",
-      "internal": {
-        "contentDigest": "f9a1cce7c73c67724ca5c76380c82681",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "71f8b857-8135-516e-a1bb-1387ccb85166": {
-      "id": "71f8b857-8135-516e-a1bb-1387ccb85166",
-      "children": [
-        "4182ad91-4a55-5985-ada2-294ca6eaf31a"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0a86248ba26b02fb24b47e98abefc314",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/christine-table-bg.JPG\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-table-bg.JPG",
-      "relativePath": "christine-table-bg.JPG",
-      "extension": "jpg",
-      "size": 809834,
-      "prettySize": "810 kB",
-      "modifiedTime": "2019-02-17T22:29:21.517Z",
-      "accessTime": "2019-02-17T22:29:21.096Z",
-      "changeTime": "2019-02-17T22:29:30.943Z",
-      "birthTime": "2019-02-17T22:29:21.096Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "christine-table-bg.JPG",
-      "ext": ".JPG",
-      "name": "christine-table-bg",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603369953,
-      "blocks": 1584,
-      "atimeMs": 1550442561096.0588,
-      "mtimeMs": 1550442561516.8704,
-      "ctimeMs": 1550442570943.3232,
-      "birthtimeMs": 1550442561096.0588,
-      "atime": "2019-02-17T22:29:21.096Z",
-      "mtime": "2019-02-17T22:29:21.517Z",
-      "ctime": "2019-02-17T22:29:30.943Z",
-      "birthtime": "2019-02-17T22:29:21.096Z"
-    },
-    "4182ad91-4a55-5985-ada2-294ca6eaf31a": {
-      "id": "4182ad91-4a55-5985-ada2-294ca6eaf31a",
-      "children": [],
-      "parent": "71f8b857-8135-516e-a1bb-1387ccb85166",
-      "internal": {
-        "contentDigest": "0a86248ba26b02fb24b47e98abefc314",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "aa0b16f1-0e21-5d60-90db-565d4d65ca45": {
-      "id": "aa0b16f1-0e21-5d60-90db-565d4d65ca45",
-      "children": [
-        "91bf2dc1-844b-5992-9b87-dc7814dc82d6"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "d5be0996451d48e01e8057a760b57f2a",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/christine-picture.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/BrettCimbalik/code/ck-site/src/images/christine-picture.jpg",
-      "relativePath": "christine-picture.jpg",
-      "extension": "jpg",
-      "size": 1499495,
-      "prettySize": "1.5 MB",
-      "modifiedTime": "2019-02-17T22:29:37.428Z",
-      "accessTime": "2019-02-17T22:29:36.820Z",
-      "changeTime": "2019-02-17T22:29:43.144Z",
-      "birthTime": "2019-02-17T22:29:36.820Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/ck-site/src/images",
-      "base": "christine-picture.jpg",
-      "ext": ".jpg",
-      "name": "christine-picture",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8603370035,
-      "blocks": 2936,
-      "atimeMs": 1550442576820.0498,
-      "mtimeMs": 1550442577428.2568,
-      "ctimeMs": 1550442583143.996,
-      "birthtimeMs": 1550442576820.0498,
-      "atime": "2019-02-17T22:29:36.820Z",
-      "mtime": "2019-02-17T22:29:37.428Z",
-      "ctime": "2019-02-17T22:29:43.144Z",
-      "birthtime": "2019-02-17T22:29:36.820Z"
-    },
-    "91bf2dc1-844b-5992-9b87-dc7814dc82d6": {
-      "id": "91bf2dc1-844b-5992-9b87-dc7814dc82d6",
-      "children": [],
-      "parent": "aa0b16f1-0e21-5d60-90db-565d4d65ca45",
-      "internal": {
-        "contentDigest": "d5be0996451d48e01e8057a760b57f2a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
@@ -6078,7 +6078,7 @@
       ],
       "03a15a05-024c-5c6a-9cec-08b20c656378": [
         "/",
-        "/about/"
+        "sq--src-pages-about-js"
       ],
       "06c661a6-d000-50a5-a229-98fd8154f51b": [
         "/"
@@ -6091,7 +6091,7 @@
       ],
       "6c8b7026-09c8-5bce-9409-e0078a655e9d": [
         "/",
-        "/about/"
+        "sq--src-pages-about-js"
       ]
     },
     "connections": {
@@ -6109,7 +6109,7 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "939/path---about-f-34-4c2-pEIUuBJPJPkEjxdKUq8kauWfl2Q",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-items-iit-international-travel-brochure-4aa": "240/path---portfolio-items-iit-international-travel-brochure-4-aa-f0e-rTfwVPP1DFmtHzTDvNudaGrHM",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -6140,7 +6140,8 @@
     "portfolio-items-domestic-resource-guide-fd8": "460/path---portfolio-items-domestic-resource-guide-fd-8-f05-F4zfuqxxS1pKjWenRt5uzAecCs",
     "portfolio-items-iit-grad-admissions-career-fair-postcard-8ea": "887/path---portfolio-items-iit-grad-admissions-career-fair-postcard-8-ea-b4c-mBXaYoC0K4auimJFV47LA9piig",
     "portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262": "481/path---portfolio-items-a-crash-course-to-making-your-mark-in-the-recording-industry-262-a92-xUuqQOz5epcEiqeC8M2Y7gSmaUE",
-    "sq--src-pages-index-js": 1948356594
+    "sq--src-pages-index-js": 1948356594,
+    "sq--src-pages-about-js": 2401905083
   },
   "components": {
     "/Users/BrettCimbalik/code/ck-site/src/components/portfolioLayout.js": {
@@ -6156,7 +6157,7 @@
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/404.js"
     },
     "/Users/BrettCimbalik/code/ck-site/src/pages/about.js": {
-      "query": "query AboutImageQuery {\n  imageSharp(id: {eq: \"6c8b7026-09c8-5bce-9409-e0078a655e9d\"}) {\n    id\n    fluid {\n      ...GatsbyImageSharpFluid_tracedSVG\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "",
       "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js"
     },
     "/Users/BrettCimbalik/code/ck-site/src/pages/index.js": {
@@ -6212,6 +6213,14 @@
       "jsonName": "sq--src-pages-index-js",
       "query": "query HomepageQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        html\n        excerpt\n        frontmatter {\n          hero {\n            childImageSharp {\n              fluid(maxWidth: 500, maxHeight: 500) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n          title\n          homepage\n          slug\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 1948356594
+    },
+    "sq--src-pages-about-js": {
+      "name": "AboutImageQuery",
+      "componentPath": "/Users/BrettCimbalik/code/ck-site/src/pages/about.js",
+      "id": "sq--src-pages-about-js",
+      "jsonName": "sq--src-pages-about-js",
+      "query": "query AboutImageQuery {\n  imageSharp(id: {eq: \"6c8b7026-09c8-5bce-9409-e0078a655e9d\"}) {\n    id\n    fluid {\n      ...GatsbyImageSharpFluid_tracedSVG\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2401905083
     }
   }
 }
