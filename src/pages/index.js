@@ -12,7 +12,7 @@ const MainText = styled.h1`
   text-align: center;
 `
 
-const PortfolioCard = styled.div`
+const PortfolioCard = styled.article`
   align-items: center;
   border: 2px solid #ffffff;
   display: flex;
@@ -40,7 +40,7 @@ const PortfolioCard = styled.div`
   }
 `
 
-const PortfolioContainer = styled.div`
+const PortfolioContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -78,7 +78,7 @@ const PortfolioTitle = styled.div`
   }
 `
 
-const IndexWrapper = styled.div`
+const IndexWrapper = styled.main`
   align-items: center;
   display: flex;
   flex-direction: column;

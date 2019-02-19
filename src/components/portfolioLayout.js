@@ -1,8 +1,8 @@
-import { Link, graphql } from 'gatsby'
 import React, { Component } from 'react'
 
 import Img from 'gatsby-image'
 import Layout from './layout'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
 
 const ImgContainer = styled.div`
@@ -61,6 +61,7 @@ export default class portfolioLayout extends Component {
           />
           {markdownRemark.frontmatter.content === 'ebook' ? (
             <object
+              alt="ebook content"
               data={markdownRemark.frontmatter.ebook.publicURL}
               width="100%"
               height="800px"

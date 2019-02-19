@@ -6,7 +6,7 @@ import React from 'react'
 import SEO from '../components/seo'
 import styled from 'styled-components'
 
-const AboutWrapper = styled.div`
+const AboutWrapper = styled.main`
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -21,7 +21,7 @@ const Content = styled.div`
   }
 `
 
-const ImgContainer = styled.div`
+const ImgContainer = styled.section`
   margin-bottom: 2rem;
   padding: 3rem;
   width: 50%;
@@ -42,7 +42,7 @@ const Paragraph = styled.p`
   margin: 1rem 0;
 `
 
-const TextWrapper = styled.div`
+const TextWrapper = styled.article`
   border-left: 1px solid #ffffff;
   color: #0d0d0d;
   display: flex;

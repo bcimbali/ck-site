@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/favicon.png"},
+      options: {"plugins":[],"name":"Christine Kanownik Portfolio","short_name":"CK Portfolio","start_url":"/","background_color":"#B1B0E5","theme_color":"#B1B0E5","display":"minimal-ui","icon":"src/images/favicon.png"},
     },{
       plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
