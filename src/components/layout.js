@@ -1,28 +1,28 @@
-import './reset.css';
+import './reset.css'
 
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby'
 
-import Footer from './footer';
-import Header from './header';
-import Helmet from "react-helmet";
-import PropTypes from 'prop-types';
-import React from 'react';
-import favicon from '../images/favicon.ico';
-import styled from 'styled-components';
+import Footer from './footer'
+import Header from './header'
+import Helmet from 'react-helmet'
+import PropTypes from 'prop-types'
+import React from 'react'
+import favicon from '../images/favicon.ico'
+import styled from 'styled-components'
 
 const LayoutWrapper = styled.div`
-  background: #B1B0E5;
+  background: #b1b0e5;
   display: flex;
   flex-direction: column;
   font-family: 'IBM Plex Mono', 'monospace';
   min-height: 100vh;
-`;
+`
 
 const MainContent = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
-`;
+`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -41,19 +41,28 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <LayoutWrapper>
-        <Helmet 
+        <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: data.site.siteMetadata.description },
+            {
+              name: 'description',
+              content: data.site.siteMetadata.description,
+            },
           ]}
           link={[
-            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` },
           ]}
+        >
+          <meta
+            name="google-site-verification"
+            content="oNthUkbBshKqAkf2gJBfacZcMPjRSio0GFzeETEvNuc"
+          />
+        </Helmet>
+        <Header
+          menuLinks={data.site.siteMetadata.menuLinks}
+          siteTitle={data.site.siteMetadata.title}
         />
-        <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-        <MainContent>
-          {children}
-        </MainContent>
+        <MainContent>{children}</MainContent>
         <Footer />
       </LayoutWrapper>
     )}

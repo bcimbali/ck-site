@@ -2106,12 +2106,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-19T02:31:27.053Z",
+      "buildTime": "2019-02-19T02:55:52.768Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5a56f61143690af2f15fda3ce89e1e9e",
+        "contentDigest": "27f18dd01b37834d322cfe7b2b2ad2dd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2121,7 +2121,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d3f52f209bf9cbd07f5e9a3a07db8947",
+        "contentDigest": "008534b695e21b698f3bd024a2bc5f7a",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -2133,7 +2133,7 @@
       "size": 928,
       "prettySize": "928 B",
       "modifiedTime": "2019-02-19T01:44:32.947Z",
-      "accessTime": "2019-02-19T02:31:29.998Z",
+      "accessTime": "2019-02-19T02:55:55.874Z",
       "changeTime": "2019-02-19T01:44:32.947Z",
       "birthTime": "2019-01-28T00:45:47.403Z",
       "root": "/",
@@ -2151,11 +2151,11 @@
       "blksize": 4096,
       "ino": 8602527118,
       "blocks": 0,
-      "atimeMs": 1550543489997.549,
+      "atimeMs": 1550544955874.119,
       "mtimeMs": 1550540672946.5613,
       "ctimeMs": 1550540672946.5613,
       "birthtimeMs": 1548636347402.8972,
-      "atime": "2019-02-19T02:31:29.998Z",
+      "atime": "2019-02-19T02:55:55.874Z",
       "mtime": "2019-02-19T01:44:32.947Z",
       "ctime": "2019-02-19T01:44:32.947Z",
       "birthtime": "2019-01-28T00:45:47.403Z"
@@ -3692,7 +3692,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2469dac11870b56436d0929970dbd97a",
+        "contentDigest": "04a9481d0fc65666b28825a322ab908a",
         "type": "Directory",
         "description": "Directory \"src/portfolio-items\"",
         "owner": "gatsby-source-filesystem"
@@ -3704,7 +3704,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-02-17T00:03:29.942Z",
-      "accessTime": "2019-02-19T02:31:30.107Z",
+      "accessTime": "2019-02-19T02:55:55.944Z",
       "changeTime": "2019-02-17T00:03:29.942Z",
       "birthTime": "2019-02-07T02:53:00.065Z",
       "root": "/",
@@ -3722,11 +3722,11 @@
       "blksize": 4096,
       "ino": 8603185244,
       "blocks": 0,
-      "atimeMs": 1550543490107.2412,
+      "atimeMs": 1550544955944.4348,
       "mtimeMs": 1550361809941.8862,
       "ctimeMs": 1550361809941.8862,
       "birthtimeMs": 1549507980064.5435,
-      "atime": "2019-02-19T02:31:30.107Z",
+      "atime": "2019-02-19T02:55:55.944Z",
       "mtime": "2019-02-17T00:03:29.942Z",
       "ctime": "2019-02-17T00:03:29.942Z",
       "birthtime": "2019-02-07T02:53:00.065Z"
@@ -5038,7 +5038,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "fa29a5735c431c423fcd45b49e27d58c",
+        "contentDigest": "7f28f6a0949045f39ef3abbd515bb31b",
         "type": "Directory",
         "description": "Directory \"src/pdf\"",
         "owner": "gatsby-source-filesystem"
@@ -5050,7 +5050,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-02-13T02:50:28.026Z",
-      "accessTime": "2019-02-19T02:31:30.166Z",
+      "accessTime": "2019-02-19T02:55:55.965Z",
       "changeTime": "2019-02-13T02:50:28.026Z",
       "birthTime": "2019-02-10T23:51:14.443Z",
       "root": "/",
@@ -5068,11 +5068,11 @@
       "blksize": 4096,
       "ino": 8603281075,
       "blocks": 0,
-      "atimeMs": 1550543490165.5376,
+      "atimeMs": 1550544955965.263,
       "mtimeMs": 1550026228025.5881,
       "ctimeMs": 1550026228025.5881,
       "birthtimeMs": 1549842674442.7078,
-      "atime": "2019-02-19T02:31:30.166Z",
+      "atime": "2019-02-19T02:55:55.965Z",
       "mtime": "2019-02-13T02:50:28.026Z",
       "ctime": "2019-02-13T02:50:28.026Z",
       "birthtime": "2019-02-10T23:51:14.443Z"
@@ -6167,6 +6167,7 @@
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null,
         "sq--src-pages-index-js",
         "sq--src-pages-portfolio-js"
