@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Christine Kanownik`,
     description: `Digital + Content Marketing`,
+    siteUrl: `https://kanownik.co`,
     menuLinks: [
       {
         name: 'About',
@@ -72,6 +73,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-offline',
   ],
 }
