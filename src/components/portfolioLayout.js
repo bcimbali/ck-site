@@ -1,9 +1,9 @@
-import { Link, graphql } from 'gatsby';
-import React, { Component } from 'react';
+import { Link, graphql } from 'gatsby'
+import React, { Component } from 'react'
 
-import Img from 'gatsby-image';
-import Layout from './layout';
-import styled from 'styled-components';
+import Img from 'gatsby-image'
+import Layout from './layout'
+import styled from 'styled-components'
 
 const ImgContainer = styled.div`
   margin-bottom: 2rem;
@@ -12,18 +12,22 @@ const ImgContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
-`;
+`
 
 const InfoBlurb = styled.div`
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 2rem;
   text-align: center;
   width: 60vw;
 
+  iframe {
+    margin-top: 2rem;
+  }
+
   @media (max-width: 414px) {
     width: 100%;
   }
-`;
+`
 
 const TitleText = styled.h1`
   font-size: 1.75rem;
@@ -33,55 +37,47 @@ const TitleText = styled.h1`
   img {
     margin-top: 1rem;
   }
-`;
-
-const PDFWrapper = styled.div`
-  margin-bottom: 2rem;
-  height: 80vh;
-  width: 80vw;
-  object {
-    width: 100%;
-    height: 100%;
-  }
-`;
+`
 
 const PortfolioWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
   width: 80vw;
-`;
+`
 
 export default class portfolioLayout extends Component {
   render() {
-    const { markdownRemark } = this.props.data;
+    const { markdownRemark } = this.props.data
     return (
       <Layout>
         <PortfolioWrapper>
-          <TitleText>
-            {markdownRemark.frontmatter.title}
-          </TitleText>
-          {
-            markdownRemark.frontmatter.content === "ebook"
-            ? (
-              <object data={markdownRemark.frontmatter.ebook.publicURL} width="100%" height="800px">
-              </object>
-              
-            )
-            : 
-            markdownRemark.frontmatter.content === "blog"
-            ? (
-              <ImgContainer>
-                <a href={markdownRemark.frontmatter.link} target="_blank" rel="noopener noreferrer"><Img fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid} /></a>
-              </ImgContainer>
-            )
-            : (
-              null
-            )
-          }
-          <InfoBlurb dangerouslySetInnerHTML={{
-            __html: markdownRemark.html
-          }}/>
+          <TitleText>{markdownRemark.frontmatter.title}</TitleText>
+          <InfoBlurb
+            dangerouslySetInnerHTML={{
+              __html: markdownRemark.html,
+            }}
+          />
+          {markdownRemark.frontmatter.content === 'ebook' ? (
+            <object
+              data={markdownRemark.frontmatter.ebook.publicURL}
+              width="100%"
+              height="800px"
+            />
+          ) : markdownRemark.frontmatter.content === 'blog' ? (
+            <ImgContainer>
+              <a
+                href={markdownRemark.frontmatter.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Img
+                  fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid}
+                />
+              </a>
+            </ImgContainer>
+          ) : null}
         </PortfolioWrapper>
       </Layout>
     )
@@ -90,11 +86,7 @@ export default class portfolioLayout extends Component {
 
 export const query = graphql`
   query PortfolioPageQuery($slug: String!) {
-    markdownRemark(frontmatter: {
-      slug:{
-        eq: $slug
-      }
-    }) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         hero {
