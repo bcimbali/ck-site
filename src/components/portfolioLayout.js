@@ -61,6 +61,7 @@ export default class portfolioLayout extends Component {
           />
           {markdownRemark.frontmatter.content === 'ebook' ? (
             <object
+              aria-label="ebook content"
               alt="ebook content"
               data={markdownRemark.frontmatter.ebook.publicURL}
               width="100%"
