@@ -109,25 +109,29 @@ const HOMEPAGE_QUERY = graphql`
   }
 `
 
-const IndexPage = () => (
-  <Layout>
-    <SEO
-      title="Home"
-      keywords={[
-        `marketing`,
-        `digital marketing`,
-        `chicago`,
-        `content marketing`,
-      ]}
-    />
-    <IndexWrapper>
-      <MainText>Content + Digital Marketing</MainText>
-      <PortfolioContainer>
-        <StaticQuery
-          query={HOMEPAGE_QUERY}
-          render={({ allMarkdownRemark }) =>
-            allMarkdownRemark.edges.map(({ node }) => {
-              if (node.frontmatter.homepage === 'yes') {
+const IndexPage = () => {
+  const homepagePieces = allMarkdownRemark.edges.filter(piece => {
+    piece.frontmatter.homepage === 'yes'
+  })
+
+  return (
+    <Layout>
+      <SEO
+        title="Home"
+        keywords={[
+          `marketing`,
+          `digital marketing`,
+          `chicago`,
+          `content marketing`,
+        ]}
+      />
+      <IndexWrapper>
+        <MainText>Content + Digital Marketing</MainText>
+        <PortfolioContainer>
+          <StaticQuery
+            query={HOMEPAGE_QUERY}
+            render={() =>
+              homepagePieces.map(({ node }) => {
                 return (
                   <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
@@ -142,15 +146,13 @@ const IndexPage = () => (
                     </PortfolioCard>
                   </Link>
                 )
-              } else {
-                return null
-              }
-            })
-          }
-        />
-      </PortfolioContainer>
-    </IndexWrapper>
-  </Layout>
-)
+              })
+            }
+          />
+        </PortfolioContainer>
+      </IndexWrapper>
+    </Layout>
+  )
+}
 
 export default IndexPage
