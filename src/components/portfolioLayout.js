@@ -30,6 +30,7 @@ const InfoBlurb = styled.div`
 `
 
 const TitleText = styled.h1`
+  color: #15171c;
   font-size: 1.75rem;
   margin-bottom: 1rem;
   text-align: center;

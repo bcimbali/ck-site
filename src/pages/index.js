@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import styled from 'styled-components'
 
 const MainText = styled.h1`
+  color: #15171c;
   font-size: 1.75rem;
   margin-bottom: 2rem;
   text-align: center;

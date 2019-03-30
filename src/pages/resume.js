@@ -105,7 +105,7 @@ const ResumeWrapper = styled.main`
   }
 
   h1 {
-    color: #000000;
+    color: #15171c;
     font-size: 2rem;
     text-align: center;
   }

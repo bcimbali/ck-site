@@ -33,12 +33,14 @@ const ImgContainer = styled.section`
 `
 
 const MainText = styled.h1`
+  color: #15171c;
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 `
 
 const Paragraph = styled.p`
+  color: #15171c;
   margin: 1rem 0;
 `
 
