@@ -55,6 +55,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "resolutions": {
-    "babel-plugin-remove-graphql-queries": "2.9.12"
+    "babel-plugin-remove-graphql-queries": "2.9.14"
   }
 }
