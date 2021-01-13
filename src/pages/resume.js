@@ -149,18 +149,14 @@ const Resume = () => (
         <div>cnkanownik[at]gmail[dot]com</div>
       </Contact>
 
-      <SectionHeading>Marketing and Soft Skills</SectionHeading>
+      <SectionHeading>Skills</SectionHeading>
 
       <SkillsListing>
-        CRM integration and management, email marketing, marketing automation
-        and personalization, SEO and SEM, brand development, paid and organic
-        social media, content marketing, strategic marketing, and storytelling,
-        proofreading, digital advertising, Google Analytics, A/B testing, CMS
-        management, mobile marketing, lead nurturing, and growth.
-      </SkillsListing>
-      <SkillsListing>
-        Team leadership, management, effective communication, organizational
-        skills, flexibility, and grace under pressure.
+      Copywriting, Editing, Creative Writing, Storytelling, Staff Management, 
+      Project Management, Digital Marketing, Email Marketing, Event Planning, 
+      Brand Development, Customer Journeys, Customer Outreach, Leadership, 
+      Social Media Management, Direct Mail, Content Creation, Digital Advertising, 
+      Mobile Marketing, Effective Communication, Organizational Skills
       </SkillsListing>
 
       <SectionHeading>Experience</SectionHeading>
@@ -169,39 +165,85 @@ const Resume = () => (
 
       <JobTitle>
         <div class="job-header">
-          <p>Assistant Director of Marketing</p>
-          <p>Aug 2017 - Present</p>
+          <p>Copywriter</p>
+          <p>November 2019 - Present</p>
+          <p>Remedy Health Media</p>
+          <p>New York, NY</p>
+        </div>
+        <ul>
+          <li>
+          Sourced and wrote articles based on trending Google searches for 
+          the fast-growing health media company.
+          </li>
+          <li>
+          Interviewed medical professionals on contemporary topics relating 
+          to the pandemic and society.
+          </li>
+        </ul>
+      </JobTitle>
+
+      <ThinDivider />
+
+      <JobTitle>
+        <div class="job-header">
+          <p>Copywriter</p>
+          <p>May 2018 - Present</p>
+          <p>Gruppe</p>
+          <p>Berlin, Germany</p>
+        </div>
+        <ul>
+          <li>
+            Wrote, edited, and proofread lifestyle and travel articles for 
+            agency clients including Porsche’s community app, Roads By Porsche.
+          </li>
+          <li>
+            Communicated edits and changes with a team of editors to make sure 
+            articles were up to rigorous standards.
+          </li>
+        </ul>
+      </JobTitle>
+
+      <ThinDivider />
+
+      <JobTitle>
+        <div class="job-header">
+          <p>Marketing Manager</p>
+          <p>Apr 2019 - Nov 2020</p>
+          <p>Zacks Investment Research</p>
+          <p>Chicago, IL</p>
+        </div>
+        <ul>
+          <li>
+          Curated the weekly promotional calendar with copywriters, designers, managers, 
+          and editors to produce at least two articles and six emails per week.
+          </li>
+          <li>
+          Launched a comprehensive A/B testing program to determine the effectiveness of 
+          digital marketing efforts which resulted in a 30% increase in conversion and 
+          the most profitable quarter in company history.
+          </li>
+        </ul>
+      </JobTitle>
+
+      <ThinDivider />
+
+      <JobTitle>
+        <div class="job-header">
+          <p>Assistant Director of Communication</p>
+          <p>Aug 2017 - Apr 2019</p>
           <p>Illinois Institute of Technology</p>
           <p>Chicago, IL</p>
         </div>
         <ul>
           <li>
-            Created and automated over 300 dynamic emails campaigns for the
-            graduate enrollment funnel, increasing engagement and click-through
-            numbers by over 70%.
+          Managed the editorial calendar in an agency-style setting and developed 
+          creative content with designers and videographers to create social media 
+          advertisements, infographics, videos, flyers, and more.
           </li>
           <li>
-            Implemented a successful multi-tiered, cross-channel digital
-            marketing campaign to foster brand awareness and customer growth
-            through LinkedIn, Google Adwords, Facebook, and other outlets.
-          </li>
-          <li>
-            Managed the editorial calendar and developed content with designers
-            and videographers to create infographics, videos, flyers,
-            advertisements, and more.
-          </li>
-          <li>
-            Utilized Google analytics, focus groups, A/B testing, and reporting
-            to analyze the effectiveness of each marketing effort.
-          </li>
-          <li>
-            Served as a collaborative liaison across the university by forging
-            relationships and partnerships with recruitment advisors, designers,
-            and other internal and external stakeholders.
-          </li>
-          <li>
-            Promoted and participated in several high-profile recruitment events
-            both locally and abroad.
+          Wrote and automated over 300 dynamic email campaigns for the graduate 
+          enrollment funnel, increasing engagement and click-through numbers by 
+          over 70%.
           </li>
         </ul>
       </JobTitle>
@@ -217,18 +259,21 @@ const Resume = () => (
         </div>
         <ul>
           <li>
-            Improved communication across the marketing and editorial
-            departments by hosting monthly meetings to discuss concerns and
-            upcoming projects.
+          Acted as editor for two key professional blogs, Mastering Film and 
+          Mastering Photo, creating content such as articles and videos to post 
+          at least three times a week.
           </li>
           <li>
-            Acted as editor of two key professional blogs, Mastering Film and
-            Mastering Photo, creating content such as articles and videos to
-            post on the blogs three times a week.
+          Improved communication across the marketing and editorial departments 
+          by hosting monthly meetings to discuss concerns and upcoming projects.
           </li>
           <li>
-            Hired three direct-reports and managed their training, schedules and
-            workloads.
+          Managed a team of five employees, including their workload and performance.
+          </li>
+          <li>
+          Working closely with editors and authors, I promoted a list of professional 
+          titles through social media, paid advertising, marketing emails, press releases, 
+          author videos, conferences, and book launches.
           </li>
         </ul>
       </JobTitle>
@@ -244,22 +289,36 @@ const Resume = () => (
         </div>
         <ul>
           <li>
-            Spearheaded international rebranding campaigns across digital and
-            print channels, working closely with colleagues in the United
-            Kingdom.
+          Spearheaded an international rebranding campaign across digital and 
+          print channels, working closely with stakeholders in the United Kingdom.
           </li>
           <li>
-            Planned and attended Cambridge’s presence at global conferences and
-            expos.
+          Wrote articles and composed marketing emails to promote a list of recent 
+          titles to the global retail audience.
+          </li>
+        </ul>
+      </JobTitle>
+
+      <ThinDivider />
+
+      <JobTitle>
+        <div class="job-header">
+          <p>Sales & Marketing assistant</p>
+          <p>Jan 2011 - Jul 2012</p>
+          <p>Rizzoli International Publications</p>
+          <p>New York, NY</p>
+        </div>
+        <ul>
+          <li>
+          Represented the press and its authors at nationwide conventions and conferences.
           </li>
           <li>
-            Influenced and advised a group of six marketing team members across
-            different departments.
+          Worked closely with the Social Media Manager to promote titles 
+          on Facebook, YouTube, and more.
           </li>
           <li>
-            Improved upon budgetary and scheduling concerns by building
-            relationships with external vendors to ensure the effectiveness of
-            each marketing piece.
+          Managed the international publicity for all titles with worldwide 
+          distribution and responded to press requests.
           </li>
         </ul>
       </JobTitle>
@@ -269,7 +328,7 @@ const Resume = () => (
       <EducationListing>
         <p class="first">
           M.F.A. in Writing <br />
-          GPA: 4.0
+          GPA: 3.92
         </p>
         <p>New School University</p>
         <p>New York, NY</p>
@@ -277,22 +336,11 @@ const Resume = () => (
 
       <EducationListing>
         <p class="first">
-          B.A. in Creative Writing Cum Laude <br /> GPA: 3.62
+          B.A. in English <br /> GPA: 3.62
         </p>
         <p>North Park University</p>
         <p>Chicago, IL</p>
       </EducationListing>
-
-      <SectionHeading>Technical Skills</SectionHeading>
-
-      <SkillsListing>
-        Proficient with all Microsoft and Macintosh operating systems. Advanced
-        knowledge of Microsoft Word, Excel, PowerPoint, Confluence, Photoshop,
-        Indesign, Wordpress, SalesForce, Marketing Cloud, Adestra, Constant
-        Contact, Hubspot, Survey Monkey, Function Point, Trello, Google Adwords
-        and Analytics. Knowledge of intermediate HTML and CSS. Intermediate
-        Spanish.
-      </SkillsListing>
     </ResumeWrapper>
   </Layout>
 )
