@@ -38,8 +38,9 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
