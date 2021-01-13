@@ -3,12 +3,15 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"transpileTemplateLiterals":true,"pure":false},
     },{
       plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Christine Kanownik Portfolio","short_name":"CK Portfolio","start_url":"/","background_color":"#B1B0E5","theme_color":"#B1B0E5","display":"minimal-ui","icon":"src/images/favicon.png"},
+      options: {"plugins":[],"name":"Christine Kanownik Portfolio","short_name":"CK Portfolio","start_url":"/","background_color":"#B1B0E5","theme_color":"#B1B0E5","display":"minimal-ui","icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"a58d56c07890042a3ee5550364410d0e"},
     },{
       plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
+    },{
+      plugin: require('/Users/BrettCimbalik/code/ck-site/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
