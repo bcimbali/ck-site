@@ -7,4 +7,5 @@ content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/discover-dutch-gold'
 ---
 
-An article on Dutch Gold.
+Article on the legendary cheesemakers in the Dutch town of Katwoude,
+such as Jacobs Hoeve Farm and Simonehoeve.
