@@ -5,6 +5,7 @@ hero: './../images/dinner-at-kazbek.jpg'
 homepage: 'yes'
 content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/dinner-at-kazbek'
+portfolioType: 'writing'
 ---
 
 An article on a Georgian restaurant in Moscow that is so traditional,

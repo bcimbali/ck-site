@@ -4,6 +4,7 @@ title: 'Shakespeare at Cambridge'
 hero: './../images/shakespeare-at-cambridge.jpg'
 content: 'video'
 homepage: 'yes'
+portfolioType: 'video'
 ---
 
 Shakespeare from Cambridge video teaser featuring the multiutde of researche and platforms available as part of the "As you like it..." branding campaign.

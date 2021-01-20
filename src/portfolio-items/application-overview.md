@@ -4,6 +4,7 @@ title: 'Application Overview'
 hero: './../images/application-overview.jpg'
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 A guided application overview whiteboard video for international applicants at Illinois Tech.

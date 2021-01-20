@@ -4,6 +4,7 @@ title: 'The Hidden Jane Austen'
 hero: './../images/the-hidden-jane-austen.jpg'
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 Book trailer promoting CUP's "The Hidden Jane Austen" by leading scholar John Wiltshire.

@@ -4,6 +4,7 @@ title: 'An Interview with Vincent Sherry'
 hero: './../images/an-interview-with-vincent-sherry.jpg'
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 A video interview with Vincent Sherry, editor of The Cambridge History of Modernism

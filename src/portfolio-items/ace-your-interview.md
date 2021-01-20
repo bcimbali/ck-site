@@ -5,6 +5,7 @@ hero: './../images/ace-your-interview.jpg'
 homepage: 'no'
 content: 'video'
 video: https://www.youtube.com/embed/31ae-FltOEA
+portfolioType: 'video'
 ---
 
 A whiteboard video feautring tips on passing Visa interviews for international applicants to Illinois Tech.

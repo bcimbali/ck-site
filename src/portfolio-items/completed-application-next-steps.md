@@ -4,6 +4,7 @@ title: 'Completed Application Next Steps'
 hero: './../images/completed-application-next-steps.jpg'
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 Explains the next steps for admited international students in this whiteboard video for Illinois Tech.

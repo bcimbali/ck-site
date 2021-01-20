@@ -5,6 +5,7 @@ hero: './../images/iit-grad-admissions-career-fair-postcard.png'
 content: 'ebook'
 ebook: './../pdf/iit-grad-admissions-career-fair-postcard.pdf'
 homepage: 'no'
+portfolioType: 'marketing'
 ---
 
 Lookin to further your career? A general brochure promoting Graduate school at Illinois Tech.

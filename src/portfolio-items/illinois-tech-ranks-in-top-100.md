@@ -4,6 +4,7 @@ title: 'Illinois Tech Ranks in Top 100'
 hero: './../images/illinois-tech-ranks-in-top-100.jpg'
 content: 'video'
 homepage: 'yes'
+portfolioType: 'video'
 ---
 
 "In 2018 Illinois Tech Illinois Tech ranked in the Top 100 of National Universities and Best

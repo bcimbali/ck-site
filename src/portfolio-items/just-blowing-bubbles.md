@@ -5,6 +5,7 @@ hero: './../images/just-blowing-bubbles.jpg'
 homepage: 'no'
 content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/just-blowing-bubbles'
+portfolioType: 'writing'
 ---
 
 An article on The Original Store of Chun Shui Tang

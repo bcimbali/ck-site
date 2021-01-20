@@ -4,6 +4,7 @@ title: 'The Letters of Samuel Beckett, Volume 3'
 hero: './../images/the-letters-of-samuel-beckett-volume-3.jpg'
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 A teaser book trailer for "The Letters of Samuel Beckett, Volume 3: 1957-1965".

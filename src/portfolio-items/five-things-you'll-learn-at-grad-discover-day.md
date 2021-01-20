@@ -4,6 +4,7 @@ title: "5 Things You'll Learn at Grad Discover Day"
 hero: "./../images/five-things-you'll-learn-at-grad-discover-day.jpg"
 content: 'video'
 homepage: 'no'
+portfolioType: 'video'
 ---
 
 Promotional video for Illinois Tech Graduate Discover event featuring Top 5 things students will learn.
