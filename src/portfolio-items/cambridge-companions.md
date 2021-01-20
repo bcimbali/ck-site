@@ -3,7 +3,7 @@ slug: '/cambridge-companions-from-cambridge University-press'
 title: 'Cambridge Companions from Cambridge University Press'
 hero: './../images/cambridge-companions-from-cambridge University-press.jpg'
 content: 'video'
-homepage: 'yes'
+homepage: 'no'
 ---
 
 Cambridge Companion introductory video featuring some of the 500 multidisciplinary titles as part of the "Concise & Complete" branding campagin.
