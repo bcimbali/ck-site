@@ -1,7 +1,7 @@
 ---
 slug: '/shakespeare-goes-digital'
 title: 'Shakespeare Goes Digital'
-hero: './../images/shakespeare-goes-digital.png'
+hero: './../images/shakespeare-goes-digital.jpg'
 content: 'blog'
 link: 'http://www.cambridgeblog.org/2014/06/shakespeare-goes-digital/'
 homepage: 'no'

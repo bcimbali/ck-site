@@ -1,7 +1,7 @@
 ---
 slug: '/domestic-resource-guide'
 title: 'Domestic Resource Guide'
-hero: './../images/domestic-resource-guide.png'
+hero: './../images/domestic-resource-guide.jpg'
 content: 'ebook'
 ebook: './../pdf/domestic-resource-guide.pdf'
 homepage: 'no'

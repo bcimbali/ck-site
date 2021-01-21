@@ -1,7 +1,7 @@
 ---
 slug: '/iit-international-travel-brochure'
 title: "Illinois Tech Int'l Travel"
-hero: './../images/IIT-intl.png'
+hero: './../images/IIT-intl.jpg'
 content: 'ebook'
 ebook: './../pdf/iit-intl-travel-brochure.pdf'
 homepage: 'yes'

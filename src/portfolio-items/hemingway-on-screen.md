@@ -1,7 +1,7 @@
 ---
 slug: '/hemingway-on-screen'
 title: 'Hemingway on Screen'
-hero: './../images/hemingway-on-screen.png'
+hero: './../images/hemingway-on-screen.jpg'
 content: 'blog'
 link: 'http://www.cambridgeblog.org/2013/10/hemingway-on-screen/'
 homepage: 'no'

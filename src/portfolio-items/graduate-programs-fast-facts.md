@@ -1,7 +1,7 @@
 ---
 slug: '/graduate-programs-fast-facts'
 title: 'Graduate Programs Fast Facts'
-hero: './../images/graduate-programs-fast-facts.png'
+hero: './../images/graduate-programs-fast-facts.jpg'
 content: 'ebook'
 ebook: './../pdf/graduate-programs-fast-facts.pdf'
 homepage: 'no'
