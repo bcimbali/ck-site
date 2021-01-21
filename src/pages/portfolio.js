@@ -87,6 +87,16 @@ const PortfolioWrapper = styled.main`
   }
 `
 
+const SubtitleText = styled.h2`
+  border-bottom: 1px solid white;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding-bottom: 0.25rem;
+  text-align: left;
+  width: 100%;
+`;
+
 const TitleText = styled.h1`
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -110,6 +120,7 @@ const PORTFOLIO_QUERY = graphql`
             }
             title
             slug
+            portfolioType
           }
         }
       }
@@ -122,22 +133,75 @@ const Portfolio = () => (
     <SEO title="Portfolio" />
     <PortfolioWrapper>
       <TitleText>Portfolio</TitleText>
+      <SubtitleText>Writing:</SubtitleText>
       <CardContainer>
         <StaticQuery
           query={PORTFOLIO_QUERY}
-          render={({ allMarkdownRemark }) =>
-            allMarkdownRemark.edges.map(({ node }) => (
-              <Link to={`/portfolio-items${node.frontmatter.slug}`}>
-                <PortfolioCard key={node.frontmatter.slug}>
-                  <PortfolioImgContainer>
-                    <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
-                  </PortfolioImgContainer>
-                  <PortfolioTitle>
-                    <h2>{node.frontmatter.title}</h2>
-                  </PortfolioTitle>
-                </PortfolioCard>
-              </Link>
-            ))
+          render={({ allMarkdownRemark, ...props }) =>
+            allMarkdownRemark.edges.map(({ node }) => {
+              if (node.frontmatter.portfolioType === 'writing') {
+                return (
+                <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                  <PortfolioCard key={node.frontmatter.slug}>
+                    <PortfolioImgContainer>
+                      <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                    </PortfolioImgContainer>
+                    <PortfolioTitle>
+                      <h2>{node.frontmatter.title}</h2>
+                    </PortfolioTitle>
+                  </PortfolioCard>
+                </Link>
+              )
+              }
+            })
+          }
+        />
+      </CardContainer>
+      <SubtitleText>Marketing:</SubtitleText>
+      <CardContainer>
+        <StaticQuery
+          query={PORTFOLIO_QUERY}
+          render={({ allMarkdownRemark, ...props }) =>
+            allMarkdownRemark.edges.map(({ node }) => {
+              if (node.frontmatter.portfolioType === 'marketing') {
+                return (
+                <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                  <PortfolioCard key={node.frontmatter.slug}>
+                    <PortfolioImgContainer>
+                      <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                    </PortfolioImgContainer>
+                    <PortfolioTitle>
+                      <h2>{node.frontmatter.title}</h2>
+                    </PortfolioTitle>
+                  </PortfolioCard>
+                </Link>
+              )
+              }
+            })
+          }
+        />
+      </CardContainer>
+      <SubtitleText>Videos:</SubtitleText>
+      <CardContainer>
+        <StaticQuery
+          query={PORTFOLIO_QUERY}
+          render={({ allMarkdownRemark, ...props }) =>
+            allMarkdownRemark.edges.map(({ node }) => {
+              if (node.frontmatter.portfolioType === 'video') {
+                return (
+                <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                  <PortfolioCard key={node.frontmatter.slug}>
+                    <PortfolioImgContainer>
+                      <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
+                    </PortfolioImgContainer>
+                    <PortfolioTitle>
+                      <h2>{node.frontmatter.title}</h2>
+                    </PortfolioTitle>
+                  </PortfolioCard>
+                </Link>
+              )
+              }
+            })
           }
         />
       </CardContainer>
