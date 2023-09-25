@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const CardContainer = styled.section`
@@ -130,7 +130,7 @@ const PORTFOLIO_QUERY = graphql`
 
 const Portfolio = () => (
   <Layout>
-    <SEO title="Portfolio" />
+    <Seo title="Portfolio" />
     <PortfolioWrapper>
       <TitleText>Portfolio</TitleText>
         <StaticQuery

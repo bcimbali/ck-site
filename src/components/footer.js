@@ -40,8 +40,8 @@ const Footer = ({ siteTitle }) => (
       <p>All Rights Reserved.</p>
     </FooterText>
     <Icons>
-      <a href="https://www.linkedin.com/in/christine-kanownik" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-      <a href="mailto:cnkanownik@gmail.com"><FaEnvelope /></a>
+      <a aria-label="link to linkedin page" href="https://www.linkedin.com/in/christine-kanownik" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+      <a aria-label="link to mail" href="mailto:cnkanownik@gmail.com"><FaEnvelope /></a>
     </Icons>
   </FooterWrapper> 
 );

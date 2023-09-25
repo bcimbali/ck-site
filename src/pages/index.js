@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const MainText = styled.h1`
@@ -112,7 +112,7 @@ const HOMEPAGE_QUERY = graphql`
 
 const IndexPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Home"
       keywords={[
         `marketing`,

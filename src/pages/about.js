@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const AboutWrapper = styled.main`
@@ -76,7 +76,7 @@ const ABOUT_QUERY = graphql`
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <Seo title="About" />
     <AboutWrapper>
       <MainText>About</MainText>
       <Content>
