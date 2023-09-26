@@ -1,6 +1,6 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
@@ -19,10 +19,7 @@ const PortfolioCard = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 1rem;
-  min-height: 40vh;
   overflow: hidden;
-  width: 23vw;
 
   :hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -32,23 +29,31 @@ const PortfolioCard = styled.article`
   }
 
   @media (max-width: 768px) {
-    width: 38vw;
   }
 
   @media (max-width: 414px) {
     flex-direction: column;
-    width: 80vw;
   }
 `
 
 const PortfolioContainer = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  max-width: 80vw;
+  width: 100%;
 
   a {
     text-decoration: none;
+  }
+
+  @media (min-width: 475px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 900px) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 `
 
@@ -85,31 +90,33 @@ const IndexWrapper = styled.main`
   flex-direction: column;
 `
 
-const HOMEPAGE_QUERY = graphql`query HomepageQuery {
-  allMarkdownRemark {
-    edges {
-      node {
-        html
-        excerpt
-        frontmatter {
-          hero {
-            childImageSharp {
-              gatsbyImageData(
-                width: 500
-                height: 500
-                placeholder: TRACED_SVG
-                layout: CONSTRAINED
-              )
+const HOMEPAGE_QUERY = graphql`
+  query HomepageQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          excerpt
+          frontmatter {
+            hero {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 500
+                  height: 500
+                  placeholder: TRACED_SVG
+                  layout: CONSTRAINED
+                )
+              }
             }
+            title
+            homepage
+            slug
           }
-          title
-          homepage
-          slug
         }
       }
     }
   }
-}`
+`
 
 const IndexPage = () => (
   <Layout>
@@ -134,14 +141,19 @@ const IndexPage = () => (
                   <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
-                        <GatsbyImage image={node.frontmatter.hero.childImageSharp.gatsbyImageData} />
+                        <GatsbyImage
+                          image={
+                            node.frontmatter.hero.childImageSharp
+                              .gatsbyImageData
+                          }
+                        />
                       </PortfolioImgContainer>
                       <PortfolioTitle>
                         <h2>{node.frontmatter.title}</h2>
                       </PortfolioTitle>
                     </PortfolioCard>
                   </Link>
-                );
+                )
               } else {
                 return null
               }
