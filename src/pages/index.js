@@ -1,6 +1,6 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
@@ -85,30 +85,31 @@ const IndexWrapper = styled.main`
   flex-direction: column;
 `
 
-const HOMEPAGE_QUERY = graphql`
-  query HomepageQuery {
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          excerpt
-          frontmatter {
-            hero {
-              childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
+const HOMEPAGE_QUERY = graphql`query HomepageQuery {
+  allMarkdownRemark {
+    edges {
+      node {
+        html
+        excerpt
+        frontmatter {
+          hero {
+            childImageSharp {
+              gatsbyImageData(
+                width: 500
+                height: 500
+                placeholder: TRACED_SVG
+                layout: CONSTRAINED
+              )
             }
-            title
-            homepage
-            slug
           }
+          title
+          homepage
+          slug
         }
       }
     }
   }
-`
+}`
 
 const IndexPage = () => (
   <Layout>
@@ -133,16 +134,14 @@ const IndexPage = () => (
                   <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
-                        <Img
-                          fluid={node.frontmatter.hero.childImageSharp.fluid}
-                        />
+                        <GatsbyImage image={node.frontmatter.hero.childImageSharp.gatsbyImageData} />
                       </PortfolioImgContainer>
                       <PortfolioTitle>
                         <h2>{node.frontmatter.title}</h2>
                       </PortfolioTitle>
                     </PortfolioCard>
                   </Link>
-                )
+                );
               } else {
                 return null
               }
