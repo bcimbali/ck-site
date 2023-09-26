@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
+import breakpoints from '../lib/breakpoints'
 
 const MainText = styled.h1`
   color: #15171c;
@@ -48,11 +49,11 @@ const PortfolioContainer = styled.section`
     text-decoration: none;
   }
 
-  @media (min-width: 475px) {
+  @media (min-width: ${breakpoints.sm}) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: ${breakpoints.lg}) {
     grid-template-columns: 1fr 1fr 1fr;
   }
 `
