@@ -6,7 +6,7 @@ import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
 import breakpoints from '../lib/breakpoints'
-import maxWidth from '../lib/utils'
+import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const IndexWrapper = styled.main`
   align-items: center;
@@ -29,8 +29,9 @@ const PortfolioCard = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  transition: all ${transitionSpeed};
 
-  :hover {
+  &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
