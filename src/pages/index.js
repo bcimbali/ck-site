@@ -6,6 +6,14 @@ import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
 import breakpoints from '../lib/breakpoints'
+import maxWidth from '../lib/utils'
+
+const IndexWrapper = styled.main`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: ${maxWidth};
+`
 
 const MainText = styled.h1`
   color: #15171c;
@@ -83,12 +91,6 @@ const PortfolioTitle = styled.div`
   @media (max-width: 414px) {
     min-height: 10vh;
   }
-`
-
-const IndexWrapper = styled.main`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 `
 
 const HOMEPAGE_QUERY = graphql`
