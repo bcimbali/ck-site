@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -75,33 +75,40 @@ export default class portfolioLayout extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GatsbyImage image={markdownRemark.frontmatter.hero.childImageSharp.gatsbyImageData} />
+                <GatsbyImage
+                  image={
+                    markdownRemark.frontmatter.hero.childImageSharp
+                      .gatsbyImageData
+                  }
+                />
               </a>
             </ImgContainer>
           ) : null}
         </PortfolioWrapper>
       </Layout>
-    );
+    )
   }
 }
 
-export const query = graphql`query PortfolioPageQuery($slug: String!) {
-  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-    html
-    frontmatter {
-      hero {
-        childImageSharp {
-          gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+export const query = graphql`
+  query PortfolioPageQuery($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        hero {
+          childImageSharp {
+            gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
+          }
         }
-      }
-      homepage
-      slug
-      title
-      content
-      link
-      ebook {
-        publicURL
+        homepage
+        slug
+        title
+        content
+        link
+        ebook {
+          publicURL
+        }
       }
     }
   }
-}`
+`

@@ -1,6 +1,6 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
@@ -95,7 +95,7 @@ const SubtitleText = styled.h2`
   padding-bottom: 0.25rem;
   text-align: left;
   width: 100%;
-`;
+`
 
 const TitleText = styled.h1`
   font-size: 2rem;
@@ -103,62 +103,76 @@ const TitleText = styled.h1`
   text-align: center;
 `
 
-const WRITING_QUERY = graphql`query WritingQuery {
-  allMarkdownRemark {
-    edges {
-      node {
-        html
-        excerpt
-        frontmatter {
-          hero {
-            childImageSharp {
-              gatsbyImageData(
-                width: 500
-                height: 500
-                placeholder: TRACED_SVG
-                layout: CONSTRAINED
-              )
+const WRITING_QUERY = graphql`
+  query WritingQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          excerpt
+          frontmatter {
+            hero {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 500
+                  height: 500
+                  placeholder: BLURRED
+                  layout: CONSTRAINED
+                )
+              }
             }
+            title
+            slug
+            portfolioType
           }
-          title
-          slug
-          portfolioType
         }
       }
     }
   }
-}`
+`
 
 const Writing = () => (
   <Layout>
     <Seo title="Writing Portfolio" />
     <PortfolioWrapper>
-        <StaticQuery
-          query={WRITING_QUERY}
-          render={({ allMarkdownRemark, ...props }) =>{
-            const writingItems = allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.portfolioType === 'writing');
+      <StaticQuery
+        query={WRITING_QUERY}
+        render={({ allMarkdownRemark, ...props }) => {
+          const writingItems = allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.portfolioType === 'writing'
+          )
 
-            return <>
+          return (
+            <>
               <SubtitleText>Writing:</SubtitleText>
               <CardContainer>
                 {writingItems.map(({ node }, idx) => {
                   return (
-                    <Link to={`/portfolio-items${node.frontmatter.slug}`} key={`writing-${idx}`}>
+                    <Link
+                      to={`/portfolio-items${node.frontmatter.slug}`}
+                      key={`writing-${idx}`}
+                    >
                       <PortfolioCard key={node.frontmatter.slug}>
                         <PortfolioImgContainer>
-                          <GatsbyImage image={node.frontmatter.hero.childImageSharp.gatsbyImageData} />
+                          <GatsbyImage
+                            image={
+                              node.frontmatter.hero.childImageSharp
+                                .gatsbyImageData
+                            }
+                          />
                         </PortfolioImgContainer>
                         <PortfolioTitle>
                           <h2>{node.frontmatter.title}</h2>
                         </PortfolioTitle>
                       </PortfolioCard>
                     </Link>
-                  );
+                  )
                 })}
               </CardContainer>
-            </>;
-          }}
-        />
+            </>
+          )
+        }}
+      />
     </PortfolioWrapper>
   </Layout>
 )

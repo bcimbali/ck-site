@@ -107,7 +107,7 @@ const HOMEPAGE_QUERY = graphql`
                 gatsbyImageData(
                   width: 500
                   height: 500
-                  placeholder: TRACED_SVG
+                  placeholder: BLURRED
                   layout: CONSTRAINED
                 )
               }
