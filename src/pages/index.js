@@ -38,9 +38,6 @@ const PortfolioCard = styled.article`
     }
   }
 
-  @media (max-width: 768px) {
-  }
-
   @media (max-width: 414px) {
     flex-direction: column;
   }

@@ -5,12 +5,22 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
+import breakpoints from '../lib/breakpoints'
+import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const CardContainer = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   width: 100%;
+
+  @media (min-width: ${breakpoints.sm}) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: ${breakpoints.lg}) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 
 const PortfolioCard = styled.article`
@@ -19,16 +29,14 @@ const PortfolioCard = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 1rem;
-  min-height: 40vh;
   overflow: hidden;
-  width: 23vw;
+  width: 100%;
 
   img {
     filter: grayscale(100%);
   }
 
-  :hover {
+  &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
@@ -37,23 +45,10 @@ const PortfolioCard = styled.article`
       filter: none;
     }
   }
-
-  @media (max-width: 768px) {
-    width: 38vw;
-  }
-
-  @media (max-width: 414px) {
-    flex-direction: column;
-    width: 80vw;
-  }
 `
 
 const PortfolioImgContainer = styled.div`
   width: 100%;
-
-  @media (max-width: 414px) {
-    width: 80vw;
-  }
 `
 
 const PortfolioTitle = styled.div`
@@ -80,6 +75,7 @@ const PortfolioWrapper = styled.main`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  max-width: ${maxWidth};
   width: 80vw;
 
   a {
