@@ -1,9 +1,9 @@
 import { StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const AboutWrapper = styled.main`
@@ -66,9 +66,7 @@ const ABOUT_QUERY = graphql`
     file(name: { regex: "/yellow/" }) {
       childImageSharp {
         id
-        fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
+        gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
       }
     }
   }
@@ -76,15 +74,15 @@ const ABOUT_QUERY = graphql`
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <Seo title="About" />
     <AboutWrapper>
       <MainText>About</MainText>
       <Content>
         <StaticQuery
           query={ABOUT_QUERY}
-          render={data => (
+          render={(data) => (
             <ImgContainer>
-              <Img fluid={data.file.childImageSharp.fluid} />
+              <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
             </ImgContainer>
           )}
         />

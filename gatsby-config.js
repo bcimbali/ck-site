@@ -72,7 +72,6 @@ module.exports = {
         plugins: [`gatsby-remark-responsive-iframe`, 'gatsby-remark-images'],
       },
     },
-    `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-offline',
   ],

@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const Contact = styled.section`
@@ -140,7 +140,7 @@ const ThinDivider = styled.hr`
 
 const Resume = () => (
   <Layout>
-    <SEO title="Resume" />
+    <Seo title="Resume" />
     <ResumeWrapper>
       <h1>CHRISTINE KANOWNIK</h1>
 

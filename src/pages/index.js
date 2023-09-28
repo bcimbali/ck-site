@@ -1,10 +1,19 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
+import breakpoints from '../lib/breakpoints'
+import maxWidth, { transitionSpeed } from '../lib/utils'
+
+const IndexWrapper = styled.main`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: ${maxWidth};
+`
 
 const MainText = styled.h1`
   color: #15171c;
@@ -19,36 +28,39 @@ const PortfolioCard = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 1rem;
-  min-height: 40vh;
   overflow: hidden;
-  width: 23vw;
+  transition: all ${transitionSpeed};
 
-  :hover {
+  &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
     }
   }
 
-  @media (max-width: 768px) {
-    width: 38vw;
-  }
-
   @media (max-width: 414px) {
     flex-direction: column;
-    width: 80vw;
   }
 `
 
 const PortfolioContainer = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  max-width: 80vw;
+  width: 100%;
 
   a {
     text-decoration: none;
+  }
+
+  @media (min-width: ${breakpoints.sm}) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: ${breakpoints.lg}) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 `
 
@@ -79,12 +91,6 @@ const PortfolioTitle = styled.div`
   }
 `
 
-const IndexWrapper = styled.main`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-`
-
 const HOMEPAGE_QUERY = graphql`
   query HomepageQuery {
     allMarkdownRemark {
@@ -95,9 +101,12 @@ const HOMEPAGE_QUERY = graphql`
           frontmatter {
             hero {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
+                gatsbyImageData(
+                  width: 500
+                  height: 500
+                  placeholder: BLURRED
+                  layout: CONSTRAINED
+                )
               }
             }
             title
@@ -112,7 +121,7 @@ const HOMEPAGE_QUERY = graphql`
 
 const IndexPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Home"
       keywords={[
         `marketing`,
@@ -133,8 +142,11 @@ const IndexPage = () => (
                   <Link to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
-                        <Img
-                          fluid={node.frontmatter.hero.childImageSharp.fluid}
+                        <GatsbyImage
+                          image={
+                            node.frontmatter.hero.childImageSharp
+                              .gatsbyImageData
+                          }
                         />
                       </PortfolioImgContainer>
                       <PortfolioTitle>

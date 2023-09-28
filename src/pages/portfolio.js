@@ -1,16 +1,26 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
+import breakpoints from '../lib/breakpoints'
+import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const CardContainer = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   width: 100%;
+
+  @media (min-width: ${breakpoints.sm}) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: ${breakpoints.lg}) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 
 const PortfolioCard = styled.article`
@@ -19,16 +29,14 @@ const PortfolioCard = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 1rem;
-  min-height: 40vh;
   overflow: hidden;
-  width: 23vw;
+  width: 100%;
 
   img {
     filter: grayscale(100%);
   }
 
-  :hover {
+  &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
@@ -37,23 +45,10 @@ const PortfolioCard = styled.article`
       filter: none;
     }
   }
-
-  @media (max-width: 768px) {
-    width: 38vw;
-  }
-
-  @media (max-width: 414px) {
-    flex-direction: column;
-    width: 80vw;
-  }
 `
 
 const PortfolioImgContainer = styled.div`
   width: 100%;
-
-  @media (max-width: 414px) {
-    width: 80vw;
-  }
 `
 
 const PortfolioTitle = styled.div`
@@ -80,6 +75,7 @@ const PortfolioWrapper = styled.main`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  max-width: ${maxWidth};
   width: 80vw;
 
   a {
@@ -95,7 +91,7 @@ const SubtitleText = styled.h2`
   padding-bottom: 0.25rem;
   text-align: left;
   width: 100%;
-`;
+`
 
 const TitleText = styled.h1`
   font-size: 2rem;
@@ -113,9 +109,12 @@ const PORTFOLIO_QUERY = graphql`
           frontmatter {
             hero {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
+                gatsbyImageData(
+                  width: 500
+                  height: 500
+                  placeholder: BLURRED
+                  layout: CONSTRAINED
+                )
               }
             }
             title
@@ -130,73 +129,103 @@ const PORTFOLIO_QUERY = graphql`
 
 const Portfolio = () => (
   <Layout>
-    <SEO title="Portfolio" />
+    <Seo title="Portfolio" />
     <PortfolioWrapper>
       <TitleText>Portfolio</TitleText>
-        <StaticQuery
-          query={PORTFOLIO_QUERY}
-          render={({ allMarkdownRemark, ...props }) =>{
-            const writingItems = allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.portfolioType === 'writing');
-            const marketingItems = allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.portfolioType === 'marketing');
-            const videoItems = allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.portfolioType === 'video');
+      <StaticQuery
+        query={PORTFOLIO_QUERY}
+        render={({ allMarkdownRemark, ...props }) => {
+          const writingItems = allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.portfolioType === 'writing'
+          )
+          const marketingItems = allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.portfolioType === 'marketing'
+          )
+          const videoItems = allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.portfolioType === 'video'
+          )
 
-            return (
-              <>
-                <SubtitleText>Writing:</SubtitleText>
-                <CardContainer>
-                  {writingItems.map(({ node }, idx) => {
-                    return (
-                      <Link to={`/portfolio-items${node.frontmatter.slug}`} key={`writing-${idx}`}>
-                        <PortfolioCard key={node.frontmatter.slug}>
-                          <PortfolioImgContainer>
-                            <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
-                          </PortfolioImgContainer>
-                          <PortfolioTitle>
-                            <h2>{node.frontmatter.title}</h2>
-                          </PortfolioTitle>
-                        </PortfolioCard>
-                      </Link>
-                    )
-                  })}
-                </CardContainer>
-                <SubtitleText>Marketing:</SubtitleText>
-                <CardContainer>
-                  {marketingItems.map(({ node }, idx) => {
-                    return (
-                      <Link to={`/portfolio-items${node.frontmatter.slug}`} key={`marketing-${idx}`}>
-                        <PortfolioCard key={node.frontmatter.slug}>
-                          <PortfolioImgContainer>
-                            <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
-                          </PortfolioImgContainer>
-                          <PortfolioTitle>
-                            <h2>{node.frontmatter.title}</h2>
-                          </PortfolioTitle>
-                        </PortfolioCard>
-                      </Link>
-                    )
-                  })}
-                </CardContainer>
-                <SubtitleText>Videos:</SubtitleText>
-                <CardContainer>
-                  {videoItems.map(({ node }, idx) => {
-                    return (
-                      <Link to={`/portfolio-items${node.frontmatter.slug}`} key={`videos-${idx}`}>
-                        <PortfolioCard key={node.frontmatter.slug}>
-                          <PortfolioImgContainer>
-                            <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
-                          </PortfolioImgContainer>
-                          <PortfolioTitle>
-                            <h2>{node.frontmatter.title}</h2>
-                          </PortfolioTitle>
-                        </PortfolioCard>
-                      </Link>
-                    )
-                  })}
-                </CardContainer>
-              </>
-              )
-          }}
-        />
+          return (
+            <>
+              <SubtitleText>Writing:</SubtitleText>
+              <CardContainer>
+                {writingItems.map(({ node }, idx) => {
+                  return (
+                    <Link
+                      to={`/portfolio-items${node.frontmatter.slug}`}
+                      key={`writing-${idx}`}
+                    >
+                      <PortfolioCard key={node.frontmatter.slug}>
+                        <PortfolioImgContainer>
+                          <GatsbyImage
+                            image={
+                              node.frontmatter.hero.childImageSharp
+                                .gatsbyImageData
+                            }
+                          />
+                        </PortfolioImgContainer>
+                        <PortfolioTitle>
+                          <h2>{node.frontmatter.title}</h2>
+                        </PortfolioTitle>
+                      </PortfolioCard>
+                    </Link>
+                  )
+                })}
+              </CardContainer>
+              <SubtitleText>Marketing:</SubtitleText>
+              <CardContainer>
+                {marketingItems.map(({ node }, idx) => {
+                  return (
+                    <Link
+                      to={`/portfolio-items${node.frontmatter.slug}`}
+                      key={`marketing-${idx}`}
+                    >
+                      <PortfolioCard key={node.frontmatter.slug}>
+                        <PortfolioImgContainer>
+                          <GatsbyImage
+                            image={
+                              node.frontmatter.hero.childImageSharp
+                                .gatsbyImageData
+                            }
+                          />
+                        </PortfolioImgContainer>
+                        <PortfolioTitle>
+                          <h2>{node.frontmatter.title}</h2>
+                        </PortfolioTitle>
+                      </PortfolioCard>
+                    </Link>
+                  )
+                })}
+              </CardContainer>
+              <SubtitleText>Videos:</SubtitleText>
+              <CardContainer>
+                {videoItems.map(({ node }, idx) => {
+                  return (
+                    <Link
+                      to={`/portfolio-items${node.frontmatter.slug}`}
+                      key={`videos-${idx}`}
+                    >
+                      <PortfolioCard key={node.frontmatter.slug}>
+                        <PortfolioImgContainer>
+                          <GatsbyImage
+                            image={
+                              node.frontmatter.hero.childImageSharp
+                                .gatsbyImageData
+                            }
+                          />
+                        </PortfolioImgContainer>
+                        <PortfolioTitle>
+                          <h2>{node.frontmatter.title}</h2>
+                        </PortfolioTitle>
+                      </PortfolioCard>
+                    </Link>
+                  )
+                })}
+              </CardContainer>
+            </>
+          )
+        }}
+      />
     </PortfolioWrapper>
   </Layout>
 )

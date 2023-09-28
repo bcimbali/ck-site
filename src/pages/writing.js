@@ -1,9 +1,9 @@
 import { Link, StaticQuery, graphql } from 'gatsby'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
 
 const CardContainer = styled.section`
@@ -95,7 +95,7 @@ const SubtitleText = styled.h2`
   padding-bottom: 0.25rem;
   text-align: left;
   width: 100%;
-`;
+`
 
 const TitleText = styled.h1`
   font-size: 2rem;
@@ -113,9 +113,12 @@ const WRITING_QUERY = graphql`
           frontmatter {
             hero {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
+                gatsbyImageData(
+                  width: 500
+                  height: 500
+                  placeholder: BLURRED
+                  layout: CONSTRAINED
+                )
               }
             }
             title
@@ -130,36 +133,46 @@ const WRITING_QUERY = graphql`
 
 const Writing = () => (
   <Layout>
-    <SEO title="Writing Portfolio" />
+    <Seo title="Writing Portfolio" />
     <PortfolioWrapper>
-        <StaticQuery
-          query={WRITING_QUERY}
-          render={({ allMarkdownRemark, ...props }) =>{
-            const writingItems = allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.portfolioType === 'writing');
+      <StaticQuery
+        query={WRITING_QUERY}
+        render={({ allMarkdownRemark, ...props }) => {
+          const writingItems = allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.portfolioType === 'writing'
+          )
 
-            return (
-              <>
-                <SubtitleText>Writing:</SubtitleText>
-                <CardContainer>
-                  {writingItems.map(({ node }, idx) => {
-                    return (
-                      <Link to={`/portfolio-items${node.frontmatter.slug}`} key={`writing-${idx}`}>
-                        <PortfolioCard key={node.frontmatter.slug}>
-                          <PortfolioImgContainer>
-                            <Img fluid={node.frontmatter.hero.childImageSharp.fluid} />
-                          </PortfolioImgContainer>
-                          <PortfolioTitle>
-                            <h2>{node.frontmatter.title}</h2>
-                          </PortfolioTitle>
-                        </PortfolioCard>
-                      </Link>
-                    )
-                  })}
-                </CardContainer>
-              </>
-              )
-          }}
-        />
+          return (
+            <>
+              <SubtitleText>Writing:</SubtitleText>
+              <CardContainer>
+                {writingItems.map(({ node }, idx) => {
+                  return (
+                    <Link
+                      to={`/portfolio-items${node.frontmatter.slug}`}
+                      key={`writing-${idx}`}
+                    >
+                      <PortfolioCard key={node.frontmatter.slug}>
+                        <PortfolioImgContainer>
+                          <GatsbyImage
+                            image={
+                              node.frontmatter.hero.childImageSharp
+                                .gatsbyImageData
+                            }
+                          />
+                        </PortfolioImgContainer>
+                        <PortfolioTitle>
+                          <h2>{node.frontmatter.title}</h2>
+                        </PortfolioTitle>
+                      </PortfolioCard>
+                    </Link>
+                  )
+                })}
+              </CardContainer>
+            </>
+          )
+        }}
+      />
     </PortfolioWrapper>
   </Layout>
 )

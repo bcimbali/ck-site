@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -75,8 +75,11 @@ export default class portfolioLayout extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Img
-                  fluid={markdownRemark.frontmatter.hero.childImageSharp.fluid}
+                <GatsbyImage
+                  image={
+                    markdownRemark.frontmatter.hero.childImageSharp
+                      .gatsbyImageData
+                  }
                 />
               </a>
             </ImgContainer>
@@ -94,9 +97,7 @@ export const query = graphql`
       frontmatter {
         hero {
           childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
+            gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
           }
         }
         homepage
