@@ -1,6 +1,6 @@
 ---
 slug: '/poetry-now-there-is-no-meaning-here'
-title: 'Booking.com Careers Site'
+title: 'PoetryNow: There Is No Meaning Here'
 hero: './../images/poetry-now-there-is-no-meaning-here.jpeg'
 homepage: 'yes'
 content: 'blog'
