@@ -5,6 +5,7 @@ import DropDown from './dropDown'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { linkHover } from './../lib/utils'
 
 /** HEADER STYLING */
 
@@ -76,9 +77,17 @@ const HeaderNavLinks = styled.ul`
   }
 `
 
-const generateNavLinks = link => (
+const StyledLink = styled(Link)`
+  ${linkHover}
+`
+
+const MobileIcon = styled.i`
+  ${linkHover}
+`
+
+const generateNavLinks = (link) => (
   <li key={link.name}>
-    <Link to={link.link}>{link.name}</Link>
+    <StyledLink to={link.link}>{link.name}</StyledLink>
   </li>
 )
 
@@ -94,7 +103,7 @@ export default class Header extends Component {
   }
 
   toggleDropDown() {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       isOpen: !prevState.isOpen,
     }))
   }
@@ -112,14 +121,14 @@ export default class Header extends Component {
         <HeaderWrapper>
           <NameToHome>
             <h1>
-              <Link to="/">{siteTitle}</Link>
+              <StyledLink to="/">{siteTitle}</StyledLink>
             </h1>
           </NameToHome>
           <HeaderNav>
             <HeaderNavLinks>{this.linksMarkup}</HeaderNavLinks>
-            <i onClick={() => this.toggleDropDown()}>
+            <MobileIcon onClick={() => this.toggleDropDown()}>
               {this.state.isOpen ? <FaTimes /> : <FaBars />}
-            </i>
+            </MobileIcon>
           </HeaderNav>
         </HeaderWrapper>
         <DropDown

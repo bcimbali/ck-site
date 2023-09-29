@@ -4,7 +4,11 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import { transitionSpeed } from './../lib/utils'
+import { opacityHover } from './../lib/utils'
+
+const BlogLinkWrapper = styled.a`
+  ${opacityHover}
+`
 
 const ImgContainer = styled.div`
   margin-bottom: 2rem;
@@ -51,12 +55,8 @@ const PortfolioWrapper = styled.div`
 
 const PdfLinkWrapper = styled.a`
   max-width: 600px;
-  transition: ${transitionSpeed} opacity;
   width: 100%;
-
-  &:hover {
-    opacity: 0.8;
-  }
+  ${opacityHover}
 `
 
 export default class portfolioLayout extends Component {
@@ -93,7 +93,7 @@ export default class portfolioLayout extends Component {
             </>
           ) : markdownRemark.frontmatter.content === 'blog' ? (
             <ImgContainer>
-              <a
+              <BlogLinkWrapper
                 aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
                 href={markdownRemark.frontmatter.link}
                 target="_blank"
@@ -105,7 +105,7 @@ export default class portfolioLayout extends Component {
                       .gatsbyImageData
                   }
                 />
-              </a>
+              </BlogLinkWrapper>
             </ImgContainer>
           ) : null}
         </PortfolioWrapper>
