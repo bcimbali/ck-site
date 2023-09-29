@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import { Spring } from 'react-spring';
-import onClickOutside from "react-onclickoutside";
-import styled from 'styled-components';
+import { Spring } from 'react-spring'
+import onClickOutside from 'react-onclickoutside'
+import styled from 'styled-components'
+import { transitionSpeed } from './../lib/utils'
 
 const DropDownContainer = styled.div`
   display: flex;
@@ -11,60 +12,55 @@ const DropDownContainer = styled.div`
   @media (min-width: 700px) {
     display: none;
   }
-`;
+`
 
 const DropDownItems = styled.div`
-    width: 100vw;
-`;
+  width: 100vw;
+`
 
 const DropDownUl = styled.ul`
-  background-color: #B1B0E5;
+  background-color: #b1b0e5;
   position: absolute;
   width: 100vw;
   z-index: 9;
 
   li a {
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #ffffff;
     color: white;
     display: inline-block;
     padding: 1rem 0;
     text-align: center;
     text-decoration: none;
+    transition: ${transitionSpeed} all;
     width: 100vw;
   }
 
   li a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: blue;
   }
-`;
+`
 
 class DropDown extends Component {
+  handleClickOutside = (evt) => {
+    this.props.closeDropDown()
+  }
 
-  handleClickOutside = evt => {
-    this.props.closeDropDown();
-  };
-  
   render() {
-
     return (
       <DropDownContainer>
-      {
-        this.props.isOpen
-        ? (
-            <DropDownItems>
-              <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-                {props => <DropDownUl style={props}>{this.props.linksMarkup}</DropDownUl>}
-              </Spring>
-            </DropDownItems>
-        )
-        : (
-          null
-        )
-      }
+        {this.props.isOpen ? (
+          <DropDownItems>
+            <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+              {(props) => (
+                <DropDownUl style={props}>{this.props.linksMarkup}</DropDownUl>
+              )}
+            </Spring>
+          </DropDownItems>
+        ) : null}
       </DropDownContainer>
     )
   }
-};
+}
 
-export default onClickOutside(DropDown);
+export default onClickOutside(DropDown)

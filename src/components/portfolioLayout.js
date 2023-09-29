@@ -4,6 +4,11 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import { opacityHover } from './../lib/utils'
+
+const BlogLinkWrapper = styled.a`
+  ${opacityHover}
+`
 
 const ImgContainer = styled.div`
   margin-bottom: 2rem;
@@ -48,9 +53,19 @@ const PortfolioWrapper = styled.div`
   width: 80vw;
 `
 
+const PdfLinkWrapper = styled.a`
+  max-width: 600px;
+  width: 100%;
+  ${opacityHover}
+`
+
 export default class portfolioLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data
+    console.log(
+      'In portfolioLayout.js, this is markdownRemark: ',
+      markdownRemark
+    )
     return (
       <Layout>
         <PortfolioWrapper>
@@ -61,16 +76,25 @@ export default class portfolioLayout extends Component {
             }}
           />
           {markdownRemark.frontmatter.content === 'ebook' ? (
-            <object
-              aria-label="ebook content"
-              alt="ebook content"
-              data={markdownRemark.frontmatter.ebook.publicURL}
-              width="100%"
-              height="800px"
-            />
+            <>
+              <PdfLinkWrapper
+                aria-label={`Link to ${markdownRemark?.frontmatter?.title} PDF`}
+                href={markdownRemark.frontmatter.ebook.publicURL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GatsbyImage
+                  image={
+                    markdownRemark.frontmatter.hero.childImageSharp
+                      .gatsbyImageData
+                  }
+                />
+              </PdfLinkWrapper>
+            </>
           ) : markdownRemark.frontmatter.content === 'blog' ? (
             <ImgContainer>
-              <a
+              <BlogLinkWrapper
+                aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
                 href={markdownRemark.frontmatter.link}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -81,7 +105,7 @@ export default class portfolioLayout extends Component {
                       .gatsbyImageData
                   }
                 />
-              </a>
+              </BlogLinkWrapper>
             </ImgContainer>
           ) : null}
         </PortfolioWrapper>
