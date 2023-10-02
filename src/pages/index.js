@@ -131,7 +131,6 @@ const IndexPage = () => (
       ]}
     />
     <IndexWrapper>
-      <MainText>Content + Digital Marketing</MainText>
       <PortfolioContainer>
         <StaticQuery
           query={HOMEPAGE_QUERY}
