@@ -93,7 +93,7 @@ const PortfolioTitle = styled.div`
 
 const HOMEPAGE_QUERY = graphql`
   query HomepageQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: [{ frontmatter: { homepageOrder: ASC } }]) {
       edges {
         node {
           html
@@ -131,7 +131,6 @@ const IndexPage = () => (
       ]}
     />
     <IndexWrapper>
-      <MainText>Content + Digital Marketing</MainText>
       <PortfolioContainer>
         <StaticQuery
           query={HOMEPAGE_QUERY}

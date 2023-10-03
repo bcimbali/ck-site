@@ -101,7 +101,7 @@ const TitleText = styled.h1`
 
 const PORTFOLIO_QUERY = graphql`
   query PortfolioQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: [{ frontmatter: { portfolioOrder: ASC } }]) {
       edges {
         node {
           html
@@ -147,63 +147,12 @@ const Portfolio = () => (
 
           return (
             <>
-              <SubtitleText>Writing:</SubtitleText>
               <CardContainer>
                 {writingItems.map(({ node }, idx) => {
                   return (
                     <Link
                       to={`/portfolio-items${node.frontmatter.slug}`}
                       key={`writing-${idx}`}
-                    >
-                      <PortfolioCard key={node.frontmatter.slug}>
-                        <PortfolioImgContainer>
-                          <GatsbyImage
-                            image={
-                              node.frontmatter.hero.childImageSharp
-                                .gatsbyImageData
-                            }
-                          />
-                        </PortfolioImgContainer>
-                        <PortfolioTitle>
-                          <h2>{node.frontmatter.title}</h2>
-                        </PortfolioTitle>
-                      </PortfolioCard>
-                    </Link>
-                  )
-                })}
-              </CardContainer>
-              <SubtitleText>Marketing:</SubtitleText>
-              <CardContainer>
-                {marketingItems.map(({ node }, idx) => {
-                  return (
-                    <Link
-                      to={`/portfolio-items${node.frontmatter.slug}`}
-                      key={`marketing-${idx}`}
-                    >
-                      <PortfolioCard key={node.frontmatter.slug}>
-                        <PortfolioImgContainer>
-                          <GatsbyImage
-                            image={
-                              node.frontmatter.hero.childImageSharp
-                                .gatsbyImageData
-                            }
-                          />
-                        </PortfolioImgContainer>
-                        <PortfolioTitle>
-                          <h2>{node.frontmatter.title}</h2>
-                        </PortfolioTitle>
-                      </PortfolioCard>
-                    </Link>
-                  )
-                })}
-              </CardContainer>
-              <SubtitleText>Videos:</SubtitleText>
-              <CardContainer>
-                {videoItems.map(({ node }, idx) => {
-                  return (
-                    <Link
-                      to={`/portfolio-items${node.frontmatter.slug}`}
-                      key={`videos-${idx}`}
                     >
                       <PortfolioCard key={node.frontmatter.slug}>
                         <PortfolioImgContainer>
