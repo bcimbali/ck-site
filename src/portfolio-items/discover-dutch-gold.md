@@ -7,6 +7,7 @@ content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/discover-dutch-gold'
 portfolioType: 'writing'
 homepageOrder: 10
+portfolioOrder: 15
 ---
 
 Article on the legendary cheesemakers in the Dutch town of Katwoude,

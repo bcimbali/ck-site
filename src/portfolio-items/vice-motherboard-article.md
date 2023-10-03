@@ -7,6 +7,7 @@ link: 'https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-i
 homepage: 'yes'
 portfolioType: 'writing'
 homepageOrder: 16
+portfolioOrder: 9
 ---
 
 Motherboard article on Estonian musician Arvo Pärt's influence oncontemporary film and music and his trip to New York.

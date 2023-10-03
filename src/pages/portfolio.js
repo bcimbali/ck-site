@@ -101,7 +101,7 @@ const TitleText = styled.h1`
 
 const PORTFOLIO_QUERY = graphql`
   query PortfolioQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: [{ frontmatter: { portfolioOrder: ASC } }]) {
       edges {
         node {
           html

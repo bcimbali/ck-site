@@ -7,6 +7,7 @@ content: 'blog'
 link: 'https://pro.endocrineweb.com/conditions/polycystic-ovary-syndrome/polycystic-ovary-syndrome-and-comorbidity-risk'
 portfolioType: 'writing'
 homepageOrder: 1
+portfolioOrder: 4
 ---
 
 An article from Endocrine Web's professional site discussing new PCOS research.

@@ -7,6 +7,7 @@ content: 'blog'
 link: 'https://www.health.com/hepatitis-overview-7506913'
 portfolioType: 'writing'
 homepageOrder: 1
+portfolioOrder: 3
 ---
 
 An overview of Viral Hepatitis for Health.com.
