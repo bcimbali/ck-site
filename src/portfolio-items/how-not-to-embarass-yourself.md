@@ -1,6 +1,6 @@
 ---
 slug: '/how-not-to-embarass-yourself'
-title: "How not to embarrass yourself at this year's holiday parties"
+title: "How Not to Embarrass Yourself at This Year's Holiday Parties"
 hero: './../images/how-not-to-embarass-yourself.jpg'
 homepage: 'yes'
 content: 'blog'

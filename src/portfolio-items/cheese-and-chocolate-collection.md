@@ -1,6 +1,6 @@
 ---
 slug: '/cheese-and-chocolate-collection'
-title: 'Cheese and Chocolate Collection - Vosges'
+title: 'Cheese and Chocolate Collection'
 hero: './../images/cheese-and-chocolate-collection.jpeg'
 homepage: 'yes'
 content: 'blog'
