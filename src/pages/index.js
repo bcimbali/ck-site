@@ -14,13 +14,6 @@ const IndexWrapper = styled.main`
   max-width: ${maxWidth};
 `
 
-const MainText = styled.h1`
-  color: #15171c;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  text-align: center;
-`
-
 const PortfolioCard = styled.article`
   align-items: center;
   border: 2px solid #ffffff;
@@ -63,29 +56,24 @@ const PortfolioContainer = styled.section`
 
 const PortfolioImgContainer = styled.div`
   width: 100%;
-
-  @media (max-width: 414px) {
-    width: 80vw;
-  }
 `
 
-const PortfolioTitle = styled.div`
+const PortfolioTitleContainer = styled.div`
   align-items: center;
-  min-height: 10vh;
   display: flex;
-  h2 {
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-  }
+  flex: 1 0 auto;
+  justify-content: center;
+`
 
-  @media (max-width: 768px) {
-    min-height: 8vh;
-  }
+const PortfolioTitleText = styled.h2`
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+`
 
-  @media (max-width: 414px) {
-    min-height: 10vh;
-  }
+const StyledLink = styled(Link)`
+  display: flex;
 `
 
 const HOMEPAGE_QUERY = graphql`
@@ -135,7 +123,7 @@ const IndexPage = () => (
             allMarkdownRemark.edges.map(({ node }) => {
               if (node.frontmatter.homepage === 'yes') {
                 return (
-                  <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                  <StyledLink to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
                         <GatsbyImage
@@ -145,11 +133,13 @@ const IndexPage = () => (
                           }
                         />
                       </PortfolioImgContainer>
-                      <PortfolioTitle>
-                        <h2>{node.frontmatter.title}</h2>
-                      </PortfolioTitle>
+                      <PortfolioTitleContainer>
+                        <PortfolioTitleText>
+                          {node.frontmatter.title}
+                        </PortfolioTitleText>
+                      </PortfolioTitleContainer>
                     </PortfolioCard>
-                  </Link>
+                  </StyledLink>
                 )
               } else {
                 return null
