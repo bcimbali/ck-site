@@ -129,9 +129,10 @@ export const query = graphql`
         title
         content
         link
-        ebook {
-          publicURL
-        }
+        # Commenting out until ebook support is added back:
+        # ebook {
+        #   publicURL
+        # }
       }
     }
   }
