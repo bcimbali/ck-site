@@ -6,6 +6,7 @@ homepage: 'yes'
 content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/ole-smoky-distillery'
 portfolioType: 'writing'
+homepageOrder: 7
 ---
 
 A tale of a National Park and moonshine.

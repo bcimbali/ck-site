@@ -6,6 +6,7 @@ homepage: 'yes'
 content: 'blog'
 link: 'https://www.poetryfoundation.org/poems/151377/there-is-no-meaning-here'
 portfolioType: 'writing'
+homepageOrder: 8
 ---
 
 My poem, "There Is No Meaning Here" on the Poetry Foundation.

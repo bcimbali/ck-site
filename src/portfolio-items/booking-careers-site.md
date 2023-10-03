@@ -6,6 +6,7 @@ homepage: 'yes'
 content: 'blog'
 link: 'https://careers.booking.com/'
 portfolioType: 'writing'
+homepageOrder: 1
 ---
 
 UX writing for the Booking.com Careers website.

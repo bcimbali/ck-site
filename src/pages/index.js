@@ -93,7 +93,7 @@ const PortfolioTitle = styled.div`
 
 const HOMEPAGE_QUERY = graphql`
   query HomepageQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: [{ frontmatter: { homepageOrder: ASC } }]) {
       edges {
         node {
           html
