@@ -2,7 +2,7 @@
 slug: '/discover-dutch-gold'
 title: 'Discover Dutch Gold'
 hero: './../images/discover-dutch-gold.jpg'
-homepage: 'no'
+homepage: 'yes'
 content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/discover-dutch-gold'
 portfolioType: 'writing'
