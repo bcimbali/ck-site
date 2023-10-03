@@ -1,3 +1,9 @@
+import breakpoints from './breakpoints'
+
+const mediaQueries = (key) => {
+  return (style) => `@media (min-width: ${breakpoints[key]}) { ${style} }`
+}
+
 const theme = {
   colors: {
     bg: '#b1b0e5',
@@ -7,6 +13,7 @@ const theme = {
     green: '#a5dbcb',
     white: '#FFFFFF',
   },
+  mq: mediaQueries,
 }
 
 export default theme

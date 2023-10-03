@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
-import breakpoints from '../lib/breakpoints'
 import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const IndexWrapper = styled.main`
@@ -37,10 +36,6 @@ const PortfolioCard = styled.article`
       color: blue;
     }
   }
-
-  @media (max-width: 414px) {
-    flex-direction: column;
-  }
 `
 
 const PortfolioContainer = styled.section`
@@ -55,13 +50,15 @@ const PortfolioContainer = styled.section`
     text-decoration: none;
   }
 
-  @media (min-width: ${breakpoints.sm}) {
+  ${({ theme }) =>
+    theme.mq('sm')`
     grid-template-columns: 1fr 1fr;
-  }
+  `}
 
-  @media (min-width: ${breakpoints.lg}) {
+  ${({ theme }) =>
+    theme.mq('lg')`
     grid-template-columns: 1fr 1fr 1fr;
-  }
+  `}
 `
 
 const PortfolioImgContainer = styled.div`
