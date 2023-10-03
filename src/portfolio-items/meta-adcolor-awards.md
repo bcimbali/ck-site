@@ -1,6 +1,6 @@
 ---
 slug: '/meta-adcolor-awards'
-title: 'Meta ADCOLOR Awards case study'
+title: 'Meta ADCOLOR Awards Case Study'
 hero: './../images/meta-adcolor-awards.jpg'
 homepage: 'yes'
 content: 'blog'
