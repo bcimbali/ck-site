@@ -1,7 +1,7 @@
 ---
 slug: '/dazzling-days-at-lake-como'
 title: 'Dazzling Days at Lake Como'
-hero: './../images/dazzling-days-at-lake-como.jpg'
+hero: './../images/dazzling-days-at-lake-como.jpeg'
 homepage: 'yes'
 content: 'blog'
 link: 'https://roads.porsche.com/content/en/stories/dazzling-days-and-starry-nights-in-lake-como'

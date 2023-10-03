@@ -1,6 +1,6 @@
 ---
 slug: '/the-great-smoky-mountains'
-title: 'The Great Smoky Mountains: Magid, mountains and moonshine'
+title: 'The Great Smoky Mountains: Magic, mountains and moonshine'
 hero: './../images/the-great-smoky-mountains.jpeg'
 homepage: 'yes'
 content: 'blog'
