@@ -4,33 +4,30 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import { opacityHover } from './../lib/utils'
 
 const BlogLinkWrapper = styled.a`
-  ${opacityHover}
+  ${({
+    theme: {
+      transitions: { opacityHover },
+    },
+  }) => opacityHover};
 `
 
 const ImgContainer = styled.div`
   margin-bottom: 2rem;
-  width: 40vw;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
+  max-width: 500px;
+  width: 100%;
 `
 
 const InfoBlurb = styled.div`
   color: #ffffff;
   margin-bottom: 2rem;
+  max-width: 500px;
   text-align: center;
-  width: 60vw;
+  width: 100%;
 
   iframe {
     margin-top: 2rem;
-  }
-
-  @media (max-width: 414px) {
-    width: 100%;
   }
 `
 
@@ -56,16 +53,16 @@ const PortfolioWrapper = styled.div`
 const PdfLinkWrapper = styled.a`
   max-width: 600px;
   width: 100%;
-  ${opacityHover}
+  ${({
+    theme: {
+      transitions: { opacityHover },
+    },
+  }) => opacityHover};
 `
 
 export default class portfolioLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data
-    console.log(
-      'In portfolioLayout.js, this is markdownRemark: ',
-      markdownRemark
-    )
     return (
       <Layout>
         <PortfolioWrapper>
