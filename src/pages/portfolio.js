@@ -7,23 +7,7 @@ import Seo from '../components/seo'
 import styled from 'styled-components'
 import maxWidth from '../lib/utils'
 import PortfolioCard from '../components/portfolioCard'
-
-const CardContainer = styled.section`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  width: 100%;
-
-  ${({ theme }) =>
-    theme.mq('sm')`
-    grid-template-columns: 1fr 1fr;
-  `}
-
-  ${({ theme }) =>
-    theme.mq('lg')`
-    grid-template-columns: 1fr 1fr 1fr;
-  `}
-`
+import CardIndex from '../components/cardIndex'
 
 const PortfolioWrapper = styled.main`
   align-items: center;
@@ -86,7 +70,7 @@ const Portfolio = () => (
 
           return (
             <>
-              <CardContainer>
+              <CardIndex>
                 {writingItems.map(({ node }, idx) => {
                   return (
                     <PortfolioCard
@@ -98,7 +82,7 @@ const Portfolio = () => (
                     />
                   )
                 })}
-              </CardContainer>
+              </CardIndex>
             </>
           )
         }}
