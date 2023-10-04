@@ -1,76 +1,12 @@
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
-import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
 import maxWidth from '../lib/utils'
-
-const CardContainer = styled.section`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  width: 100%;
-
-  ${({ theme }) =>
-    theme.mq('sm')`
-    grid-template-columns: 1fr 1fr;
-  `}
-
-  ${({ theme }) =>
-    theme.mq('lg')`
-    grid-template-columns: 1fr 1fr 1fr;
-  `}
-`
-
-const PortfolioCard = styled.article`
-  align-items: center;
-  border: 2px solid #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-  transition: all
-    ${({
-      theme: {
-        transitions: { transitionSpeed },
-      },
-    }) => transitionSpeed};
-  width: 100%;
-
-  img {
-    filter: grayscale(100%);
-  }
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    h2 {
-      color: blue;
-    }
-    img {
-      filter: none;
-    }
-  }
-`
-
-const PortfolioImgContainer = styled.div`
-  width: 100%;
-`
-
-const PortfolioTitleContainer = styled.div`
-  align-items: center;
-  display: flex;
-  flex: 1 0 auto;
-  justify-content: center;
-`
-
-const PortfolioTitleText = styled.h2`
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 1.5rem;
-  text-align: center;
-`
+import PortfolioCard from '../components/portfolioCard'
+import CardIndex from '../components/cardIndex'
 
 const PortfolioWrapper = styled.main`
   align-items: center;
@@ -91,10 +27,6 @@ const TitleText = styled.h1`
   text-align: center;
 `
 
-const StyledLink = styled(Link)`
-  display: flex;
-`
-
 const PORTFOLIO_QUERY = graphql`
   query PortfolioQuery {
     allMarkdownRemark(sort: [{ frontmatter: { portfolioOrder: ASC } }]) {
@@ -102,6 +34,7 @@ const PORTFOLIO_QUERY = graphql`
         node {
           html
           excerpt
+          id
           frontmatter {
             hero {
               childImageSharp {
@@ -137,32 +70,21 @@ const Portfolio = () => (
 
           return (
             <>
-              <CardContainer>
+              <CardIndex>
                 {writingItems.map(({ node }, idx) => {
                   return (
-                    <StyledLink
-                      to={`/portfolio-items${node.frontmatter.slug}`}
-                      key={`writing-${idx}`}
-                    >
-                      <PortfolioCard key={node.frontmatter.slug}>
-                        <PortfolioImgContainer>
-                          <GatsbyImage
-                            image={
-                              node.frontmatter.hero.childImageSharp
-                                .gatsbyImageData
-                            }
-                          />
-                        </PortfolioImgContainer>
-                        <PortfolioTitleContainer>
-                          <PortfolioTitleText>
-                            {node.frontmatter.title}
-                          </PortfolioTitleText>
-                        </PortfolioTitleContainer>
-                      </PortfolioCard>
-                    </StyledLink>
+                    <PortfolioCard
+                      altText={node.frontmatter.title}
+                      key={node.id}
+                      image={
+                        node.frontmatter.hero.childImageSharp.gatsbyImageData
+                      }
+                      slug={node.frontmatter.slug}
+                      title={node.frontmatter.title}
+                    />
                   )
                 })}
-              </CardContainer>
+              </CardIndex>
             </>
           )
         }}
