@@ -5,13 +5,12 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
-import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const IndexWrapper = styled.main`
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: ${maxWidth};
+  max-width: ${({ theme: { maxWidth } }) => maxWidth};
 `
 
 const PortfolioCard = styled.article`
@@ -21,7 +20,7 @@ const PortfolioCard = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  transition: all ${transitionSpeed};
+  transition: all ${({ theme: { transitionSpeed } }) => transitionSpeed};
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
