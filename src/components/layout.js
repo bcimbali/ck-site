@@ -10,7 +10,6 @@ import React from 'react'
 import favicon from '../images/favicon.ico'
 import styled, { ThemeProvider } from 'styled-components'
 import theme from './../lib/theme'
-console.log('In layout.js, this is theme: ', theme)
 
 const LayoutWrapper = styled.div`
   background: #b1b0e5;

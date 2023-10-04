@@ -3,15 +3,14 @@ import React, { Component } from 'react'
 import { Spring } from 'react-spring'
 import onClickOutside from 'react-onclickoutside'
 import styled from 'styled-components'
-import { transitionSpeed } from './../lib/utils'
 
 const DropDownContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 700px) {
+  ${({ theme: { mq } }) => mq('md')`
     display: none;
-  }
+  `}
 `
 
 const DropDownItems = styled.div`
@@ -31,7 +30,12 @@ const DropDownUl = styled.ul`
     padding: 1rem 0;
     text-align: center;
     text-decoration: none;
-    transition: ${transitionSpeed} all;
+    transition: ${({
+        theme: {
+          transitions: { transitionSpeed },
+        },
+      }) => transitionSpeed}
+      all;
     width: 100vw;
   }
 
