@@ -1,17 +1,19 @@
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { linkHover } from './../lib/utils'
 
 const FooterWrapper = styled.footer`
-  align-items: center;
-  background: #a5dbcb;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0.25rem 0;
+  ${({ theme: { colors } }) => css`
+    align-items: center;
+    background: ${colors.green};
+    color: ${colors.white};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.25rem 0;
+  `}
 `
 
 const FooterText = styled.div`
@@ -25,7 +27,11 @@ const FooterText = styled.div`
 const Icons = styled.div`
   a {
     margin: 0 0.5rem;
-    ${linkHover}
+    ${({
+      theme: {
+        transitions: { linkHover },
+      },
+    }) => linkHover};
   }
   font-size: 2rem;
   padding: 0.25rem 0;

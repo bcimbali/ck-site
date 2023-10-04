@@ -5,21 +5,12 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
-import breakpoints from '../lib/breakpoints'
-import maxWidth, { transitionSpeed } from '../lib/utils'
 
 const IndexWrapper = styled.main`
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: ${maxWidth};
-`
-
-const MainText = styled.h1`
-  color: #15171c;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  text-align: center;
+  max-width: ${({ theme: { maxWidth } }) => maxWidth};
 `
 
 const PortfolioCard = styled.article`
@@ -29,17 +20,18 @@ const PortfolioCard = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  transition: all ${transitionSpeed};
+  transition: all
+    ${({
+      theme: {
+        transitions: { transitionSpeed },
+      },
+    }) => transitionSpeed};
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     h2 {
       color: blue;
     }
-  }
-
-  @media (max-width: 414px) {
-    flex-direction: column;
   }
 `
 
@@ -55,40 +47,37 @@ const PortfolioContainer = styled.section`
     text-decoration: none;
   }
 
-  @media (min-width: ${breakpoints.sm}) {
+  ${({ theme }) =>
+    theme.mq('sm')`
     grid-template-columns: 1fr 1fr;
-  }
+  `}
 
-  @media (min-width: ${breakpoints.lg}) {
+  ${({ theme }) =>
+    theme.mq('lg')`
     grid-template-columns: 1fr 1fr 1fr;
-  }
+  `}
 `
 
 const PortfolioImgContainer = styled.div`
   width: 100%;
-
-  @media (max-width: 414px) {
-    width: 80vw;
-  }
 `
 
-const PortfolioTitle = styled.div`
+const PortfolioTitleContainer = styled.div`
   align-items: center;
-  min-height: 10vh;
   display: flex;
-  h2 {
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-  }
+  flex: 1 0 auto;
+  justify-content: center;
+`
 
-  @media (max-width: 768px) {
-    min-height: 8vh;
-  }
+const PortfolioTitleText = styled.h2`
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+`
 
-  @media (max-width: 414px) {
-    min-height: 10vh;
-  }
+const StyledLink = styled(Link)`
+  display: flex;
 `
 
 const HOMEPAGE_QUERY = graphql`
@@ -138,7 +127,7 @@ const IndexPage = () => (
             allMarkdownRemark.edges.map(({ node }) => {
               if (node.frontmatter.homepage === 'yes') {
                 return (
-                  <Link to={`/portfolio-items${node.frontmatter.slug}`}>
+                  <StyledLink to={`/portfolio-items${node.frontmatter.slug}`}>
                     <PortfolioCard key={node.frontmatter.slug}>
                       <PortfolioImgContainer>
                         <GatsbyImage
@@ -148,11 +137,13 @@ const IndexPage = () => (
                           }
                         />
                       </PortfolioImgContainer>
-                      <PortfolioTitle>
-                        <h2>{node.frontmatter.title}</h2>
-                      </PortfolioTitle>
+                      <PortfolioTitleContainer>
+                        <PortfolioTitleText>
+                          {node.frontmatter.title}
+                        </PortfolioTitleText>
+                      </PortfolioTitleContainer>
                     </PortfolioCard>
-                  </Link>
+                  </StyledLink>
                 )
               } else {
                 return null

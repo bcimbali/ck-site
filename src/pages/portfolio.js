@@ -5,8 +5,7 @@ import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
-import breakpoints from '../lib/breakpoints'
-import maxWidth, { transitionSpeed } from '../lib/utils'
+import maxWidth from '../lib/utils'
 
 const CardContainer = styled.section`
   display: grid;
@@ -14,13 +13,15 @@ const CardContainer = styled.section`
   gap: 2rem;
   width: 100%;
 
-  @media (min-width: ${breakpoints.sm}) {
+  ${({ theme }) =>
+    theme.mq('sm')`
     grid-template-columns: 1fr 1fr;
-  }
+  `}
 
-  @media (min-width: ${breakpoints.lg}) {
+  ${({ theme }) =>
+    theme.mq('lg')`
     grid-template-columns: 1fr 1fr 1fr;
-  }
+  `}
 `
 
 const PortfolioCard = styled.article`
@@ -30,6 +31,12 @@ const PortfolioCard = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  transition: all
+    ${({
+      theme: {
+        transitions: { transitionSpeed },
+      },
+    }) => transitionSpeed};
   width: 100%;
 
   img {
@@ -51,23 +58,18 @@ const PortfolioImgContainer = styled.div`
   width: 100%;
 `
 
-const PortfolioTitle = styled.div`
+const PortfolioTitleContainer = styled.div`
   align-items: center;
-  min-height: 10vh;
   display: flex;
-  h2 {
-    color: #ffffff;
-    font-size: 1rem;
-    text-align: center;
-  }
+  flex: 1 0 auto;
+  justify-content: center;
+`
 
-  @media (max-width: 768px) {
-    min-height: 8vh;
-  }
-
-  @media (max-width: 414px) {
-    min-height: 10vh;
-  }
+const PortfolioTitleText = styled.h2`
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1.5rem;
+  text-align: center;
 `
 
 const PortfolioWrapper = styled.main`
@@ -83,20 +85,14 @@ const PortfolioWrapper = styled.main`
   }
 `
 
-const SubtitleText = styled.h2`
-  border-bottom: 1px solid white;
-  color: #ffffff;
-  font-size: 1.5rem;
-  margin: 1rem 0;
-  padding-bottom: 0.25rem;
-  text-align: left;
-  width: 100%;
-`
-
 const TitleText = styled.h1`
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+`
+
+const StyledLink = styled(Link)`
+  display: flex;
 `
 
 const PORTFOLIO_QUERY = graphql`
@@ -138,19 +134,13 @@ const Portfolio = () => (
           const writingItems = allMarkdownRemark.edges.filter(
             ({ node }) => node.frontmatter.portfolioType === 'writing'
           )
-          const marketingItems = allMarkdownRemark.edges.filter(
-            ({ node }) => node.frontmatter.portfolioType === 'marketing'
-          )
-          const videoItems = allMarkdownRemark.edges.filter(
-            ({ node }) => node.frontmatter.portfolioType === 'video'
-          )
 
           return (
             <>
               <CardContainer>
                 {writingItems.map(({ node }, idx) => {
                   return (
-                    <Link
+                    <StyledLink
                       to={`/portfolio-items${node.frontmatter.slug}`}
                       key={`writing-${idx}`}
                     >
@@ -163,11 +153,13 @@ const Portfolio = () => (
                             }
                           />
                         </PortfolioImgContainer>
-                        <PortfolioTitle>
-                          <h2>{node.frontmatter.title}</h2>
-                        </PortfolioTitle>
+                        <PortfolioTitleContainer>
+                          <PortfolioTitleText>
+                            {node.frontmatter.title}
+                          </PortfolioTitleText>
+                        </PortfolioTitleContainer>
                       </PortfolioCard>
-                    </Link>
+                    </StyledLink>
                   )
                 })}
               </CardContainer>

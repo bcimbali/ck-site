@@ -8,7 +8,8 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import React from 'react'
 import favicon from '../images/favicon.ico'
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
+import theme from './../lib/theme'
 
 const LayoutWrapper = styled.div`
   background: #b1b0e5;
@@ -39,7 +40,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <LayoutWrapper>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -58,12 +59,14 @@ const Layout = ({ children }) => (
             content="oNthUkbBshKqAkf2gJBfacZcMPjRSio0GFzeETEvNuc"
           />
         </Helmet>
-        <Header
-          menuLinks={data.site.siteMetadata.menuLinks}
-          siteTitle={data.site.siteMetadata.title}
-        />
-        <MainContent>{children}</MainContent>
-        <Footer />
+        <ThemeProvider theme={theme}>
+          <Header
+            menuLinks={data.site.siteMetadata.menuLinks}
+            siteTitle={data.site.siteMetadata.title}
+          />
+          <MainContent>{children}</MainContent>
+          <Footer />
+        </ThemeProvider>
       </LayoutWrapper>
     )}
   />

@@ -5,9 +5,6 @@ import DropDown from './dropDown'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { linkHover } from './../lib/utils'
-
-/** HEADER STYLING */
 
 const HeaderWrapper = styled.div`
   align-items: center;
@@ -41,48 +38,60 @@ const HeaderNav = styled.nav`
     color: #ffffff;
     cursor: pointer;
     font-size: 1.5rem;
-  }
-  i:hover {
-    color: blue;
+
+    &:hover {
+      color: blue;
+    }
   }
 
-  @media (min-width: 700px) {
+  ${({ theme: { mq } }) => mq('md')`
     i {
       display: none;
     }
-  }
+  `}
 `
 
 const HeaderNavLinks = styled.ul`
-  display: flex;
-
   a {
-    color: #ffffff;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
-  a:hover {
-    color: blue;
+    display: none;
   }
   li {
-    list-style-type: none;
+    display: none;
   }
-  @media (max-width: 700px) {
+
+  ${({ theme: { mq } }) => mq('md')`
+    display: flex;
+
     a {
-      display: none;
+      color: #ffffff;
+      display: flex;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    a:hover {
+      color: blue;
     }
     li {
-      display: none;
+      display: flex;
+      list-style-type: none;
     }
-  }
+  `}
 `
 
 const StyledLink = styled(Link)`
-  ${linkHover}
+  ${({
+    theme: {
+      transitions: { linkHover },
+    },
+  }) => linkHover};
 `
 
 const MobileIcon = styled.i`
-  ${linkHover}
+  ${({
+    theme: {
+      transitions: { linkHover },
+    },
+  }) => linkHover};
 `
 
 const generateNavLinks = (link) => (
