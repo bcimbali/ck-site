@@ -6,6 +6,7 @@ import React from 'react'
 import Seo from '../components/seo'
 import styled from 'styled-components'
 import maxWidth from '../lib/utils'
+import PortfolioCard from '../components/portfolioCard'
 
 const CardContainer = styled.section`
   display: grid;
@@ -22,54 +23,6 @@ const CardContainer = styled.section`
     theme.mq('lg')`
     grid-template-columns: 1fr 1fr 1fr;
   `}
-`
-
-const PortfolioCard = styled.article`
-  align-items: center;
-  border: 2px solid #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-  transition: all
-    ${({
-      theme: {
-        transitions: { transitionSpeed },
-      },
-    }) => transitionSpeed};
-  width: 100%;
-
-  img {
-    filter: grayscale(100%);
-  }
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    h2 {
-      color: blue;
-    }
-    img {
-      filter: none;
-    }
-  }
-`
-
-const PortfolioImgContainer = styled.div`
-  width: 100%;
-`
-
-const PortfolioTitleContainer = styled.div`
-  align-items: center;
-  display: flex;
-  flex: 1 0 auto;
-  justify-content: center;
-`
-
-const PortfolioTitleText = styled.h2`
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 1.5rem;
-  text-align: center;
 `
 
 const PortfolioWrapper = styled.main`
@@ -89,10 +42,6 @@ const TitleText = styled.h1`
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
-`
-
-const StyledLink = styled(Link)`
-  display: flex;
 `
 
 const PORTFOLIO_QUERY = graphql`
@@ -140,26 +89,13 @@ const Portfolio = () => (
               <CardContainer>
                 {writingItems.map(({ node }, idx) => {
                   return (
-                    <StyledLink
-                      to={`/portfolio-items${node.frontmatter.slug}`}
-                      key={`writing-${idx}`}
-                    >
-                      <PortfolioCard key={node.frontmatter.slug}>
-                        <PortfolioImgContainer>
-                          <GatsbyImage
-                            image={
-                              node.frontmatter.hero.childImageSharp
-                                .gatsbyImageData
-                            }
-                          />
-                        </PortfolioImgContainer>
-                        <PortfolioTitleContainer>
-                          <PortfolioTitleText>
-                            {node.frontmatter.title}
-                          </PortfolioTitleText>
-                        </PortfolioTitleContainer>
-                      </PortfolioCard>
-                    </StyledLink>
+                    <PortfolioCard
+                      image={
+                        node.frontmatter.hero.childImageSharp.gatsbyImageData
+                      }
+                      slug={node.frontmatter.slug}
+                      title={node.frontmatter.title}
+                    />
                   )
                 })}
               </CardContainer>
