@@ -20,7 +20,12 @@ const PortfolioCard = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  transition: all ${({ theme: { transitionSpeed } }) => transitionSpeed};
+  transition: all
+    ${({
+      theme: {
+        transitions: { transitionSpeed },
+      },
+    }) => transitionSpeed};
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);

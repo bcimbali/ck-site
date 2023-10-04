@@ -1,5 +1,5 @@
 import breakpoints from './breakpoints'
-import maxWidth, { transitionSpeed } from './utils'
+import maxWidth, { transitionSpeed, opacityHover, linkHover } from './utils'
 
 const mediaQueries = (key) => {
   return (style) => `@media (min-width: ${breakpoints[key]}) { ${style} }`
@@ -16,7 +16,11 @@ const theme = {
   },
   mq: mediaQueries,
   maxWidth: maxWidth,
-  transitionSpeed: transitionSpeed,
+  transitions: {
+    linkHover: linkHover,
+    opacityHover: opacityHover,
+    transitionSpeed: transitionSpeed,
+  },
 }
 
 export default theme
