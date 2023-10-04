@@ -13,23 +13,18 @@ const AboutWrapper = styled.main`
 `
 
 const Content = styled.div`
-  display: flex;
+  display: grid;
+  gap: 1.5rem;
   margin-bottom: 2rem;
 
-  @media (max-width: 600px) {
-    flex-direction: column;
-  }
+  ${({ theme: { mq } }) => mq('lg')`
+    grid-template-columns: 1fr 1fr;
+  `}
 `
 
 const ImgContainer = styled.section`
-  margin-bottom: 2rem;
-  padding: 3rem;
-  width: 50%;
-
-  @media (max-width: 600px) {
-    padding: 0;
-    width: 80vw;
-  }
+  padding: 0;
+  width: 100%;
 `
 
 const MainText = styled.h1`
@@ -45,20 +40,20 @@ const Paragraph = styled.p`
 `
 
 const TextWrapper = styled.article`
-  border-left: 1px solid #ffffff;
-  color: #0d0d0d;
-  display: flex;
-  font-size: 1.15rem;
-  flex-direction: column;
-  padding: 0 3rem;
-  width: 50%;
+  border-left: 0;
+  border-top: 1px solid #ffffff;
+  padding: 0.5rem 0 0 0;
+  width: 100%;
 
-  @media (max-width: 600px) {
-    border-left: 0;
-    border-top: 1px solid #ffffff;
-    padding: 0;
-    width: 100%;
-  }
+  ${({ theme: { mq } }) => mq('lg')`
+    border-left: 1px solid #ffffff;
+    border-top: 0;
+    color: #0d0d0d;
+    display: flex;
+    font-size: 1.15rem;
+    flex-direction: column;
+    padding: 0 0 0 1.5rem;
+  `}
 `
 
 const ABOUT_QUERY = graphql`
