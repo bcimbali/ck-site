@@ -2,7 +2,6 @@ import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { linkHover } from './../lib/utils'
 
 const FooterWrapper = styled.footer`
   ${({ theme: { colors } }) => css`

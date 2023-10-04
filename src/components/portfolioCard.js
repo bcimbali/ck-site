@@ -48,12 +48,12 @@ const StyledLink = styled(Link)`
   display: flex;
 `
 
-const PortfolioCard = ({ image, slug, title }) => {
+const PortfolioCard = ({ altText, image, slug, title }) => {
   return (
     <StyledLink to={`/portfolio-items${slug}`}>
       <CardContainer key={slug}>
         <ImgContainer>
-          <GatsbyImage image={image} />
+          <GatsbyImage image={image} alt={altText} />
         </ImgContainer>
         <TitleContainer>
           <TitleText>{title}</TitleText>

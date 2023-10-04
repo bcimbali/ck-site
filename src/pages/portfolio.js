@@ -1,6 +1,5 @@
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
-import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import React from 'react'
 import Seo from '../components/seo'
@@ -35,6 +34,7 @@ const PORTFOLIO_QUERY = graphql`
         node {
           html
           excerpt
+          id
           frontmatter {
             hero {
               childImageSharp {
@@ -74,6 +74,8 @@ const Portfolio = () => (
                 {writingItems.map(({ node }, idx) => {
                   return (
                     <PortfolioCard
+                      altText={node.frontmatter.title}
+                      key={node.id}
                       image={
                         node.frontmatter.hero.childImageSharp.gatsbyImageData
                       }

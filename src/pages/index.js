@@ -1,4 +1,4 @@
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import React from 'react'
@@ -21,6 +21,7 @@ const HOMEPAGE_QUERY = graphql`
         node {
           html
           excerpt
+          id
           frontmatter {
             hero {
               childImageSharp {
@@ -62,6 +63,8 @@ const IndexPage = () => (
               if (node.frontmatter.homepage === 'yes') {
                 return (
                   <PortfolioCard
+                    altText={node.frontmatter.title}
+                    key={node.id}
                     image={
                       node.frontmatter.hero.childImageSharp.gatsbyImageData
                     }
