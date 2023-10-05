@@ -69,22 +69,14 @@ const DropDownUl = styled.ul`
   `}
 `
 
-class DropDown extends Component {
-  handleClickOutside = (evt) => {
-    this.props.closeDropDown()
-  }
-
-  render() {
-    return (
-      <DropDownContainer>
-        <DropDownItems>
-          <DropDownUl $isOpen={this.props.isOpen}>
-            {this.props.linksMarkup}
-          </DropDownUl>
-        </DropDownItems>
-      </DropDownContainer>
-    )
-  }
+const DropDown = ({ isOpen, linksMarkup }) => {
+  return (
+    <DropDownContainer>
+      <DropDownItems>
+        <DropDownUl $isOpen={isOpen}>{linksMarkup}</DropDownUl>
+      </DropDownItems>
+    </DropDownContainer>
+  )
 }
 
-export default onClickOutside(DropDown)
+export default DropDown
