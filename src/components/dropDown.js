@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
-import { Spring } from 'react-spring'
 import onClickOutside from 'react-onclickoutside'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const DropDownContainer = styled.div`
   display: flex;
@@ -18,31 +17,56 @@ const DropDownItems = styled.div`
 `
 
 const DropDownUl = styled.ul`
-  background-color: #b1b0e5;
-  position: absolute;
-  width: 100vw;
-  z-index: 9;
-
-  li a {
-    border-bottom: 1px solid #ffffff;
-    color: white;
-    display: inline-block;
-    padding: 1rem 0;
-    text-align: center;
-    text-decoration: none;
-    transition: ${({
-        theme: {
-          transitions: { transitionSpeed },
-        },
-      }) => transitionSpeed}
-      all;
+  ${({ $isOpen, theme }) => css`
+    background-color: ${theme.colors.bg};
+    border-top: 1px solid ${theme.colors.white};
+    display: flex;
+    flex-direction: column;
+    max-height: 0px;
+    opacity: 0;
+    position: absolute;
+    transition: ${theme.transitions.transitionSpeed} all;
     width: 100vw;
-  }
+    z-index: 9;
 
-  li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: blue;
-  }
+    li {
+      display: none;
+      flex: 1 0 auto;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    li a {
+      align-items: center;
+      background-color: ${theme.colors.orange};
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      text-align: center;
+      text-decoration: none;
+      transition: ${theme.transitions.transitionSpeed} all;
+      width: 100vw;
+    }
+
+    li a span {
+      font-size: 3rem;
+    }
+
+    ${$isOpen &&
+    css`
+      height: 100vh;
+      max-height: 100vh;
+      opacity: 1;
+      li {
+        display: flex;
+      }
+    `}
+
+    li a:hover {
+      background-color: ${theme.colors.bg};
+      color: blue;
+    }
+  `}
 `
 
 class DropDown extends Component {
@@ -53,15 +77,11 @@ class DropDown extends Component {
   render() {
     return (
       <DropDownContainer>
-        {this.props.isOpen ? (
-          <DropDownItems>
-            <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-              {(props) => (
-                <DropDownUl style={props}>{this.props.linksMarkup}</DropDownUl>
-              )}
-            </Spring>
-          </DropDownItems>
-        ) : null}
+        <DropDownItems>
+          <DropDownUl $isOpen={this.props.isOpen}>
+            {this.props.linksMarkup}
+          </DropDownUl>
+        </DropDownItems>
       </DropDownContainer>
     )
   }

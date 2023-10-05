@@ -96,7 +96,9 @@ const MobileIcon = styled.i`
 
 const generateNavLinks = (link) => (
   <li key={link.name}>
-    <StyledLink to={link.link}>{link.name}</StyledLink>
+    <StyledLink to={link.link}>
+      <span>{link.name}</span>
+    </StyledLink>
   </li>
 )
 

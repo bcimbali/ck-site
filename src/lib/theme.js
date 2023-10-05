@@ -12,6 +12,7 @@ const theme = {
     blue: '#0000FF',
     fg: '#FFFFFF',
     green: '#a5dbcb',
+    orange: '#e8af72',
     white: '#FFFFFF',
   },
   mq: mediaQueries,
