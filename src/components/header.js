@@ -109,6 +109,10 @@ const Header = ({ menuLinks, siteTitle }) => {
     [menuLinks]
   )
 
+  useEffect(() => {
+    document.body.classList.toggle('no-scroll', isOpen)
+  }, [isOpen])
+
   return (
     <HeaderContainer>
       <HeaderWrapper>

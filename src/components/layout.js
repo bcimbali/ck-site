@@ -8,8 +8,14 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import React from 'react'
 import favicon from '../images/favicon.ico'
-import styled, { ThemeProvider } from 'styled-components'
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
 import theme from './../lib/theme'
+
+const GlobalStyle = createGlobalStyle`
+  .no-scroll {
+    overflow: hidden;
+  }
+`
 
 const LayoutWrapper = styled.div`
   background: #b1b0e5;
@@ -59,6 +65,7 @@ const Layout = ({ children }) => (
             content="oNthUkbBshKqAkf2gJBfacZcMPjRSio0GFzeETEvNuc"
           />
         </Helmet>
+        <GlobalStyle />
         <ThemeProvider theme={theme}>
           <Header
             menuLinks={data.site.siteMetadata.menuLinks}
