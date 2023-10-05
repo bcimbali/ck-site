@@ -1,5 +1,5 @@
 import { FaBars, FaTimes } from 'react-icons/fa'
-import React, { Component } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 
 import DropDown from './dropDown'
 import { Link } from 'gatsby'
@@ -102,54 +102,35 @@ const generateNavLinks = (link) => (
   </li>
 )
 
-export default class Header extends Component {
-  constructor({ menuLinks }) {
-    super()
-    this.linksMarkup = menuLinks.map(generateNavLinks)
-    this.toggleDropDown = this.toggleDropDown.bind(this)
-    this.closeDropDown = this.closeDropDown.bind(this)
-    this.state = {
-      isOpen: false,
-    }
-  }
+const Header = ({ menuLinks, siteTitle }) => {
+  const [isOpen, setIsOpen] = useState(false)
+  const linksMarkup = useMemo(
+    () => menuLinks.map(generateNavLinks),
+    [menuLinks]
+  )
 
-  toggleDropDown() {
-    this.setState((prevState) => ({
-      isOpen: !prevState.isOpen,
-    }))
-  }
-
-  closeDropDown() {
-    this.setState({
-      isOpen: false,
-    })
-  }
-
-  render() {
-    const { siteTitle } = this.props
-    return (
-      <HeaderContainer>
-        <HeaderWrapper>
-          <NameToHome>
-            <h1>
-              <StyledLink to="/">{siteTitle}</StyledLink>
-            </h1>
-          </NameToHome>
-          <HeaderNav>
-            <HeaderNavLinks>{this.linksMarkup}</HeaderNavLinks>
-            <MobileIcon onClick={() => this.toggleDropDown()}>
-              {this.state.isOpen ? <FaTimes /> : <FaBars />}
-            </MobileIcon>
-          </HeaderNav>
-        </HeaderWrapper>
-        <DropDown
-          isOpen={this.state.isOpen}
-          linksMarkup={this.linksMarkup}
-          closeDropDown={this.closeDropDown}
-        />
-      </HeaderContainer>
-    )
-  }
+  return (
+    <HeaderContainer>
+      <HeaderWrapper>
+        <NameToHome>
+          <h1>
+            <StyledLink to="/">{siteTitle}</StyledLink>
+          </h1>
+        </NameToHome>
+        <HeaderNav>
+          <HeaderNavLinks>{linksMarkup}</HeaderNavLinks>
+          <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </MobileIcon>
+        </HeaderNav>
+      </HeaderWrapper>
+      <DropDown
+        isOpen={isOpen}
+        linksMarkup={linksMarkup}
+        closeDropDown={() => setIsOpen(false)}
+      />
+    </HeaderContainer>
+  )
 }
 
 Header.propTypes = {
@@ -159,3 +140,5 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
+export default Header
