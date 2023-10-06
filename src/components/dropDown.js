@@ -32,25 +32,21 @@ const DropDownUl = styled.ul`
 
     li {
       display: none;
-      flex: 1 0 auto;
       border-bottom: 1px solid #ffffff;
     }
 
     li a {
       align-items: center;
-      background-color: ${theme.colors.orange};
       color: white;
       display: flex;
-      justify-content: center;
-      padding: 1rem 0;
-      text-align: center;
+      padding: 1rem 0 1rem 1.0875rem;
       text-decoration: none;
       transition: ${theme.transitions.transitionSpeed} all;
       width: 100vw;
     }
 
     li a span {
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
     ${$isOpen &&
@@ -64,7 +60,7 @@ const DropDownUl = styled.ul`
     `}
 
     li a:hover {
-      background-color: ${theme.colors.bg};
+      background-color: ${theme.colors.green};
       color: blue;
     }
   `}

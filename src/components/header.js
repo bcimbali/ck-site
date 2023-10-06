@@ -112,16 +112,31 @@ const MobileIcon = styled.i`
   }) => linkHover};
 `
 
-const generateNavLinks = (link) => (
-  <li key={link.name}>
-    <StyledLink to={link.link}>
-      <span>{link.name}</span>
-    </StyledLink>
-  </li>
-)
+const NavLinkWrapper = styled.li`
+  ${({ $isDisabled }) =>
+    $isDisabled &&
+    css`
+      opacity: 0.5;
+      pointer-events: none;
+    `}
+`
 
 const Header = ({ menuLinks, siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false)
+  const url = new URL(window.location.href)
+  const pathname = url?.pathname
+  const path = pathname.replace(/\/$/, '')
+
+  const generateNavLinks = (link) => {
+    return (
+      <NavLinkWrapper key={link.name} $isDisabled={link.link === path}>
+        <StyledLink to={link.link}>
+          <span>{link.name}</span>
+        </StyledLink>
+      </NavLinkWrapper>
+    )
+  }
+
   const linksMarkup = useMemo(
     () => menuLinks.map(generateNavLinks),
     [menuLinks]
