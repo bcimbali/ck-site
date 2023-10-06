@@ -128,7 +128,7 @@ const Header = ({ menuLinks, siteTitle }) => {
     url = new URL(window.location.href)
   }
   const pathname = url?.pathname
-  const path = pathname.replace(/\/$/, '')
+  const path = pathname?.replace(/\/$/, '')
 
   const generateNavLinks = (link) => {
     return (
