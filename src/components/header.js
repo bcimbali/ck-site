@@ -1,17 +1,25 @@
 import { FaBars, FaTimes } from 'react-icons/fa'
-import React, { Component } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 
 import DropDown from './dropDown'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const HeaderWrapper = styled.div`
-  align-items: center;
-  background: #b1b0e5;
-  display: flex;
-  justify-content: space-between;
-  padding: 1.45rem 1.0875rem;
+  ${({ theme: { colors, mq, nav } }) => css`
+    align-items: center;
+    background: ${colors.bg};
+    border-bottom: 1px solid ${colors.white};
+    display: flex;
+    justify-content: space-between;
+    height: ${nav.mobileNavHeight};
+    padding: 0 1.0875rem;
+
+    ${mq('md')(`
+      height: ${nav.desktopNavHeight};
+    `)}
+  `}
 `
 
 const HeaderContainer = styled.header`
@@ -22,14 +30,24 @@ const HeaderContainer = styled.header`
 
 /** Styling for Name in upper-left */
 const NameToHome = styled.div`
-  a {
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-  a:hover {
-    color: blue;
-  }
+  ${({ theme }) => css`
+    margin-right: 1rem;
+
+    a {
+      color: ${theme.colors.white};
+      font-size: 1.25rem;
+      text-decoration: none;
+    }
+    a:hover {
+      color: ${theme.colors.blue};
+    }
+
+    ${theme.mq('md')`
+      a {
+        font-size: 2rem;
+      }
+    `}
+  `}
 `
 
 /** Styling for Nav in upper-right */
@@ -94,60 +112,65 @@ const MobileIcon = styled.i`
   }) => linkHover};
 `
 
-const generateNavLinks = (link) => (
-  <li key={link.name}>
-    <StyledLink to={link.link}>{link.name}</StyledLink>
-  </li>
-)
+const NavLinkWrapper = styled.li`
+  ${({ $isDisabled }) =>
+    $isDisabled &&
+    css`
+      opacity: 0.5;
+      pointer-events: none;
+    `}
+`
 
-export default class Header extends Component {
-  constructor({ menuLinks }) {
-    super()
-    this.linksMarkup = menuLinks.map(generateNavLinks)
-    this.toggleDropDown = this.toggleDropDown.bind(this)
-    this.closeDropDown = this.closeDropDown.bind(this)
-    this.state = {
-      isOpen: false,
-    }
+const Header = ({ menuLinks, siteTitle }) => {
+  const [isOpen, setIsOpen] = useState(false)
+  let url = {}
+  if (typeof window !== 'undefined') {
+    url = new URL(window.location.href)
   }
+  const pathname = url?.pathname
+  const path = pathname?.replace(/\/$/, '')
 
-  toggleDropDown() {
-    this.setState((prevState) => ({
-      isOpen: !prevState.isOpen,
-    }))
-  }
-
-  closeDropDown() {
-    this.setState({
-      isOpen: false,
-    })
-  }
-
-  render() {
-    const { siteTitle } = this.props
+  const generateNavLinks = (link) => {
     return (
-      <HeaderContainer>
-        <HeaderWrapper>
-          <NameToHome>
-            <h1>
-              <StyledLink to="/">{siteTitle}</StyledLink>
-            </h1>
-          </NameToHome>
-          <HeaderNav>
-            <HeaderNavLinks>{this.linksMarkup}</HeaderNavLinks>
-            <MobileIcon onClick={() => this.toggleDropDown()}>
-              {this.state.isOpen ? <FaTimes /> : <FaBars />}
-            </MobileIcon>
-          </HeaderNav>
-        </HeaderWrapper>
-        <DropDown
-          isOpen={this.state.isOpen}
-          linksMarkup={this.linksMarkup}
-          closeDropDown={this.closeDropDown}
-        />
-      </HeaderContainer>
+      <NavLinkWrapper key={link.name} $isDisabled={link.link === path}>
+        <StyledLink to={link.link}>
+          <span>{link.name}</span>
+        </StyledLink>
+      </NavLinkWrapper>
     )
   }
+
+  const linksMarkup = useMemo(
+    () => menuLinks.map(generateNavLinks),
+    [menuLinks]
+  )
+
+  useEffect(() => {
+    document.body.classList.toggle('no-scroll', isOpen)
+  }, [isOpen])
+
+  return (
+    <HeaderContainer>
+      <HeaderWrapper>
+        <NameToHome>
+          <h1>
+            <StyledLink to="/">{siteTitle}</StyledLink>
+          </h1>
+        </NameToHome>
+        <HeaderNav>
+          <HeaderNavLinks>{linksMarkup}</HeaderNavLinks>
+          <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </MobileIcon>
+        </HeaderNav>
+      </HeaderWrapper>
+      <DropDown
+        isOpen={isOpen}
+        linksMarkup={linksMarkup}
+        closeDropDown={() => setIsOpen(false)}
+      />
+    </HeaderContainer>
+  )
 }
 
 Header.propTypes = {
@@ -157,3 +180,5 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
+export default Header

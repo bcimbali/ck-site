@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import { Spring } from 'react-spring'
 import onClickOutside from 'react-onclickoutside'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const DropDownContainer = styled.div`
   display: flex;
@@ -18,53 +17,63 @@ const DropDownItems = styled.div`
 `
 
 const DropDownUl = styled.ul`
-  background-color: #b1b0e5;
-  position: absolute;
-  width: 100vw;
-  z-index: 9;
-
-  li a {
-    border-bottom: 1px solid #ffffff;
-    color: white;
-    display: inline-block;
-    padding: 1rem 0;
-    text-align: center;
-    text-decoration: none;
-    transition: ${({
-        theme: {
-          transitions: { transitionSpeed },
-        },
-      }) => transitionSpeed}
-      all;
+  ${({ $isOpen, theme }) => css`
+    --desktopHeader: ${theme.nav.desktopNavHeight};
+    --mobileHeader: ${theme.nav.mobileNavHeight};
+    background-color: ${theme.colors.bg};
+    display: flex;
+    flex-direction: column;
+    max-height: 0px;
+    opacity: 0;
+    position: absolute;
+    transition: ${theme.transitions.transitionSpeed} all;
     width: 100vw;
-  }
+    z-index: 9;
 
-  li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: blue;
-  }
+    li {
+      display: none;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    li a {
+      align-items: center;
+      color: white;
+      display: flex;
+      padding: 1rem 0 1rem 1.0875rem;
+      text-decoration: none;
+      transition: ${theme.transitions.transitionSpeed} all;
+      width: 100vw;
+    }
+
+    li a span {
+      font-size: 2rem;
+    }
+
+    ${$isOpen &&
+    css`
+      height: calc(100vh - var(--mobileHeader));
+      max-height: 100vh;
+      opacity: 1;
+      li {
+        display: flex;
+      }
+    `}
+
+    li a:hover {
+      background-color: ${theme.colors.green};
+      color: blue;
+    }
+  `}
 `
 
-class DropDown extends Component {
-  handleClickOutside = (evt) => {
-    this.props.closeDropDown()
-  }
-
-  render() {
-    return (
-      <DropDownContainer>
-        {this.props.isOpen ? (
-          <DropDownItems>
-            <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
-              {(props) => (
-                <DropDownUl style={props}>{this.props.linksMarkup}</DropDownUl>
-              )}
-            </Spring>
-          </DropDownItems>
-        ) : null}
-      </DropDownContainer>
-    )
-  }
+const DropDown = ({ isOpen, linksMarkup }) => {
+  return (
+    <DropDownContainer>
+      <DropDownItems>
+        <DropDownUl $isOpen={isOpen}>{linksMarkup}</DropDownUl>
+      </DropDownItems>
+    </DropDownContainer>
+  )
 }
 
-export default onClickOutside(DropDown)
+export default DropDown

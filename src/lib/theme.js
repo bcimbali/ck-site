@@ -12,6 +12,7 @@ const theme = {
     blue: '#0000FF',
     fg: '#FFFFFF',
     green: '#a5dbcb',
+    orange: '#e8af72',
     white: '#FFFFFF',
   },
   mq: mediaQueries,
@@ -20,6 +21,10 @@ const theme = {
     linkHover: linkHover,
     opacityHover: opacityHover,
     transitionSpeed: transitionSpeed,
+  },
+  nav: {
+    mobileNavHeight: '60px',
+    desktopNavHeight: '80px',
   },
 }
 
