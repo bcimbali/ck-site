@@ -123,7 +123,10 @@ const NavLinkWrapper = styled.li`
 
 const Header = ({ menuLinks, siteTitle }) => {
   const [isOpen, setIsOpen] = useState(false)
-  const url = new URL(window.location.href)
+  let url = {}
+  if (typeof window !== 'undefined') {
+    url = new URL(window.location.href)
+  }
   const pathname = url?.pathname
   const path = pathname.replace(/\/$/, '')
 
