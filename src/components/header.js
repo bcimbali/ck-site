@@ -4,14 +4,22 @@ import React, { useEffect, useMemo, useState } from 'react'
 import DropDown from './dropDown'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const HeaderWrapper = styled.div`
-  align-items: center;
-  background: #b1b0e5;
-  display: flex;
-  justify-content: space-between;
-  padding: 1.45rem 1.0875rem;
+  ${({ theme: { colors, mq, nav } }) => css`
+    align-items: center;
+    background: ${colors.bg};
+    border-bottom: 1px solid ${colors.white};
+    display: flex;
+    justify-content: space-between;
+    height: ${nav.mobileNavHeight};
+    padding: 0 1.0875rem;
+
+    ${mq('md')(`
+      height: ${nav.desktopNavHeight};
+    `)}
+  `}
 `
 
 const HeaderContainer = styled.header`
@@ -22,14 +30,24 @@ const HeaderContainer = styled.header`
 
 /** Styling for Name in upper-left */
 const NameToHome = styled.div`
-  a {
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-  a:hover {
-    color: blue;
-  }
+  ${({ theme }) => css`
+    margin-right: 1rem;
+
+    a {
+      color: ${theme.colors.white};
+      font-size: 1.25rem;
+      text-decoration: none;
+    }
+    a:hover {
+      color: ${theme.colors.blue};
+    }
+
+    ${theme.mq('md')`
+      a {
+        font-size: 2rem;
+      }
+    `}
+  `}
 `
 
 /** Styling for Nav in upper-right */

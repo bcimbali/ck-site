@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import onClickOutside from 'react-onclickoutside'
 import styled, { css } from 'styled-components'
@@ -18,8 +18,9 @@ const DropDownItems = styled.div`
 
 const DropDownUl = styled.ul`
   ${({ $isOpen, theme }) => css`
+    --desktopHeader: ${theme.nav.desktopNavHeight};
+    --mobileHeader: ${theme.nav.mobileNavHeight};
     background-color: ${theme.colors.bg};
-    border-top: 1px solid ${theme.colors.white};
     display: flex;
     flex-direction: column;
     max-height: 0px;
@@ -54,7 +55,7 @@ const DropDownUl = styled.ul`
 
     ${$isOpen &&
     css`
-      height: 100vh;
+      height: calc(100vh - var(--mobileHeader));
       max-height: 100vh;
       opacity: 1;
       li {

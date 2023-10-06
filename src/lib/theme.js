@@ -22,6 +22,10 @@ const theme = {
     opacityHover: opacityHover,
     transitionSpeed: transitionSpeed,
   },
+  nav: {
+    mobileNavHeight: '60px',
+    desktopNavHeight: '80px',
+  },
 }
 
 export default theme
