@@ -1,5 +1,7 @@
 ---
 slug: '/how-not-to-embarass-yourself'
+source: 'One North Interactive'
+type: 'Blog Post'
 title: "How Not to Embarrass Yourself at This Year's Holiday Parties"
 hero: './../images/how-not-to-embarass-yourself.jpg'
 homepage: 'yes'
