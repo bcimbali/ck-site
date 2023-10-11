@@ -26,11 +26,17 @@ const LayoutWrapper = styled.div`
 `
 
 const MainContent = styled.div`
+  --mobileHeader: ${theme.nav.mobileNavHeight};
+  --mobileMargin: ${theme.layout.mobileMargin};
+  --desktopMargin: ${theme.layout.desktopMargin};
   display: flex;
   flex: 1;
   justify-content: center;
+  margin-top: calc(var(--mobileHeader) + var(--mobileMargin));
   padding: 0 ${theme.layout.mobileMargin};
+
   ${theme.mq('md')`
+    margin-top: var(--desktopMargin);
     padding: 0 ${theme.layout.desktopMargin};
   `}
 `

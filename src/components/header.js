@@ -7,9 +7,10 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 const HeaderWrapper = styled.div`
-  ${({ theme: { colors, layout, maxWidth, mq, nav } }) => css`
+  ${({ theme: { colors, layout, mq, nav, shadows } }) => css`
     background: ${colors.bg};
     border-bottom: 1px solid ${colors.white};
+    box-shadow: ${shadows.low};
     display: flex;
     height: ${nav.mobileNavHeight};
     justify-content: center;
@@ -17,6 +18,7 @@ const HeaderWrapper = styled.div`
     width: 100%;
 
     ${mq('md')(`
+      box-shadow: unset;
       height: ${nav.desktopNavHeight};
       padding: 0 ${layout.desktopMargin};
     `)}
@@ -34,11 +36,16 @@ const InnerHeaderWrapper = styled.div`
 `
 
 const HeaderContainer = styled.header`
-  ${({ theme: { colors } }) => css`
+  ${({ theme: { mq } }) => css`
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.45rem;
+    position: fixed;
+    z-index: 5;
+
+    ${mq('md')`
+      position: static;
+    `}
   `}
 `
 
