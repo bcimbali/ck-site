@@ -36,6 +36,8 @@ const HOMEPAGE_QUERY = graphql`
             title
             homepage
             slug
+            source
+            type
           }
         }
       }
@@ -69,7 +71,9 @@ const IndexPage = () => (
                       node.frontmatter.hero.childImageSharp.gatsbyImageData
                     }
                     slug={node.frontmatter.slug}
+                    source={node.frontmatter.source}
                     title={node.frontmatter.title}
+                    type={node.frontmatter.type}
                   />
                 )
               } else {

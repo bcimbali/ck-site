@@ -1,6 +1,8 @@
 ---
 slug: '/booking-careers-site'
-title: 'Booking.com Careers Site'
+title: 'Careers Site'
+source: 'Booking.com'
+type: 'Website'
 hero: './../images/booking-careers-site.jpg'
 homepage: 'yes'
 content: 'blog'

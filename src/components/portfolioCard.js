@@ -38,7 +38,9 @@ const TitleContainer = styled.div`
   align-items: center;
   display: flex;
   flex: 1 0 auto;
+  flex-direction: column;
   justify-content: center;
+  padding: 1rem;
 `
 
 const TitleText = styled.h2`
@@ -48,12 +50,16 @@ const TitleText = styled.h2`
   text-align: center;
 `
 
+const SourceText = styled.p``
+
 const StyledLink = styled(Link)`
   display: flex;
   width: 100%;
 `
 
-const PortfolioCard = ({ altText, image, slug, title }) => {
+const TypeText = styled.p``
+
+const PortfolioCard = ({ altText, image, slug, source, title, type }) => {
   return (
     <StyledLink to={`/portfolio-items${slug}`}>
       <CardContainer key={slug}>
@@ -66,7 +72,9 @@ const PortfolioCard = ({ altText, image, slug, title }) => {
           />
         </ImgContainer>
         <TitleContainer>
+          <SourceText>{source}</SourceText>
           <TitleText>{title}</TitleText>
+          <TypeText>{type}</TypeText>
         </TitleContainer>
       </CardContainer>
     </StyledLink>
