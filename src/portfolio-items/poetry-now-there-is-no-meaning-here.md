@@ -1,6 +1,8 @@
 ---
 slug: '/poetry-now-there-is-no-meaning-here'
-title: 'PoetryNow: There Is No Meaning Here'
+source: 'PoetryNow'
+type: 'Podcast'
+title: 'There is No Meaning Here'
 hero: './../images/poetry-now-there-is-no-meaning-here.jpeg'
 homepage: 'yes'
 content: 'blog'

@@ -1,5 +1,7 @@
 ---
 slug: '/the-great-smoky-mountains'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'The Great Smoky Mountains: Magic, Mountains and Moonshine'
 hero: './../images/the-great-smoky-mountains.jpeg'
 homepage: 'yes'

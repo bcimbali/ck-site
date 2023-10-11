@@ -1,6 +1,8 @@
 ---
 slug: '/dazzling-days-at-lake-como'
-title: 'Dazzling Days at Lake Como'
+source: 'Roads by Porsche'
+type: 'Article'
+title: 'Dazzling Days at Lake Como: Discover Hollywood in the Italian Countryside'
 hero: './../images/dazzling-days-at-lake-como.jpeg'
 homepage: 'yes'
 content: 'blog'
