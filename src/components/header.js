@@ -34,11 +34,16 @@ const InnerHeaderWrapper = styled.div`
 `
 
 const HeaderContainer = styled.header`
-  ${({ theme: { colors } }) => css`
+  ${({ theme: { mq } }) => css`
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.45rem;
+    position: fixed;
+    z-index: 5;
+
+    ${mq('md')`
+      position: static;
+    `}
   `}
 `
 
