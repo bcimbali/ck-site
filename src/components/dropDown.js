@@ -1,6 +1,5 @@
 import React from 'react'
 
-import onClickOutside from 'react-onclickoutside'
 import styled, { css } from 'styled-components'
 
 const DropDownContainer = styled.div`
@@ -32,14 +31,15 @@ const DropDownUl = styled.ul`
 
     li {
       display: none;
-      border-bottom: 1px solid #ffffff;
     }
 
     li a {
       align-items: center;
+      border-bottom: 1px solid ${theme.colors.white};
       color: white;
       display: flex;
-      padding: 1rem 0 1rem 1.0875rem;
+      margin: 0 1.0875rem;
+      padding: 1rem 0;
       text-decoration: none;
       transition: ${theme.transitions.transitionSpeed} all;
       width: 100vw;

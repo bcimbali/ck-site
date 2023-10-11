@@ -11,6 +11,8 @@ const CardContainer = styled.article`
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  width: 100%;
+
   transition: all
     ${({
       theme: {
@@ -20,6 +22,7 @@ const CardContainer = styled.article`
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: ${({ theme: { shadows } }) => shadows.low};
     h2 {
       color: blue;
     }
@@ -46,6 +49,7 @@ const TitleText = styled.h2`
 
 const StyledLink = styled(Link)`
   display: flex;
+  width: 100%;
 `
 
 const PortfolioCard = ({ altText, image, slug, title }) => {
@@ -53,7 +57,12 @@ const PortfolioCard = ({ altText, image, slug, title }) => {
     <StyledLink to={`/portfolio-items${slug}`}>
       <CardContainer key={slug}>
         <ImgContainer>
-          <GatsbyImage image={image} alt={altText} />
+          <GatsbyImage
+            image={image}
+            alt={altText}
+            objectFit="cover"
+            style={{ width: '100%' }}
+          />
         </ImgContainer>
         <TitleContainer>
           <TitleText>{title}</TitleText>

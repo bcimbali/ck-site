@@ -7,25 +7,39 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 const HeaderWrapper = styled.div`
-  ${({ theme: { colors, mq, nav } }) => css`
-    align-items: center;
+  ${({ theme: { colors, layout, maxWidth, mq, nav } }) => css`
     background: ${colors.bg};
     border-bottom: 1px solid ${colors.white};
     display: flex;
-    justify-content: space-between;
     height: ${nav.mobileNavHeight};
-    padding: 0 1.0875rem;
+    justify-content: center;
+    padding: 0 ${layout.mobileMargin};
+    width: 100%;
 
     ${mq('md')(`
       height: ${nav.desktopNavHeight};
+      padding: 0 ${layout.desktopMargin};
     `)}
   `}
 `
 
+const InnerHeaderWrapper = styled.div`
+  ${({ theme: { layout, maxWidth, nav } }) => css`
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: ${maxWidth};
+    width: 100%;
+  `}
+`
+
 const HeaderContainer = styled.header`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.45rem;
+  ${({ theme: { colors } }) => css`
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.45rem;
+  `}
 `
 
 /** Styling for Name in upper-left */
@@ -79,11 +93,12 @@ const HeaderNavLinks = styled.ul`
 
   ${({ theme: { mq } }) => mq('md')`
     display: flex;
+    gap: 1.5rem;
 
     a {
       color: #ffffff;
       display: flex;
-      margin: 0 1rem;
+      margin: 0;
       text-decoration: none;
     }
     a:hover {
@@ -101,7 +116,7 @@ const StyledLink = styled(Link)`
     theme: {
       transitions: { linkHover },
     },
-  }) => linkHover};
+  }) => linkHover}
 `
 
 const MobileIcon = styled.i`
@@ -152,17 +167,19 @@ const Header = ({ menuLinks, siteTitle }) => {
   return (
     <HeaderContainer>
       <HeaderWrapper>
-        <NameToHome>
-          <h1>
-            <StyledLink to="/">{siteTitle}</StyledLink>
-          </h1>
-        </NameToHome>
-        <HeaderNav>
-          <HeaderNavLinks>{linksMarkup}</HeaderNavLinks>
-          <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <FaTimes /> : <FaBars />}
-          </MobileIcon>
-        </HeaderNav>
+        <InnerHeaderWrapper>
+          <NameToHome>
+            <h1>
+              <StyledLink to="/">{siteTitle}</StyledLink>
+            </h1>
+          </NameToHome>
+          <HeaderNav>
+            <HeaderNavLinks>{linksMarkup}</HeaderNavLinks>
+            <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <FaTimes /> : <FaBars />}
+            </MobileIcon>
+          </HeaderNav>
+        </InnerHeaderWrapper>
       </HeaderWrapper>
       <DropDown
         isOpen={isOpen}

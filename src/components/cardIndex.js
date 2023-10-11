@@ -6,7 +6,6 @@ const PortfolioContainer = styled.section`
   grid-template-columns: 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
-  max-width: 80vw;
   width: 100%;
 
   a {

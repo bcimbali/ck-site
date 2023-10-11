@@ -14,7 +14,6 @@ const PortfolioWrapper = styled.main`
   flex-direction: column;
   margin-bottom: 2rem;
   max-width: ${maxWidth};
-  width: 80vw;
 
   a {
     text-decoration: none;

@@ -17,6 +17,9 @@ const ImgContainer = styled.div`
   margin-bottom: 2rem;
   max-width: 500px;
   width: 100%;
+  &:hover {
+    box-shadow: ${({ theme: { shadows } }) => shadows.low};
+  }
 `
 
 const InfoBlurb = styled.div`
@@ -47,7 +50,6 @@ const PortfolioWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
-  width: 80vw;
 `
 
 const PdfLinkWrapper = styled.a`
