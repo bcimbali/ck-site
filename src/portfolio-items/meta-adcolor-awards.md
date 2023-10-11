@@ -1,6 +1,8 @@
 ---
 slug: '/meta-adcolor-awards'
-title: 'Meta ADCOLOR Awards Case Study'
+source: 'Meta / Facebook + One North'
+title: 'Redefining Representation at Meta'
+type: 'Case Study'
 hero: './../images/meta-adcolor-awards.jpg'
 homepage: 'yes'
 content: 'blog'

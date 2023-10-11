@@ -1,6 +1,8 @@
 ---
 slug: '/golden-cinema-theater'
+source: 'Roads by Porsche'
 title: 'Golden Cinema Theater: Spanish Film Heritage in Madrid'
+type: 'Article'
 hero: './../images/golden-cinema-theater.jpeg'
 homepage: 'yes'
 content: 'blog'
