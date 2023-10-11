@@ -1,6 +1,8 @@
 ---
 slug: '/cheese-and-chocolate-collection'
-title: 'Cheese and Chocolate Collection'
+source: 'Vosges Haut-Chocolat'
+title: 'The Cheese and Chocolate Collection'
+type: 'Book'
 hero: './../images/cheese-and-chocolate-collection.jpeg'
 homepage: 'yes'
 content: 'blog'
