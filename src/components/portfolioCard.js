@@ -6,7 +6,8 @@ import styled from 'styled-components'
 
 const CardContainer = styled.article`
   align-items: center;
-  border: 2px solid #ffffff;
+  border: 0.125rem solid #ffffff;
+  border-radius: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
