@@ -47,7 +47,6 @@ const PortfolioWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
-  width: 80vw;
 `
 
 const PdfLinkWrapper = styled.a`

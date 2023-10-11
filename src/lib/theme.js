@@ -26,6 +26,10 @@ const theme = {
     mobileNavHeight: '60px',
     desktopNavHeight: '80px',
   },
+  layout: {
+    mobileMargin: '1.5rem',
+    desktopMargin: '1.75rem',
+  },
 }
 
 export default theme

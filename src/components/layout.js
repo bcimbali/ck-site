@@ -29,6 +29,14 @@ const MainContent = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
+  padding: 0 ${theme.layout.mobileMargin};
+  ${theme.mq('md')`
+    padding: 0 ${theme.layout.desktopMargin};
+  `}
+`
+
+const InnerMainContent = styled.div`
+  max-width: ${theme.maxWidth};
 `
 
 const Layout = ({ children }) => (
@@ -71,7 +79,9 @@ const Layout = ({ children }) => (
             menuLinks={data.site.siteMetadata.menuLinks}
             siteTitle={data.site.siteMetadata.title}
           />
-          <MainContent>{children}</MainContent>
+          <MainContent>
+            <InnerMainContent>{children}</InnerMainContent>
+          </MainContent>
           <Footer />
         </ThemeProvider>
       </LayoutWrapper>
