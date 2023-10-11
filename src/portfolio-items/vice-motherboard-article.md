@@ -1,5 +1,7 @@
 ---
 slug: '/how-a-78-year-old-estonian-composer-became-the-hottest-thing-in-music'
+source: 'Vice'
+type: 'Article'
 title: 'How a 78-Year-Old Estonian Composer Became the Hottest Thing in Music'
 hero: './../images/vice-motherboard-article.jpeg'
 content: 'blog'

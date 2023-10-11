@@ -48,6 +48,8 @@ const PORTFOLIO_QUERY = graphql`
             title
             slug
             portfolioType
+            source
+            type
           }
         }
       }
@@ -79,7 +81,9 @@ const Portfolio = () => (
                         node.frontmatter.hero.childImageSharp.gatsbyImageData
                       }
                       slug={node.frontmatter.slug}
+                      source={node.frontmatter.source}
                       title={node.frontmatter.title}
+                      type={node.frontmatter.type}
                     />
                   )
                 })}

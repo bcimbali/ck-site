@@ -1,6 +1,8 @@
 ---
 slug: '/indulgence-at-the-savoy'
-title: 'Indulgence at the Savoy'
+source: 'Roads by Porsche'
+type: 'Article'
+title: 'Indulgence at the Savoy: Enjoy French Cheese and Incredible Views'
 hero: './../images/indulgence-at-the-savoy.jpeg'
 homepage: 'yes'
 content: 'blog'

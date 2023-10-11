@@ -1,6 +1,8 @@
 ---
 slug: '/discover-dutch-gold'
-title: 'Discover Dutch Gold'
+source: 'Roads by Porsche'
+type: 'Article'
+title: 'Discover Dutch Gold: A Tasty Trip Through Katwoude'
 hero: './../images/discover-dutch-gold.jpg'
 homepage: 'yes'
 content: 'blog'

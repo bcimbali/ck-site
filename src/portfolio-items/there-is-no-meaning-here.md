@@ -1,6 +1,8 @@
 ---
 slug: '/there-is-no-meaning-here'
-title: 'There Is No Meaning Here on The Poetry Foundation'
+source: 'Poetry Foundation'
+type: 'Poem'
+title: 'There is No Meaning Here'
 hero: './../images/there-is-no-meaning-here.jpeg'
 homepage: 'yes'
 content: 'blog'

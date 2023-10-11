@@ -1,6 +1,8 @@
 ---
 slug: '/just-blowing-bubbles'
-title: 'Just Blowing Bubbles'
+source: 'Roads by Porsche'
+type: 'Article'
+title: 'Just Blowing Bubbles: The Birthplace of the Legendary Bubble Tea'
 hero: './../images/just-blowing-bubbles.jpeg'
 homepage: 'yes'
 content: 'blog'
