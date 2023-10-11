@@ -13,14 +13,16 @@ const CardContainer = styled.article`
   overflow: hidden;
   width: 100%;
 
-  ${({
-    theme: {
-      transitions: { transitionSpeed },
-    },
-  }) => transitionSpeed};
+  transition: all
+    ${({
+      theme: {
+        transitions: { transitionSpeed },
+      },
+    }) => transitionSpeed};
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: ${({ theme: { shadows } }) => shadows.low};
     h2 {
       color: blue;
     }

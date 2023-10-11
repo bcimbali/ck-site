@@ -30,6 +30,9 @@ const theme = {
     mobileMargin: '1.5rem',
     desktopMargin: '1.75rem',
   },
+  shadows: {
+    low: '0 3px 10px rgb(0 0 0 / 0.2);',
+  },
 }
 
 export default theme

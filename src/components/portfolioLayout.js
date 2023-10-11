@@ -17,6 +17,9 @@ const ImgContainer = styled.div`
   margin-bottom: 2rem;
   max-width: 500px;
   width: 100%;
+  &:hover {
+    box-shadow: ${({ theme: { shadows } }) => shadows.low};
+  }
 `
 
 const InfoBlurb = styled.div`
