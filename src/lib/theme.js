@@ -1,9 +1,18 @@
 import breakpoints from './breakpoints'
 import maxWidth, { transitionSpeed, opacityHover, linkHover } from './utils'
+import { css } from 'styled-components'
 
 const mediaQueries = (key) => {
   return (style) => `@media (min-width: ${breakpoints[key]}) { ${style} }`
 }
+
+const h2 = css`
+  font-size: 1.25rem;
+
+  ${mediaQueries('lg')`
+    font-size: 1.75rem;
+  `}
+`
 
 const theme = {
   colors: {
@@ -14,6 +23,9 @@ const theme = {
     green: '#a5dbcb',
     orange: '#e8af72',
     white: '#FFFFFF',
+  },
+  headings: {
+    h2: h2,
   },
   mq: mediaQueries,
   maxWidth: maxWidth,
