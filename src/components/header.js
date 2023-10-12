@@ -26,7 +26,7 @@ const HeaderWrapper = styled.div`
 `
 
 const InnerHeaderWrapper = styled.div`
-  ${({ theme: { layout, maxWidth, nav } }) => css`
+  ${({ theme: { maxWidth } }) => css`
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -135,11 +135,14 @@ const MobileIcon = styled.i`
 `
 
 const NavLinkWrapper = styled.li`
-  ${({ $isDisabled }) =>
+  ${({ $isDisabled, theme: { colors } }) =>
     $isDisabled &&
     css`
       opacity: 0.5;
       pointer-events: none;
+      span {
+        text-decoration: underline;
+      }
     `}
 `
 
