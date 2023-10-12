@@ -21,8 +21,12 @@ const theme = {
     blue: '#0000FF',
     fg: '#FFFFFF',
     green: '#a5dbcb',
+    indigo: '#6b5b95',
     orange: '#e8af72',
+    purple: '#b1b0e5',
+    red: '#ff6f69',
     white: '#FFFFFF',
+    yellow: '#ffef96',
   },
   headings: {
     h2: h2,
