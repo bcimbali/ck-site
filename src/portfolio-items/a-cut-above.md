@@ -1,5 +1,7 @@
 ---
 slug: '/a-cut-above'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'A Cut Above: Yogis Barbershop, a Cape Town Legend'
 hero: './../images/a-cut-above.jpeg'
 homepage: 'no'

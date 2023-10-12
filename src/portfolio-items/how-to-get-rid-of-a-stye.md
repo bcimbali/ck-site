@@ -1,5 +1,7 @@
 ---
 slug: '/how-to-get-rid-of-a-stye'
+source: 'Health.com'
+type: 'Article'
 title: 'How to Get Rid of a Stye'
 hero: './../images/how-to-get-rid-of-a-stye.jpg'
 homepage: 'no'

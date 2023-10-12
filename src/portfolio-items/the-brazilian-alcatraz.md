@@ -1,5 +1,7 @@
 ---
 slug: '/the-brazilian-alcatraz'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'The Brazilian Alcatraz'
 hero: './../images/the-brazilian-alcatraz.jpeg'
 homepage: 'no'

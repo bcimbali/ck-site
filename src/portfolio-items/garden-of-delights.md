@@ -1,5 +1,7 @@
 ---
 slug: '/garden-of-delights'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'Garden of Delights: The Verona Palace and Giardino Giusti'
 hero: './../images/garden-of-delights.jpeg'
 homepage: 'no'

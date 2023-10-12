@@ -1,5 +1,7 @@
 ---
 slug: '/walking-with-giants'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'Walking with Giants'
 hero: './../images/walking-with-giants.jpeg'
 homepage: 'no'
