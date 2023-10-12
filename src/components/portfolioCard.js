@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 
 import { GatsbyImage } from 'gatsby-plugin-image'
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const CardContainer = styled.article`
   align-items: center;
@@ -24,7 +24,8 @@ const CardContainer = styled.article`
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: ${({ theme: { shadows } }) => shadows.low};
-    h2 {
+    h2,
+    p {
       color: blue;
     }
   }
@@ -39,25 +40,40 @@ const TitleContainer = styled.div`
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
-  justify-content: center;
+  gap: 0.75rem;
+  justify-content: space-between;
   padding: 1rem;
 `
 
 const TitleText = styled.h2`
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 1.5rem;
-  text-align: center;
+  ${({
+    theme: {
+      headings: { h2 },
+      colors,
+    },
+  }) => css`
+    ${h2}
+    color: ${colors.white};
+    text-align: center;
+  `};
 `
 
-const SourceText = styled.p``
+const SourceText = styled.p`
+  ${({ theme: { colors } }) => css`
+    color: ${colors.white};
+  `}
+`
 
 const StyledLink = styled(Link)`
   display: flex;
   width: 100%;
 `
 
-const TypeText = styled.p``
+const TypeText = styled.p`
+  ${({ theme: { colors } }) => css`
+    color: ${colors.white};
+  `}
+`
 
 const PortfolioCard = ({ altText, image, slug, source, title, type }) => {
   return (
