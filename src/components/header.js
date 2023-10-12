@@ -155,19 +155,18 @@ const Header = ({ menuLinks, siteTitle }) => {
   const pathname = url?.pathname
   const path = pathname?.replace(/\/$/, '')
 
-  const generateNavLinks = (link) => {
-    return (
-      <NavLinkWrapper key={link.name} $isDisabled={link.link === path}>
-        <StyledLink to={link.link}>
-          <span>{link.name}</span>
-        </StyledLink>
-      </NavLinkWrapper>
-    )
-  }
-
   const linksMarkup = useMemo(
-    () => menuLinks.map(generateNavLinks),
-    [menuLinks]
+    () =>
+      menuLinks.map((link) => {
+        return (
+          <NavLinkWrapper key={link.name} $isDisabled={link.link === path}>
+            <StyledLink to={link.link}>
+              <span>{link.name}</span>
+            </StyledLink>
+          </NavLinkWrapper>
+        )
+      }),
+    [menuLinks, path]
   )
 
   useEffect(() => {
