@@ -28,6 +28,15 @@ const ContentImgWrapper = styled.div`
   `}
 `
 
+const Divider = styled.hr`
+  ${({ theme: { colors } }) => css`
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: ${colors.white};
+  `}
+`
+
 const ImgContainer = styled.div`
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -40,7 +49,8 @@ const ImgContainer = styled.div`
 
 const KeywordsText = styled.p`
   ${({ theme: { colors } }) => css`
-    color: ${colors.white};
+    color: ${colors.black};
+    font-family: 'Quicksand';
     font-style: italic;
     text-align: center;
   `}
@@ -79,9 +89,13 @@ const TitleText = styled.h1`
 `
 
 const SourceText = styled.p`
-  ${({ theme: { colors } }) => css`
+  ${({ theme: { colors, mq } }) => css`
     color: ${colors.white};
+    font-size: 1.25rem;
     text-align: center;
+    ${mq('md')`
+      font-size: 1.5rem;
+    `}
   `}
 `
 
@@ -118,6 +132,7 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
         <SourceText>{markdownRemark?.frontmatter?.source}</SourceText>
         <TitleText>{markdownRemark?.frontmatter?.title}</TitleText>
         <KeywordsText>{markdownRemark?.frontmatter?.keywords}</KeywordsText>
+        <Divider />
       </TitleContainer>
       <ContentImgWrapper>
         {markdownRemark.frontmatter.content === 'ebook' ? (

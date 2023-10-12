@@ -6,7 +6,12 @@ const mediaQueries = (key) => {
   return (style) => `@media (min-width: ${breakpoints[key]}) { ${style} }`
 }
 
+export const headingFonts = 'Quicksand, arial'
+export const bodyFonts = 'IBM Plex Mono, monospace'
+// export const bodyFonts = 'IBM Plex Serif'
+
 const h1 = css`
+  font-family: ${headingFonts};
   font-size: 1.75rem;
   line-height: normal;
 
@@ -16,6 +21,7 @@ const h1 = css`
 `
 
 const h2 = css`
+  font-family: ${headingFonts};
   font-size: 1.25rem;
   line-height: normal;
 
@@ -37,6 +43,10 @@ const theme = {
     red: '#ff6f69',
     white: '#FFFFFF',
     yellow: '#ffef96',
+  },
+  fonts: {
+    headings: headingFonts,
+    body: bodyFonts,
   },
   headings: {
     h1: h1,

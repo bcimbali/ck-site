@@ -45,7 +45,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['IBM Plex Mono', 'monospace'],
+          families: ['IBM Plex Mono', 'monospace', 'Quicksand'],
         },
       },
     },
