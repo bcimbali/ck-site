@@ -2,7 +2,7 @@ import React from 'react'
 
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 
 const BlogLinkWrapper = styled.a`
@@ -18,6 +18,8 @@ const ContentImgWrapper = styled.div`
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 0 auto;
 
     ${mq('md')`
       align-items: center;
@@ -77,8 +79,16 @@ const PdfLinkWrapper = styled.a`
   }) => opacityHover};
 `
 
+const StyledLink = styled(Link)`
+  ${({
+    theme: {
+      transitions: { linkHover },
+    },
+  }) => linkHover}
+  margin: 0 auto;
+`
+
 const PortfolioLayout = ({ data: { markdownRemark } }) => {
-  console.log('In portfolioLayout.js, this is markdownRemark: ', markdownRemark)
   return (
     <Layout>
       <TitleText>{markdownRemark?.frontmatter?.portfolioDetailTitle}</TitleText>
@@ -92,12 +102,7 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
               rel="noopener noreferrer"
             >
               <GatsbyImage
-                image={
-                  markdownRemark.frontmatter.hero.childImageSharp
-                    .gatsbyImageData
-                }
-                objectFit="cover"
-                style={{ width: '100%' }}
+                image={markdownRemark.frontmatter.hero.childImageSharp.fluid}
               />
             </PdfLinkWrapper>
           </>
@@ -114,6 +119,7 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
                   markdownRemark.frontmatter.hero.childImageSharp
                     .gatsbyImageData
                 }
+                alt={markdownRemark?.frontmatter?.portfolioDetailTitle}
               />
             </BlogLinkWrapper>
           </ImgContainer>
@@ -123,6 +129,14 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
             __html: markdownRemark.html,
           }}
         />
+        <StyledLink
+          aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
+          href={markdownRemark.frontmatter.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {`Link to ${markdownRemark.frontmatter.type}`}
+        </StyledLink>
       </ContentImgWrapper>
     </Layout>
   )
@@ -136,6 +150,10 @@ export const query = graphql`
         hero {
           childImageSharp {
             gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
+            fluid(maxWidth: 500, quality: 100) {
+              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluidLimitPresentationSize
+            }
           }
         }
         homepage
@@ -144,6 +162,7 @@ export const query = graphql`
         content
         link
         portfolioDetailTitle
+        type
         # Commenting out until ebook support is added back:
         # ebook {
         #   publicURL
