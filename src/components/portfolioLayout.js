@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
@@ -62,55 +62,52 @@ const PdfLinkWrapper = styled.a`
   }) => opacityHover};
 `
 
-export default class portfolioLayout extends Component {
-  render() {
-    const { markdownRemark } = this.props.data
-    return (
-      <Layout>
-        <PortfolioWrapper>
-          <TitleText>{markdownRemark.frontmatter.title}</TitleText>
-          <InfoBlurb
-            dangerouslySetInnerHTML={{
-              __html: markdownRemark.html,
-            }}
-          />
-          {markdownRemark.frontmatter.content === 'ebook' ? (
-            <>
-              <PdfLinkWrapper
-                aria-label={`Link to ${markdownRemark?.frontmatter?.title} PDF`}
-                href={markdownRemark.frontmatter.ebook.publicURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GatsbyImage
-                  image={
-                    markdownRemark.frontmatter.hero.childImageSharp
-                      .gatsbyImageData
-                  }
-                />
-              </PdfLinkWrapper>
-            </>
-          ) : markdownRemark.frontmatter.content === 'blog' ? (
-            <ImgContainer>
-              <BlogLinkWrapper
-                aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
-                href={markdownRemark.frontmatter.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GatsbyImage
-                  image={
-                    markdownRemark.frontmatter.hero.childImageSharp
-                      .gatsbyImageData
-                  }
-                />
-              </BlogLinkWrapper>
-            </ImgContainer>
-          ) : null}
-        </PortfolioWrapper>
-      </Layout>
-    )
-  }
+const PortfolioLayout = ({ data: { markdownRemark } }) => {
+  return (
+    <Layout>
+      <PortfolioWrapper>
+        <TitleText>{markdownRemark.frontmatter.title}</TitleText>
+        <InfoBlurb
+          dangerouslySetInnerHTML={{
+            __html: markdownRemark.html,
+          }}
+        />
+        {markdownRemark.frontmatter.content === 'ebook' ? (
+          <>
+            <PdfLinkWrapper
+              aria-label={`Link to ${markdownRemark?.frontmatter?.title} PDF`}
+              href={markdownRemark.frontmatter.ebook.publicURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GatsbyImage
+                image={
+                  markdownRemark.frontmatter.hero.childImageSharp
+                    .gatsbyImageData
+                }
+              />
+            </PdfLinkWrapper>
+          </>
+        ) : markdownRemark.frontmatter.content === 'blog' ? (
+          <ImgContainer>
+            <BlogLinkWrapper
+              aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
+              href={markdownRemark.frontmatter.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GatsbyImage
+                image={
+                  markdownRemark.frontmatter.hero.childImageSharp
+                    .gatsbyImageData
+                }
+              />
+            </BlogLinkWrapper>
+          </ImgContainer>
+        ) : null}
+      </PortfolioWrapper>
+    </Layout>
+  )
 }
 
 export const query = graphql`
@@ -136,3 +133,5 @@ export const query = graphql`
     }
   }
 `
+
+export default PortfolioLayout
