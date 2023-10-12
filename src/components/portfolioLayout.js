@@ -3,7 +3,7 @@ import React from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from './layout'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const BlogLinkWrapper = styled.a`
   ${({
@@ -13,43 +13,58 @@ const BlogLinkWrapper = styled.a`
   }) => opacityHover};
 `
 
+const ContentImgWrapper = styled.div`
+  ${({ theme: { mq } }) => css`
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+
+    ${mq('md')`
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+    `}
+  `}
+`
+
 const ImgContainer = styled.div`
+  border-radius: 12px;
   margin-bottom: 2rem;
-  max-width: 500px;
+  overflow: hidden;
   width: 100%;
   &:hover {
     box-shadow: ${({ theme: { shadows } }) => shadows.low};
   }
 `
 
-const InfoBlurb = styled.div`
-  color: #ffffff;
-  margin-bottom: 2rem;
-  max-width: 500px;
-  text-align: center;
-  width: 100%;
-
-  iframe {
-    margin-top: 2rem;
-  }
+const MarkdownContent = styled.div`
+  ${({ theme: { colors, headings } }) => css`
+    color: ${colors.white};
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    h1 {
+      ${headings.h1}
+    }
+    h2 {
+      ${headings.h2}
+    }
+    p {
+      font-size: 1.25rem;
+      line-height: normal;
+    }
+  `}
 `
 
 const TitleText = styled.h1`
-  color: #15171c;
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
-  text-align: center;
-
-  img {
-    margin-top: 1rem;
-  }
-`
-
-const PortfolioWrapper = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 2rem;
+  ${({ theme: { colors, headings } }) => css`
+    color: ${colors.white};
+    margin-bottom: 3rem;
+    text-align: center;
+    ${headings.h1}
+  `}
 `
 
 const PdfLinkWrapper = styled.a`
@@ -63,15 +78,11 @@ const PdfLinkWrapper = styled.a`
 `
 
 const PortfolioLayout = ({ data: { markdownRemark } }) => {
+  console.log('In portfolioLayout.js, this is markdownRemark: ', markdownRemark)
   return (
     <Layout>
-      <PortfolioWrapper>
-        <TitleText>{markdownRemark.frontmatter.title}</TitleText>
-        <InfoBlurb
-          dangerouslySetInnerHTML={{
-            __html: markdownRemark.html,
-          }}
-        />
+      <TitleText>{markdownRemark?.frontmatter?.portfolioDetailTitle}</TitleText>
+      <ContentImgWrapper>
         {markdownRemark.frontmatter.content === 'ebook' ? (
           <>
             <PdfLinkWrapper
@@ -85,6 +96,8 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
                   markdownRemark.frontmatter.hero.childImageSharp
                     .gatsbyImageData
                 }
+                objectFit="cover"
+                style={{ width: '100%' }}
               />
             </PdfLinkWrapper>
           </>
@@ -105,7 +118,12 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
             </BlogLinkWrapper>
           </ImgContainer>
         ) : null}
-      </PortfolioWrapper>
+        <MarkdownContent
+          dangerouslySetInnerHTML={{
+            __html: markdownRemark.html,
+          }}
+        />
+      </ContentImgWrapper>
     </Layout>
   )
 }
@@ -125,6 +143,7 @@ export const query = graphql`
         title
         content
         link
+        portfolioDetailTitle
         # Commenting out until ebook support is added back:
         # ebook {
         #   publicURL

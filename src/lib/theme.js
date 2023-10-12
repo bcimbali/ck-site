@@ -6,8 +6,18 @@ const mediaQueries = (key) => {
   return (style) => `@media (min-width: ${breakpoints[key]}) { ${style} }`
 }
 
+const h1 = css`
+  font-size: 1.75rem;
+  line-height: normal;
+
+  ${mediaQueries('lg')`
+    font-size: 2.5rem;
+  `}
+`
+
 const h2 = css`
   font-size: 1.25rem;
+  line-height: normal;
 
   ${mediaQueries('lg')`
     font-size: 1.75rem;
@@ -29,6 +39,7 @@ const theme = {
     yellow: '#ffef96',
   },
   headings: {
+    h1: h1,
     h2: h2,
   },
   mq: mediaQueries,
