@@ -1,5 +1,7 @@
 ---
 slug: '/polycystic-ovary-syndrome'
+source: 'Endocrine Web'
+type: 'Article'
 title: 'Polycystic Ovary Syndrome and Comorbidity Risk'
 hero: './../images/polycystic-ovary-syndrome.jpg'
 homepage: 'no'

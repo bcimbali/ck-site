@@ -1,5 +1,7 @@
 ---
 slug: '/the-scottish-highland-games'
+source: 'Roads by Porsche'
+type: 'Article'
 title: 'The Scottish Highland Games'
 hero: './../images/the-scottish-highland-games.jpeg'
 homepage: 'no'
