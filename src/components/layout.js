@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import favicon from '../images/favicon.ico'
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
-import theme from './../lib/theme'
+import theme, { bodyFonts } from '../lib/theme'
 
 const GlobalStyle = createGlobalStyle`
   .no-scroll {
@@ -21,7 +21,7 @@ const LayoutWrapper = styled.div`
   background: #b1b0e5;
   display: flex;
   flex-direction: column;
-  font-family: 'IBM Plex Mono', 'monospace';
+  font-family: ${bodyFonts};
   min-height: 100vh;
 `
 
