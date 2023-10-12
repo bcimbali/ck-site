@@ -52,6 +52,7 @@ const MarkdownContent = styled.div`
     }
     h2 {
       ${headings.h2}
+      margin-bottom: 1.5rem;
     }
     p {
       font-size: 1.25rem;
