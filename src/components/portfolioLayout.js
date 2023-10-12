@@ -38,6 +38,14 @@ const ImgContainer = styled.div`
   }
 `
 
+const KeywordsText = styled.p`
+  ${({ theme: { colors } }) => css`
+    color: ${colors.white};
+    font-style: italic;
+    text-align: center;
+  `}
+`
+
 const MarkdownContent = styled.div`
   ${({ theme: { colors, headings } }) => css`
     color: ${colors.white};
@@ -64,9 +72,16 @@ const MarkdownContent = styled.div`
 const TitleText = styled.h1`
   ${({ theme: { colors, headings } }) => css`
     color: ${colors.white};
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     ${headings.h1}
+  `}
+`
+
+const SourceText = styled.p`
+  ${({ theme: { colors } }) => css`
+    color: ${colors.white};
+    text-align: center;
   `}
 `
 
@@ -89,10 +104,21 @@ const StyledLink = styled(Link)`
   margin: 0 auto;
 `
 
+const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+`
+
 const PortfolioLayout = ({ data: { markdownRemark } }) => {
   return (
     <Layout>
-      <TitleText>{markdownRemark?.frontmatter?.portfolioDetailTitle}</TitleText>
+      <TitleContainer>
+        <SourceText>{markdownRemark?.frontmatter?.source}</SourceText>
+        <TitleText>{markdownRemark?.frontmatter?.title}</TitleText>
+        <KeywordsText>{markdownRemark?.frontmatter?.keywords}</KeywordsText>
+      </TitleContainer>
       <ContentImgWrapper>
         {markdownRemark.frontmatter.content === 'ebook' ? (
           <>
@@ -164,6 +190,8 @@ export const query = graphql`
         link
         portfolioDetailTitle
         type
+        source
+        keywords
         # Commenting out until ebook support is added back:
         # ebook {
         #   publicURL
