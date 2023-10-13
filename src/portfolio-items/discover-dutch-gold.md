@@ -13,7 +13,7 @@ portfolioOrder: 15
 keywords: 'B2C, Travel, Food + Beverage, Apps, Automotive'
 ---
 
-## Article on the legendary cheesemakers in the Dutch town of Katwoude, such as Jacobs Hoeve Farm and Simonehoeve
+## Article on the legendary cheesemakers in the Dutch town of Katwoude, such as Jacobs Hoeve Farm and Simonehoeve.
 
 ---
 
