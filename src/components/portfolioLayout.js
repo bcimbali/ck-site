@@ -58,11 +58,14 @@ const KeywordsText = styled.p`
 
 const MarkdownContent = styled.div`
   ${({ theme: { colors, headings } }) => css`
-    color: ${colors.white};
+    background-color: ${colors.green};
+    border-radius: 12px;
+    color: ${colors.black};
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
     h1 {
