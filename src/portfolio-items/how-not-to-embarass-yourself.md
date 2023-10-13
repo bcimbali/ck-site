@@ -10,6 +10,11 @@ link: 'https://www.onenorth.com/insights/how-not-to-embarrass-yourself-at-this-y
 portfolioType: 'writing'
 homepageOrder: 5
 portfolioOrder: 7
+keywords: 'Blog Post, Humor, Email, Holiday Card'
 ---
 
-2021 was a heck of a year. Some humorous tips on navigating awkward social interactions at holiday parties.
+## Some humorous suggestions to help remote workers cope with in-person holiday parties.
+
+---
+
+For One North's annual holiday card, I worked with an illustrator to come up with a few tongue-in-cheek suggestions for surviving office holiday parties after months of working from home.

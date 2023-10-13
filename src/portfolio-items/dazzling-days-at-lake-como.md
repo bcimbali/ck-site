@@ -10,6 +10,11 @@ link: 'https://roads.porsche.com/content/en/stories/dazzling-days-and-starry-nig
 portfolioType: 'writing'
 homepageOrder: 15
 portfolioOrder: 12
+keywords: 'B2C, Travel, Entertainment, Media, Apps, Automotive'
 ---
 
-Article on Lake Como Italy as Hollywood hotspot. Home to George Clooney and filming location for a Star Wars movie.
+## Who knows what celebrities you might see in Lake Como?
+
+---
+
+For Roads by Porsche, I wrote about the Italian Lake Como, a Hollywood hotspot. It is home to George Clooney and a filming location for a Star Wars movie.

@@ -10,6 +10,11 @@ link: 'https://roads.porsche.com/content/en/stories/discover-donuts-that-cant-be
 portfolioType: 'writing'
 homepageOrder: 9
 portfolioOrder: 14
+keywords: 'B2C, Travel, Food + Beverage, Apps, Automotive'
 ---
 
-After making the drive up Pikes Peak, you’ll feel on the top of the world. Celebrate with a legendary donut.
+## Learn about some high-altitude donuts atop Pike's Peak.
+
+---
+
+Here, I explore a donut shop serving up donuts at the summit of Pike's Peak for Porsche's community app.

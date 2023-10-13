@@ -10,6 +10,11 @@ link: 'https://roads.porsche.com/content/en/stories/indulgence-at-the-savoy'
 portfolioType: 'writing'
 homepageOrder: 11
 portfolioOrder: 16
+keywords: 'B2C, Travel, Food + Beverage, Apps, Automotive'
 ---
 
-Take a drive through the French mountains and immerse yourself in local fromage culture on an unforgettable trip.
+## Alpine views and French cheese are what dreams are made of.
+
+---
+
+For Roads by Porsche, I take readers on a drive along the Route du Semnoz, the home of a famous cheese.
