@@ -10,7 +10,11 @@ link: 'https://roads.porsche.com/content/en/stories/just-blowing-bubbles'
 portfolioType: 'writing'
 homepageOrder: 13
 portfolioOrder: 11
+keywords: 'B2C, Travel, Food + Beverage, Apps, Automotive'
 ---
 
-An article on The Original Store of Chun Shui Tang
-in Taiwan-- birthplace of bubble tea.
+## The tasty history of bubble tea.
+
+---
+
+For Roads By Porsche, I wrote an article on The Original Store of Chun Shui Tang in Taiwan, the birthplace of bubble tea.
