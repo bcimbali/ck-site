@@ -15,4 +15,8 @@ portfolioDetailTitle: 'UX writing for the Booking.com Careers website'
 keywords: 'UX Writing + Design, Research, Tech, Travel, Microcopy, Careers/Staffing'
 ---
 
+## UX writing and design for the relaunch of Booking.com's career website.
+
+---
+
 Booking.com engaged One North for a new careers website. Working intimately with the Booking team, I conducted interviews, designed personas, and proposed brand narratives. Using all this, I worked with content and web designers to craft all the web text.

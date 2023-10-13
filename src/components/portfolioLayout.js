@@ -39,7 +39,6 @@ const Divider = styled.hr`
 
 const ImgContainer = styled.div`
   border-radius: 12px;
-  margin-bottom: 2rem;
   overflow: hidden;
   width: 100%;
   &:hover {
@@ -64,7 +63,6 @@ const MarkdownContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
     width: 100%;
@@ -73,11 +71,18 @@ const MarkdownContent = styled.div`
     }
     h2 {
       ${headings.h2}
-      margin-bottom: 1.5rem;
+      color: ${colors.black};
+      font-weight: 800;
     }
     p {
       font-size: 1.25rem;
       line-height: normal;
+    }
+    hr {
+      height: 1px;
+      width: 100%;
+      background-color: ${colors.white};
+      border: none;
     }
   `}
 `
@@ -133,7 +138,7 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
     <Layout>
       <TitleContainer>
         <SourceText>{markdownRemark?.frontmatter?.source}</SourceText>
-        <TitleText>{markdownRemark?.frontmatter?.title}</TitleText>
+        <TitleText>{`${markdownRemark.frontmatter.type}: ${markdownRemark?.frontmatter?.title}`}</TitleText>
         <KeywordsText>{markdownRemark?.frontmatter?.keywords}</KeywordsText>
         <Divider />
       </TitleContainer>

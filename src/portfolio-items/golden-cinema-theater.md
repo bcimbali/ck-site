@@ -12,7 +12,11 @@ homepageOrder: 3
 portfolioOrder: 6
 subtitle: 'B2C, Travel, Entertainment, Media, Apps, Automotive'
 portfolioDetailTitle: 'Article: Golden Cinema Theater: Spanish Film Heritage in Madrid'
-keywords: "Dive into the past and present of Spanish film at Madrid's golden theater."
+keywords: 'B2C, Travel, Entertainment, Media, Apps, Automotive'
 ---
 
-This article was ghost-written for Porsche's community app, Roads. Written for the EU audience, each article explores a cultural touchpoint along a driving route. Here, I discuss the Madrid neighborhood made famous by Pedro Almodóvar.
+## Dive into the past and present of Spanish film at Madrid's Golden Theater.
+
+---
+
+Ghost-written for Porsche's community app, Roads, I discuss a Madrid neighborhood made famous by the Spanish director Pedro Almodóvar.
