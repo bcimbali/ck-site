@@ -14,12 +14,15 @@ const BlogLinkWrapper = styled.a`
 `
 
 const ContentImgWrapper = styled.div`
-  ${({ theme: { mq } }) => css`
+  ${({ theme: { colors, mq } }) => css`
+    background-color: ${colors.green};
+    border-radius: 12px;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
     max-width: 900px;
     margin: 0 auto;
+    padding: 1rem;
 
     ${mq('md')`
       align-items: center;
@@ -57,13 +60,10 @@ const KeywordsText = styled.p`
 
 const MarkdownContent = styled.div`
   ${({ theme: { colors, headings } }) => css`
-    background-color: ${colors.green};
-    border-radius: 12px;
     color: ${colors.black};
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
     text-align: center;
     width: 100%;
     h1 {
@@ -123,7 +123,9 @@ const StyledLink = styled(Link)`
       transitions: { linkHover },
     },
   }) => linkHover}
+  color: ${({ theme }) => theme.colors.indigo};
   margin: 0 auto;
+  font-size: 1.5rem;
 `
 
 const TitleContainer = styled.div`

@@ -15,4 +15,6 @@ keywords: 'Blog, Music, Entertainment, Media'
 
 ## Arvo Pärt and the song that launched 1,000 movie scores.
 
+---
+
 Writing for Vice, I tell the history and influence of Estonian musician Arvo Pärt and his trip to New York.
