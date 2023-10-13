@@ -19,4 +19,4 @@ keywords: 'UX Writing + Design, Research, Tech, Travel, Microcopy, Careers/Staff
 
 ---
 
-Booking.com engaged One North for a new careers website. Working intimately with the Booking team, I conducted interviews, designed personas, and proposed brand narratives. Using all this, I worked with content and web designers to craft all the web text.
+Booking.com engaged my team for their new careers site. Working intimately with Booking, we conducted interviews, designed personas, and proposed brand narratives. That research was the foundation for this UX writing.
