@@ -15,7 +15,7 @@ portfolioDetailTitle: 'Case Study: Redefining Representation at Meta'
 keywords: 'Tech, Long-Form Articles, Event Planning, Social Media'
 ---
 
-## Highlighting One North's design and event work for Meta / Facebook.
+## Celebrate innovation with Meta and One North.
 
 ---
 
