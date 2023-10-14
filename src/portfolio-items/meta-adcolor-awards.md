@@ -10,9 +10,9 @@ link: 'https://meta.onenorth.com/work/adcolor-marketing-campaign/'
 portfolioType: 'writing'
 homepageOrder: 2
 portfolioOrder: 5
-subtitle: "Highlighting One North's design and event work for Meta / Facebook."
+subtitle: 'Celebrate innovation with Meta and One North.'
 portfolioDetailTitle: 'Case Study: Redefining Representation at Meta'
-keywords: 'Tech, Long-form Articles, Event Planning, Social Media'
+keywords: 'Tech, Long-Form Articles, Event Planning, Social Media'
 ---
 
 ## Highlighting One North's design and event work for Meta / Facebook.

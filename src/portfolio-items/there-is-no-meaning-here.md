@@ -12,8 +12,8 @@ homepageOrder: 8
 portfolioOrder: 22
 ---
 
-## A poem featured on the Poetry Foundation website.
+## There is No Meaning Here
 
 ---
 
-My poem, "There Is No Meaning Here" on the Poetry Foundation.
+A poem of mine on the Poetry Foundation website.

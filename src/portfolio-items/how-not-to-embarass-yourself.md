@@ -13,7 +13,7 @@ portfolioOrder: 7
 keywords: 'Blog Post, Humor, Email, Holiday Card'
 ---
 
-## Some humorous suggestions to help remote workers cope with in-person holiday parties.
+## In real life, there is no mute button.
 
 ---
 
