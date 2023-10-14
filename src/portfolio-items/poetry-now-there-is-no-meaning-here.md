@@ -12,8 +12,8 @@ homepageOrder: 12
 portfolioOrder: 21
 ---
 
-## An interview for the Poetry Foundation's PoetryNow podcast, where I discuss my poem and the place of religion in secular life.
+## _PoetryNow_ is a weekly radio series offering a reflective look into a single poem.
 
 ---
 
-Christine Kanownik examines the place of religion and spirituality in secular life. Produced by Katie Klocksin. For PoetryNow.
+I examine the place of religion and spirituality in secular life. Katie Klocksin produced this PoetryNow segment for the Poetry Foundation.
