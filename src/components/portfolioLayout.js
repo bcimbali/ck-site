@@ -58,6 +58,11 @@ const KeywordsText = styled.p`
   `}
 `
 
+const LinkImgWrapper = styled.div`
+  display: grid;
+  gap: 1rem;
+`
+
 const MarkdownContent = styled.div`
   ${({ theme: { colors, headings } }) => css`
     color: ${colors.black};
@@ -145,50 +150,52 @@ const PortfolioLayout = ({ data: { markdownRemark } }) => {
         <Divider />
       </TitleContainer>
       <ContentImgWrapper>
-        {markdownRemark.frontmatter.content === 'ebook' ? (
-          <>
-            <PdfLinkWrapper
-              aria-label={`Link to ${markdownRemark?.frontmatter?.title} PDF`}
-              href={markdownRemark.frontmatter.ebook.publicURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GatsbyImage
-                image={markdownRemark.frontmatter.hero.childImageSharp.fluid}
-              />
-            </PdfLinkWrapper>
-          </>
-        ) : markdownRemark.frontmatter.content === 'blog' ? (
-          <ImgContainer>
-            <BlogLinkWrapper
-              aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
-              href={markdownRemark.frontmatter.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GatsbyImage
-                image={
-                  markdownRemark.frontmatter.hero.childImageSharp
-                    .gatsbyImageData
-                }
-                alt={markdownRemark?.frontmatter?.portfolioDetailTitle}
-              />
-            </BlogLinkWrapper>
-          </ImgContainer>
-        ) : null}
+        <LinkImgWrapper>
+          <StyledLink
+            aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
+            href={markdownRemark.frontmatter.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {`Link to ${markdownRemark.frontmatter.type}`}
+          </StyledLink>
+          {markdownRemark.frontmatter.content === 'ebook' ? (
+            <>
+              <PdfLinkWrapper
+                aria-label={`Link to ${markdownRemark?.frontmatter?.title} PDF`}
+                href={markdownRemark.frontmatter.ebook.publicURL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GatsbyImage
+                  image={markdownRemark.frontmatter.hero.childImageSharp.fluid}
+                />
+              </PdfLinkWrapper>
+            </>
+          ) : markdownRemark.frontmatter.content === 'blog' ? (
+            <ImgContainer>
+              <BlogLinkWrapper
+                aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
+                href={markdownRemark.frontmatter.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GatsbyImage
+                  image={
+                    markdownRemark.frontmatter.hero.childImageSharp
+                      .gatsbyImageData
+                  }
+                  alt={markdownRemark?.frontmatter?.portfolioDetailTitle}
+                />
+              </BlogLinkWrapper>
+            </ImgContainer>
+          ) : null}
+        </LinkImgWrapper>
         <MarkdownContent
           dangerouslySetInnerHTML={{
             __html: markdownRemark.html,
           }}
         />
-        <StyledLink
-          aria-label={`Link to ${markdownRemark?.frontmatter?.title} article`}
-          href={markdownRemark.frontmatter.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {`Link to ${markdownRemark.frontmatter.type}`}
-        </StyledLink>
       </ContentImgWrapper>
     </Layout>
   )
