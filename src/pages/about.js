@@ -82,23 +82,24 @@ const About = () => (
         />
         <TextWrapper>
           <Paragraph>
-            Creating meaning out of ambiguity and value from complexity.
-          </Paragraph>
-
-          <Paragraph>
-            I'm a copywriter, strategist, and editor who has worked with some
-            incredible brands, such as Meta, Porsche, Booking.com, and Vosges
+            Hello! I'm a copywriter, strategist, and editor who has worked with
+            incredible brands such as Meta, Porsche, Booking.com, and Vosges
             Haut-Chocolat.
           </Paragraph>
 
           <Paragraph>
-            I combine research skills, big-picture strategy, and powerful
-            writing.
+            What sets me apart from other writers is my borderline obsession
+            with the written word. In my free time, I'm thinking about
+            etymology, language histories, and creative comma usage. Why do
+            words change meaning or fall out of fashion? And how can we use
+            these funny little words to communicate across cultures and
+            distances?
           </Paragraph>
 
           <Paragraph>
-            I'm currently living in Chicago with my partner, Brett, and my cat,
-            Browser.
+            When I'm not working, I'm writing poetry, attending literary events
+            in my hometown of Chicago, and hanging out with my partner Brett and
+            my cat Browser.
           </Paragraph>
         </TextWrapper>
       </Content>
