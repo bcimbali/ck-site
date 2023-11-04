@@ -12,4 +12,8 @@ homepageOrder: 1
 portfolioOrder: 4
 ---
 
-An article from Endocrine Web's professional site discussing new PCOS research.
+## New medical research on Polycystic Ovary Syndrome.
+
+---
+
+PCOS is a painful disorder that effects up to 20% of all pre-menupausal women, which is why understanding emerging research is so important. With busy medical professionals in mind, I wrote and researched this article for Endocrine Web's professional site. I also interviewed Dr. Roger Hart, Medical Director of Fertility Specialists of Western Australia.
