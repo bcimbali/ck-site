@@ -12,4 +12,8 @@ homepageOrder: 1
 portfolioOrder: 2
 ---
 
-An article for Health.com with practical advice on getting rid of a stye.
+## Practical advice on treating a stye.
+
+---
+
+No one wants to get a stye, but when you do, you want to get rid of it. I wrote this article for Health.com on the common skin condition. I used approval medical research to write this article in alignment with Health.com’s voice and tone documents and SEO-optimization.
