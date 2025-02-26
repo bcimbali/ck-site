@@ -8,8 +8,8 @@ homepage: 'yes'
 content: 'blog'
 link: 'https://careers.booking.com/'
 portfolioType: 'writing'
-homepageOrder: 1
-portfolioOrder: 1
+homepageOrder: 6
+portfolioOrder: 6
 subtitle: 'UX writing + design, Rearch, Tech, Travel, microcopy, Careers/Staffing'
 portfolioDetailTitle: 'UX writing for the Booking.com Careers website'
 keywords: 'UX Writing + Design, Research, Tech, Travel, Microcopy, Careers/Staffing'

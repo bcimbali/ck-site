@@ -8,8 +8,8 @@ content: 'blog'
 link: 'https://motherboard.vice.com/en_us/article/vvbb3a/why-the-hottest-thing-in-music-is-78-year-old-estonian-composer-arvo-part'
 homepage: 'yes'
 portfolioType: 'writing'
-homepageOrder: 16
-portfolioOrder: 9
+homepageOrder: 5
+portfolioOrder: 5
 keywords: 'Blog, Music, Entertainment, Media'
 ---
 

@@ -8,8 +8,8 @@ homepage: 'yes'
 content: 'blog'
 link: 'https://www.poetryfoundation.org/poems/151377/there-is-no-meaning-here'
 portfolioType: 'writing'
-homepageOrder: 8
-portfolioOrder: 22
+homepageOrder: 2
+portfolioOrder: 2
 ---
 
 ## There is No Meaning Here
