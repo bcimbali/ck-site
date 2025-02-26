@@ -6,7 +6,7 @@ type: 'Book'
 hero: './../images/blood-bath.jpg'
 homepage: 'yes'
 content: 'blog'
-link: 'https://www.wink-design.com/cheese-and-chocolate-collection/'
+link: 'https://www.culdesacofblood.com/books'
 portfolioType: 'writing'
 homepageOrder: 1
 portfolioOrder: 1
