@@ -82,24 +82,11 @@ const About = () => (
         />
         <TextWrapper>
           <Paragraph>
-            Hello! I'm a copywriter, strategist, and editor who has worked with
-            incredible brands such as Meta, Porsche, Booking.com, and Vosges
-            Haut-Chocolat.
-          </Paragraph>
-
-          <Paragraph>
-            What sets me apart from other writers is my borderline obsession
-            with the written word. In my free time, I'm thinking about
-            etymology, language histories, and creative comma usage. Why do
-            words change meaning or fall out of fashion? And how can we use
-            these funny little words to communicate across cultures and
-            distances?
-          </Paragraph>
-
-          <Paragraph>
-            When I'm not working, I'm writing poetry, attending literary events
-            in my hometown of Chicago, and hanging out with my partner Brett and
-            my cat Browser.
+            Hello! I'm a poet, curator, and environmental writer living in
+            Ferndale, Michigan. I'm the author of two books of poetry, HEAD and
+            King of Pain, as well as the recent chapbook, Blood Bath. I host the
+            monthly poetry reading series FIELD TRIP in Hamtramck and write a
+            Substack about trees.
           </Paragraph>
         </TextWrapper>
       </Content>
