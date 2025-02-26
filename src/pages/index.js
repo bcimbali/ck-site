@@ -52,7 +52,8 @@ const IndexPage = () => (
       keywords={[
         `marketing`,
         `digital marketing`,
-        `chicago`,
+        `ferndale`,
+        'detroit',
         `content marketing`,
       ]}
     />
